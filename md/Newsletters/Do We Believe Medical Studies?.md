@@ -1,5 +1,4 @@
-## If most published medical studies are biased and/or corrupt, why do we
-still believe them?
+## If most published medical studies are biased and/or corrupt, why do we still believe them?
 
 Over the last decade, investigational studies found
 that doctors who participated in pharmaceutical-company-sponsored drug

@@ -2,9 +2,9 @@
 bacteria or fungus. Yet, you ate a deadly mushroom and there is falaria that
 cause Malaria. Can you reconcile those for me?
 
-More specifically, my expe- rience and experiments proved to me that there
+More specifically, my experience and experiments proved to me that there
 are no dangerous microbes or fungi that naturally live in our bodies.
-However, there may be some very toxic man- made and/or genetically modified
+However, there may be some very toxic man-made and/or genetically modified
 microbes that enter and live in our bodies through medical and environ-
 mental pollution. In healthy bodies, those man-made microbes are not likely
 to survive.
@@ -18,7 +18,7 @@ of digestion of protein and fats to finite forms that feed our brains and
 nervous systems. Plus, E.coli release 90% of B Vitamins from our food for
 us to enjoy better mental functions and more energy. Like all digestive
 bacteria, they eat our food and their wastes are our nutrients. It is the
-way of nature no matter how disgusting health-representatives and me- dia
+way of nature no matter how disgusting health-representatives and media
 describe it.
 
 Malaria is a detoxification through every part of our body because it is a
@@ -64,7 +64,7 @@ and initializing a healing cycle. A healing cycle usually requires much
 rest and relaxation. That is the reason why so many people are lethargic
 during and following fevers for 1-20 weeks.
 
-If experiencing detoxification symptoms, eating no- salt added raw cheese
+If experiencing detoxification symptoms, eating no-salt added raw cheese
 and/or clay will help draw poisons from blood into stomach and intestines
 rather than into liver, kidneys and brain. Eating plenty of raw fats - such
 as coconut (especially coconut cream), eggs, dairy cream, butter, butter

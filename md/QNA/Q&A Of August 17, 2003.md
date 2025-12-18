@@ -1,556 +1,343 @@
-1) Clay Vs Milk For Bath
-[2003],[Aajonus]
+A: [unintelligible] You have one with the meat meal and another [unintelligible]. That way you will utilize the fats a lot better. Protein allows the fats to be utilized properly. Fats can't be utilized without protein and protein cannot be utilized without fat. So that's why I like to put them together. That's why I advise having most of your fat at that meal. Whenever you have a fat with a fruit, it will be for detoxification, not for building or strengthening. Know that when you put fat, no matter what kind of fat it is, you put it with a fruit or a vegetable juice and it will cause detoxification. As far as trying to hydrate yourself, with all that fasting that takes years to rehydrate or re-lubricate every cell. You are at such an extreme point, it's going to be wild until you feel balanced. You just have to make it through.
 
-That's fine, but it still won't work quite as well as the milk cause the milk has a little bit of fat in it
+Q: What about the tomatoes then?
 
-It helps the skin properly, it'll feed the skin, helps perspire more.
+A: The what?
 
-Clay has a little bit of oils and it will work to an extent, just depends on what kind of clay your using.
+Q: Tomatoes.
 
-French green clay is okay.
+A: Tomatoes with a little cream would be a little bit better.
 
-[Attendee]
+Q: I'm thinking of small cherry tomatoes, I just pop them in.
 
-So, in a situation like that.
+A: They're easier to eat.
 
-[Aajonus]
+Q: Can you eat them all day long?
 
-Put some coconut in it?
+A: All day long. A quart of the day if you like, or more.
 
-Coconut mixed with the clay.
+Q: And with some cream. Just throw it on there?
 
-About how much.
+A: You can blend it and have it together or drink a sip of cream and eat your tomato.
 
-Coconut?
+Q: Okay. And then the coconut juice, is that okay?
 
-Coconut cream?
+A: Well, the coconut, you're talking about coconut milk, right? 
 
-I'd say four tablespoons for a bath.
+Q: Coconut milk, yeah.
 
-.
+A: Okay, coconut milk in my experiments has been a little funny. If you get the Thailand or the Chinese coconut that tastes very funny, there's some kind of a chemical in it, and it causes cramping in the tissues in some positions. It has a high alkaloid reaction. So those are not good. If you get Mexican, Costa Rican, any of the South American or any of the island, stay away from the Thailand coconuts and the Chinese coconuts. They're putting something in the fields or doing something with it that's not making it very good. It's causing a pancreatic problem. Diabetic type reactions in some people. So, don't advise that one. But otherwise, you can drink the coconut milk and it's fine.
 
-(2) Coconut Milk
-[2003],[Aajonus]
+Q: [unintelligible]
 
-Well, the coconut, talking about coconut milk, right
+A: The water. The water is the milk. The cream is the what we juice from the meat. There's another spot out here if somebody would like it. Okay. Hi, how are you.
 
-[Attendee],[Aajonus]
+Q: Hi.
 
-Coconut milk, yeah,
+A: Okay, next question.
 
-Okay?
+Q: Hi. [unintelligible] mother.
 
-The coconut milk in my experiments have been a little funny.
+A: Okay.
 
-You get the Thailand or the Chinese coconut that tastes very funny.
+Q: When I was three, I had hepatitis. My mom [unintelligible]. She was a nurse. And I never had any problems, but I had migraines my whole life. And recently, they've gotten better because I went [unintelligible], like the menopause. It's getting better. The only time I haven't had them is when I was pregnant and nursing. No, no [unintelligible]. But I was reading about what you said about hepatitis and the pineapple and what you said about the migraines and not having the meat and dairy and having honey every minutes. I'm wondering if the migraine, did you think the hepatitis was connected to the migraine?
 
-There's some kind of a chemical in it and it causes cramping in the tissues in some positions, it has a high alkaloid reaction, so those are not good.
+A: It's usually, not unless you're eating a lot of fats that can't be digested. That can cause high blood pressure from blood toxicity, which causes a headache.That's a toxic headache. But mostly it's salt.
 
-If you get Mexican, Costa Rican, any of the South American or any of the islands that stay away from the Thailand coconuts with Chinese coconuts, they're putting something in the fields.
+Q: Mostly salt cause the migraines.
 
-They're doing something where it's not making it very good, it's causing a pancreatic problem.
+A: Some people are very allergic to salt. If they have one grain of salt in a meal, that's enough to set off a migraine. I tried to tell my father that for years, and then when he went to the doctor, and the doctor started having a heart arrhythmia, and the doctor said, well, stop counting and stop eating... Stop counting your heartbeats and don't worry about it. And it's common sense, I think, that's what the doctors say. Stop eating salt. Stopped eating salt and his migraines went away. Wait until he was 67.
 
-Diabetic type reactions to some people.
+Q: Even with Celtic salt?
 
-So, don't advise that one.
+A: Even with Celtic salt. Any kind of salt. A salt with a sodium concentration and the sodium is not bioactive.
 
-But otherwise you could drink the coconut milk and it's fine.
+Q: What about when it's in the ocean?
 
-The water is the milk.
+A: It doesn't get to the skin easily. Sodium doesn't adsorb to the skin easily. Not unless it is bioactive with enzymes. There's not a lot of enzymes in salt water.
 
-The cream is the what we juice from the meat.
+Q: [unintelligible]
 
-[When he says coconut milk I think he means coconut water]
+A: Well, it destroys bacteria. And you eat lots of bacteria when you have cancer. So [unintelligible], the salt will destroy the bacteria all the way to the connective tissue. Now, it won't get to the lymph system, but it can destroy it. People who have skin cancer, melanoma, lymphatic cancer, they need that bacteria. Let me give you an example. I don't know if those of you remember, I had those injections when I was 12 years old for peritonitis. I had 12 shots in this arm. About two-thirds of them were penicillin, so there was lots of thimerosal. So it's stored in my bursa and this joint, and that was part of my blood and bone cancer. This was the worst arm. Well, then at the end of April of this last year, I started detoxifying. It was the day before I had to drive up to Nevada City to go do a lecture and workshop and see patients for five days, and then go directly from there to San Francisco to do the same thing. By the time I hit Sacramento, I was in so much pain, I had to buy a sling to keep my arm in, and I could only stand or sit without excruciating pain with my arm in the sling. So that night and every other night, I'd sleep in a bathtub with milk and vinegar and sea salt in it to make my body buoyant enough to where my arm would float without pain. Six weeks after that, a whole scab opened up. Now what happened was after five days, my hand turned black. It was a charcoal gray. After getting out of the bathtub for about six hours, sleeping in it, it smelled just like mercury, so I knew it was the thimerosal from all the penicillin that I got when I was 12 because of the same situation. While I was in the bathtub, I kept dreaming of being back there as that child at 12 years old, being injected, and all that pain that I had in my arm was identical. Six weeks after that, a whole scab appeared here, and then about six weeks after that, a tumor appeared. It got twice as big as it is now, and then I took some faecal matter from a deer and put it on it, and it stopped it right away. I'm sorry I did that because then the detoxification started going to the elbow and the hand, so it was more pain. I should have just let it run its course, but the bacteria works very quickly, that is my point here. I put the faecal matter, the E. coli, on this, and it turned it into a wart within a week. I only put it on twice. It worked that quickly to get rid of the tumor. Bacteria is very important for the body, so if you [unintelligible] salt water, you can destroy the bacteria. Anyway, salt is [unintelligible], so you have to stay away from salt, like it is a plague. Hepatitis is always the very last ditch savior for the liver. Any of the hepatitis, whether it's viral or bacterial, it goes in there to break up the extreme toxicity in the liver. If you have hepatitis and you're eating properly, lots of red raw meat, you'll reverse that liver condition faster than any other way. Hepatitis is almost like a bacteria, a parasite, it will work that quickly. Consume or dissolve that much toxic liver tissue. So it's a good thing to have hepatitis. The body is trying to save the liver. That means you've got very toxic very young.
 
-.
+Q: Right. I wonder if I passed any of that on to him.
 
-(3) Heated Honey
-(4) Hepatitis Is Last Ditch Effort To Save Liver, Raw Meat Helps, Dont Be Skinny
-[2003],[Aajonus]
+A: He's got a weak condition.
 
-And hepatitis is always the very last ditch savior for the liver
+Q: Right.
 
-Any of the hepatitis, whether it's viral or bacterial, that goes in there to break up the extreme toxicity in the liver.
+A: Anytime anybody has a bad liver, the liver breaks down fats, digest fats, and if you don't have a good liver, you're going to be weaker, the body will absorb the poisons, the poisons will go intracellular instead of inter lipid, instead of entering the fat, it will enter the cell, and it's the RNA and DNA and all the other structures within the cell. And that's what poisoned the body, that's why I say don't be skinny. Skinny people are the ones who have the worst conditions later on.
 
-And if you have hepatitis and your eating properly lots of red raw meat, you'll reverse that liver condition faster than any other way.
+Q: If you have a healthy liver and you're, say, in the ocean and a sewage spill comes along or something, could you contract hepatitis?
 
-So, the hepatitis is almost like a parasite, it will work that quickly.
+A: Not likely. People don't get hepatitis from getting in the ocean. Medical profession loves to blame anything natural, bacteria. Their theory is the bacteria theory. Bacteria is responsible for all disease. Bacteria is just the response of disease. Bacteria is there to help get rid of the toxicity, just like vultures and crows eat decaying flesh.
 
-Consume or dissolve that much toxic liver tissue.
+Q: Well, how about like surfers that contract hepatitis from, say, surfing in a sewage spill, the area or something, would you say that they already had a toxic liver?
 
-So, it's a good thing to have hepatitis, bodyis trying to save the liver.
+A: They already had a toxic liver, yeah. They don't contract hepatitis from sewage. Like I say, doctors and medical profession love to blame that, but there's no scientific proof of that. They've taken animals and put them in solutions like that and they've never got a hepatitis. So the medical profession gets away with saying a lot of BS. Nobody holds them to it. That's a piece.
 
-That means you've got very toxic, very young.
+Q: Raw oils. What raw oils? I have a friend who's with me, a young man, he has brain surgery, and a man, Hickson Oakes, up in Oregon, is living with him with a raw food diet and he's trying to regrow his brain. But he was talking about oils, raw oils.
 
-[Attendee]
+A: Well, you don't use oil to regenerate brain tissue. It would do just the opposite. Oils are there to, oils are 90% solvent reactive. That means they act like soaps, they act like dissolution compounds that go in your dissolved toxins.
 
-I wonder if I passed any of that onto him.
+Q: So if you were, maybe I'm saying it wrong, but I'm hearing this secondhand, that there are raw oils that are like raw foods, but maybe they're not. Like not coconut oils.
 
-[Aajonus]
+A: Coconut is the closest to an animal fat, but it's still 60%, 40-60% solvent reactive. 
 
-Yeah, he's got a weak condition.
+Q: So you really want to go with raw butter.
 
-Anytime anybody has a bad liver, the liver breaks down fats, to digest fats and if you don't have the good liver, you're going to be weaker.
+A: Raw butter, raw cream. For the brain, raw cream's a little bit more important. Lots of raw eggs. Lots of meat.
 
-The body will absorb the poisons, poisons will go intercellular, instead of inter-lipid, instead of entering the fat, it will enter the cell, damage the RNA and DNA, and all the other structures within the cell.
+Q: What I do is I go to a lot of breakfasts, like early breakfasts, like 7 a.m. And what I've generally been getting is salads, the romaine lettuce and tomatoes with lemon. But then I have to, according to the book, once I eat a salad I shouldn't eat for five hours.  First of all, I'd like to know a little bit more about that, because sometimes I'm coming out of that meeting and the only time I'm going to have to eat is then. So I'm eating, maybe I'm asking myself whether I should eat at the two or three hour point. And if I do choose to eat then, what kind of damage am I doing, rather than if I wait for five hours? That's the first part of my question. The second part of my question is what kind of a salad can I start eating at these 7 a.m. breakfast meetings where I can not have to go to this five hour thing? I'm thinking like avocado, tomato, onion. Can I use, how much farther can I go? Like cucumber with no skin? Or is that getting into the five hour type thing? Green onions, regular onions. Can you give me some insight on how I can create this salad? Just more information about the five hour thing. And what I'm pushing and what I'm doing if I'm eating before the five hour period.
 
-And that what poisons the body.
+A: See this leaf here in this stalk? We're not made to eat this stuff. It takes a vegetarian animal 48 hours to pass it through their system. It goes through us in 24. They have 60,000 times more enzymes to disassemble the cellulose molecule. But then you still look at cow shit and deer shit and it's still full of fiber. Not even they do it well. So what happens is it slows everything down and also over alkalinizes the intestines. And the intestines have to be acid in order to digest animal products. If they start mixing it up, acid foods catch up with it. They neutralize each other and neither of them digest properly. That's why you want to make sure that if you have a salad, it's the last thing before you go to bed. So you wake up five hours later, you've got down an egg or some milk that's not going to catch up with it. And make sure your meat's eight hours later or so. So it won't catch up with it. 
 
-That's why I say don't be skinny, skinny people are the ones who have the worst condition later on.
+Q: So meat has to be eight hours after a salad? 
 
-[Attendee]
+A: It should be eight hours. 
 
-If you have an unhealthy liver and you are, say, in the ocean, and a sewage spill comes along or something, could you contract hepatitis.
+Q: Wow. What do you think is avocado and tomato? Is that not a salad?
 
-[Aajonus]
+A: No, it's not a salad.
 
-No?
+Q: What else can I add to that to make it not a salad? Onion?
 
-.
+A: Onion is cellulose. And you can have small amounts of it even with meat. But it's still fiber.
 
-(5) La Hot Springs
-[2003],[Suzanne]
+Q: Can I add anything?
 
-The only one I have access to circumstances is the Beverly Hot Springs in Los Angeles
+A: There's a little bit. It's okay.
 
-.
+Q: But I can have as many tomatoes and avocados. Is there anything else I can add to that at all? A little bit of cilantro?
 
-.
+A: Not much.
 
-[Aajonus]
+Q: Not much.
 
-Well, you know, the well, they get it right out of the ground in LA and that LA River goes through there pretty polluted, and it has radioactive material and it's everything, so it's not the best.
+A: If you do that, if you do have a salad, then just down a lot of eggs about three hours later, two and a half, three hours later. And eggs are going to absorb even a few minutes after they leave the duodenum.
 
-I stopped going there when I started getting your reactions in the 70s, it's best to go out to Glen Ivy.
+Q: No more than three or four hours after the salad.
 
-Marietta Hot Spring, but they haven't been open for a while.
+A: Two and a half hours. Four eggs.
 
-.
+Q: Four eggs.
 
-(6) Mercury Injections Detox
-[2003],[Aajonus]
+A: Yes, four eggs.
 
-For peritonitis they gave me 12 shots in this arm, about 2/3 of them were penicillin, so there's lots of thimerosal, so it's stored in my bursas and this joint, and that was part of my blood and bone cancer, this was the worst arm
+Q: Why four?
 
-Well, then at the end of April of this last year, it started detoxifying, this was the day before I had to drive up to Nevada City to do a lecture and workshop and see patients for five days, and then I had to go directly from there to San Francisco to do the same thing.
+A: You can eat eggs two and a half hours after eating a salad. You don't have to worry about it.
 
-By the time I hit Sacramento, I was in so much pain that I had to buy a sling, keep my arm in, and I could only stand or sit without excruciating pain with my arm in the sling.
+Q: As many eggs as I want to, but no meat for eight hours?
 
-So, that night and every other night, I had sleep in a bathtub with milk and vinegar and the sea salt in it to make my body buoyant enough to where my arm would float without pain.
+A: No.
 
-Six weeks after that, a whole scab opened up.
+Q: Really? How about milk and butter? Same thing?
 
-Now what happened was after five days, my hand turned black.
+A: It depends on how much you eat. Butter and fat don't depend upon the intestines for digestion. Most of that is digested in the liver.
 
-It was a charcoal gray after getting out of the bathtub tub for about six hours, sleeping in it.
+Q: Okay. Could I have my fruit and my butter, my fruit and my animal fat meal four or five hours after that?
 
-Smelled just like mercury.
+A: If your animal meal is conducive to the fruit.
 
-So I knew it was the thimerosal from all the penicillin that I had got when I was 12.
+Q: Butter or cream and the fruit?
 
-In the bathtub I kept dreaming of being back there as that child at 12 years old being injected and all that pain that I had in my arm was identical.
+A: The fruit is. If you're having red meat, you don't want citrus with it unless it's a little bit of pineapple. If it's fish or some kind of seafood or a fowl, then you could have almost any kind of fruit as long as it's [unintelligible]. The reason for that is, like I said in the book, if you mix fruit with red meat, it usually turns it into a detoxifier or a fuel. Instead of regenerating cells, most people don't like to eat too much meat. So if they eat it, then why waste this fuel when you can regenerate cells and you can get it to make you younger and more vital and stronger? Use your fat to burn this fuel. Okay.
 
-Six weeks after that, a whole scab appeared here, and then about six weeks after that, a tumor appeared.
+Q: I'm going to have to bring this up [unintelligible]. I was wondering, I have extreme pain in my lower legs, especially the lower legs of my feet where it gets just groggy. I think it's hard for me to go to bed because of it. And I have to raise my feet literally off of it so it doesn't touch it. Is that from forced inflammation or just [unintelligible]?
 
-It got twice as big as it is now and then it took some fecal matter from a deer and put it on it, and it stopped it right away.
+A: Remember I said you had the indications of bone cancer all at the bottom of your body in [unintelligible]? So that's the worst part of it. Your bone marrow is so toxic, your bones are so toxic that when they go into detoxification, the nerves at night, that's when they drop. Hot baths, like I say, they alleviate that. When I had my bone cancer, I practically lived in the baths. So it's a constant pain. And then there, for some reason, the electrical impulses of pain just get diffused in the water. It takes it right out of the body and it's going up to the brain.
 
-Sorry.
+Q: In a bath, it would be with the milk.
 
-I did that because then the detoxification started doing the elbow and hand, so there's more pain, I should've just let it run its course.
+A: The milk, yeah. Two cups of milk, two ounces of vinegar, and two tablespoons of sea salt.
 
-But the bacteria works very quickly though, is my point here.
+Q: But even sometimes when I, I've noticed when I would take baths, it would just make me feel more exhausted.
 
-Put the fecal matter on this and it turned it into a wart and I only put it on twice.
+A: It's because you weren't putting the milk, vinegar. Because in San Diego, you have about 152 chemicals in your water. In LA, we have 192. So you need the, and let me tell you, they just look for bacteria. They don't look for the poisons. They call the bacteria poisons. They don't want to blame industry for polluting your water. And that's what's really killing you and causing the problem. But that's the fact. 
 
-Bacteria will work that quickly with the tumor.
+Q: How much vinegar?
 
-Bacteria is very important for the body, so even the salt water can destroy the bacteria.
+A: Two ounces.
 
-.
+Q: Whenever you take a bath, you should use the vinegar and salt.
 
-(7) Oils, Coconut Cream
-[2003],[Attendee]
+A: Vinegar, salt, and milk.
 
-I have a friend who's working with a young similar son
+Q: So it has to be raw milk?
 
-He has brain surgery.
+A: It has to be raw milk, absolutely.
 
-He's looking into the raw food diet.
+Q: What kind of salt?
 
-He was talking about raw oils.
+A: Any sun-dried sea salt.
 
-[Aajonus]
+Q: [unintelligible]
 
-Well, you don't wanna use oil to regenerate brain tissue, it'll do just the opposite.
+A: When I talk about a sun-dried sea salt, it's always a mixture of minerals. It's not sodium chloride isolate.
 
-Oils are 90% solvent reactive.
+Q: [unintelligible]
 
-That means they act like soaps, act like the dissolution compounds that dissolve toxicity.
+A: Well, if it's sun-dried, never. Because when they bleach it and chlorinate it, they don't stick it out in the sun. They kiln-dry it.
 
-[Attendee]
+Q: [unintelligible]
 
-Maybe I'm sayin wrong.
+A: New Zealand?
 
-I'm asking you, I'm hearing this secondhand that there are raw oils that are like raw foods, but maybe they're not, like coconut oil is what.
+Q: They do it outside.
 
-[Aajonus]
+A: They chlorinate it, bleach it, and then put it outside?
 
-Coconut is the closest to an animal fat, but it's still 40% - 60% solid reactive?
+Q: They separate it from one pond to the other. [unintelligible] Then they run it through the next pond, and all around there will be two gauges in those different ponds. And the next pond out comes sodium chloride. [unintelligible] send it to another pond, and send it upstream. [unintelligible] And all sun-dried. [unintelligible] People are saying to me, oh, I know it's not.
 
-[Attendee]
+A: Well, just don't look for white salt. It's got to be dirty-looking salt. Always.
 
-So, you really wanna go for raw butter.
+Q: It has to be raw milk. You can't, I think, cheat if I pasteurize it.
 
-[Attendee]
+A: It causes diseases in the bath.
 
-Raw butter, raw cream?
+Q: Even in the bath.
 
-Raw creams a little bit more important.
+Q: What kind of vinegar do you use in the bath?
 
-Lots of raw eggs, lots of meat.
+A: The best vinegar is Bragg's apple cider vinegar because they age it in wood instead of metal. So the bacteria grows better. Ferments better.
 
-.
+Q: Is there a way to measure some of the bacteria content easily? Like you could test things out?
 
-(8) Pharmaceutical Industry Loves To Blame Bacteria
-[2003],[Aajonus]
+A: Smell it. You can always tell by smelling it. The more aromatic it is, even if it's not foul, the more active it is.
 
-People don't get hepatitis from getting in the ocean
+Q: Can you do that with honey? Because I was reading your book and you mentioned that some manufacturers that sell raw honey have actually heated it a little bit. Can you smell that?
 
-Medical profession loves to blame anything natural, bacteria.
+A: You can smell it. It tastes like a heavy, it would smell heavy and flat instead of, in my nose, it causes an opening of the pores. When it's flat, and you smell it, it doesn't open up the pores in the same way as flat.
 
-Their theory is the bacteria theory, bacteria is responsible for all disease.
+Q: More dull.
 
-Bacteria is just the response of disease.
+A: Yeah, dull. It's a heavier smell. Sometimes Tupelo is heated and it has that same fragrance, but it's a heavy, thick kind. So on that one, it would be different. But Tupelo, when it's raw, is very thick, like syrup. You know, [unintelligible].
 
-Bacteria's there to help get rid of the toxicity.
+Q: So, if bad milk can be brought into your skin, then should I avoid the salt, since the salt causes my migraines?
 
-Just like vultures and crows eat decaying flesh.
+A: No, usually it will help pull salt out of the skin, as long as the bath is hot. If the bath were cold, like in the ocean, it could absorb into something.
 
-[Attendee]
+Q: Okay, so hot. How hot?
 
-Well, how about like surfers that contract hepatitis from surfing in a sewage spill area or something.
+A: 105. Just don't cook yourself, don't get it up to 108 and stay in for 10 minutes. Keep it about 104, 103 and stay in for a couple of hours.
 
-Would you say that they already had a toxic liver.
+Q: [unintelligible]
 
-[Aajonus]
+A: What we do is, unless it's about the same exact subject, we go around and take everybody in turn.
 
-They already had a toxic liver, yeah?
+Q: I was just going to ask about the [unintelligible] when you were talking about how they do not use this.
 
-You don't contract hepatitis from sewage.
+A: Well, they have, you know, they stay on pretty raw diets, so they don't have the same combination of the time frames that we have to digest.
 
-Like I say, doctors and medical profession love to blame that, but there's no scientific proof of that.
+Q: So no, they are on a raw diet.
 
-They've taken animals and put 'em in solutions like that, and they've never got hepatitis.
+A: Yeah. But they don't cook food.
 
-So, the medical profession gets away with saying a lot of bs, nobody holds them to it.
+Q: No.
 
-.
+A: They don't spoil their intestinal tract and all that kind of stuff.
 
-(9) Poison Oak For Poison Ivy, Menstraution Depressed From Alkaloid Detox Causes Lack Of Bacteria = Eat High Meat
-[2003],[Aajonus]
+Q: [unintelligible]
 
-She asked, what you use for poison ivy
+A: Yeah.
 
-Poison oak, that's in the book.
+Q: [unintelligible]
 
-You mean like PMS symptoms.
+A: That's fine, but it still won't work quite as well as the milk, because the milk has a little bit of fat in it. It'll seal the skin properly, it'll feed the skin. It'll be perspirable. Clay has a little bit of oil, and it will work to an extent, just depends on what kind of clay you use. French clay, Greek clay, whatever.
 
-Well, most of the time when the body's getting ready to go into menstruation, you're gonna throw off a lot of hormones?
+Q: So in a situation like that, there's no particular holistic alternative to raw food.
 
-And with that, there's a lot of red blood cell loss.
+A: Put some coconut in it, coconut mixed with the clay.
 
-So, the whole fat level gets very low, so does the bacterial level because along with those toxic hormones from neurological impulses, psychological trauma, when that's detoxifying, there's always alkaloids along with it.
+Q: About how much coconut?
 
-And the alkaloids are like an antibiotic and they will destroy bacteria.
+Q: Some coconut cream, I assume.
 
-So, the bacterial level gets low, then the body has to do everything with solvents intact.
+A: Yeah, coconut cream, I would say four tablespoons. Steve.
 
-It has to do everything on its own and if you were given a whole weeks work to do in two days, you wouldn't like it either.
+Q: Last time we had a consult, you were [unintelligible]. About two weeks ago, I got really, really sore. [unintelligible]
 
-So, the body gets depressed and you get it depressed along with it.
+A: Well, I would say for about five years, you should not play ultimate Frisbee. Anybody who plays Ultimate Frisbee has to play. Yeah, you probably just have a coincidence of starting to detoxify at that time.
 
-The bacteria helps you break down these compounds, so then the body feels lighter.
+Q: It's never happened before.
 
-That's why when people eat the high meat, they get silly.
+A: Well, it's time for you to clean it out. Like this, that has sat in there for what, 40 years?
 
-99% of everybody who eats the high meat gets high within about 10 - 20 minutes, they start giggling, and start feeling good because the body all of a sudden has a lot of help, has all those bacteria to deal with these, this degenerative matter that's in your body.
+Q: Yeah. 44 years. [unintelligible]
 
-So, eat high meat, lots of high meat, and make sure you eat lots of moisturizing formulas during those periods, so you have enough bacteria and fats in the blood, and that'll mitigate those problems.
+A: The cream is a little bit better to bind the [unintelligible].
 
-You might even have two moisturizing formulas a day, one with each meat meal or make a large one and have half of it.
+Q: [unintelligible]
 
-.
+A: I've got that in the book, so I'm not going to answer that one. Okay. She asked, what do you use for poison ivy, poison oak, if you're fooling around. Do you have another question?
 
-(10) Protein Allows Fat To Be Used Vice Versa, Fruit With Fruit = Detox
-[2003],[Aajonus]
+Q: [unintelligible]
 
-We have one with the meat meal and another with meat meal
+A: For you or your daughter? For you? You mean like PMS symptoms?
 
-That way you'll utilize the fats a lot better.
+Q: [unintelligible]
 
-Protein allows the fats to be utilized properly.
+A: Pardon? Well, most of the time, when the body is getting ready to go into menstruation, you're going to throw off a lot of hormones. And with that, there's a lot of red blood cell loss, so the whole fat level gets very low. So does the bacterial level, because along with those toxic hormones, from neurological impulse and psychological trauma, when that's certainly detoxifying, there's always alkaloids along with it. And the alkaloids are like an antibiotic, and they will destroy bacteria. So, the bacterial level gets low, then the body has to do everything with solvents and fat. It has to do everything on its own. And if you were given a whole week's work to do in two days, you wouldn't like it either. So, the body gets depressed, and you get depressed along with it. The bacteria helps you break down these compounds, so then the body feels lighter. That's why when people eat the high meat, they get silly. 99% of everybody who eats the high meat gets high within about 10 to 20 minutes. They start giggling, start feeling good, because the body all of a sudden has a lot of help. It has all those bacteria that deal with this degenerative matter that's in your body. So, that's why. So, eat high meat, lots of high meat, and make sure you eat lots of moisturizing formula during those periods. So, you have enough bacteria and fats, [unintelligible], and that will mitigate those problems. You might even have two moisturizing formulas a day, one with each meat meal. Or make a large one and have half of it with both meal. Susan. Suzanne.
 
-Fats can't be utilized without protein, and protein cannot be utilized without fat, so that's why I want to put them together.
+Q: I have a question about natural minerals or mineral springs, and the only one I have access to is the Beverly Hot Springs in Los Angeles. [unintelligible]
 
-That's why I advise having most of your fat at that meal.
+A: Well, you know, the well, they get them right out of the ground in LA. And that LA river that goes through there is pretty polluted. And it has radioactive material in it, it has everything, so it's not the best. I stopped going there when I started getting the old reactions in the 70s. It's best to go out to Glen Ivy.
 
-Whenever you have a fat with a fruit, it will be for detoxification, not for building or strengthening.
+Q: You've got Marietta, that's also out there.
 
-Know that when you put fat, no matter what kind of fat it is, you put it with a fruit or a vegetable juice, and it will cause detoxification.
+A: Marietta Hot Springs, but they haven't been open for a while.
 
-As far as trying to hydrate yourself, with all that fasting that takes years to rehydrate or relubricate every cell.
+Q: Well, you can go to Marietta on certain days in the middle of the week. The Christian organization purchases the property on the weekends, so it's exclusive for the priests and the senators and stuff. But they will let people just in the middle of the week.
 
-You were at such an extreme point, it's not going be a awhile before you feel balanced.
+A: I went there in the [unintelligible]. Maybe it was me.
 
-You just have to make it through.
+Q: I know someone that wants to share a membership if anybody wants to get in on that.
 
-[Attendee]
+A: Marietta?
 
-What about tomatoes.
+Q: Yeah, Marietta.
 
-[Aajonus]
+Q: What about [unintelligible]? It's good in Acomba.
 
-Tomatoes and a little cream would be little bit better?
+A: Acomba?
 
-[Attendee]
+Q: Neither of them got chlorinated. A lot are chlorinated today. But those two aren't.
 
-I'm thinking the small cherry tomatoes, just pop them in.
+A: They only have that one indoors.
 
-They're easier to eat.
+Q: The pool is from the spring. The pool is not chlorinated.
 
-[Aajonus]
+A: No.
 
-You can eat 'em all day long if you want.
+[audio cut]
 
-[Attendee]
+Q: Huge pool that size. Huge.
 
-Just put it on or.
+A: Well, that's fine. It's just not hot.
 
-[Aajonus]
+Q: [unintelligible]
 
-You can blend it together or drink a sip of cream, then eat some tomato?
+A: The pool. That's heated?
 
-.
+Q: Did you say Warner?
 
-(11) Protein and Fruit For Energy
-[2003],[Aajonus]
+Q: Warner, she said.
 
-If you mix fruit with red meat, it usually turns it into a detoxifier or a fuel, instead of for regenerating cells
+Q: Warner.
 
-Those people don't like too much meat, so if they eat it, then why waste it as fuel when you can regenerate cells when you can get it to make it younger and more vital and stronger.
+Q: Santa Isabel up there.
 
-use your fat to burn as fuel.
+Q: East of us here.
 
-.
+A: I know where Julian is. I didn't know there was a hot spring up there.
 
-(12) Salad In Morning, Herbivores, Eggs
-[2003],[Attendee]
+Q: You turn left into Santa Isabel and you go out in [unintelligible]. It's a beautiful spot.
 
-Like 7:00 AM and what I've generally been getting is salad, the romaine lettuce and tomatoes with lemon
+A: It'll be tonight.
 
-But then I have according to the book, nce I eat a Salad, I shouldn't eat for five hours.
+Q: You have to stay a night because they are a private owned... You have to stay a night because you have to have two people. But I think they have a sauna as well. [unintelligible] I told them I had to turn the music off. [unintelligible] And I said, if I'd have been the guy who was in the newspaper, I would have been a bit more effective.
 
-[Aajonus]
+Q: I go to glen ivy.
 
-Well, it has to get far enough.
-
-[Attendee]
-
-Okay.
-
-First of all, I'd like to know a little bit more about that because I'm coming out of that meeting and the only time I'm gonna have to eat is then.
-
-So, I'm asking myself whether I should eat at a two or three hour point, and if I do choose to eat then,what kind of damage am I doing rather than if I wait to five hours.
-
-That's the first part of my question.
-
-The second part of the question.
-
-What kind of a salad can I start eating at these 7:00 AM breakfast meetings where I can not have to go to the five hour thing.
-
-I'm thinking like avocado, tomato, onion?
-
-How much farther can I go like, cucumber with no skin or is that getting the five hour.
-
-Green onions, regular onions?
-
-Can you gimme some insight on how I can create this salad.
-
-Just more information about the five hour thing and what I'm pushing and what I'm doing if I'm eating before the five period?
-
-[Aajonus]
-
-See this leaf here on this stock.
-
-We're not made to eat this stuff?
-
-It takes a vegetarian animal 48 hours to pass it through the system.
-
-They have 60,000 times more enzymes to disassemble the cellulose molecule, but then you still look at cow and deer shit and it's still full of fiber.
-
-Not even they do it well.
-
-So, what happens is it slows everything down and also over alkalinizes the intestines, and the intestines have to be acid in order to digest animal product.
-
-If they start mixing it and acid foods catch up with it, they neutralize each other and neither of them digest properly.
-
-That's why you want to make sure that if you have a salad, it's the last thing before you go to bed, so you wake up five hours later, down an egg or some milk that's not gonna catch up with it, and make sure your meat's eight hours later or something, so it won't catch up with it.
-
-[Attendee]
-
-So, meat has to be eight hours after a salad.
-
-[Aajonus]
-
-Should be eight hours?
-
-[Attendee]
-
-Avocado and tomato, is that not a salad.
-
-[Aajonus]
-
-No, it's not a salad?
-
-[Attendee]
-
-What else can I add to that to make it not a salad.
-
-Onion?
-
-[Aajonus]
-
-Onion is a cellulose nd you can have small amounts of it, even with meat?
-
-But it's still fiber.
-
-If it's a little bit, it's okay.
-
-[Attendee]
-
-I can have as many tomatoes and avocados.
-
-[Aajonus]
-
-Right?
-
-[Attendee]
-
-Is there anything else I can add to that at all.
-
-A little bit of cilantro or?
-
-[Aajonus]
-
-Not much?
-
-And if you do that, if you do have a salad, then just down a lot of eggs about three hours later.
-
-Eggs are going to absorb even a few minutes after they leave the duodenum.
-
-[Attendee]
-
-But no earlier than three or four hours after the salad.
-
-[Aajonus]
-
-Two and a half hours, four eggs?
-
-You can eat eggs two and a half hours after eating a salad, you don't have to worry about it.
-
-[Attendee]
-
-I can eat as many eggs as I want to, but no meat for eight hours.
-
-[Aajonus]
-
-Yes?
-
-[Attendee]
-
-Really.
-
-How about milk and butter?
-
-Same thing?
-
-[Aajonus]
-
-Depends on how much you eat?
-
-Butter and fat don't depend upon the intestines for digestion.
-
-Most of that's digested in the liver.
-
-[Attendee]
-
-Could I have like my fruit and my butter meal, four, five hours after that.
-
-[Aajonus]
-
-if your animal meal was conducive to the fruit?
-
-If you're having red meat, you don't want citrus with it, unless it's a little bit of pineapple.
-
-If it's fish or some kind of seafood or a foul, then you could have almost any kind of fruit with it as long as there's fat with it.
-
-.
-
-(13) Salt Headaches
-[2003],[Attendee]
-
-Never had any problems, but I have had migraines my whole life and recently they've gotten better
-
-The only time I haven't had 'em is when I was pregnant and nursing.
-
-But I was reading about what you said about hepatitis and pineapple and what you said about the migraines and not having to eat the dairy, and having honey every five minutes.
-
-I'm wondering if the migraines, if you think the hepatitis is connected to migraines.
-
-[Aajonus]
-
-Not unless you're eating a lot of fats that can't be digested.
-
-That can cause high blood pressure from blood toxicity, which causes a headache.
-
-That's a toxic headache, but it's mostly salt.
-
-Some people are very allergic to salt.
-
-They have a one grain of salt in a meal, that's enough to set off a migraine.
-
-I'm trying to tell my father that for years, and then when he went to the doctor and the doctor, he started having a heart arrhythmia, doctor said, "Well, stop counting and stop eating salt"/ Stopped eating salt and his migraines went away, waited until he was 67.
-
-[Attendee]
-
-Even with Celtic salt.
-
-[Aajonus]
-
-Even Celtic salt, any kind of salt?
-
-A salt is a sodium concentration and the sodium is not bioactive.
-
-[Attendee]
-
-What about in swimming.
-
-[Aajonus]
-
-Sodium doesn't absorb through the skin easily?
-
-Not unless bioactive with enzymes.
-
-There's not a lot of enzymes in sulfur.
-
-Well, it destroys bacteria and you need lots of bacteria when you have cancer.
-
-It isn't that you absorb the salt, but the salt will destroy the bacteria all the way to the connective tissue.
-
-Now, it won't get to the lymph system.
-
-The people who have skin cancer, melanoma, lymphatic cancer, they need that bacteria.
-
-.
-
-(14) Stay On Raw Diet
+Q: We also have a friend of mine who has quite a place there in San Diego. It's a tub that's like a spa. 

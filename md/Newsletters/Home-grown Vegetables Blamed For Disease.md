@@ -153,6 +153,8 @@ Article that appeared in a Hawaiian newspaper:
 
 ## Disease is blamed on home-grown veggies
 
+by Gary Kubota | 2009-01-17
+
 A second Big Island resident is in a coma with rat lungworm disease,
 a rare ailment that can cause significant pain and trauma, including
 paralysis and blindness. Graham McCumber, 24, of Kapoho has been in
@@ -227,5 +229,3 @@ them leaf by leaf, and warned that a species of slug on the Big
 Island has tiny larvae, about 1 to 2 millimeters long.
 
 ===
-
-by Gary Kubota | 2009-01-17

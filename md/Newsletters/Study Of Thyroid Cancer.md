@@ -325,7 +325,7 @@ the extent that we shrink in height from bone and cartilage deterioration,
 and we reduce in physical and mental agility and endurance. In children and
 fetuses, antibiotics often cause genetic damage, forever destroying proper
 digestion when consuming standard diets.
-See @[Grow In Height After Age 21](?file=md%2FTopics%2FGrow+In+Height+After+Age+21.md).
+See @[Grow In Height After Age 21](/grow-in-height-after-age-21).
 
 ## Remedies for Leaky Gut
 

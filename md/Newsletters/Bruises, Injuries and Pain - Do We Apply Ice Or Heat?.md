@@ -31,10 +31,10 @@ usually 85% of pain is relieved within 15 minutes of heat application.
 
 However, if pain does not reduce to bearable, it is okay to apply ice
 for 1 minute or less without causing blood clots. Then reapply hot-water
-bottle. Alternat- ing heat and ice may be effective as long as the
+bottle. Alternating heat and ice may be effective as long as the
 application of ice is less than 1 minute.
 
-Since heating pads produce very high electro- magnetic fields that alter
+Since heating pads produce very high electromagnetic fields that alter
 the molecular structure of animal cells, heating pads should not be
 used. Microwave packs deliver radiation with their heat and alter the
 molecular structure of animal cells and should not be used.
@@ -51,6 +51,6 @@ injuries and pain should not make skin feel burned. If you want to use
 hot-water-bottle heat throughout the night, heat will generate longer
 the hotter the hot-water bottle but wrap the hot-water bottle in a towel
 or flannel pillow case to prevent burn. Bruises, injuries and pain that
-receive heat will cleanse and heal properly and quickly without scar-
-ring if the diet is health-giving. If not on a health- giving diet,
+receive heat will cleanse and heal properly and quickly without scarring
+if the diet is health-giving. If not on a health-giving diet,
 heat will still improve cleansing and healing.

@@ -111,18 +111,21 @@ and headaches.
 Of the few plants tested, here are the top 10 plants most effective in
 removing formaldehyde, benzene, and carbon monoxide from the air:
 
-|! Plant name            | Scientific name
-| Bamboo Palm            | Chamaedorea Seifritzii
-| Chinese Evergreen      | Aglaonema Modestum
-| English Ivy            | Hedera Helix
-| Gerbera Daisy          | Gerbera Jamesonii
-| Janet Craig            | Dracaena "Janet Craig"
-| Marginata              | Dracaena Marginata
-| Mass cane/Corn Plan    | Dracaena Massangeana
-| Mother-in-Law's Tongue | Sansevieria Laurentii
-| Pot Mum                | Chrysantheium Morifolium
-| Peace Lily             | Spathiphyllum "Mauna Loa"
-| Warneckii              | Dracaena "Warneckii"
+| Plant Name             | Scientific Name            |
+|------------------------|----------------------------|
+| Bamboo Palm            | Chamaedorea Seifritzii     |
+| Chinese Evergreen      | Aglaonema Modestum         |
+| English Ivy            | Hedera Helix               |
+| Gerbera Daisy          | Gerbera Jamesonii          |
+| Janet Craig            | Dracaena "Janet Craig"     |
+| Marginata              | Dracaena Marginata         |
+| Mass cane/Corn Plant   | Dracaena Massangeana       |
+| Mother-in-Law's Tongue | Sansevieria Laurentii      |
+| Pot Mum                | Chrysantheium Morifolium   |
+| Peace Lily             | Spathiphyllum "Mauna Loa"  |
+| Warneckii              | Dracaena "Warneckii"       |
+
+===
 
 The most effective at removing formaldehyde were philodendron, spider
 plant, and golden pothos. Gerbera daisy and chrysanthemum (mum) are common

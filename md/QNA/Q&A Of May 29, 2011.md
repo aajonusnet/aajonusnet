@@ -2365,7 +2365,7 @@ filled – It’s been like three years now.
 
 A: Is it turning black and rotting?
 
-G: Yeah.
+G: No.
 
 A: Well, how wonderful.
 

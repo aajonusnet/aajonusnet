@@ -117,7 +117,7 @@ the above and in boats paints and steel to prevent marine microbe decay.
 I was unable to use any of the tens of thousands who got polio
 after receiving polio vaccines because the polio vaccine gave bodies
 metal-poisoning and caused many people to get polio. (Please re-read
-@[Appendix D](/articles/appendix_d) in my book We Want To Live. There I gave the
+@[Appendix D](/vaccines-ruin-your-health) in my book We Want To Live. There I gave the
 facts about polio. One of those facts was that polio was almost gone when the
 polio vaccine was released in 1958 and the vaccine had nothing to do
 with polio being considerably reduced. In fact, the incidence of polio

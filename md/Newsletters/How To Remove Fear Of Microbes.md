@@ -91,8 +91,8 @@ compost piles reach temperatures up to 168° F (76° C), most soil
 microbes are killed. The highest temperature of compost depends on which
 organic wastes are composted. Low heat compost will render the best
 soil microbes. Some people produce earthworm-rich soil in wood-covered
-or slate- covered, sunken-in-the-ground old porcelain bathtubs full of
-earthworms in their yards. Some worm- growers use wooden boxes inlayed
+or slate-covered, sunken-in-the-ground old porcelain bathtubs full of
+earthworms in their yards. Some worm-growers use wooden boxes inlayed
 in the ground. Containers are used so that worms do not migrate away
 from their worm ranches. People eat a little of the dirt every day or
 every other day. Some eat earthworms with dirt.
@@ -117,7 +117,7 @@ other chemicals are sprayed or manufactured, you will not find healthy
 non-contaminated soil. Packaged commercial top soils are usually
 cooked, steamed or chemically contaminated to destroy microbes and
 dehydrate them for lighter-weight shipping. If you do not have access
-to non-pollution-contaminated, organic, non- steamed, non-kiln-dried
+to non-pollution-contaminated, organic, non-steamed, non-kiln-dried
 and non-sanitized top soil, I recommend supplementing soil microbes
 (probiotics) with Terramin clay to promote and improve digestion.
 

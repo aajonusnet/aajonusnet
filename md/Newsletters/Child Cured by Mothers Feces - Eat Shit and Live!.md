@@ -1,6 +1,6 @@
 ## Child Is Cured By Eating His Mother's Feces; or Eat Shit And Live!
 
-If the head-line were stated as I stated it in the title above, would it have been more accurate and more revealing than the actual title of the article I am about to mention? The article was entitled, Fecal transplant from mom cures ailing toddler. http://todayhealth.today.com/_news/2012/10/22/14598030-fecal-transplant-from-mom-cures-ailing-toddler
+If the head-line were stated as I stated it in the title above, would it have been more accurate and more revealing than the actual title of the article I am about to mention? The article was entitled, Fecal transplant from mom cures ailing toddler. @(http://todayhealth.today.com/_news/2012/10/22/14598030-fecal-transplant-from-mom-cures-ailing-toddler)
 
 A 28-years-young mother had watched her 20- months-young son Jesse suffer for 9 months with what was medically labeled as infection. He was unable to digest much of anything and wasting away with diarrhea. Doctors blamed the disease on the intestinal janitor Clostridium difficile that consumes damaged cells in the intestinal walls.
 

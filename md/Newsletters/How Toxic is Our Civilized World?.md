@@ -4,7 +4,7 @@ containers?
 Since pollution results from almost everything we do in modern society, we
 probably should ask: How toxic are we in our extremely toxic environments?
 Rather than selectively address compounds in plastics first, I will
-introduce discon- certing data that most people do not want to face or
+introduce disconcerting data that most people do not want to face or
 admit about overall disease-producing pollution at its beginning. I
 discussed in my books that even the basic act of cooking produces many
 chemical changes that cause environmental and body toxicity. Those chemical
@@ -80,7 +80,7 @@ through parts of Alabama, Tennessee and Florida when racism and segregation
 were strong and bitterness flourished among whites. It was so pervasive
 that African-Americans rarely ever contested whites. However, what I
 remember most is the joy of life that blacks enjoyed even under such
-suppression. I saw playfulness with considerat- ion and abandon, and it all
+suppression. I saw playfulness with consideration and abandon, and it all
 seemed so natural.
 
 Blacks young and old played outside their shakes in ragged clothing and
@@ -158,7 +158,7 @@ bodies have absorbed and are absorbing through air, food, industrial
 products, soil and water. The study specifically tested for only 88 known
 chemical toxins of 80,000. Tests detected 60 of those 88 chemicals in 11
 volunteers, including 18 heavy metals, 5 PBDEs, 14 PCBs, 1 perfluorinated
-chemical, 10 organo- chlorine pesticides, 5 organophosphate insecticide
+chemical, 10 organochlorine pesticides, 5 organophosphate insecticide
 metabolites, and 7 VOCs. Forty-four various chemicals were detected in each
 volunteer, including 41 carcinogens, 27 hormone disruptors, 21 respiratory
 toxins and 53 reproductive/developmental toxins.
@@ -210,7 +210,7 @@ I did that because the auto and power industries have fought our right to
 clean air with billions of dollars over the last 40 years. Otherwise, we
 would have clean air because we would have technologies that are not
 dependent on oil and fossil fuels, or we would have technologies that
-cleaned the byproducts so they were not dis- persed into our environment.
+cleaned the byproducts so they were not dispersed into our environment.
 Industry fights clean air sources so that those invested in coal and oil
 continue to accumulate greater profits without having to spend much of it
 on pollution-prevention.
@@ -219,7 +219,7 @@ In our homes, there are many sources of toxins that enter our bodies,
 including metal toxicity from cookware. Even stainless steel which is
 partially made of nickel and chromium gradually leeches from cookware every
 time food is cooked in it. Consider that while cooking, food changes to
-highly fraction- ated chemicals that often form into solvents. Those
+highly fractionated chemicals that often form into solvents. Those
 solvents gradually erode surface metal of cookware. Compare and consider
 that simple water gradually erodes rock made of metallic minerals. Now,
 consider what highly reactive cooked compounds from food will do to metal
@@ -284,7 +284,7 @@ operation and could be a source of skin exposure and inhalation, b)eating
 contaminated foods and drinking contaminated water, during repair and
 maintenance of PCB transformers, c) accidents, fires or spills involving
 transformers, fluorescent lights, and other electrical devices; and d)
-disposal of PCB- laced and other chemically laced products and materials.
+disposal of PCB-laced and other chemically laced products and materials.
 
 PCBs caused cancer in laboratory animals. Human diseases associated with
 PCBs-exposure include immunological and neurobehavioral changes in children
@@ -292,11 +292,11 @@ and acne-like skin conditions in adults. PCBs were found in over 500 of our
 most toxic 1,598 sites on the Environmental Protection Agency's (EPA)
 National Priorities List.
 
-Fluorochemicals (PFOAs) such as perfluorooc- tanoic acid (PFOA) are used in
+Fluorochemicals (PFOAs) such as perfluorooctanoic acid (PFOA) are used in
 non-stick coatings on cookware, as a stain repellent on clothing, carpets,
 and upholstery, as undercoat on beach umbrellas to provide increased
 sun-protection and as liner in canned and other food containers, especially
-fast- food packaging. Some references to PFOAs and PFOSs are Chemicals in
+fast-food packaging. Some references to PFOAs and PFOSs are Chemicals in
 frying pan a potential hazard to environment and Fluoropolymers may have
 harmful long-term effects . PFOAs are suspected carcinogens only because
 the industry fights the debate like the tobacco industry argues that
@@ -343,7 +343,7 @@ They are absorbed through skin and inhalation.
 
 One organochlorine pesticide, lindane, is used to treat lice and scabies
 and is readily absorbed through skin. They produce reproductive and
-neurological effects in animals. People who work with organo- chlorine
+neurological effects in animals. People who work with organochlorine
 pesticides for years develop liver damage. Hold on to your panic button:
 organochlorines are used to "purify" our environments, food and waters of
 microbes, and to "clean" clothing and other materials.
@@ -398,7 +398,7 @@ to "disinfect" water and other items of our daily advanced modern society.
 
 I have illustrated many times that microbes do not cause disease but the
 chemicals we use to destroy microbes and make our lives sterile are
-disease- causing. Toxic byproducts from chemicals used to disinfect public
+disease-causing. Toxic byproducts from chemicals used to disinfect public
 drinking water were named Disinfection Byproducts (DBPs).
 
 It has been postulated that it is materials in water that react with
@@ -412,7 +412,7 @@ combining of chlorine with substances that naturally occur in waters.
 
 Scientists believe they've identified about half the DBPs that occur in
 chlorine-treated water. They estimate they identified 17% of those
-occurring in chloramine-treated water, 28% in chlorine-dioxide- treated
+occurring in chloramine-treated water, 28% in chlorine-dioxide-treated
 water, 8% of those produced in ozone-treated water, and of the 600
 structurally identified DBPs, the toxicity factor is known for
 approximately 30%.
@@ -486,7 +486,7 @@ toxins and have many accumulated within our bodies, eating my Primal Diet
 will help remove them and bestow to us greater chances of preventing or
 reversing severe diseases in a world where 1 of 2 men and 1 of 3 women gets
 cancers (Samuel Epstein, M.D.). We need the best naturally grown raw,
-unheated-above- 96-degrees F. and non-frozen animal and other fats to
+unheated-above-96-degrees F. and non-frozen animal and other fats to
 protect our cells from those industrial toxins. Raw unpasteurized
 aged-in-wood apple cider vinegar chelates with many industrial toxins and
 heavy metals.

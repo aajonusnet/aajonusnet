@@ -20,17 +20,17 @@ the brain and nervous system causing disorders along with a myriad of
 neck and head diseases including tonsillitis and dental decay.
 
 Most often, our brains and nervous systems detoxify during the night
-when we sleep. As children's bodies detoxify those chemicals and free-
-radicals, too frequently they cause bad dreams, night twitches and
-spasms. Those symptoms are caused by all of the many neuron-and-nerve-
-disruptive chemicals that cause excessive electricity and acidity,
+when we sleep. As children's bodies detoxify those chemicals and free-radicals,
+too frequently they cause bad dreams, night twitches and
+spasms. Those symptoms are caused by all of the many neuron-and-nerve-disruptive
+chemicals that cause excessive electricity and acidity,
 irritating neurons and nerves.
 
 To alleviate those symptoms in children, it is important to eliminate
 all processed foods from the diet and prepare meals and snacks from
 organic foods, preferable fresh. As a remedy to reverse those symptoms in
 children and adults more immediately, drinking raw milk and eating raw,
-no- salt-added cheeses throughout the day helps provide alkalinizing
+no-salt-added cheeses throughout the day helps provide alkalinizing
 minerals to bind with and neutralize those metallic free-radicals and
 chemicals. Often, simply raw milk is needed. When symptoms are chronic,
 both raw milk and raw cheese may be needed. Thereby, 95% percent of the

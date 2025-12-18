@@ -92,7 +92,7 @@ Two and a half days after pain began and increased to cause headaches,
 I watched the ultrasound screen reveal a large mass. The mass was blocking
 the outflow of urination to my urethra.
 
-[Show photo 1](/imgs/pdn28_stones-1.jpg)
+![[pdn28_stones-1.jpg]]
 
 The urologist looked extremely concerned. I took that as normal terrorist
 tactics. I got ready to receive alarming news that I had a huge tumor
@@ -201,7 +201,7 @@ As I rolled into the operating room, I saw surgical steel tubes that were
 wider than my penis, about 1.5+ inches in diameter. I was very grateful
 I did not mention no anesthesia!
 
-[Show photo 2](/imgs/pdn28_stones-2.jpg)
+![[pdn28_stones-2.jpg]]
 
 About four hours later, I woke in a room with people preparing to go home
 from minor medical procedures. I was lying on a gurney. When I tried to

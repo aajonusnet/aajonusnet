@@ -67,9 +67,9 @@ An organization that claims to be pro small family farmer and defends them I sus
 Because FTCLDF may merely be a front established to defraud us and remove our inherent food rights, as Senator Coburn did, we must watch it carefully. This year, RTCLDF led a lawsuit challenging FDA’s regulations to prevent interstate transportation of raw dairy across state boundaries.
 
 See this important link:
-http://www.ftcldf.org/litigation-FDA.htm. RTCLDF
+http://www.ftcldf.org/litigation-FDA.htm. 
 
-is not the only plaintiff. There are several citizen-plaintiffs in the action. Even though I absolutely support this class action lawsuit, I do not trust the attorney in charge (Cox) because he relinquished many farmers into the jurisdictional hands of FDA.
+RTCLDF is not the only plaintiff. There are several citizen-plaintiffs in the action. Even though I absolutely support this class action lawsuit, I do not trust the attorney in charge (Cox) because he relinquished many farmers into the jurisdictional hands of FDA.
 
 Probably the best way to support this action would be to write letters to the FDA, HHS, the judge and FTCLDF weekly, reminding them that we do have inherent rights to our health, bodies and the food we want, and that the FDA’s anti-raw-milk regulations, and on any food, are anti-Constitutional and morally wrong.
 

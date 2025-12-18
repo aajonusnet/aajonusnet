@@ -1,6 +1,6 @@
 <?php
 $title = "Aajonus.net";
-$description = "Raw Primal Diet: Aajonus Online Database by Aajonus Vonderplanitz";
+$description = "Raw Primal Diet: Aajonus Online Database by Aajonus Vonderplanitz. Aajonus Transcriptions.";
 $url = "https://aajonus.net/";
 $sitename = "Aajonus Net";
 $categoryInLinks = false;
