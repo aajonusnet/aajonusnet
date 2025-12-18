@@ -8206,7 +8206,8 @@ Hi, mutual natural health lovers,
 
 As the radiation fallout cloud moves along the eastward-bound jet stream to the USA and Canada from Japan, the flurry of information on radiation protection has moved with it. Most of it is focused on protecting the thyroid with an iodine supplement, that is, an iodide or iodate. If you will investigate the Chernobyl crisis of 25 years ago, the consumption of iodine did not prevent thyroid cancer, leukemia or bone cancers but promoted them. Blocking radioactive iodine from thyroids sends it to the bones and bone marrow, increasing the risk of leukemia and bone cancers.
 
-Appraisal of iodine
+**Appraisal of iodine**
+
 Any form of iodine that is not a natural part of fresh food is an oxide, that is, it is a rare natural element, but part of rock. That includes any iodine supplement, even if the iodine were taken from a food source. Once it is processed into an isolated element, it is again an element of rock, not food, whether powder, pill, or liquid. Animals cannot digest or utilize rock intercellularly, only plants can.
 
 All iodine is radioactive when combined with other radioactive isotopes to varying degrees, not only iodine-131. That is why all forms of iodine, once exposed to radiation, are radioactively charged for as long as 80 million years.
@@ -8227,7 +8228,8 @@ The USA government obviously wants us sick and/or dead. The HHS, FDA and CDC hav
 
 We must be logical and sensible at all times or we will fall prey to pharmaceutical chemistry-based nonsense. If the risks of environmental contamination are bearing down on us, we must be more resolute and cautious.
 
-Remedies for Radiation Contamination
+**Remedies for Radiation Contamination**
+
 Here are the things that effectively helped me reduce radioactive toxins and symptoms in my body:
 
 	- Organic no-salt raw cheeses eaten frequently will help absorb and neutralize free-radical radioactive minerals;

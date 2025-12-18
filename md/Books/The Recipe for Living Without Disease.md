@@ -4639,15 +4639,21 @@ cheesecake.
 
 2 Servings
 
-**3 ounces no-salt-added raw cheddar cheese
-3 1/2 ounces unsalted raw butter
-2 ounces raw walnut halves
-2 teaspoons unheated honey
-1 drop organic vanilla extract**
+**3 ounces no-salt-added raw cheddar cheese**
 
-**TOPPING, if desired
-3 ounces raw cream
-1 teaspoon unheated honey**
+**3 1/2 ounces unsalted raw butter**
+
+**2 ounces raw walnut halves**
+
+**2 teaspoons unheated honey**
+
+**1 drop organic vanilla extract**
+
+**TOPPING, if desired**
+
+**3 ounces raw cream**
+
+**1 teaspoon unheated honey**
 
 Let cheese and butter stand at room temperature to warm for 4
 hours before making cheesecake.
@@ -4689,14 +4695,17 @@ Chop date. Blenderize chopped date and 3 ounces fruit(s) in a 4-
 ounces jar on high speed for 10-15 seconds. Spread over chilled
 cheesecake.
 
-#### Coconut Cream & Fruit
+### Coconut Cream & Fruit
 
 1 Serving
 
-**4 ounces COCONUT CREAM
-1/8 peeled and seeded small papaya
-1/8 -inch circular slice fresh pineapple
-1 teaspoon unheated honey, (optional)**
+**4 ounces COCONUT CREAM**
+
+**1/8 peeled and seeded small papaya**
+
+**1/8 -inch circular slice fresh pineapple**
+
+**1 teaspoon unheated honey, (optional)**
 
 If pineapple is not organic, wash outside of pineapple with brush
 and lukewarm water. Slice pineapple circularly. Cut away rind
@@ -4710,14 +4719,17 @@ berries and peach, or nectarine and peach, or pear and grapes.
 
 **PAGE 124**
 
-#### Custard
+### Custard
 
 1 Serving
 
-**1/3 papaya, remove seeds and peel
-1 raw egg
-2 tablespoons raw unsalted butter
-1 tablespoon unheated honey**
+**1/3 papaya, remove seeds and peel**
+
+**1 raw egg**
+
+**2 tablespoons raw unsalted butter**
+
+**1 tablespoon unheated honey**
 
 Blenderize all ingredients together in an 8-ounces jar on low
 speed for 10 seconds. Immediately pour into serving bowl before
@@ -4727,13 +4739,19 @@ it thickens, or let it thicken in jar and eat from jar.
 
 1 Serving
 
-**1 egg
-1/3 diced avocado
-1/2 diced orange
-1 tablespoon unheated honey
-4 ounces papaya or mango
-1 teaspoon lime, (optional)
-4 tablespoons unsalted raw butter**
+**1 egg**
+
+**1/3 diced avocado**
+
+**1/2 diced orange**
+
+**1 tablespoon unheated honey**
+
+**4 ounces papaya or mango**
+
+**1 teaspoon lime, (optional)**
+
+**4 tablespoons unsalted raw butter**
 
 Blenderize butter, papaya or mango, honey, egg, and lime juice
 together in an 8-ounces jar on high speed for 10 seconds.
@@ -4742,20 +4760,21 @@ orange before it thickens. Let stand for 3-5 minutes.
 
 **PAGE 125**
 
-#### Fudge Parfait
-
-#### or
-
-#### Mint Fudge Parfait
+### Fudge Parfait or Mint Fudge Parfait
 
 2 Servings
 
-**5 ounces raw cream
-3 tablespoons raw milk
-1 raw egg
-3 tablespoons peeled and seeded fresh papaya
-2 teaspoons unheated honey
-2 -inch square PECAN FUDGE**
+**5 ounces raw cream**
+
+**3 tablespoons raw milk**
+
+**1 raw egg**
+
+**3 tablespoons peeled and seeded fresh papaya**
+
+**2 teaspoons unheated honey**
+
+**2 -inch square PECAN FUDGE**
 
 Premake PECAN FUDGE recipe
 
@@ -4778,15 +4797,19 @@ cream layers with mint whipped cream.
 
 **PAGE 126**
 
-#### Gingerbread Balls
+### Gingerbread Balls
 
 1 Serving
 
-**3 tablespoons unsalted raw butter
-1 tablespoon unheated honey
-1 teaspoon grated fresh ginger root
-1 tablespoon raw carob powder
-2 1/2 ounces raw walnut or pecan halves, pine or hazel nuts, or
+**3 tablespoons unsalted raw butter**
+
+**1 tablespoon unheated honey**
+
+**1 teaspoon grated fresh ginger root**
+
+**1 tablespoon raw carob powder**
+
+**2 1/2 ounces raw walnut or pecan halves, pine or hazel nuts, or
 sunflower seeds**
 
 Warm butter and ginger in a 4-ounces jar, capped and immersed
@@ -4808,16 +4831,21 @@ grated coconut.
 
 **PAGE 127**
 
-#### Mint Chocolate Substitute
+### Mint Chocolate Substitute
 
 2 Servings
 
-**7 tablespoons soft unsalted raw butter
-1 raw egg
-3 tablespoons finely chopped fresh mint leaves
-2 tablespoons unheated honey
-1 1/2 tablespoons raw carob powder
-2 drops organic vanilla extract**
+**7 tablespoons soft unsalted raw butter**
+
+**1 raw egg**
+
+**3 tablespoons finely chopped fresh mint leaves**
+
+**2 tablespoons unheated honey**
+
+**1 1/2 tablespoons raw carob powder**
+
+**2 drops organic vanilla extract**
 
 Blenderize all ingredients together in an 8-ounces jar on medium
 speed for 30-40 seconds. Refrigerate to harden for 2 hours. (To
@@ -4826,16 +4854,21 @@ more than 4 hours.)
 
 **PAGE 128**
 
-#### Pecan Fudge
+### Pecan Fudge
 
 1 Serving
 
-**2 ounces pecan halves
-4 tablespoons unsalted raw butter
-1 raw egg
-3 tablespoons unheated honey
-2 tablespoons raw carob powder
-1 drop organic vanilla extract**
+**2 ounces pecan halves**
+
+**4 tablespoons unsalted raw butter**
+
+**1 raw egg**
+
+**3 tablespoons unheated honey**
+
+**2 tablespoons raw carob powder**
+
+**1 drop organic vanilla extract**
 
 Blenderize pecans in an 8-ounces jar on high speed until they are
 flour. Place the rest of ingredients in jar, stir, and blenderize on
@@ -4853,19 +4886,26 @@ pecans.
 
 **PAGE 129**
 
-#### South African Chipolata
+### South African Chipolata
 
 1 Serving
 
-**2 sections tangerines
-1/2 tablespoon grated fresh ginger root, or PICKLED
-GINGER
-1 tablespoon unheated honey
-1 egg
-1/4 papaya, peeled and seeded
-2 tablespoons unsalted raw butter
-5 tablespoons raw cream
-1 pinch nutmeg**
+**2 sections tangerines**
+
+**1/2 tablespoon grated fresh ginger root, or PICKLED
+GINGER**
+
+**1 tablespoon unheated honey**
+
+**1 egg**
+
+**1/4 papaya, peeled and seeded**
+
+**2 tablespoons unsalted raw butter**
+
+**5 tablespoons raw cream**
+
+**1 pinch nutmeg**
 
 Blenderize all ingredients, except cream and nutmeg, together in
 an 8-ounces jar on high speed for 10 seconds. Pour into serving
@@ -4876,14 +4916,17 @@ Top custard with whipped cream and grate nutmeg on top.
 
 **PAGE 130**
 
-#### Whipped Cream Ambrosia
+### Whipped Cream Ambrosia
 
 1 Serving
 
-**4 ounces raw cream
-7 fresh berries
-1/4 cup diced fresh pineapple
-1 teaspoon unheated honey, (optional)**
+**4 ounces raw cream**
+
+**7 fresh berries**
+
+**1/4 cup diced fresh pineapple**
+
+**1 teaspoon unheated honey, (optional)**
 
 Blenderize cream and honey in an 8-ounces jar on low speed
 until it is stiff. Place fruit in bowl and top with whipped cream.
@@ -4891,14 +4934,17 @@ until it is stiff. Place fruit in bowl and top with whipped cream.
 ALTERNATIVE: Use other fruits, such as berries and peach, or
 nectarine and peach, or pear and grapes.
 
-#### Whipped Cream Tropical
+### Whipped Cream Tropical
 
 1 Serving
 
-**4 ounces raw cream
-1/8 peeled and seeded small papaya
-1/8-inch circular slice fresh pineapple
-1 teaspoon unheated honey**
+**4 ounces raw cream**
+
+**1/8 peeled and seeded small papaya**
+
+**1/8-inch circular slice fresh pineapple**
+
+**1 teaspoon unheated honey**
 
 If pineapple is not organic, wash outside of pineapple with brush
 and lukewarm water. Slice pineapple circularly. Cut away rind
@@ -4910,34 +4956,44 @@ whipped cream with diced fruit.
 
 **PAGE 131**
 
-#### Ice Cream
+## Ice Cream
 
-#### Berry Good Ice Cream
+### Berry Good Ice Cream
 
 1 Serving
 
-**1 egg
-4 tablespoons raw cream
-3 tablespoons raw milk
-3 tablespoons fresh berries, such as blueberries, raspberries,
-boysenberries and blackberries
-1 tablespoon unheated honey**
+**1 egg**
+
+**4 tablespoons raw cream**
+
+**3 tablespoons raw milk**
+
+**3 tablespoons fresh berries, such as blueberries, raspberries,
+boysenberries and blackberries**
+
+**1 tablespoon unheated honey**
 
 Blenderize all ingredients together in a 12-ounces jar on medium
 speed for 10 seconds. Pour into ice cream maker and churn until
 firm.
 
-#### French Vanilla Ice Cream
+### French Vanilla Ice Cream
 
 2 Servings
 
-**1 egg
-4 tablespoons raw cream
-4 tablespoons raw milk
-3 tablespoons fresh papaya
-1 tablespoon unsalted raw butter
-1 tablespoon unheated honey
-2 drops organic vanilla extract**
+**1 egg**
+
+**4 tablespoons raw cream**
+
+**4 tablespoons raw milk**
+
+**3 tablespoons fresh papaya**
+
+**1 tablespoon unsalted raw butter**
+
+**1 tablespoon unheated honey**
+
+**2 drops organic vanilla extract**
 
 Blenderize all ingredients together in a 12-ounces jar on medium
 speed for 10 seconds. Pour into ice cream maker and churn until
@@ -4945,30 +5001,39 @@ firm.
 
 **PAGE 132**
 
-#### Gingerbread Ice Cream
+### Gingerbread Ice Cream
 
 1 Serving
 
-**1 egg
-4 tablespoons raw cream
-4 tablespoons raw milk
-1 tablespoon raw carob powder
-1 tablespoon unheated honey
-1 to 2 teaspoons grated fresh ginger root**
+**1 egg**
+
+**4 tablespoons raw cream**
+
+**4 tablespoons raw milk**
+
+**1 tablespoon raw carob powder**
+
+**1 tablespoon unheated honey**
+
+**1 to 2 teaspoons grated fresh ginger root**
 
 Blenderize all ingredients together in a 12-ounces jar on medium
 speed for 10 seconds. Pour into ice cream maker and churn until
 firm.
 
-#### Lime Ice Cream
+### Lime Ice Cream
 
 1 Serving
 
-**1 egg
-4 tablespoons raw cream
-4 tablespoons raw milk
-2 tablespoons fresh lime juice
-1 tablespoon unheated honey**
+**1 egg**
+
+**4 tablespoons raw cream**
+
+**4 tablespoons raw milk**
+
+**2 tablespoons fresh lime juice**
+
+**1 tablespoon unheated honey**
 
 Blenderize all ingredients together in a 12-ounces jar on medium
 speed for 10 seconds. Pour into ice cream maker and churn until
@@ -4976,35 +5041,43 @@ firm.
 
 **PAGE 133**
 
-#### Pineapple Ice Cream
+### Pineapple Ice Cream
 
 1 Serving
 
-**1 egg
-4 tablespoons raw cream
-3 tablespoons raw milk
-1 1/2 ounces fresh pineapple
-1 tablespoon unheated honey**
+**1 egg**
+
+**4 tablespoons raw cream**
+
+**3 tablespoons raw milk**
+
+**1 1/2 ounces fresh pineapple**
+
+**1 tablespoon unheated honey**
 
 Blenderize all ingredients together in a 12-ounces jar on medium
 speed for 10 seconds. Pour into ice cream maker and churn until
 firm.
 
-### Cream Sickles
+## Cream Sickles
 
 These cream sickles satisfy without causing manic behavior, as
 most common sweets do. Refrigerating egg is an exception for
 this recipe.)
 
-#### Mango Creamsickles
+### Mango Creamsickles
 
 4 Servings
 
-**1 egg
-4 tablespoons raw cream
-4 tablespoons raw milk
-2 ounces fresh mango
-1 teaspoon unheated honey**
+**1 egg**
+
+**4 tablespoons raw cream**
+
+**4 tablespoons raw milk**
+
+**2 ounces fresh mango**
+
+**1 teaspoon unheated honey**
 
 Blenderize all ingredients together in a 12-ounces jar on medium
 speed for 10 seconds. Pour into popsicle-mold and freeze for 5-8
@@ -5017,26 +5090,35 @@ ALTERNATIVES 2: Substitute raw coconut cream for raw cream.
 
 **PAGE 134**
 
-### Pies
+## Pies
 
-#### Ambrosia Coconut Cream Pie, Miniature
+### Ambrosia Coconut Cream Pie, Miniature
 
 2 Servings
 
-**CRUST
-2 ounces raw walnut, or pecan halves
-2 teaspoons unsalted raw butter
-1/2 teaspoon unheated honey**
+**CRUST**
 
-**FILLING, all ingredients room temperature
-1 non-steamed date
-4 ounces fruits or combination of fruits**
+**2 ounces raw walnut, or pecan halves**
 
-**TOPPING
-2 ounces COCONUT CREAM
-1 egg
-1 tablespoon unsalted raw butter
-1 teaspoons unheated honey, (optional)**
+**2 teaspoons unsalted raw butter**
+
+**1/2 teaspoon unheated honey**
+
+**FILLING, all ingredients room temperature**
+
+**1 non-steamed date**
+
+**4 ounces fruits or combination of fruits**
+
+**TOPPING**
+
+**2 ounces COCONUT CREAM**
+
+**1 egg**
+
+**1 tablespoon unsalted raw butter**
+
+**1 teaspoons unheated honey, (optional)**
 
 Crust: Blenderize walnuts, butter and honey in a 4-ounces jar on
 medium speed using pulse-action for 5 seconds. Butter bottom
@@ -5059,24 +5141,33 @@ the chilled and firmed coconut cream.
 
 **PAGE 135**
 
-#### Ambrosia Coconut Cream Pie
+### Ambrosia Coconut Cream Pie
 
 10 Servings
 
-**CRUST
-1 cup walnuts, or pecans halves
-2 tablespoons unsalted raw butter
-1 tablespoon unheated honey**
+**CRUST**
 
-**FILLING, all ingredients room temperature
-6 non-steamed dates
-2 cups fruits or combination of fruits**
+**1 cup walnuts, or pecans halves**
 
-**TOPPING
-8 ounces COCONUT CREAM
-4 tablespoons unsalted raw butter
-2 raw eggs
-1 to 2 tablespoons unheated honey, (optional)**
+**2 tablespoons unsalted raw butter**
+
+**1 tablespoon unheated honey**
+
+**FILLING, all ingredients room temperature**
+
+**6 non-steamed dates**
+
+**2 cups fruits or combination of fruits**
+
+**TOPPING**
+
+**8 ounces COCONUT CREAM**
+
+**4 tablespoons unsalted raw butter**
+
+**2 raw eggs**
+
+**1 to 2 tablespoons unheated honey, (optional)**
 
 Crust: Place walnuts, butter and honey in food processor and
 blend until ingredients form into a ball. Butter bottom and sides
@@ -5109,22 +5200,29 @@ honey, and lemon and/or lime juices in food processor and blend
 for 20-30 seconds. Follow the rest of instructions for Topping
 above.
 
-#### Ambrosia Cream Pie
+### Ambrosia Cream Pie
 
 10 Servings
 
-**CRUST
-1 cup raw walnut halves
-2 tablespoons unsalted raw butter
-1 tablespoon unheated honey**
+**CRUST**
 
-**FILLING
-6 non-steamed dates
-2 cups fruit, or combination of fruits**
+**1 cup raw walnut halves**
 
-**TOPPING
-15 ounces raw cream
-1 to 2 tablespoons unheated honey, (optional)**
+**2 tablespoons unsalted raw butter**
+
+**1 tablespoon unheated honey**
+
+**FILLING**
+
+**6 non-steamed dates**
+
+**2 cups fruit, or combination of fruits**
+
+**TOPPING**
+
+**15 ounces raw cream**
+
+**1 to 2 tablespoons unheated honey, (optional)**
 
 Crust: Place walnuts, butter and honey in food processor and
 blend until ingredients form into a ball. Butter bottom and sides
@@ -5148,27 +5246,35 @@ honey in an 8-ounces jar. Remove pie from freezer and top with
 whipped cream. You can save some of the cut fruit from the
 Filling to make a pattern over whipped cream. Let stand in
 refrigeration for 2 hours.
+
 ALTERNATE TOPPING: Add 2 tablespoon fresh lime or
 lemon juice, or a combination of lemon and lime juices, to cream
 and honey. Blenderize as stated above. You can save some of cut
 fruit from the Filling to make a pattern over whipped cream.
 
-#### Ambrosia Cream Pie, Miniature
+### Ambrosia Cream Pie, Miniature
 
 2 Servings
 
-**CRUST
-2 ounces raw walnut halves
-2 teaspoons unsalted raw butter
-1/2 teaspoon unheated honey**
+**CRUST**
 
-**FILLING
-1 non-steamed date
-4 ounces fruit, or combination of fruits**
+**2 ounces raw walnut halves**
 
-**TOPPING
-4 ounces raw cream
-2 teaspoons unheated honey, (optional)**
+**2 teaspoons unsalted raw butter**
+
+**1/2 teaspoon unheated honey**
+
+**FILLING**
+
+**1 non-steamed date**
+
+**4 ounces fruit, or combination of fruits**
+
+**TOPPING**
+
+**4 ounces raw cream**
+
+**2 teaspoons unheated honey, (optional)**
 
 Crust: Blenderize walnuts, butter and honey in a 4-ounces jar on
 medium speed using pulse-action for 5 seconds. Butter bottom
@@ -5189,25 +5295,35 @@ speed until stiff. Top Filling with whipped cream. You can save
 some of the cut fruit from the Filling to make a pattern over
 whipped cream.
 
-#### Banana Cream Pie
+### Banana Cream Pie
 
 10 Servings
 
-**CRUST
-1 cup raw walnut halves
-2 tablespoons unsalted raw butter
-1 tablespoon unheated honey**
+**CRUST**
 
-**FILLING
-2 eggs
-6 non-steamed dates
-3 bananas
-8 tablespoons unsalted raw butter
-2 drops organic vanilla extract, (optional)**
+**1 cup raw walnut halves**
 
-**TOPPING
-15 ounces raw cream
-1 to 2 tablespoons unheated honey, (optional)**
+**2 tablespoons unsalted raw butter**
+
+**1 tablespoon unheated honey**
+
+**FILLING**
+
+**2 eggs**
+
+**6 non-steamed dates**
+
+**3 bananas**
+
+**8 tablespoons unsalted raw butter**
+
+**2 drops organic vanilla extract, (optional)**
+
+**TOPPING**
+
+**15 ounces raw cream**
+
+**1 to 2 tablespoons unheated honey, (optional)**
 
 Crust: Place walnuts, butter and honey in food processor and
 blend until ingredients form a ball. Butter bottom and sides of an
@@ -5224,33 +5340,45 @@ together until thick.
 Slice 2 1/2 bananas lengthwise into halves. Slice laterally into
 1/8-inch pieces. Fold bananas into Filling mixture. Pour and
 spread evenly over crust and chill in freezer for 20 minutes.
+
 Topping: Blenderize 5 ounces cream and 2 teaspoons honey in
 an 8-ounces jar on low speed until it is fluffy and stiff. Repeat
 two more times, each time with 5 ounces cream and 2 teaspoons
 honey in an 8-ounces jar. Remove pie from freezer and top with
 whipped cream. Let stand in refrigeration for 2 hours.
+
 ALTERNATE TOPPING: Add 3 tablespoons fresh lime juice to
 cream and honey. Blenderize as stated above.
 
-#### Banana Cream Pie, Miniature
+### Banana Cream Pie, Miniature
 
 2 Servings
 
-**CRUST
-2 ounces raw walnut halves
-2 teaspoons unsalted raw butter
-1/2 teaspoon unheated honey**
+**CRUST**
 
-**FILLING
-1 egg
-1 non-steamed date
-3/4 banana
-2 tablespoons unsalted raw butter
-1 drop organic vanilla extract, (optional)**
+**2 ounces raw walnut halves**
 
-**TOPPING
-3 ounces raw cream
-2 teaspoons unheated honey, (optional)**
+**2 teaspoons unsalted raw butter**
+
+**1/2 teaspoon unheated honey**
+
+**FILLING**
+
+**1 egg**
+
+**1 non-steamed date**
+
+**3/4 banana**
+
+**2 tablespoons unsalted raw butter**
+
+**1 drop organic vanilla extract, (optional)**
+
+**TOPPING**
+
+**3 ounces raw cream**
+
+**2 teaspoons unheated honey, (optional)**
 
 Crust: Blenderize walnuts, butter and honey in a 4-ounces jar on
 high speed using pulse-action for 5 seconds. Butter bottom and
@@ -5260,6 +5388,7 @@ sides of 4-inch glass or ceramic pie-dish. Spread nut mixture and
 
 flatten evenly on to bottom of pie-dish. Chill in freezer for 10
 minutes while making Filling.
+
 Filling: Remove stone from date and chop date. Blenderize
 chopped date, egg, vanilla extract, half of 3/4 banana (break into
 small pieces), and butter (room temperature) together in an 8-
@@ -5268,22 +5397,26 @@ Slice remainder of banana lengthwise into quarters. Slice
 laterally into 1/4-inch pieces. Fold banana into Filling mixture.
 Pour and spread evenly over crust and chill in freezer for 10
 minutes.
+
 Topping: Blenderize cream and honey in an 8-ounces jar on low
 speed until fluffy and stiff. Top Filling with whipped cream.
 
-#### Pumpkin Pie?
+### Pumpkin Pie?
+``` (Tastes like it!) ```
 
-```
-(Tastes like it!)
-```
 8 Servings
 
-**3 ripe persimmons
-6 non-steamed dates, remove stone and chop
-3 tablespoons unheated honey
-1 cup raw walnut halves
-2 tablespoons unsalted raw butter
-15 ounces raw cream**
+**3 ripe persimmons**
+
+**6 non-steamed dates, remove stone and chop**
+
+**3 tablespoons unheated honey**
+
+**1 cup raw walnut halves**
+
+**2 tablespoons unsalted raw butter**
+
+**15 ounces raw cream**
 
 Crust: Place nuts, 2 tablespoons butter and 1 tablespoon honey
 in food processor and blend until ingredients form into a ball.
@@ -5304,16 +5437,21 @@ two more times, each time with 5 ounces cream and 2 teaspoons
 honey in an 8-ounces jar. Remove pie from freezer and top with
 whipped cream. Let stand in refrigeration for at least 8 hours.
 
-#### Pumpkin Pie, Miniature
+### Pumpkin Pie, Miniature
 
 1 Serving
 
-**3/4 ripe persimmon
-1 non-steamed date, remove stone and chop
-3 teaspoons unheated honey
-2 ounces raw walnut halves
-2 teaspoons unsalted raw butter
-3 ounces raw cream**
+**3/4 ripe persimmon**
+
+**1 non-steamed date, remove stone and chop**
+
+**3 teaspoons unheated honey**
+
+**2 ounces raw walnut halves**
+
+**2 teaspoons unsalted raw butter**
+
+**3 ounces raw cream**
 
 Crust: Blenderize nuts, 2 teaspoons butter and 1 teaspoon honey
 in a 4-ounces jar on high speed using pulse-action for 5 seconds.
@@ -5333,32 +5471,42 @@ whipped cream. Let stand in refrigeration for at least 6 hours.
 
 ## SALAD
 
-### Salad
+### Bland-Fruit Salad
 
 1 Serving
 
-**1/2 avocado, cut into wedges
-6 circular slices raw cucumber
-3 circular slices raw zucchini, crookneck or sunburst squash
-1 stalk cauliflower tops
-1/2 tomato, cut into wedges
-2 sliced mushrooms
-1 serving of any of the sauces in this book
-2 tablespoons red onion, (optional)**
+**1/2 avocado, cut into wedges**
+
+**6 circular slices raw cucumber**
+
+**3 circular slices raw zucchini, crookneck or sunburst squash**
+
+**1 stalk cauliflower tops**
+
+**1/2 tomato, cut into wedges**
+
+**2 sliced mushrooms**
+
+**1 serving of any of the sauces in this book**
+
+**2 tablespoons red onion, (optional)**
 
 Arrange ingredients on a plate or in a bowl and eat with or
 without a sauce.
 
-#### Pickles, Pickled Peppers & Ginger
+## Pickles, Pickled Peppers & Ginger
 
-#### Pickled Ginger
+### Pickled Ginger
 
 10 Serving
 
-**6 ounces thinly sliced fresh ginger
-4 tablespoons raw apple cider vinegar
-3 tablespoons whey, or natural mineral water
-1 tablespoon unheated honey**
+**6 ounces thinly sliced fresh ginger**
+
+**4 tablespoons raw apple cider vinegar**
+
+**3 tablespoons whey, or natural mineral water**
+
+**1 tablespoon unheated honey**
 
 Blenderize vinegar, whey or water and honey together in an 8-
 ounces jar on medium speed for 10 seconds. Add ginger slices
@@ -5372,15 +5520,19 @@ any meat, red or white.
 
 **PAGE 143**
 
-#### Pickled Peppers (Pimentos)
+### Pickled Peppers (Pimentos)
 
 10 Servings
 
-**1 red bell pepper
-1 yellow bell pepper
-1/2 cup raw apple cider vinegar
-1 cup natural mineral water
-1/2 teaspoon unheated honey**
+**1 red bell pepper**
+
+**1 yellow bell pepper**
+
+**1/2 cup raw apple cider vinegar**
+
+**1 cup natural mineral water**
+
+**1/2 teaspoon unheated honey**
 
 Blenderize 1/2 cup water, vinegar and honey in a 16-ounces jar
 for 5 seconds at medium speed.
@@ -5392,15 +5544,19 @@ times. Let stand in refrigerator for 24 hours. It will keep in
 refrigeration for 2 months. If recipe is too much for use in 2
 months, divide each ingredient by half and use an 8-ounces jar.
 
-#### Dill Pickles
+### Dill Pickles
 
 10 Servings
 
-**4 pickling cucumbers
-1/2 cup raw apple cider vinegar
-1/2 teaspoon unheated honey
-2 tablespoons fresh dill weed
-1/2 cup natural mineral water**
+**4 pickling cucumbers**
+
+**1/2 cup raw apple cider vinegar**
+
+**1/2 teaspoon unheated honey**
+
+**2 tablespoons fresh dill weed**
+
+**1/2 cup natural mineral water**
 
 Blenderize vinegar, honey, dill and 1 ounce water together in an
 8-ounces jar for 10 seconds on low speed.
@@ -5417,14 +5573,17 @@ before adding water to cover cucumbers.
 
 **PAGE 144**
 
-#### Sweet Pickles
+### Sweet Pickles
 
 10 Servings
 
-**4 pickling cucumbers
-1/2 cup raw apple cider vinegar
-3 tablespoons unheated honey
-1/4 cup natural mineral water**
+**4 pickling cucumbers**
+
+**1/2 cup raw apple cider vinegar**
+
+**3 tablespoons unheated honey**
+
+**1/4 cup natural mineral water**
 
 Blenderize vinegar, 1 ounce water and honey together in an 8-
 ounces jar for 10 seconds on low speed.
@@ -5445,57 +5604,60 @@ before adding water to cover cucumbers.
 
 ## Remedies and Natural Topical Beauty Recipes
 
-#### Primal Facial® Body Care Cream
+### Primal Facial® Body Care Cream
 
-```
+
 As well as facial and body skin cream, this is an all-in-one fantastic
 Sunscreen, Suntan and Sunburn lotion, burn, abrasion and cut salve.
-```
-```
-2 ounces raw cream
-2 ounces unsalted raw butter
-2 ounces raw COCONUT CREAM
-1/4 teaspoon unheated honey
-1/4 teaspoon royal jelly
-1 teaspoon fresh lime juice
-1 teaspoon fresh ginger juice
-```
-```
+
+**2 ounces raw cream**
+
+**2 ounces unsalted raw butter**
+
+**2 ounces raw COCONUT CREAM**
+
+**1/4 teaspoon unheated honey**
+
+**1/4 teaspoon royal jelly**
+
+**1 teaspoon fresh lime juice**
+
+**1 teaspoon fresh ginger juice**
+
 Stir lime juice into coconut cream and let stand for 10 minutes.
 Then, warm all ingredients in an 8-ounces jar, capped with
 blender washer/blades/base, immersed in a bowl of mildly hot
 water for 5 minutes. Blenderize on medium speed for 5 seconds.
 Rub into skin. Wipe away any excess 20 to 30 minutes after
 applying on skin. It must be kept refrigerated.
-```
-```
+
 This skin cream feeds the skin and helps prevent and slowly
 remove lines and wrinkles with regular application. It works for
 the entire body. In all empirical tests, it acted on ALL
 participants as both a sunscreen and tanning lotion.
-```
-```
+
 Applying the skin cream liberally to a cut, scrape or abrasion
 helps to prevent excessive scabbing and the dryness that results
 from scabbing, and helps heal the wound without scarring.
 Liberally applied and left on, the skin cream slowly dissolves
 scabs that have already formed.
-```
-```
+
 During tests for sunscreen potential, some participants thought
 that they had burned because they were so red. The next
 mornings there was no burn or soreness, and no one pealed. As a
 suntan lotion, participants who normally did not tan tanned.
-```
 
 **PAGE 146**
 
-#### Moisturizing/Lubrication Formula Drink
+### Moisturizing/Lubrication Formula Drink
 
-**1 to 2 raw eggs
-2 to 4 ounces unsalted raw butter or coconut cream
-1 to 2 tablespoons lemon juice
-1 to 2 teaspoons unheated honey**
+**1 to 2 raw eggs**
+
+**2 to 4 ounces unsalted raw butter or coconut cream**
+
+**1 to 2 tablespoons lemon juice**
+
+**1 to 2 teaspoons unheated honey**
 
 All ingredients should be room temperature. Warm all ingredi-
 ents in an 8- or 12-ounces jar, capped with the blender washer/
@@ -5518,11 +5680,13 @@ names. When I give this formula to women, I call it the
 Moisturizing Formula. When I give it to men, I call it the
 Lubrication Formula.
 
-#### Pain Formula
+### Pain Formula
 
-**3 to 4 level tablespoons refrigerated fresh soft bee pollen
-1 to 2 ounces no-salt-added raw cheese
-1 MOISTURIZING/LUBRICATION FORMULA DRINK**
+**3 to 4 level tablespoons refrigerated fresh soft bee pollen**
+
+**1 to 2 ounces no-salt-added raw cheese**
+
+**1 MOISTURIZING/LUBRICATION FORMULA DRINK**
 
 Add pollen to the Moisturizing/Lubrication Formula above prior
 to blenderizing, and then blenderize. Eat cheese as you drink the
@@ -5533,7 +5697,7 @@ formula. Usually, this formula reduces pain 80-100% within 10
 minutes to several hours. It is 5-10% less effective if the cheese
 is not eaten.
 
-#### Natural Deodorant
+### Natural Deodorant
 
 Splash and rub fresh lemon juice under armpits and wipe. It is
 effective in most cases of very strong body odor. A drop of
@@ -5541,30 +5705,31 @@ ginger juice rubbed into underarms usually creates an alluring
 fragrance. One tablespoon of ginger and/or mint juices per quart
 of green vegetable juices also helps body odor.
 
-#### Natural Antiperspirant
+### Natural Antiperspirant
 
 Cut pieces of lemon rind and pulp (no juice) and dry it in the sun
 for 30 days. Grind into a powder. Brush it into armpits that have
 been splashed and rubbed with lemon juice and wiped.
 
-#### Diet During Symptoms Of Cold,
+### Diet During Symptoms Of Cold, Flu Or Severe Pain
 
-#### Flu Or Severe Pain
+**1/2 to 1 pound fowl**
 
-**1/2 to 1 pound fowl
-2 to 3 MOISTURIZING/LUBRICATIONS FORMULA D RINK
-(preferable), see page 146
-or 2 to 3 MILKSHAKEs, see page 57
-1 SMOOTHIE, see pages 58-59**
+**2 to 3 MOISTURIZING/LUBRICATIONS FORMULA DRINK (preferable), see page 146**
+
+**or 2 to 3 MILKSHAKEs, see page 57**
+
+**1 SMOOTHIE, see pages 58-59**
+
 This daily diet should be followed until symptoms have subsided
 and normal functions resume.
 
-#### Lemon Throat Lozenge
+### Lemon Throat Lozenge
 
-**4 ounces butter
-2 tablespoons fresh lemon juice
-3 tablespoons honey
-2 teaspoons fresh ginger root juice or 2 tablespoons grated
+**4 ounces butter**
+**2 tablespoons fresh lemon juice**
+**3 tablespoons honey**
+**2 teaspoons fresh ginger root juice or 2 tablespoons grated
 fresh ginger root**
 
 Warm all ingredients in an 8-ounces jar, capped with blender
@@ -5578,13 +5743,13 @@ possible, swallowing a tiny amount at a time. That will coat the
 throat over a 1- to 4-minutes period, allowing it to absorb into
 and coat the throat.
 
-#### Toothpaste
+### Toothpaste
 
 Mix ¼ teaspoon sun-dried clay, 2 tablespoons raw butter or raw
 cream and 2 drops ginger or mint leaf juices. Good for 5 tooth-
 brushings. Keep refrigerated.
 
-#### Constipation, Chronic, Relief
+### Constipation, Chronic, Relief
 
 Chronic constipation indicates that intestinal bacterial levels are
 much too low. Sixty to eighty percent of our bowel movements
@@ -5600,10 +5765,10 @@ moist clay eaten every other day, and 1 marble-sized portion of
 high meat eaten once a day for 14 days, then once a week for as
 many months as it takes to resolve constipation. Also, read
 Constipation Remedy, Temporary, and read pages 174-177 in
-this book. Other constipation remedies are in my book _The
-Primal Diet; We Want To Live, Volume 2_ , see Constipation.
+this book. Other constipation remedies are in my book The
+Primal Diet; We Want To Live, Volume 2, see Constipation.
 
-#### Depression, Chronic, Relief
+### Depression, Chronic, Relief
 
 can be consistently alleviated by eating HIGH MEAT (see
 below). It often causes an attitude shift in people with
@@ -5619,11 +5784,11 @@ by eating high raw meat. If suffering intestinal, neurological or
 lymphatic cancer, high raw chicken is more favorable. See
 pages 170-174.
 
-#### High Meat Recipe
-
+### High Meat Recipe
 ```
 (red meat, seafood, and fowl)
 ```
+
 Place 1 volume-pint of raw meat, chopped into bite-sized pieces,
 into a glass quart (32 ounces) jar; equal air- and meat-space.
 Place _Ball_ jar lid on jar tightly and place in the refrigerator. I
@@ -5658,7 +5823,7 @@ of high meat while on a weight-loss cycle.
 
 **PAGE 150**
 
-#### Constipation Remedies, Temporary
+### Constipation Remedies, Temporary
 
 Temporary relief may be obtained by soaking 2 ounces raw
 Chia seeds in 5 ounces of good water for 24 hours. The water
@@ -5666,18 +5831,23 @@ turns to a gelatinous consistency. Stir seeds and gel into one
 entire Moisturizing/Lubrication Formula Drink and eat like
 cereal once a day as necessary.
 
-Besides those above and in my book _The Primal Diet; We
-Want To Live, Volume 2_ , here is an more aggressive remedy.
+Besides those above and in my book The Primal Diet; We
+Want To Live, Volume 2 , here is an more aggressive remedy.
 Because the combination prevents proper digestion, the body
 moves this remedy through the intestines quicker. This is not
 suggested for regular use but for emergencies only. Usually, this
 remedy drunk once is enough. Only 10% of the test-subjects had
 to drink two or three within 24 hours.
-**3 ounces stone-pressed olive oil
-2 ounces raw milk
-2 ounces raw unpasteurized apple cider vinegar
-2 ounces unheated honey
-2 ounces fresh lemon juice**
+
+**3 ounces stone-pressed olive oil**
+
+**2 ounces raw milk**
+
+**2 ounces raw unpasteurized apple cider vinegar**
+
+**2 ounces unheated honey**
+
+**2 ounces fresh lemon juice**
 
 It is best to drink all of it as quickly as possible. Occasionally,
 stomach cramps result. I suggest placing a hot-water bottle on
@@ -5693,11 +5863,13 @@ Volume Three
 ```
 The Science Of Living Healthfully
 ```
+
 #### Chapter 16
 
 ```
 Our Digestive Abilities
 ```
+
 We want the raw foods that have proved to digest efficiently
 and healthfully. We want those that transform into substances
 that balance, build, grow, regenerate, reproduce cells, lubricate,
@@ -5828,32 +6000,40 @@ dangerous toxins, such as heterocyclic amines (caustic
 compounds) that have proved to be carcinogenic in laboratory
 animals.^10 Cooked protein is difficult to utilize for cellular
 reproduction, regeneration and healing.
+
 (^9) Cauterization is when heat or a caustic substance burns a substance
 to the point where it is relatively impervious and unable to exchange
 molecules to sustain or promote activity.
+
 (^10) “Analysis of cooked muscle meats for heterocyclic aromatic amine
 carcinogens”, Knize MG, Salmon CP, Mehta SS, Felton JS; Mutat
 Res, 1997, May 12; 376(1-2):129-34.
+
 “Cooked casein promotes colon cancer in rats, may be because of
 mucosal abrasion”, Corpet DE, Chatelin-Pirot V; Cancer Lett, 1997,
 Mar 19; 114(1-2):89-90.
+
 “Mutagenic activity of heterocyclic amines in cooked foods” Felton
 JS, Knize MG, Dolbeare FA, Wu R; Environ Health Perspect, 1994,
 Oct; 102 Suppl 6:201-4.
+
 “Cancer risk of heterocyclic amines in cooked foods: analysis and
 implications for research”, Layton DW, Bogen KT, Knize MG, Hatch
 FT, Johnson VM, Felton JS; Carcinogenesis, 1995, Jan; 16(1):39-52
+
 “Exposure to heterocyclic amines”, Wakabayashi K, Ushiyama H,
 Takahashi M, Nukaya H, Kim SB, Hirose M, Ochiai M, Sugimura T,
 Nagao M; Environ Health Perspect, 1993, Mar; 99:129-34.
+
 “Occurrence of mutagens in canned foods”, Krone CA, Iwaoka WT;
 Mutat Res, 1984, Nov-Dec; 141(3-4):131-4.
+
 “The formation and occurrence of amino acid pyrolysates and
 related mutagens in cooked foods”, Massey RC, Dennis MJ; Food
 Addit Contam, 1987, Jan-Mar; 4(1):27-36.
+
 “Food-derived mutagens and carcinogens”, Wakabayashi K, Nagao
-M, Esumi H, Sugimura T; Cancer Res, 1992, Apr 1;52(7
-Suppl):2092s-2098s.
+M, Esumi H, Sugimura T; Cancer Res, 1992, Apr 1;52(7 Suppl):2092s-2098s.
 
 **PAGE 155**
 
@@ -5892,7 +6072,7 @@ plaque layers often form in intestines, lymph and blood
 structures. A tremendous increase in white blood cells floods the
 digestive tract (leukocytosis) trying to harness and neutralize
 
-“An experimental approach to identifyi ng the genotoxic risk by
+“An experimental approach to identifying the genotoxic risk by
 cooked meat mutagens”, Loprieno N, Boncristiani G, Loprieno G;
 Adv Exp Med Biol, 1991; 289:115-31.
 
@@ -5938,6 +6118,7 @@ with mad cow disease, the blame should not be directed toward
 bacteria but toward the cattlemen who grow and produce
 diseased animals for us to eat. The USDA and FDA is also
 responsible; they fail to protect us, making regulations that hurt
+
 (^12) Accumulations of homocysteine have been linked to heart problems.
 
 **PAGE 157**
@@ -5954,6 +6135,7 @@ quality of meat is unavailable.
 ```
 Other Forms of Nutrient Destruction
 ```
+
 Cooking and processing are not the only ways to damage
 food. All methods to eliminate bacteria and parasites and
 preserve food (pasteurization, irradiation, freezing, ascorbic acid
@@ -5995,6 +6177,7 @@ nutrients and creates toxins is not raw or health-giving.
 ```
 Is The High-Cholesterol Problem A Myth?
 ```
+
 On this diet, sometimes cholesterol levels radically increase.
 That is normal and healthful. As the body removes stored toxic
 cholesterol, it often moves it through the blood and out the urine.
@@ -6030,19 +6213,21 @@ ISBN 0-9670897-0-0; (2000)
 ```
 Should I Take Supplements To Replace Missing Nutrients?
 ```
+
 Processed food is full of food-byproduct toxins, mutilated
 minerals, proteins, fats and carbohydrates, and destroyed
 enzymes and vitamins. Research has proved that those foods,
 when enriched with vitamins, enzymes and other expensive
 supplements produce the same diseases that processed and
-cooked foods produce.14,^15 Manufacturers sell us the false notion
+cooked foods produce. ^14, ^15
+Manufacturers sell us the false notion
 that enrichment of their processed foods resolves deficiencies
 created by processing and makes their product the greatest food
 on Earth.
 
 All vitamin supplements are merely portions of the vitamin,
 like bran is to a grain. They are not what we are led to believe
-they are and will not do what we believe they will do.^16
+they are and will not do what we believe they will do. ^16
 Supplements are always drugs and not food, even if they are
 derived from food. Extraction-processes alter nutrients and
 poison them. Once a nutrient is isolated from its bioactive form
@@ -6063,8 +6248,10 @@ words, profiteers make money by seducing us into purchasing
 and ingesting toxic waste. Vice versa, foods rendered into waste
 
 (^14) _The Milk Book_ by William Campbell Douglass, Jr., M.D. (1997).
+
 (^15) _The Real Truth About Vitamins & Antioxidants_ by Judith A.
 DeCava, MS, LNC; A Printery, Massachusetts, 2001.
+
 (^16) Ibid.
 
 **PAGE 160**
@@ -6188,11 +6375,14 @@ speculation, fear and pseudoscience.
 Louis Pasteur made the “germ theory” famous but he killed it
 on his deathbed. Many reports said that some of his dying words
 were:
+
 **Pathogens are not the problem. The
 environment in which and on which
 pathogens feed is the problem of disease**.
+
 That means that the cause of disease is the quality of our air,
 food and all substances with which we come in contact.
+
 Louis Pasteur’s dying words were lost because
 philanthropists, people in government and pharmaceutical
 houses lobbied and funded the research to plan and fight a war
@@ -6202,6 +6392,7 @@ opportunity to prove the germ theory and once and for all to win
 a battle against disease. However, instead of conducting
 experiments to prove or disprove any validity to the theory, they
 accepted the theory to be as true as the law of gravity.
+
 Through Pasteur’s work, the new medical scientists of the
 time gained respect and quickly seized the opportunity to root in
 academia. Consequently, our science does not understand how
@@ -6211,6 +6402,7 @@ relationship of the body holistically. They established an arsenal
 of weapons. They created drugs and tools of diagnoses, surgery
 and radiation. The original intention to defeat disease became
 rhetoric. The new intention became profit.
+
 Medical science readily wages war in our bodies, treating the
 symptoms of disease with drugs, surgery, chemotherapy,
 radiation and machines. This treatment of symptoms, rather than
@@ -6276,7 +6468,8 @@ paradigm of modern medicine for being exactly what it is:
 Ignorance, lack of education, and unwillingness to fund natural
 research into the cause and prevention of disease. The change is
 likely to be difficult because cancer is big business, trillions of
-dollars each year.^17
+dollars each year. ^17
+
 Today's medical science tries to prevent microbes rather than
 pollution from entering our bodies. It attempts to cleanse
 Nature's ubiquitous microbes from the body and environment
@@ -6312,12 +6505,14 @@ received the same results. The records we have of animals that
 have lived without degenerative disease shows that they enjoyed
 a non-toxic environment and ate a raw diet that suited their
 digestive abilities.
+
 In the 1860’s, dental decay first appeared among the Eskimo
 people, occurring only in Eskimos who lived in white man’s
 colonies, eating breads and sugar. The first case of cancer among
 Eskimos occurred in 1934. Like dental decay, cancer appeared
 only among second- and later generations of Eskimos who ate
 breads, sugar and cooked food for nearly a century.
+
 In his book _Cancer_ **_:_** _Disease Of Civilization?_ , Chapter 14,
 “The Longevity Of ‘Primitive’ Eskimos,” Vilhjalmur Stefansson
 stated that there was only one community of Eskimo reported to
@@ -6346,6 +6541,7 @@ heart disease. The first factor is eating cooked and/or processed
 
 food that is devoid of unadulterated nutrients and full of the
 toxic byproducts of cooking, pesticides and other chemicals.
+
 The second factor is environmental pollution. The industrial
 and chemical revolutions have created over 6,000 bizarre foreign
 chemicals that our bodies have not succeeded in processing as
@@ -6359,28 +6555,37 @@ product is a known endocrine-disruptor, carcinogen, mutagen
 and teratogen, and can become concentrated when food is
 processed and heated. In other words, if you cook a vegetable
 that has been sprayed with mancozeb (the most common), you
-will be increasing the amount of that dangerous metabolite.^18
+will be increasing the amount of that dangerous metabolite. ^18
+
 In New Zealand, over 60% of the 138 samples of fruits and
 vegetables analyzed for dithiocarbamates in the latest total diet
+
 (^18) _Age and Susceptibility to Toxic Substances,_ Calabrese, E.J. 1986,
 New York: John Wiley & Sons.
+
 “Anthropological approach to the evaluation of preschool children
 exposed to pesticides in Mexico”, Guillette, E.A.et al 1998,
 _Environmental Health Perspectives_ 106: 237-347. In: Watts, M. 2000:
 Endocrine disruption: a case for the precautionary approach. _Soil &
 Health_ March/April.
+
 _Eating Safely in a Toxic World: What really is in the food we eat,_
 Kedgley, S. et al 1998, Penguin NZ.
+
 “Effect of a mixture of 15 commonly used pesticides on DNA levels
 of 8-hydroxy-2-deoxyguanosine and xenobiotic metabolizing enzymes
 in rat liver”, Lodovic, M. et al, 1994, _Journal of Environmental
 Pathology, Toxicology and Oncology_ 13: 3, pp163-168.
+
 _Food Additives_. Penguin Books, Millstone, Erik, 1986
 Introduction. In: Mourin, J (ed), Nair, K.P. & Mourin, J, 1999,
+
 _Warning: Pesticides are Dangerous to Your Health!_ Pesticide Action
 Network Asia and the Pacific, Penang.
+
 _Pesticides in the diets of infants and children,_ Nair, K.P. & Mourin,
 J, 1999, Washington: National Academy Press.
+
 “The physiological susceptibility of children to pesticides”, Whya tt,
 R., 1993, _Journal of Pesticide Reform_ 9:3, pp5-9.
 
@@ -6393,6 +6598,7 @@ celery, lettuce, onion, cucumber, apple, orange, mushroom,
 potato, courgette, kumara, nectarine, pear, capsicum and
 kiwifruit. Levels are worse in the USA because more chemicals
 are used.
+
 Chemical risk assessments are generally based on animal
 tests. Scientists disagree about the reliability of the tests in
 assessing the effects pesticides will have on humans for a
@@ -6403,8 +6609,9 @@ and technology and testing methods become more sophisticated.
 The result is that acceptable daily intakes (ADI) become
 unacceptable, as in the case of the pesticide DDT. As the current
 concentration of agribusiness-favorable public servants ruling
-the FDA, USDA and CDC^19 increases, we are more endangered
+the FDA, USDA and CDC ^19 increases, we are more endangered
 every day.
+
 International regulatory agencies concede that the concept of
 an ADI is a crude way of assessing toxicity. There is no
 scientific justification for choosing a safety factor of 100 rather
@@ -6412,8 +6619,10 @@ than 75 or even 10. Professor Erik Millstone argued that it is a
 random guess chosen for political rather than scientific reasons
 and is nonsense in the real world.^20 We should not be subjected
 to any level of health-disruptive chemicals.
+
 (^19) Federal Drug Administration, US Department of Agriculture and
 Center for Disease Control.
+
 (^20) “Pesticides In Food: Why Go Organic, Analysis of New Zealand's
 latest Total Diet Survey”, Alison White, Pesticide Action Network
 NZ/ Safe Food Campaign, Wellington, NZ, (Millstone 1986).
@@ -6423,8 +6632,7 @@ NZ/ Safe Food Campaign, Wellington, NZ, (Millstone 1986).
 #### Chapter 25
 
 ```
-Are Bacteria, Viruses and Parasites
-Dangerous to Humans?
+Are Bacteria, Viruses and Parasites Dangerous to Humans?
 And Is Microbe Genocide A Rational Pursuit?
 ```
 Today there are several astute scientists challenging the
@@ -6467,13 +6675,15 @@ Arkansas Children's Hospital did a study of 50 Arkansas homes
 where salmonella-infected children lived. They found that
 salmonella was widespread with concentrations in 38% of the
 homes on unsuspected places, such as doorsteps, vacuum
-cleaners, refrigerators, and a pet lizard.^22
+cleaners, refrigerators, and a pet lizard. ^22
+
 The questions we beg to have answered are these: Are the
 microbes activated in a nontoxic environment? Are the microbes
 active because they are doing a beneficial job? If they are, they
 are supposed to be in our bodies. If we change our life style to
 improve our internal environment, will the microbes still become
 active?
+
 Los Angeles Times researcher Emily Green wrote that her
 foray through Salmonella literature from present to the early
 1940s revealed that what was perfectly legitimate _speculation_ in
@@ -6496,11 +6706,13 @@ Should Microbes That Are Considered Disease-Causing
 But, Actually, Are Disease Eliminators,
 Be A Part Of Our Optimal Diet And Lives?
 ```
+
 During the last 25 years, I have seen hundreds of “incurable”,
 life-threatening, degenerative diseases reverse and heal by
 
 (^22) “Salmonella Bacteria Often Lurks Close By”; _Richmond Times
 Dispatch_ , July 19, 1999.
+
 (^23) _The Great Egg Panic_ , LA Times, Jan. 4, 2000.
 
 **PAGE 171**
@@ -6513,6 +6725,7 @@ My body's environment has become increasingly healthier over
 time because of the invaluable assistance of microbial activity,
 including pathogenic. And yet, science and the medical industry
 consider me greatly “at risk”.
+
 In a test project, Jon Monroe, Director, New Science, tried “to
 avoid diseases caused by viruses. The assumption was that
 viruses were pathogens and should be avoided.” But, after
@@ -6522,8 +6735,9 @@ depressed for one year. When viruses were allowed to flourish
 again, symptoms of depression disappeared, and colds and flu
 returned. Monroe realized that it was better to have
 detoxifications in the form of periodic colds and flu rather than
-constant depression. They play a crucial role in hea lth,
-symbiotically.24,^25
+constant depression. They play a crucial role in health,
+symbiotically. ^24,^25
+
 The microscience that studies “pathogens” is relatively new
 (50 years) and flawed. Newer research (20 years) has been and is
 being performed, proving that “pathogens” are responsible for
@@ -6532,12 +6746,14 @@ part of her doctoral studies at the University of Toronto, Canada,
 Dr. Sara Arab injected verotoxin, a bacterial byproduct from E.
 coli, directly into human malignant brain tumors. After a single
 injection, the verotoxin completely dissolved both the tumors
-and their blood vessels within 2-7 days.^26 Dr. K. Brooks Lowe of
+and their blood vessels within 2-7 days. ^26 Dr. K. Brooks Lowe of
+
 (^24) Symbiosis: Unlike organisms living harmoniously and beneficially
 together.
+
 (^25) Strange Attractor, Volume 2, Number 1, A News Letter of
-Alternative Science and Medicine; [http://www.newscience.santa-](http://www.newscience.santa-)
-fe.nm.us/strange.htm
+Alternative Science and Medicine; [http://www.newscience.santa-fe.nm.us/strange.htm](http://www.newscience.santa-fe.nm.us/strange.htm)
+
 (^26) “Verotoxin Induces Apoptosis and the Complete, Rapid, Long-Term
 Elimination of Human Astrocytoma Xen ografts in Nude Mice” by S.
 Arab, J. Rutka, and C. Lingwood; _Oncology Research_ , Vol. 11, pp. 33-
@@ -6547,6 +6763,7 @@ Arab, J. Rutka, and C. Lingwood; _Oncology Research_ , Vol. 11, pp. 33-
 
 Yale University reported that researchers used salmonella to
 reverse cancer.
+
 Many universities in Canada have been developing cancer
 treatment using viruses to penetrate cancer cells and dissolve
 them for decades. Many tests have been successful. Oncologist
@@ -6560,6 +6777,7 @@ weakened polio virus, Mayo Clinic is using a measles virus. The
 projected retail price of an injection to the patient will be $8,000.
 I suggest that we get colds or flu, eat high meat regularly and
 pay nothing.
+
 Even though virus therapy has been successful, many of the
 patients now suffer with chronic viral symptoms. That is what
 happens if you treat the disease without understanding and
@@ -6567,6 +6785,7 @@ correcting the cause. Dr. Patrick Lee from Duke University
 observed that viruses penetrate and dissolve unhealthy cells. So,
 the question to be answered is: What makes cells unhealthy?
 For the answer, read pages 166-168.
+
 Robert and Michele Root-Bernstein cited in their book
 _Honey, Mud, Maggots and Other Medical Marvels_ , that for
 hundreds of centuries, various worldwide cultures ingested
@@ -6587,6 +6806,7 @@ remedies and disease prevention, and as an aphrodisiac. Century
 
 eggs are decomposed eggs aged up to 25 years with high-
 bacteria concentrations and molds.
+
 The supposition that the elderly, infants and ill people are
 more susceptible to harm from “pathogens” is speculation and
 false. I have observed that in most cases in which so-called “at-
@@ -6601,6 +6821,7 @@ of a variety of toxic substances that were not part of the food or
 byproducts. The tests results indicated that those toxins already
 existed in the patients’ bodies and were being flushed from their
 bodies.
+
 Parasites are the most feared of “pathogens”. Parasites, too,
 have a symbiotic relationship with our bodies. They consume
 and digest tremendous quantities of degenerative tissue in short
@@ -6615,6 +6836,7 @@ begged for more parasites. Weinstock noted that intestinal
 problems are increasing in animals because they are kept too
 clean. Pigs and monkeys raised in sterile pens and cages are
 getting diseased.
+
 Parasites afford us the quickest process of organic
 detoxification. Parasites are a problem only if an individual does
 not readily reproduce cells. Meaning, they do not replace the
@@ -6627,6 +6849,7 @@ providing the nutrients necessary to support quick cellular
 
 reproduction following the tremendously beneficial detoxi-
 fication precipitated by parasites.
+
 If an individual eats foods or chemicals that cause gross
 destruction and decay (degenerative tissue), she or he will be
 less able to tolerate parasitic and bacterial detoxifications. If he
@@ -6636,6 +6859,7 @@ microbial detoxification necessary. To facilitate the removal of
 degenerative tissue, people can eat “high” meat, meaning that
 the meat is high in bacteria, and that it makes people's spirits
 high. For high-meat recipe, see page 149.
+
 Although the germ-theory has been predominantly disproved,
 modern medicine continues to uphold it.
 
@@ -6645,6 +6869,7 @@ modern medicine continues to uphold it.
 Then Why Are There So Many Reports About
 Bacterial Food-Poisoning?
 ```
+
 There have been medical reports that stated microbial food-
 poisoning as cause of death. In most cases, the reports described
 symptoms of anaphylaxis,^27 or drug-damage/poisoning, rather
@@ -6684,6 +6909,7 @@ bacterial food-poisoning. Scientific inquiry needs to be
 thorough. However, that research is not likely to occur because it
 would open a flood of lawsuits against doctors, hospitals and
 pharmaceuticals.
+
 People are afraid to eat pathogens, bacteria and parasites even
 though all wild animals eat them without ill-consequence. Even
 if “pathogens” were a real danger, they are here among us. A
@@ -6692,6 +6918,7 @@ will not. As some people will die during common colds and
 automobile accidents, most will not. The attack on, kangaroo-
 trial and lynching of “pathogens” in our foods, bodies and
 households are scientifically wrong and dangerous.
+
 Immunity is likely to arise if we ingest bacteria the way all
 other animals do. But people are afraid to eat bacteria called
 pathogens, especially E. coli. No other animal except the
@@ -6714,6 +6941,7 @@ She was lucky to work 6 hours per week. She progressed on the
 Primal Diet slowly for 2½ years. Jean’s body completely
 softened and dissolved all of her many breast tumors but the
 others showed little shrinkage.
+
 Finally, because her cancer was so advanced, I shared with
 Jean the results of tests using E. coli and other bacterium to
 dissolve tumors. Jean asked where she could get the bacterium. I
@@ -6721,6 +6949,7 @@ explained that E. coli is natural to bowels and could be
 consumed in feces from any healthy animal. I explained that
 other bacteria could be grown on high meat. She did not want to
 wait to grow bacteria on high meat, so she pursued feces.
+
 Jean consumed 2 ounces by volume the first time from a
 healthy herbivore. That is not much, considering that some tribal
 members eat an entire load from a water buffalo at one sitting.
@@ -6732,10 +6961,12 @@ She did not incur much diarrhea. Jean’s tumors have shrunk 60%
 in the 2 years since she began eating a little feces every 3 to 4
 months. Most tumor-shrinkage occurs in the 4 weeks following
 ingestion of feces or high meat.
+
 Jean is completely physically and mentally active. She is
 vigorous. Now, she lives rather primitively on a self-sustainable
 farm. She performs hard and continuous labor daily. She loves
 having her health and new-found strength.
+
 We must measure which is the greater risk: Is it more
 perilous to eat raw food, get healthier and accept rare minor
 diarrhea and/or vomit, or to eat cooked and processed food,
@@ -6757,6 +6988,7 @@ of fresh, raw, green cabbage juice.
 ```
 Why the Hysteria Over Bacteria, Viruses and Parasites?
 ```
+
 The assumption and false premise is that microbes labeled
 “pathogens” are always harmful and must be eradicated. Health-
 department officials are in the cerebral dark ages. They are
@@ -6792,12 +7024,14 @@ based on a better-safe-than-sorry premise. In the real world of
 everyday practicalities where common-sense decisions are
 needed, better-safe-than-sorry is simply ignorance and a morally
 bankrupt posture.
+
 There is nothing “better” about the illusion of “food safety”
 when it results in people using scapegoats - “pathogens” - in
 place of scientifically verifiable causes of actual harm. The
 conviction that one individual's right to absolute protection
 should preempt the well-being of others is poor social planning,
 especially if the protection of the minority harms the majority.
+
 Government regulators are not responding to what is actually
 harming people. They pander to imaginary issues that frighten
 people and themselves. We must be brave against the FDA,
@@ -6810,6 +7044,7 @@ raw food supply that is our primal link to optimal health.
 Government regulators must be educated and laws criminalizing
 and/or penalizing the sale of raw food must be reversed
 immediately.
+
 To change the laws in your city, county and state, see the
 Right To Choose Healthy Food^28 website: [http://www.rawmilk.org](http://www.rawmilk.org)
 
@@ -6818,6 +7053,7 @@ Right To Choose Healthy Food^28 website: [http://www.rawmilk.org](http://www.raw
 ```
 Follow The Money
 ```
+
 The last equation in this problem is the vested money and
 corporate interests concerned with product shelf life, medics,
 pharmaceuticals and agri-chemicals that fuel microbe-hysteria.
@@ -6836,11 +7072,11 @@ officials to pass laws mandating compulsive pasteurization and
 irradiation, yet industry tells us that the government is to blame
 for industry producing and supplying more toxic products.
 ***
-_“Pathogens” are to the body what vultures, crow s a nd a nts are to the
-Earth. They are a few of the Earth’s janitors. They find carcasses and ea t
-them. Without the Earth’s janitors, our a ir w ould be in jeopar dy o f
-be coming toxic gas in which animals could not thrive. “Pathogens” are
-our bodies’ helpful, organic, in ner-ecological recycling or ganisms
+_“Pathogens” are to the body what vultures, crows and ants are to the
+Earth. They are a few of the Earth’s janitors. They find carcasses and eat
+them. Without the Earth’s janitors, our air would be in jeopardy of
+becoming toxic gas in which animals could not thrive. “Pathogens” are
+our bodies’ helpful, organic, in ner-ecological recycling organisms
 that help us thrive._
 
 #### Chapter 30
@@ -6876,6 +7112,7 @@ exterminated. Financial resources of the majority of people
 vanish in explosions and are vaporized by technology. Recovery
 for people and the environment is long and hard, taking decades,
 if it occurs at all. The maimed live maimed. The dead are dead.
+
 When we make war on germs, the battlegrounds are our
 bodies. We are the casualties, our cells, ourselves. Our finances
 are drained and exhausted on a war we cannot win. Such wars
@@ -6883,6 +7120,7 @@ enrich the wallets of doctors, chemists, investors, employees of
 pharmaceutical houses, retail outlets, hospitals, insurance
 companies, health departments and every industry that provides
 supplies and services all of them.
+
 Imagine spending 1/6 of our resources and 1/3 of every day
 attacking a necessary torrential storm that cannot be stopped
 without long-term devastation. Imagine losing everything we
@@ -6891,6 +7129,7 @@ do when we try to live pathogen-free by attacking our bodies
 rather than changing our life-styles. If we do not want disease
 and their symptoms, we simply need to live a life-style that does
 not make our bodies into huge feeding lots for microbes.
+
 We have the answer to what makes us sick and that is the
 biological degeneration that results from eating cooked and
 processed foods, and exposure to industrial, environmental and
@@ -6921,6 +7160,7 @@ and processed milks were introduced to the public. They prove
 that feeding infants pasteurized or processed milk is dangerous
 and causes disease. They prove that feeding infants raw milk is
 safe and healthful.
+
 In 1984, William Campbell Douglass, Jr., M.D., presented
 considerable clinical evidence to the world that drinking
 pasteurized milk resulted in degrees of osteoporosis and bone
@@ -6933,6 +7173,7 @@ Princeton, Cambridge, Dartmouth, Tufts, the Washington
 University School of Medicine, the University of Georgia Dairy
 Science Department, the Ohio State University School of
 Agricultural Chemistry, and Mayo Clinic of Minnesota.
+
 He presented testimony confirming those findings from the
 following medical journals and publications: _The Lancet_ ,
 _JAMA_ , _World Cancer Research Fund_ journal, _American Journal
@@ -6942,6 +7183,7 @@ Hartford’s prestigious _St. Vincent’s Hospital Report_ , _Certified
 Milk Magazine_ , _American Association of Medical Milk
 Commission Report_ , _Milk Industry Foundation Report_ , and _The
 Price Pottenger Nutrition Foundation Newsletter_.
+
 Colic is a concern with infants who are fed pasteurized milk.
 One of every five babies suffers colic. Pediatricians learned in
 the early 1900s that pasteurized cows’ milk was often the reason.
@@ -6951,7 +7193,8 @@ to chronic constipation in children. Those researchers observed
 **PAGE 182**
 
 that pasteurized milk consumption resulted in perianal sores and
-severe pain during defecation, leading to constipation.^30
+severe pain during defecation, leading to constipation. ^30
+
 Dr. Francis Pottenger, Jr., MD observed several infants. They
 were born of mothers known to be hypothyroid. Prior to the birth
 of those infants, the mothers had given birth to children within
@@ -6965,13 +7208,15 @@ When she was 8-months young, she developed asthma. She was
 undersized, considering her parents had large builds. Contrarily,
 the healthy child was breast fed from birth. The mother drank
 raw milk and lived under excellent health-promoting
-conditions.^31
+conditions. ^31
+
 Dr. Weston Price, D.D.S., proved fifty years ago that
 processed milk leads to disease and premature death.^32 He also
 showed that processed food, such as pasteurized milk, causes
 poor development of facial bones**.** Nizel of Tufts University
 reported that decayed teeth were four times more common in
 pasteurized-milk-fed babies as opposed to raw-milk-fed babies.
+
 Dr. A. F. Hess wrote in his abstracts that pasteurized milk
 was an incomplete food. He proved that many infants developed
 scurvy on a diet of pasteurized milk. The form of scurvy took
@@ -6982,10 +7227,13 @@ cured of scurvy when raw milk was substituted. Regarding his
 
 (^30) Iacono G, Cavataio F, Montalto G, et al. “Intolerance of cow’s milk
 and chronic constipation in children” N Engl J Med 1998;339:110-4.
+
 (^31) “Clinical and experimental evidence of growth factors in raw milk”,
 Certified Milk, January, 1937.
+
 (^32) Nutrition and Human Degeneration, Price-Pottenger Nutrition
 Foundation, La Mesa, California.
+
 (^33) Infantile Scurvy. III. Its influence on growth (length and weight),
 Am. J. Dis. Child., August, 1916.
 
@@ -6996,19 +7244,22 @@ fed the same number of infants on raw milk as pasteurized milk,
 cases of scurvy did not develop in infants on raw milk. He stated
 that their test-results were suffi cient to warrant the deduction
 that pasteurized milk is a causative factor in infant scurvy.
+
 Dr. Pottenger proved there is deficiency disease similar to
 Vitamin C deficiency (scurvy) that can be cured by giving an
 endocrine product that contains no Vitamin C. He proved that
 raw milk naturally contains that endocrine nutrient and that
 pasteurized milk does not. He proved that raw milk reversed
 and prevented scurvy.
+
 Stefansson, an anthropologist working for the U.S.
 government, reported that an artic sea-captain who ingested high
 amounts of Vitamin C did not reverse his scurvy. After the
 captain ate raw meat for several days, he completely healed.^34 It
 was reported in 1942 that grazing cows produced as much
 Vitamin C as does the entire citrus crop, and that most of it is
-lost as the result of pasteurization.^35
+lost as the result of pasteurization. ^35
+
 In Berlin prior to 1901, rarely was there a case of infant
 scurvy. In 1901, a large dairy established a pasteurization plant
 in which all milk was raised to a temperature of about 140° F
@@ -7021,26 +7272,32 @@ was made as to the cause. Pasteurization was discontinued. The
 number of cases decreased as quickly as they had increased.^37
 Neumann also reported that the case s of infantile scurvy were
 marked by susceptibility to infection, abdominal cramps, nasal
+
 (^34) Harper's Magazine, November/December, 1925 & January 1936,
 from the Stefansson Collection, Dartmouth College.
+
 (^35) Proc. Nat. Nut. Conf. for Defense, May 14, Federal Sea Agency,
 pp. 176; U.S. Government Pat. Off., 1942.
+
 (^36) Newmann, H., Deutsch. Klin., 7:341, 1904
+
 (^37) Ibid.
 
 **PAGE 184**
 
 diphtheria, furunculosis of the skin, and pneumonia in advanced
-cases.^38
+cases. ^38
+
 Dr. Hess reported that milk-pasteurization that was intended
 to prevent humans from getting diseases that cows sometimes
 develop was a waste. He further reported from his observations
 and tests that infants fed pasteurized milk easily developed
 common diseases. He stated that deaths from those common
 diseases should have been attributed to the defective nature of
-pasteurized milk.^39 Humans do not get bovine undulant fever nor
+pasteurized milk. ^39 Humans do not get bovine undulant fever nor
 does it naturally transmute into human undulant fever. There is
 no credible data that proves otherwise.
+
 Dr. J.E. Crewe, from the Mayo Foundation, Minnesota,
 reported the therapeutic uses of raw milk in 1923. He stressed,
 from his experiments, that the key-factor was the feeding of **_raw_**
@@ -7053,30 +7310,36 @@ improvement in his patients with advanced cases of pulmonary
 tuberculosis when he utilized raw-milk therapy. That was ironic,
 considering that tuberculosis of the time was blamed on raw
 milk. Hippocrates used raw milk to cure tuberculosis.
+
 Research by Johns Hopkins University and the University of
 Maryland found that raw milk contained 2½ times more lgG
 enzyme than pasteurized milk. In the presence of higher levels of
 lgG, rotavirus that cause diarrhea in infants is not produced.
+
 In 1923, at St. Vincent's hospital in Philadelphia, concern
 arose for the high death rate among infants from gastroenteritis.
 Dr. Paul B. Cassidy, M.D., recommended raw milk instead of
 pasteurized milk. The raw critics panicked, predicting a
 catastrophic increase in infant deaths. The death rate in infants
+
 (^38) Ibid.
+
 (^39) Hess, A. F., “Recent advances in knowledge of scurvy and the
 antiscorbutic vitamin,” J.A.M.A., April 23, 1932.
 
 **PAGE 185**
 
 from gastroenteritis quickly fell by 94%, from a high of 89 in
-1922 to less than 5 per year.^40
+1922 to less than 5 per year. ^40
+
 Destin was a child who developed asthma as an infant on
 baby formulas, suffered near-fatal attacks yearly, grew frail,
 weak, underdeveloped, extremely small for his age, and was on
 regular medication. Dr. Douglass treated him, at the age of nine,
 by feeding him raw milk. In six weeks, Destin stopped wheezing
 for the first time in his life. Destin grew rapidly on the raw-milk
-treatment, living a normal life thereafter.^41
+treatment, living a normal life thereafter. ^41
+
 A Dutch chemist, Willem J. Van Wagtendork at Oregon State
 College, proved that pasteurized dairy creates calcification and
 stiffness. He found that guinea pigs with calcification of the
@@ -7085,6 +7348,7 @@ pasteurized cream. The active health-giving factor is transmuted
 and rendered ineffective by pasteurization. John Fowler, M.D.,
 Worcester, Massachusetts reported that raw-milk therapy
 relieved muscle cramps in pregnancy.
+
 There has never been an epidemic proved caused by raw
 milk. All epidemics from milk were proved to be caused by
 pasteurized milk. The following list reveals that pasteurized milk
@@ -7093,44 +7357,62 @@ unhealthy cells. Pasteurization kills milk cells. Pathogens
 multiply rapidly in those cells. If someone eats a product that is
 full of pathogens, the bacteria will proliferate in a body full of
 unhealthy cells.
+
 **Some Outbreaks Attributed to Bacterial Food-poisoning
 from PASTEURIZED MILK products**
-x **1945**  **1,492 cases for the year in the U.S.A.**
-x **1945**  **1 outbreak, 300 cases in Phoenix, Arizona.**
-x **1945**  **Several outbreaks, 468 cases of gastroenteritis, 9
+
+x **1945** -- **1,492 cases for the year in the U.S.A.**
+
+x **1945** -- **1 outbreak, 300 cases in Phoenix, Arizona.**
+
+x **1945** -- **Several outbreaks, 468 cases of gastroenteritis, 9
 deaths, in Great Bend, Kansas.**
+
 (^40) Annual Convention, Certified Milk Producers Association, Hotel
 Roosevelt, New York City, February 8, 1938.
+
 (^41) The Milk Book; How Science Is Destroying Nature's Nearly Perfect
 Food, Wm. Campbell Douglass, Jr., MD, 1996, Second Opinion
 Publishing, Georgia; pp. 204.
 
 **PAGE 186**
 
-x **1978**  **1 outbreak, 68 cases in Arizona.**
-x **1982**  **over 17,000 cases of** **_yersinia enterocolitica_** **in Memphis,
+x **1978** -- **1 outbreak, 68 cases in Arizona.**
+
+x **1982** -- **over 17,000 cases of** **_yersinia enterocolitica_** **in Memphis,
 Tenn.**
-x **1982**  **172 cases, with over 100 hospitalized from a three-
+
+x **1982** -- **172 cases, with over 100 hospitalized from a three-
 Southern-state area.**
-x **1983**  **1 outbreak, 49cases of listeriosis in Massachusetts.**
-x **1984**  **August, 1 outbreak S. typhimurium, approximately
-200 cases, at one plant in Melrose
-Park, IL.**
-x **1984**  **November, 1 outbreak S. typhimurium, at same plant
+
+x **1983** -- **1 outbreak, 49cases of listeriosis in Massachusetts.**
+
+x **1984** -- **August, 1 outbreak S. typhimurium, approximately
+200 cases, at one plant in Melrose Park, IL.**
+
+x **1984** -- **November, 1 outbreak S. typhimurium, at same plant
 in Melrose Park, IL.**
-x **1985**  **March, 1 outbreak, 16,284 confirmed cases, at same
+
+x **1985** -- **March, 1 outbreak, 16,284 confirmed cases, at same
 plant in Melrose Park, IL.**
-x **1985**  **197,000 cases of antimicrobial-resistant Salmonella
-infections from one dairy in California.**^4243
-x **1985**  **1,500+ cases, Salmonella culture confirmed, in
+
+x **1985** -- **197,000 cases of antimicrobial-resistant Salmonella
+infections from one dairy in California.** ^42 ^43
+
+x **1985** -- **1,500+ cases, Salmonella culture confirmed, in
 Northern Illinois.**
-x **1993**  **2 outbreaks statewide, 28 cases Salmonella infection.**
-x **1994**  **3 outbreaks, 105 cases, E. Coli & Listeria in
+
+x **1993** -- **2 outbreaks statewide, 28 cases Salmonella infection.**
+
+x **1994** -- **3 outbreaks, 105 cases, E. Coli & Listeria in
 California.**
-x **1995**  **1 outbreak, 3 cases in California.**
-x **1996**  **2 outbreaks Campylobactor and Salmonella, 48 cases
+
+x **1995** -- **1 outbreak, 3 cases in California.**
+
+x **1996** -- **2 outbreaks Campylobactor and Salmonella, 48 cases
 in California.**
-x **1997**  **2 outbreaks, 28 cases Salmonella in California.**
+
+x **1997** -- **2 outbreaks, 28 cases Salmonella in California.**
 
 #### Chapter 32
 
@@ -7146,6 +7428,7 @@ congress, has banned us from being able to purchase bottled raw
 (^42) Ryan CA, Nickels MK, Hargrett-Bean NT, et al. “Massive outbreak
 of antimicrobial-resistant salmonellosis traced to pasteurized milk”,
 JAMA 1987;258:3269-74.
+
 (^43) “CDC. Outbreaks of Salmonella enteritidis gastroenteritis --
 California”, 1993. MMWR 1993; 42:793-7.
 
@@ -7163,6 +7446,7 @@ restrict our resources because they will have little competition if
 competitors cannot offer a better and cheaper product. Also,
 because they will experience less product-loss from the
 mandated processing that lengthens shelf-life.
+
 State health departments have pushed legislation to prevent
 restaurants and other ready-made-food retailers to cook foods to
 certain temperatures or else be in violation of the law. With the
@@ -7172,15 +7456,18 @@ le gislation as to what we are allowed to eat and how it has to be
 prepared. Most of us rely upon commercial markets for our food.
 Markets have to follow whatever the health departments demand
 or they will be shut down and out of business.
+
 We, as the consumers, have few choices. The more restrictive
 the laws on food and food preparation, the less choices we have.
 I have watched the laws move in that direction every month for
 the last 10 years. I have tried as much as possible to stop the
 momentum but I cannot do much without your help.
+
 Consider that the deck is already stacked against us. Most of
 the pharmaceutical giants own the major chemical and
 agrochemical businesses that produce the poisons that are
 poisoning our bodies and lands.
+
 Consider that, my more recent tests indicated that people
 eating cooked, non-organic foods are losing their microbe levels.
 There are so many medications, antibacterials and chemicals,
@@ -7203,12 +7490,14 @@ restricts transport of soil, seeds and plants. The law states that if
 the plant you want to transport and grow is not on the list, it will
 be confiscated and destroyed. If it is on the list and not an
 approved source, it will be confiscated and destroyed.
+
 Unless we can change those laws together, we may not be
 able to enjoy a healthy life-style without living on a farm with
 approved crops and bacteria that only you will be able to eat and
 not sell. Only cooperative communities, which can establish
 themselves according to their own laws, will enjoy a natural
 healthy life-style.
+
 I am the Executive Director for the not-for-profit organization
 Right To Choose Healthy Food. We battle the government
 whenever they threaten to deprive us of healthy food with
@@ -7217,10 +7506,12 @@ milk and juices to be pasteurized if they cross any state line. At
 present, we are battling to reverse those two issues. It takes
 researchers, lawyers and many resources. Please send generous
 donations made payable to:
+
 Right To Choose Healthy Food
 P.O. Box 176,
 Santa Monica, CA 90406-0176.
-We n e e d y o u r h e l p a n d s u p p o r t r e g u l a r l y.
+
+We need your help and support regularly.
 Issues arise quickly in government with little or no notice to
 the public. Email is the quickest way to contact you and rally
 your support for unconstitutional laws that deprive us of health
@@ -7230,8 +7521,10 @@ your support for unconstitutional laws that deprive us of health
 and liberty in the name of pseudo-safety. Please help us help you
 and our children. Send me your addresses, especially an email
 address. Thank you.
+
 Healthfully,
 Aajonus
+
 For information on individualized consults and programs with
 Aajonus, e-mail or leave a message, speaking slowly, with a fax
 number. Aajonus wishes that he had more time to answer all of your
@@ -7240,11 +7533,15 @@ rights to have raw food and writing 4 more nutritional books: one on
 detoxification, two of questions and answers from lectures, one on
 changing food laws, and an update and revision of _The Primal Diet;
 We Want To Live_ (the basic changes are in this book).
+
 Optimal Ways of Living
 P.O. Box 176
 Santa Monica, CA 90406-0176
+
 e-mail: optimal@earthlink.net
+
 Message: 310-226-7055
+
 A new book giving helpful information about food, nutrition and
 the Primal Diet will be published every six months for the next 2
 years starting January 2006. An audio version of The Primal

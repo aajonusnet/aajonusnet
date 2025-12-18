@@ -4,7 +4,7 @@ A: OK, I'm going to begin. We've got a little bit of a crowd here, so I'm not go
 
 Q: OK. I just recently had an incident where, as it turned out, there was a blocked artery, and there wasn't any nutrients getting to my small intestine, and I was very ill. And a friend of mine just fixed it yesterday, and we discovered what the problem was, which was this blocked artery. And I could have ended up in surgery, but I didn't. But what I had for two weeks was a lot of diarrhea, and then I would have to eat things to eat for the diarrhea, but then after that it would be horrible.
 
-Q: What horrible?
+A: What horrible?
 
 Q: Diarrhea, again. And then I went back on your, and even now, even whatever I ate, it didn't work. Even just the eggs or anything like that, made me sick. So what I want to know now, first of all, something like that, I don't know what would have happened in terms of if the diet could have done anything to help that. I don't know how it happened. He said he thought it was something I took on and wasn't normal, is what he said. But anyway, two things. One is if I should get diarrhea seriously like that again, how do I wean myself back on the diet? Because I know you can't really just do that with milk and cheeses and cream and stuff. I was eating a lot of cheese, and I was doing the things and bananas and all of that. But like I said, it would temporarily stop. The only thing that really stopped it, believe it or not, was cream of rye and rye toast with butter. I did put butter on it, and I did put butter in it. But that was the only thing that stopped it. So my question really has to do with how to get back, if you have an incident like that, when you have to go off the program that you had or something, how do you wean yourself back on it? Specifically and generally, whenever something happens and you go off it, you have to get yourself back on it. Because usually I'm the cold turkey person. I just go right back in.
 
@@ -572,7 +572,7 @@ A: All kinds of respiratory problems. That's the main problem with these chemica
 
 Q: Also that pink I learned about in the image on the new chemtrail site, that is ethylene dibromide. It's another chemical like a pig you see up there now. It's what my dentist said. It's Dr. Shikard. That's a pesticide they're using, that they use. It's very toxic on strawberries. Ethylene dibromide.
 
-A: Well, ethylene dibromide is a byproduct of making certain weapons. And they decided to... You know, the military is in bed with Dow Chemical Monsanto and said, find a use for this so we don't have to bury it and store it. So then they'll make it into some kind of poison pesticide. Of course it's a poison. Of course it's going to kill pests, you know, insects and toads or whatever, birds. Of course it's going to kill them. And it's in our food, it's going to kill us. So you have to really look at what's happening. So anyway, the whole thing about this is you can go online and sign the petition against chemtrails. And weather modification. Anything that's about weather modification is looking for the rights to do that to us. To poison us. Right now, they don't have Congress' permission to do it. So they're doing it illegally.
+A: Well, ethylene dibromide is a byproduct of making certain weapons. And they decided to... You know, the military is in bed with Dow Chemical, Monsanto and said, find a use for this so we don't have to bury it and store it. So then they'll make it into some kind of poison pesticide. Of course it's a poison. Of course it's going to kill pests, you know, insects and toads or whatever, birds. Of course it's going to kill them. And it's in our food, it's going to kill us. So you have to really look at what's happening. So anyway, the whole thing about this is you can go online and sign the petition against chemtrails. And weather modification. Anything that's about weather modification is looking for the rights to do that to us. To poison us. Right now, they don't have Congress' permission to do it. So they're doing it illegally.
 
 Q: And we're going to do an educational forum sometime in January.
 
@@ -600,13 +600,11 @@ Q: Call on Governor Schwarzenegger. It's on there. To investigate chemtrails. An
 
 A: All right, now I'm going to mention one thing.
 
-Q: I do workshops all over the country, all over the world, but I've never done one in 20 years in Los Angeles.
-
-A: I'm going to do one, and it's the only one I'm going to do in Los Angeles. It'll be January 28th on a Sunday in UCLA.
+A: I do workshops all over the country, all over the world, but I've never done one in 20 years in Los Angeles. I'm going to do one, and it's the only one I'm going to do in Los Angeles. It'll be January 28th on a Sunday in UCLA.
 
 Q: Do you have the hours yet?
 
-A: Yes, it'll be from noon till about 730.
+A: Yes, it'll be from noon till about 7:30.
 
 Q: January?
 

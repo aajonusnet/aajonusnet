@@ -1,3 +1,5 @@
+@[Source](https://oneradionetwork.com/diet-and-nutrition/aajonus-vonderplanitz-we-want-to-live-primal-diet-living-without-disease-october-15th/)
+
 Date: 15 October 2009
 
 Transcribed by Aajonus.net & Rawmeatgang

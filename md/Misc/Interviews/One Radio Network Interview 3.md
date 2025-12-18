@@ -1,3 +1,5 @@
+@[Source](https://oneradionetwork.com/aajonus-vonderplanitz-on-the-morning-show-with-patrick-timpone-tuesday-9-am-central/)
+
 Date: 17 August 2010
 
 Transcribed by Aajonus.net & Rawmeatgang

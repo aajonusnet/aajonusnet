@@ -1,3 +1,5 @@
+@[Source](https://oneradionetwork.com/aajonus-vonderplanitz-the-primal-diet-and-aajonus-take-on-how-the-body-works-june-23-2011/)
+
 Date: 23 June 2011
 
 Transcribed by Aajonus.net & Rawmeatgang

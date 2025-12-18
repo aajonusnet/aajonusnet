@@ -493,7 +493,6 @@ function updateFindOnPagePosition() {
     if (window.visualViewport) {
         const { innerHeight } = window;
         const { height: vvHeight, offsetTop } = window.visualViewport;
-        // Compute the effective keyboard height: what's not covered by the viewport.
         let kbHeight = innerHeight - (vvHeight + offsetTop);
         if (kbHeight < 0) kbHeight = 0;
         findOnPageBar.style.bottom = kbHeight + 'px';
