@@ -174,7 +174,7 @@ A: Well, that's, you don't know, your body just doesn't know, dizzy maybe. Becau
 
 Q: Well, at that time, but like I say, after I played 2 sets of tennis and going into the 3rd set, I'm just kind of there like, and now I'm hesitant to go play, because I'm like, can I stand on the court long enough?
 
-A: Just have your eggs in it. Champion in 2009, 2 number 1 champions in high school tennis, were both on the diet, on the primal diet. Walter Kieren, and Kareem, whatever, you said K-I-R-E-N-E, and Walter is his name, and then Valerie Mysick. What they do is they take the sport drink with them, and they sip it, kind of 1 to 2 quarts, but usually, you know, as teenagers, they only used a quart, and their opponents would be drinking all this water, like a gallon, gallon and a half of water, in 5 hour periods, they'd have maybe 1 quart of this sport drink, and they'd just be going and going and going, but they had the eggs in.
+A: Just have your eggs in it. Champion in 2009, 2 number 1 champions in high school tennis, were both on the diet, on the primal diet. Walker Kehrer, and Kareem, whatever, you said K-I-R-E-N-E, and Walker is his name, and then Valerie Mysick. What they do is they take the sport drink with them, and they sip it, kind of 1 to 2 quarts, but usually, you know, as teenagers, they only used a quart, and their opponents would be drinking all this water, like a gallon, gallon and a half of water, in 5 hour periods, they'd have maybe 1 quart of this sport drink, and they'd just be going and going and going, but they had the eggs in.
 
 Q: So if I want to keep hydrated all during the day, let's say, so I now...
 
@@ -186,7 +186,7 @@ A: You can even have, you know, instead of whey, you can put milk in there, if y
 
 Q: I don't have a lot of muscle. So I mean, I wish I knew how to build it.
 
-A: Yeah, but most of the whey you have is under the skin, so it's toxic waste that's not being removed. You may have to do, you know, the hot baths every day, you know, if you really want to move that quicker.
+A: Yeah, but most of the waste you have is under the skin, so it's toxic waste that's not being removed. You may have to do, you know, the hot baths every day, you know, if you really want to move that quicker.
 
 Q: Yeah, I have in mind, I just thought, after I fainted that day, I just didn't take anymore, so I'm like, God, I don't want to be fainting every time I get out of the bathtub.
 

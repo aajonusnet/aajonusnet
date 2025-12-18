@@ -1066,4 +1066,4 @@ A: Jim also wanted to announce something, too.
 
 Q: So Saturday, May 20th, from 12 noon to 4, West LA Federal.
 
-Q: I just want to say I'm working on getting Aajonus' books known broadly using the Internet. We have a website. WeWantToLive.com And one thing is testimonial. So if you're doing well, something goes well, you can just email Aajonus, and we'll collect these up and they'll go on the site. We've got a lot of people. So, anyway, that's all. And that's all.
+Q: I just want to say I'm working on getting Aajonus' books known broadly using the Internet. We have a website. WeWant2Live.com And one thing is testimonial. So if you're doing well, something goes well, you can just email Aajonus, and we'll collect these up and they'll go on the site. We've got a lot of people. So, anyway, that's all. And that's all.

@@ -878,7 +878,7 @@ A: Yes, you don't want to store your meat in sauce unless it's just for an hour 
 
 Q: Did you say butter goes in that sauce?
 
-A: No. Well, yes, I did. And you can even put cheese in it. The cheese makes it even more horny if I put that in there. The minerals start helping my body build too many hormones. Remember, hormones are for emergency purposes. But I don't exercise because I have no activity rings. Well, this is my exercise. Remember Carrie Grant? This is her exercise. Having sex, that's all you do for exercise. Anyway, you can put cheese in it. You can put butter in it. Do not put olive oil in it. Do not put an oil or coconut oil. Put butter in it.
+A: No. Well, yes, I did. And you can even put cheese in it. The cheese makes it even more horny if I put that in there. The minerals start helping my body build too many hormones. Remember, hormones are for emergency purposes. But I don't exercise because I have no activity rings. Well, this is my exercise. Remember Cary Grant? This is his exercise. Having sex, that's all you do for exercise. Anyway, you can put cheese in it. You can put butter in it. Do not put olive oil in it. Do not put an oil or coconut oil. Put butter in it.
 
 Q: But if it was white meat like chicken or turkey or something like that, would that be different that you could put olive oil in it?
 

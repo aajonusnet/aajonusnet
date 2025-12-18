@@ -89,7 +89,7 @@ the body any wastes.
 
 So the whole idea of fighting virus by creating cells from another animal ...
 because they always blame it on other animals, you notice, except the first
-deadly flu was the Spanish flow - they blamed it on the Spaniards. After that,
+deadly flu was the Spanish flu - they blamed it on the Spaniards. After that,
 it has all been animals. e.g. bird flu, swine flu, pig flu, - all kinds of flus.
 And even the black plague was blamed on the rats.; I will tell you about that
 one later.
@@ -3845,7 +3845,7 @@ marrow. Bacteria predigest everything.
 inaudible question
 
 Aajonus: It could be, I don't know, somebody stole my microscope so I have no
-idea. People have been in damaging. Somebody got into my house or thru the house
+idea. People have been in damaging. Somebody got into my house or through the house
 and both of my - two different major pieces of copy machines and fax
 multi-functional machines those stopped in the same day. Those wouldn’t work
 when I woke up that morning and I had been gone the day before. So I tried to

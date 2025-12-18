@@ -1,66 +1,27 @@
 <?php
 
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
-
-// Define the path to the cache directory
-$cacheDir = __DIR__ . '/cache';
-
-// Ensure the cache directory exists and is writable
-if (!is_dir($cacheDir)) {
-    mkdir($cacheDir, 0755, true);
-}
-
-// Paths for combined and compressed files
-$combinedContentFile = $cacheDir . '/all-content.md';
-$compressedArchivePathBr = $cacheDir . '/all-content.md.br';
-$compressedArchivePathGz = $cacheDir . '/all-content.md.gz';
-$markdownDir = __DIR__ . '/md';
-
-if (!file_exists($compressedArchivePathBr) && !file_exists($compressedArchivePathGz)) {
-    // Combine all .md files into one if not existing
-    if (!file_exists($combinedContentFile)) {
-        $combinedContent = '';
-        $rii = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($markdownDir));
-        foreach ($rii as $file) {
-            if ($file->isFile() && strtolower($file->getExtension()) === 'md') {
-                // Append the content of each file separated by a special delimiter
-                // We add a new line for clarity.
-                $combinedContent .= "==## File: " . $file->getFilename() . " ##==\n";
-                $fileContents = file_get_contents($file->getRealPath());
-                // Ensure no special characters break JSON if we store it as JSON
-                $combinedContent .= $fileContents . "\n\n";
-            }
-        }
-        file_put_contents($combinedContentFile, $combinedContent);
-    }
-
-    // Attempt to compress combined content using Brotli extension
-    if (extension_loaded('brotli')) {
-        file_put_contents($compressedArchivePathBr, brotli_compress(file_get_contents($combinedContentFile), 11));
-    } else {
-        // Use gzip as fallback
-        file_put_contents($compressedArchivePathGz, gzencode(file_get_contents($combinedContentFile), 9));
-    }
-}
-
+//error_reporting(E_ALL);
+//ini_set('display_errors', 1);
 
 $title = "Aajonus Vonderplanitz";
 $description = "Raw Primal Diet: Aajonus Online Archive by Aajonus Vonderplanitz. Complete Aajonus Transcriptions.";
+$keywords = "aajonus, aajonus vonderplanitz, primal diet, raw primal diet, raw meat, raw milk, raw dairy, raw meat diet, raw honey";
 $url = "https://aajonus.net/";
 $sitename = "Aajonus Vonderplanitz";
+
 $categoryInLinks = false;
 $prioritizeCategories = ['QNA', 'Newsletters', 'Books', 'Books/Old'];
-?>
-<?php
+
+$mdFolder = 'md';
+$articleMap = [];
+$categoryMap = [];
+
 function sanitizeFileName($string) {
     $string = preg_replace('/[^a-zA-Z0-9\s]/', '', $string);
     $string = preg_replace('/\s+/', '-', $string);
-    $string = strtolower($string);
-    return $string;
+    return strtolower($string);
 }
-$articleMap = [];
-$categoryMap = [];
+
 function populateArticleMap() {
     global $articleMap, $categoryMap;
     $mdFolder = 'md';
@@ -107,18 +68,23 @@ $dynamicTitle = (!$originalFile) ? $title : basename($originalFile, '.md');
     <link rel="stylesheet" href="style.css?v=28">
     <link rel="icon" href="favicon.ico" type="image/x-icon" sizes="any">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
     <meta name="title" content="<?php echo $dynamicTitle; ?>">
     <meta name="description" content="<?php echo $description; ?>">
+    <meta name="keywords" content= "<?php echo $keywords; ?>">
+
     <meta property="og:title" content="<?php echo $dynamicTitle; ?>">
     <meta property="og:description" content="<?php echo $description; ?>">
     <meta property="og:url" content="<?php echo $url; ?>">
     <meta property="og:site_name" content="<?php echo $sitename; ?>">
     <meta property="og:type" content="website">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content="apple-touch-icon.png">
-    <meta name="format-detection" content="telephone=no">
+	<meta property="og:image" content="<?php echo $url; ?>large-logo.jpg">
+
+    <meta name="twitter:card" content="summary">
+	<meta name="format-detection" content="telephone=no">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
+
     <link rel="manifest" href="manifest.json">
 </head>
 <body>

@@ -4,6 +4,8 @@ Date: 20 June 2011
 
 Transcribed by Aajonus.net & Rawmeatgang
 
+The Livin' La Vida Low Carb Show. Episode 481.
+
 A = Aajonus, J = Jimmy
 
 Intro: Coming up, Aajonus Vonderplanitz and Dr. Joe Mercola. It′s the Livin' La Vida Low Carb show with Jimmy Moore. And now, here′s Jimmy.

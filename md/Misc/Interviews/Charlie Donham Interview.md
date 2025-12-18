@@ -1,4 +1,6 @@
-# M2 Magazine interview with Aajonus Vonderplanitz
+# Natural Health M2M Magazine interview with Aajonus Vonderplanitz (1999)
+
+Note: This interview was also reprinted by Dr. Stanley S. Bass in January 2000.
 
 Q: I am delighted that you have agreed to do an interview with our little
 health journal. I think you will find the membership eager to listen
@@ -793,10 +795,11 @@ Q: Have you been satisfied with the public reception to your book?
 A: I am impressed. My publisher basically had an advertising budget
 of $5,000 that was spent in a matter of weeks. The book is selling
 well simply by word of mouth. Another publisher has asked to publish a
-paperback edition but nothing has been negotiated. Q: Do you have any
-plans to write another? A: I am presently working on a recipe book,
-and a pedagogue for my nutritional courses.
+paperback edition but nothing has been negotiated.
 
+Q: Do you have any plans to write another? 
+
+A: I am presently working on a recipe book, and a pedagogue for my nutritional courses.
 The recipe book was scheduled for completion December 31, 1998, but I
 have been involved in politics surrounding the ban of fresh, raw dairy
 in California and Los Angeles.
@@ -839,3 +842,13 @@ a $35 workshop. The location will be set by the end of this week.
 As I am also working on a book with more information on my nutritional
 research to aid my classes, such as the one Dr. Stanley Bass attended,
 I have ceased these classes until I have this pedagogue finished.
+
+[The interview ends here. In the reprint by Dr. Stanley S. Bass, Aajonus continues:]
+
+Q: Where do you see yourself 5 years from now?
+
+A: Providing that society survives the Y2K problems, I see myself writing and directing movie's with plots based on alternative therapies. Allopathic medicine has dominated the media: I would like to see more than a modicum toward alternatives.
+
+Q: May we include your address and phone number in case our members have any questions for you?
+
+A: I require that people read my book before I speak with them - most questions are answered in the book.

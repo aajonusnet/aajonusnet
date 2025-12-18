@@ -576,7 +576,7 @@ Q: And I downloaded the Kindle, I'm not sure.
 
 Q: You can show it in your newsletter and pick it up from there.
 
-A: Yeah, wewanttolive.com. You can go to wewanttolive.com.
+A: Yeah, wewant2live.com. You can go to wewant2live.com.
 
 Q: The number too.
 
