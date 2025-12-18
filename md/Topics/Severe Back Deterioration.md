@@ -34,7 +34,7 @@ of puss. Infections are cleanses, just like colds and flu.
 Ninety-nine percent of all bodily activity is produced by bacteria. There
 are no bad bacteria unless it is man-made. According to the latest
 biological research, we are 360 bacteria genes to only one human gene.
-See article @[How Much Bacteria Are We Today?](/articles/pdn29_bacteria)
+See article @[How Much Bacteria Are We Today?](?file=md%2FArticles%2FHow+Much+Bacteria+Are+We+Today?.md)
 
 Because of the industrial contaminants in vaccines, food, air and water,
 such as mercury, aluminum, formaldehyde, ether, detergent and at least

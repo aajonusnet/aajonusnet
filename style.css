@@ -3,7 +3,7 @@ body {
     color: #fff;
     font-family: Arial, sans-serif;
     margin: 0 auto;
-    padding: 20px;
+    padding: 0 20px; /* 0 for top and bottom, 10px for left and right */
     max-width: 786px;
 }
 
@@ -35,15 +35,19 @@ h1 {
 .card p, .card-md p {
     color: #ccc;
     margin-bottom: 0;
+    overflow-wrap: break-word;
 }
 
 .content p {
     color: #fff;
     margin-top: 0;
+    overflow-wrap: break-word;
 }
 
 .content a {
     color: #fff;
+    word-break: break-all;
+    overflow-wrap: break-word;
 }
 
 .content blockquote {
@@ -65,7 +69,14 @@ h1 {
     cursor: pointer;
     padding: 5px 10px;
     transition: background-color 0.3s ease;
-    margin-bottom: 20px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
 }
 
 .back-button:hover {
@@ -107,15 +118,22 @@ h1 {
     font-weight: bold;
     font-size: smaller;
 }
-.settings {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 3vh;
-}
 .title {
     color: white;
     text-decoration: none;
+    text-align: center;
+    word-wrap: break-word;
+    margin: 0 auto;
+    max-width: calc(100% - 80px);
+}
+.title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.header {
+    text-align: center;
 }
 .links{
     display: flex;

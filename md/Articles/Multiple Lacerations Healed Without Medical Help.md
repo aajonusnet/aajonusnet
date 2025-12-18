@@ -26,7 +26,7 @@ have healed in several weeks instead of months.
 
 The first photo was taken 3 days after inflicted wound.
 
-:[Show photo 1](/img/pdn15_lacerations-1.jpg)
+[Show photo 1](/imgs/pdn15_lacerations-1.jpg)
 
 A naturopath panicked when he saw Sandra's arm and told her that her arm
 was terribly infected. He was adamant that she would lose her arm and
@@ -42,18 +42,18 @@ wound is getting. The coconut cream and honey had to be immediately applied to
 prevent dry scabs forming. 2 days after, soak and remove old coconut cream
 honey mixture and apply fresh.
 
-:[Show photo 2](/img/pdn15_lacerations-2.jpg)
+[Show photo 2](/imgs/pdn15_lacerations-2.jpg)
 
 Next photo was taken about 10 weeks later after soaking and cleaning old
 coconut cream and honey. I suggest that she continue to apply coconut cream
 and honey until the wound looked completely smooth. That occurred 2 weeks
 after this photo.
 
-:[Show photo 3](/img/pdn15_lacerations-3.jpg)
+[Show photo 3](/imgs/pdn15_lacerations-3.jpg)
 
 Next photo was taken several months later.
 
-:[Show photo 4](/img/pdn15_lacerations-4.jpg)
+[Show photo 4](/imgs/pdn15_lacerations-4.jpg)
 
 If Sandra had skin grafted, her scars would look like burns with
 tightly constricted tissue. Such scarring is usually painful throughout

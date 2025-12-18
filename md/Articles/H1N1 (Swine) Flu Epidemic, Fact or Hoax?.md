@@ -134,8 +134,8 @@ receiving my third polio vaccine injection at 15 years young. I
 experienced about 300 heart attacks from age 15 to 22. Although
 excruciatingly painful and I was rendered unconscious about 50 times,
 they did not kill me. When I began drinking raw milk and raw carrot juice
-at age 22, my angina stopped and only returned for 2 weeks when I was
-60. Because my chest area felt more relaxed after the 2-weeks episode,
+at age 22, my angina stopped and only returned for 2 weeks when I was 60.
+Because my chest area felt more relaxed after the 2-weeks episode,
 I determined it to be detoxification of the polio-vaccine toxicity that
 had stored in and around my heart 45 years earlier that caused the
 relentless angina. My diabetes reversed after several weeks drinking
@@ -513,8 +513,8 @@ Failure to obey will result in imprisonment without bail prior to trial
 and the possibility of a two year prison term. Therefore, officials can
 impose quarantine without evidence that somebody is actually infected with
 a virus that is negligible at best. It may also be used to quarantine
-potentially millions of people suffering from any number of illnesses
-- or not suffering from any disease at the discretion of the state -
+potentially millions of people suffering from any number of illnesses - 
+or not suffering from any disease at the discretion of the state -
 that have nothing to do with H1N1. It is basically a carte blanche for
 martial law under the cover of protecting the public from a communicable
 disease that is a manufactured and weaponized threat.

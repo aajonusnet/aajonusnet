@@ -1,7 +1,7 @@
 Iridology is not mainstream-established science. ... I found that
 present day iridology lacks many aspects that I discovered when comparing
-iris photos of people with like/similar conditions from 1971 to about
-1995. My iridology is not magical from my perspective because I see
+iris photos of people with like/similar conditions from 1971 to about 1995.
+My iridology is not magical from my perspective because I see
 visual manifestations. However, many people cannot see the variances in
 patterns and coloration that I see.
 

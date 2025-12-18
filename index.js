@@ -7,49 +7,86 @@ async function search(input) {
 
 	const hasThreeConsecutiveChars = /.*\S{3,}.*/.test(searchValue);
 
-    if (!hasThreeConsecutiveChars) {
+    if (!hasThreeConsecutiveChars || searchValue.length < search_min_length) {
         // Less than 3 consecutive non-space characters, ignore this search
-        document.querySelector('.grid').style.display = 'block';
-        document.querySelector('.results').style.display = 'none';
-        return;
-    }
-    
-    if (searchValue.length >= search_min_length) {
-        grid.style.display = 'none';
-        results_DOM.style.display = 'block';
-    
-        const cards = document.querySelectorAll('.card-md');
-        const fragmentExact = document.createDocumentFragment(); // Fragment for exact matches
-        const fragmentPartial = document.createDocumentFragment(); // Fragment for partial matches
-    
-        for (let i = 0; i < cards.length; i++) {
-        		const card = cards[i];
-        		const title = card.querySelector('h2').textContent.toLowerCase();
-        		const content = card.querySelector('.data').innerHTML.toLowerCase();
-        		const link = card.querySelector('.read-more').href;
-        		const [exactResults, partialResults] = await highlightSearchText(content, searchValue, link);
-    
-		   if (exactResults.length > 0) {
-                const resultCard = createResultCard(card, [...exactResults, ...partialResults], link);
-                fragmentExact.appendChild(resultCard); // Append the result card to the exact matches fragment
-            } else if (partialResults.length > 0) {
-                const resultCard = createResultCard(card, partialResults, link);
-                fragmentPartial.appendChild(resultCard); // Append the result card to the partial matches fragment
-            }
-        }
-    
-        if (fragmentExact.childElementCount === 0 && fragmentPartial.childElementCount === 0) {
-        		const noResults = document.createElement('p');
-        		noResults.textContent = 'No results found';
-        		fragmentExact.appendChild(noResults); // Append the "No results found" message to the fragment
-        }
-    
-        results_DOM.appendChild(fragmentExact); // Append exact matches
-        results_DOM.appendChild(fragmentPartial); // Append partial matches
-    } else {
         grid.style.display = 'block';
         results_DOM.style.display = 'none';
+        return;
     }
+    grid.style.display = 'none';
+    results_DOM.style.display = 'block';
+    
+    const cards = document.querySelectorAll('.card-md');
+    const fragmentExact = document.createDocumentFragment(); // Fragment for exact matches
+    const fragmentPartial = document.createDocumentFragment(); // Fragment for partial matches
+    
+    let totalResults = 0;
+
+    for (let i = 0; i < cards.length; i++) {
+       const card = cards[i];
+       const title = card.querySelector('h2').textContent.toLowerCase();
+       const content = card.querySelector('.data').innerHTML.toLowerCase();
+       const link = card.querySelector('.read-more').href;
+       const [exactResults, partialResults] = await highlightSearchText(content, searchValue, searchValue.trim(), link);
+    
+         // Collect all the exact results in a set
+        let exactContents = new Set(exactResults.map(result => normalizeContent(result)));
+
+        // Filter out partial results that are in the exact results set
+        let filteredPartialResults = partialResults.filter(partial => !exactContents.has(normalizeContent(partial)));
+
+       totalResults += exactResults.length + filteredPartialResults.length;
+
+	   if (exactResults.length > 0) {
+           const resultCard = createResultCard(card, exactResults, link);
+           fragmentExact.appendChild(resultCard); // Append the result card to the exact matches fragment
+       }
+	   if (filteredPartialResults.length > 0) {
+            const resultCard = createResultCard(card, filteredPartialResults, link);
+            fragmentPartial.appendChild(resultCard); // Append the result card to the partial matches fragment
+        }
+     }
+
+     // Display the total number of results
+    const resultsSummary = document.createElement('p');
+    resultsSummary.textContent = `There are ${totalResults} results.`;
+    results_DOM.insertBefore(resultsSummary, results_DOM.firstChild);
+    
+     if (fragmentExact.childElementCount === 0 && fragmentPartial.childElementCount === 0) {
+       const noResults = document.createElement('p');
+       noResults.textContent = 'No results found';
+       fragmentExact.appendChild(noResults); // Append the "No results found" message to the fragment
+     }
+    
+     results_DOM.appendChild(fragmentExact); // Append exact matches
+     results_DOM.appendChild(fragmentPartial); // Append partial matches
+}
+
+function normalizeContent(html) {
+    const div = document.createElement('div');
+    div.innerHTML = html.replace(/<span class="highlight">(\s*)<\/span>/g, '$1');
+    return div.textContent.replace(/\s+/g, ' ').trim().toLowerCase() || "";
+}
+function isSimilar(str1, str2) {
+    return false;
+    /*const maxLengthDifference = 5; // You can adjust this value
+    const maxSpaceDifference = 3; // You can adjust this value
+
+    if (Math.abs(str1.length - str2.length) > maxLengthDifference) return false;
+
+    let spaceDifference = 0;
+    for (let i = 0; i < Math.min(str1.length, str2.length); i++) {
+        if (str1[i] !== str2[i]) {
+            if (str1[i] === ' ' || str2[i] === ' ') {
+                spaceDifference++;
+                if (spaceDifference > maxSpaceDifference) return false;
+            } else {
+                return false;
+            }
+        }
+    }
+
+    return true;*/
 }
 
 function createResultCard(card, results, link) {
@@ -73,20 +110,17 @@ function createResultCard(card, results, link) {
 }
           
 
-async function highlightSearchText(text, searchValue ,link) {
+async function highlightSearchText(text, searchValue, trimmedSearchValue, link) {
     var maxLength = 200; // Maximum number of characters to display before and after the search value
     
-    let searchNoTrim = searchValue;
-    searchValue = searchValue.trim()
     let words = searchValue.split(" ").filter(
-        word => word.length >= 3 && ["and","the"].indexOf(word) == -1 
+        word => word.length >= 3 && word !== 'and' && word !== 'the'
         ).join("|");
 
-    let exactMatchRegex = new RegExp(searchNoTrim, 'gi');
-    let partialMatchRegex = new RegExp(words.split("|").map(word => 
-        word.length === 3 ? `\\b${word}\\b` : word).join("|"), 'gi');
+    let exactMatchRegex = new RegExp(searchValue, 'gi');
+    let partialMatchRegex = new RegExp(words, 'gi');
             
-    let exactMatches = findMatches(text, searchNoTrim, exactMatchRegex, maxLength, link);
+    let exactMatches = findMatches(text, searchValue, exactMatchRegex, maxLength, link);
     let partialMatches = findMatches(text, words, partialMatchRegex, maxLength, link);
 
  // Return two separate arrays for exact and partial matches
@@ -94,52 +128,50 @@ async function highlightSearchText(text, searchValue ,link) {
 }
 
 function findMatches(text, searchValue, regex, maxLength, link) {
-    let matches = text.match(regex);
     let results = [];
-    if (matches == null) {
-        return results;
-    }
+    let searchTerms = searchValue.split("|");
 
-    let idx = text.indexOf(matches[0]);
+    // Keep track of the last window checked
+    let lastWindowStart = -1;
 
-    while (idx != -1) {
-        let start = Math.max(0, idx - maxLength);
-        let end = Math.min(text.length, idx + maxLength);
-        let result = text.substring(start, end);
-        let s = result.substr(0,result.length);
-        text = text.substring(end);
+    // Iterate through each match of the regex
+    let match;
+    while ((match = regex.exec(text)) !== null) {
+        let offset = match.index;
+        let start = Math.max(0, offset - maxLength);
+        let end = Math.min(text.length, offset + match[0].length + maxLength);
 
-        let subMatches = result.match(regex);
-        if(subMatches == null) {
-            idx = -1;
+        // Ensure the window is at least 200 characters long
+        if (end - start < 200) {
+            let extra = 200 - (end - start);
+            start = Math.max(0, start - extra);
+            end = Math.min(text.length, end + extra);
+        }
+
+        // Avoid checking the same window multiple times
+        if (start <= lastWindowStart) {
+            regex.lastIndex = offset + 1;
             continue;
         }
-        let set_Matchs = [...new Set(subMatches)];
-        let set_words = [...new Set(searchValue.split("|"))];
+        lastWindowStart = start;
 
-        // make sure the search value terms exist is in the result
-        if(set_Matchs.indexOf(searchValue) != -1 || set_Matchs.length == set_words.length) {
-            for(let subMatch of set_Matchs) {
-                result = result.replaceAll(subMatch, '<span class="highlight">' + subMatch + '</span>');
-            }
+        let windowText = text.substring(start, end);
 
-            results.push(`<a class='result-link' href=${link}&len=${end-start}&s=${encodeURIComponent(s)}>${result}</a><br><br><hr>`);
+        // Check if all search terms are present in the window
+        if (searchTerms.every(term => windowText.toLowerCase().includes(term.toLowerCase()))) {
+            let highlightedResult = windowText.replace(regex, m => '<span class="highlight">' + m + '</span>');
+            results.push(`<a class='result-link' href=${link}&len=${end-start}&s=${encodeURIComponent(windowText)}>${highlightedResult}</a><br><br><hr>`);
         }
 
-        matches = text.match(regex);
-        if (matches == null) {
-            idx = -1;
-            continue;
-        }
-
-        idx = text.indexOf(matches[0]);
+        // Reset the regex position to allow checking around the next occurrence
+        regex.lastIndex = offset + 1;
     }
 
     return results;
 }
 
 function goBack() {
-    if (document.referrer == "" || document.referrer.indexOf(window.location.hostname) < 0) {
+    if (document.referrer == "" || document.referrer.indexOf(window.location.hostname) < 0 || window.history.length <= 1) {
         // There is no previous page, go to the homepage
         window.location.href = '/';
     } else {
@@ -152,7 +184,7 @@ window.onload = function() {
 	var searchInput = document.getElementById('search');
 	if (searchInput){
 		searchInput.focus();
-		search(searchInput)
+		search(searchInput) // may be not needed
 	}
 };
 
@@ -168,3 +200,30 @@ function scrollToElement(element) {
 
 if (document.getElementById("scrollToThis"))
 scrollToElement(document.getElementById("scrollToThis"));
+
+document.addEventListener('DOMContentLoaded', function() {
+    var imageLinks = document.querySelectorAll('a[href$=".jpg"], a[href$=".png"], a[href$=".gif"]');
+    imageLinks.forEach(function(link) {
+        link.addEventListener('click', function(e) {
+            e.preventDefault();
+            var imgSrc = this.href;
+            var previewDiv = document.createElement('div');
+            previewDiv.className = 'image-preview';
+            var img = document.createElement('img');
+            img.src = imgSrc;
+            img.style.maxWidth = '100%';
+            img.style.height = 'auto';
+            img.style.display = 'block';
+            img.style.margin = '10px auto';
+            img.style.border = '1px solid #ddd';
+            previewDiv.appendChild(img);
+            
+            // Toggle the image preview
+            if (this.nextElementSibling && this.nextElementSibling.className === 'image-preview') {
+                this.parentNode.removeChild(this.nextElementSibling);
+            } else {
+                this.parentNode.insertBefore(previewDiv, this.nextSibling);
+            }
+        });
+    });
+});

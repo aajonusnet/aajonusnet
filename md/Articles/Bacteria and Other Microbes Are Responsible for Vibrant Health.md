@@ -359,7 +359,7 @@ can create environments that are conducive to better health.
 
 ===
 
-[^1]: [source](https://www.ted.com/talks/bonnie_bassler_how_bacteria_talk)
+[^1]: TED [source](https://www.ted.com/talks/bonnie_bassler_how_bacteria_talk)
 
 [^2]: "The Case Against Fluoride: How Hazardous Waste Ended Up in Our Drinking
 Water and the Bad Science and Powerful Politics That keep it There" by Connett,

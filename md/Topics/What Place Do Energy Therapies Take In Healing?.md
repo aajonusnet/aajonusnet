@@ -70,12 +70,12 @@ adhered to my Primal Diet and followed my advice for her finger.
 
 The first photo was taken within 3 days of injury on 12 September 2007.
 
-:[Show photo 1](/img/pdn12_therapies-1.jpg)
+[Show photo 1](/imgs/pdn12_therapies-1.jpg)
 
 The second photos was taken on 6 November 2007.
 
-:[Show photo 2](/img/pdn12_therapies-2.jpg)
+[Show photo 2](/imgs/pdn12_therapies-2.jpg)
 
 The last was taken on 22 September 2008, one year after the incident.
 
-:[Show photo 3](/img/pdn12_therapies-3.jpg)
+[Show photo 3](/imgs/pdn12_therapies-3.jpg)

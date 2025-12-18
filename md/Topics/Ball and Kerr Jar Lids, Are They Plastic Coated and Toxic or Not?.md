@@ -54,4 +54,4 @@ plastics are used for microwaveable ware, kitchenware, yogurt contains,
 margerine tubs, microwaveable disposable take-away containers, disposable cups
 and plates.
 
-[^2]: @(https://www.niehs.nih.gov/health/topics/agents/sya-bpa/)
+[^2]: BPA @(https://www.niehs.nih.gov/health/topics/agents/sya-bpa/)

@@ -3,8 +3,8 @@ accident in a foreign country, including how to handle hospitals and
 doctors.
 
 March 9, 2007, I decided to drive a heavy Harley Davidson motorcycle in
-a small town in Thailand. I had not ridden such a large motorcycle since
-1968. I thought that I would be safe in a small town but a group of 5
+a small town in Thailand. I had not ridden such a large motorcycle since 1968.
+I thought that I would be safe in a small town but a group of 5
 tourists stepped into the street about 20 feet in front of me without
 looking first. There were no intersection, crossing, drive or other
 signs but they crossed the street carelessly.

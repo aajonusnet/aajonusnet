@@ -828,8 +828,8 @@ raw herbs and their juices with my diet to speed and facilitate healing.
 
 Q: What about upcoming classes or talks?
 
-A: I will be speaking in NYC at the New Life Expo on October 23, 24, 25,
-1998. I will lecture on each day. On Sunday the 25th the lecture will
+A: I will be speaking in NYC at the New Life Expo on October 23, 24, 25, 1998.
+I will lecture on each day. On Sunday the 25th the lecture will
 be followed by a workshop. The lectures are free. Their is a charge
 for the workshop, normally $35, but they have not yet advised me. I
 have not been advised of location. I will also be speaking in Del Mar,

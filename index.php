@@ -3,11 +3,12 @@
 <head>
     <title>Aajonus.net</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css?v=32">
+    <link rel="stylesheet" href="style.css?v=63">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <meta name="title" content="News">
     <meta name="description" content="Raw Primal Aajonus Database">
+    <meta name="format-detection" content="telephone=no">
     <meta property="og:title" content="News">
     <meta property="og:description" content="Raw Primal Aajonus Database">
     <meta property="og:url" content="https://aajonus.net/">
@@ -15,11 +16,18 @@
     <meta property="og:type" content="website">
 </head>
 <body>
+    <div class="header">
+    <div class="title-container">
+    <?php if (isset($_GET['file'])) { ?>
+        <button class="back-button" onclick="goBack()">←</button>
+    <?php } ?>
     <a class="title" href="/"><h1><?php echo (!isset($_GET['file'])) ? 'Aajonus.net' : basename($_GET['file'], '.md'); ?></h1></a>
+    </div>
+    </div>
 
     <?php if (!isset($_GET['file'])) { ?>
         <!-- Search Bar -->
-        <input type="text" id="search" class="search-bar"  onkeyup="search(this)" placeholder="Search">
+        <input type="text" id="search" class="search-bar"  oninput="search(this)" placeholder="Search">
         <!-- Links -->
         <div class="links">
             <a href="/">All</a>
@@ -94,7 +102,7 @@
                 <?php if (strpos(strtolower($filePath), strtolower($folderName)) === false) 
                 echo ' style="display: none;"'; ?>>
                     <span class="category"><?php echo $category;?></span>
-                    <h2><u><a class="read-more" href="?file=<?php echo urlencode($filePath); ?>">
+                    <h2><u><a class="read-more" href="<?php echo isset($_GET['category']) ? '../?file=' : '?file='; ?><?php echo urlencode($filePath); ?>">
                     <?php echo $filename; ?> </a></u></h2>
                     <a class="read-more" href="?file=<?php echo urlencode($filePath); ?>"></a>
                     <div class="data" style="display:none;"><?php echo $htmlContent ?></div>
@@ -103,7 +111,6 @@
 
         </div>
     <?php } else { ?>
-        <button class="back-button" onclick="goBack()">←</button>
         <div class="content"><?php
                 $file = $_GET['file'];
 
@@ -143,29 +150,29 @@
                         $matches = [];
                         $pos = preg_match($regex, $content, $matches, PREG_OFFSET_CAPTURE, 0);
                         // echo $s;
- if ($pos) {
-    // get the position of the first match
-    $pos = $matches[0][1];
-    // cut the content from start
-    $length = $_GET['len'];
+ 					if ($pos) {
+   					 	// get the position of the first match
+    						$pos = $matches[0][1];
+    						// cut the content from start
+    						$length = $_GET['len'];
                         
-    // save the original markdown as a substring
-    $substring = substr($content, $pos, $length);
+    						// save the original markdown as a substring
+    						$substring = substr($content, $pos, $length);
     
-    // highlight the substring by wrapping it with the highlight span tags
-    $replacement = '</span><br><span class="highlight" id="scrollToThis">';
-    $replace = str_replace("\n", $replacement, $substring); 
+    						// highlight the substring by wrapping it with the highlight span tags
+    						$replacement = '</span><br><span class="highlight" id="scrollToThis">';
+    						$replace = str_replace("\n", $replacement, $substring); 
     
-    // strip out markdown bold identifiers ** and __
-    $replace = str_replace('**', '', $replace);
-    $replace = str_replace('__', '', $replace);
+    						// strip out markdown bold identifiers ** and __
+    						$replace = str_replace('**', '', $replace);
+    						$replace = str_replace('__', '', $replace);
     
-    // wrap the substring in highlight span tags
-    $replace = '<span class="highlight" id="scrollToThis">' . $replace . '</span>';
+    						// wrap the substring in highlight span tags
+    						$replace = '<span class="highlight" id="scrollToThis">' . $replace . '</span>';
 
-    // replace the original substring in content with the highlighted version
-    $content = substr_replace($content, $replace, $pos, $length);
-}
+    						// replace the original substring in content with the highlighted version
+    						$content = substr_replace($content, $replace, $pos, $length);
+					}
 
                     }
                     
@@ -185,9 +192,6 @@ preg_match_all('/\[\^(\d+)\]: (.*)/', $htmlContent, $notes);
 
 $footnoteRefs = $refs[1];
 $footnoteNotes = array_combine($notes[1], $notes[2]);
-
-// TODO: Footnotes not working in "Bacteria and Other Microbes" for example
-// Replace footnote references with links to footnotes
 foreach ($footnoteRefs as $ref) {
     $occurrences = substr_count($htmlContent, "[^$ref]");
     $counter = 0;
@@ -200,6 +204,11 @@ foreach ($footnoteRefs as $ref) {
         }
     }, $htmlContent);
 }
+
+// TODO: Footnotes not working in "Bacteria and Other Microbes" for example
+// Also in "How much Bacteria are we today"
+// Also in "Multiple Lacerations Healed Without Medical Help"
+// Replace footnote references with links to footnotes
                     echo $htmlContent;
                     // echo $content;
                 } else {
@@ -208,8 +217,7 @@ foreach ($footnoteRefs as $ref) {
             ?></div>  
     <?php } ?>
     <div class="results"></div>
-
-    <script src="index.js?v=29">
+    <script src="index.js?v=86">
        
     </script>
 </body>
