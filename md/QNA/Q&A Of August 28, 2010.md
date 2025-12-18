@@ -278,7 +278,7 @@ A: Do you have a question?
 
 Q: I don't, but can I pass on my question back to Rosalind who had a question about casein? Okay, so why don't you go ahead and ask your question.
 
-Q: Well, you talk a lot about dairy. There's a lot of people that have intolerance and are allergies. I was tested a few years back and it was severe in the casein. And I don't drink milk, so I waited another year and was tested again and it was still severe in it.
+Q: Well, you talk a lot about dairy. There's a lot of people that have intolerance and have allergies. I was tested a few years back and it was severe in the casein. And I don't drink milk, so I waited another year and was tested again and it was still severe in it.
 
 A: Anytime you have an allergy test for anything, they've taken a processed protein to do that. So if you're eating pasteurized dairy, if you're eating homogenized dairy, you're going to have a casein problem. Maybe even a lactate problem. But if you're drinking raw milk, you won't have that problem except if you're drinking it cold.
 
@@ -534,11 +534,11 @@ A: Anything you want.
 
 Q: 10% into your juice or is that too much?
 
-A: Well when I did it in Colorado. I was able to get string beans, peas, those are all good brain foods, and then the summer squash, the coconut I used, I mean the acorn squash. And I got fresh parsley, cilantro, carrots, and celery. I [unintelligible] celery because they were the wild celery. And what else, and cucumber. So probably the butternut squash was 25% of the juice.
+A: Well when I did it in Colorado. I was able to get string beans, peas, those are all good brain foods, and then the summer squash, the coconut I used, I mean the acorn squash. And I got fresh parsley, cilantro, carrots, and celery. It was the bitter celery because they were the wild celery. And what else, I had cucumber. So probably the butternut squash was 25% of the juice.
 
 Q: Oh really? You don't put carrot in it, do you?
 
-A: I lowered the amount of carrot because most of the time I put 10% carrot in my juice, but with the butternut squash I lowered it to like 10%, and the butternut squash was probably 25%.
+A: I lowered the amount of carrot because most of the time I put 20% carrot in my juice, but with the butternut squash I lowered it to like 10%, and the butternut squash was probably 25%.
 
 Q: Wow. So then what about other vegetables, like red onions, if you crave those. So when you're craving something in it, the red onions are your favorite.
 
@@ -862,7 +862,7 @@ Q: Do you think some is still left?
 
 A: I think there's some... Well, in my experiments vinegar also helped with some of those.
 
-A: So what do you think? I mean you have all these choices now. I mean sometimes you can do a honey and cream bath, you can do coconut cream, you can do clay, you can do... How do you decide which one you're going to alternate? Do you have a method to your bath?
+Q: So what do you think? I mean you have all these choices now. I mean sometimes you can do a honey and cream bath, you can do coconut cream, you can do clay, you can do... How do you decide which one you're going to alternate? Do you have a method to your bath?
 
 A: Well, when I use all of them, I use all of them.
 

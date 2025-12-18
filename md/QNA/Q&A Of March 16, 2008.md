@@ -241,7 +241,7 @@ Q: Oh, a lot of fun stuff. That's why I keep telling you, [unintelligible] at le
 
 Q: I don't know about that. But just like I'm not eating that much.
 
-Q: But your husband is the one I'm concerned about, because when your hormone levels go up, he has to be more helpful.
+A: But your husband is the one I'm concerned about, because when your hormone levels go up, he has to be more helpful.
 
 Q: He's out of town.
 
@@ -273,7 +273,7 @@ A: Well, don't drink water. Drink the... We want to live book, look under the hy
 
 Q: [unintelligible]
 
-A: Oh, you can do those. But, you know, you just sip it a little at a time. Water is going to make crones worse than the juices.
+A: Oh, you can do those. But, you know, you just sip it a little at a time. Water is going to make Crohn's worse than the juices.
 
 Q: You put me on the cucumber drink.
 
@@ -637,13 +637,13 @@ A: Same thing. Water is a solvent, it fractionates, it tears things apart. That'
 
 Q: So I think the studies of 100 people [unintelligible].
 
-A: That's all their theory. It's got nothing to do with reality. [unintelligible], the way it used to work before they purified and filtered the water, everybody shit and pissed in them, and that's what made people well. They never cleaned that water, and one filthy person got in after another, and all that bacteria went in there and corrected the problems quickly. Now that, and you never hear anything about going on any of the experiences of [unintelligible] anymore, because now they have the full water flowing through, and nobody's in any shit or piss. So all the water is clean, so nobody's getting the miracle cures they used to. And the [unintelligible], they don't drink much water. They drink, their diet is 82% dairy, period. They hardly drink any water. Just remember, when water came into being, it was in 1961. Before that, when we'd all go to school, we'd go to the fountain, we'd get three sips a day, three tablespoons of water a day. Other than that, we just drank milk. And then soda came in, and it was soda and milk. Then it was no milk and all soda. Now it's all chemical. It's just chemical water. It's even worse. So what happened? They started bottling water in 1961. They paid doctors to tell everybody they needed to drink eight glasses of water a day to make their margins grow every year. More people would start drinking water. They contaminate the water, what do you drink? Bottled water. That's what it was all about. The whole plan and theory was set out. And that was the Rockefeller family too, doing that.
+A: That's all their theory. It's got nothing to do with reality. [unintelligible], the way it used to work before they purified and filtered the water, everybody shit and pissed in them, and that's what made people well. They never cleaned that water, and one filthy person got in after another, and all that bacteria went in there and corrected the problems quickly. Now that, and you never hear anything about going on any of the experiences of [unintelligible] anymore, because now they have the full water flowing through, and nobody's in any shit or piss. So all the water is clean, so nobody's getting the miracle cures they used to. And the Hunzas, they don't drink much water. They drink, their diet is 82% dairy, period. They hardly drink any water. Just remember, when water came into being, it was in 1961. Before that, when we'd all go to school, we'd go to the fountain, we'd get three sips a day, three tablespoons of water a day. Other than that, we just drank milk. And then soda came in, and it was soda and milk. Then it was no milk and all soda. Now it's all chemical. It's just chemical water. It's even worse. So what happened? They started bottling water in 1961. They paid doctors to tell everybody they needed to drink eight glasses of water a day to make their margins grow every year. More people would start drinking water. They contaminate the water, what do you drink? Bottled water. That's what it was all about. The whole plan and theory was set out. And that was the Rockefeller family too, doing that.
 
 Q: And then the bottles have pollutants in them, which you then absorb.
 
 A: Correct. If they're plastic.
 
-Q: So the water thing, you said in the book, Gerlsteiner.
+Q: So the water thing, you said in the book, Gerolsteiner.
 
 A: Gerolsteiner.
 
@@ -655,7 +655,7 @@ Q: So what do we do now?
 
 A: Well, you've got Perrier, you've got Ramlosa, San Pellegrino, Sanfaustino, Apollinaris.
 
-Q: You won't go near Gerlsteiner?
+Q: You won't go near Gerolsteiner?
 
 A: Gerolsteiner. Well, in other countries it's still in glass. In this country it's in plastic. But I don't drink water anymore, really. I've had three tablespoons of water in three weeks, medicinally. That's my medicine.
 
@@ -901,7 +901,7 @@ Q: The big black one? Anybody? The osteoporosis issues, do you want me to wait f
 
 A: Well, we don't really have time. It's okay.
 
-Q: Most of the time, wherever they gave me steroid, I had the greates severity of osteoporosis. You'd put me on milk for a very long period of time. I mean, a lot of milk. I think I drank like three gallons of milk a week, sometimes up to five gallons a week.
+Q: Most of the time, wherever they gave me steroid, I had the greatest severity of osteoporosis. You'd put me on milk for a very long period of time. I mean, a lot of milk. I think I drank like three gallons of milk a week, sometimes up to five gallons a week.
 
 A: And I drink seven to eight gallons a week in the summer.
 

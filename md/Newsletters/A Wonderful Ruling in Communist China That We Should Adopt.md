@@ -1,1 +1,0 @@
-China sentenced its ex-head of FDA Zheng Xiaoyu to death over drug-company bribes he accepted in the amount of $832,000 and dereliction of duty to protect the people from drug contamination. In the USA, the same wrong-doing is ignored as simply business as usual and damn the health of the public.

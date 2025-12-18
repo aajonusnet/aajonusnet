@@ -182,7 +182,7 @@ A: You can buy it by the bags. But make sure it isn't the stuff they put extra s
 
 Q: Yes. First, I missed something earlier when you said a mineral supplement of cheese and honey. You don't want too much honey because, and I missed that part of it.
 
-A: Because it will cause a fractionation of the ionization groups. Like you may have five molecules or six molecules of calcium with about three or four molecules of magnesium, one of phosphorus, two of potassium. That's the normal collective unit that is a balance. Too much honey causes a fractionation of that, and they may not be utilized for feeding the cells properly. And when you put the honey with the cheese, that is to neutrify the body, not to use as a detoxifier and not to cause mineral imbalances. So it has to be a small amount of honey.
+A: Because it will cause a fractionation of the ionization groups. Like you may have five molecules or six molecules of calcium with about three or four molecules of magnesium, one of phosphorus, two of potassium. That's the normal collective unit that is a balance. Too much honey causes a fractionation of that, and they may not be utilized for feeding the cells properly. And when you put the honey with the cheese, that is to nutrify the body, not to use as a detoxifier and not to cause mineral imbalances. So it has to be a small amount of honey.
 
 Q: My question is that mangosteen has been recommended as a tumor killer. What are your thoughts on that?
 
@@ -246,7 +246,7 @@ A: Yeah, but of course most of those nutrients go in from the eye. Now, in my ex
 
 Q: Well, there's some of that too because my other eye compensates, and it's super great vision. But I do get strain, I think, during the course of the day just from that.
 
-A: You have to neutrify yourself on the inside. So the beet juice or the olive oil will help clean the eye, and then to neutrify it, you have to eat the meat with some fish, beef with some fish or a fowl or a combination of all three, and then put the bone marrow on it, and it will focus more in that area.
+A: You have to nutrify yourself on the inside. So the beet juice or the olive oil will help clean the eye, and then to nutrify it, you have to eat the meat with some fish, beef with some fish or a fowl or a combination of all three, and then put the bone marrow on it, and it will focus more in that area.
 
 Q: All right. Thank you.
 

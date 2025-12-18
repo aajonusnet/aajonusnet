@@ -1,6 +1,10 @@
 Transcribed by Aajonus.net & Rawmeatgang
 
-A: Well I'll start it off by saying I'm homeless folks. I got kicked out of my Malibu place. That's a clinic, you know, rehab for wealthy people, and they decided they wanted to make some changes on the property. So they had to have a building inspector come over and approve the changes that they wanted to make. So the building inspector decided to inspect everything on the property. Came to my house and he said, there's no permit for this house, you've got to tear it down. So I just got notice on Tuesday. So everything is going into boxes. So I'm homeless. And they gave me until the 18th, but I'm leaving tomorrow for Thailand, so I had to pack up everything in five days. Do you have help? No, I don't want any help because I want to know where exactly everything is. Thank you. People did offer to help, but I can't afford it, I need to know where everything is. So I've been getting one hour of sleep a day. So, you know, they've offered me a, you know, I return September 23rd to no home. So they have some bungalows up near Canaan Doom Road, and one of them is a one bedroom, so they're going to give me that until mid-November. Because as soon as I get back, I'm only back a week, and then I go on my next tour here, I go to Aspen, then Sedona, Chicago, and then St. Louis. So I'll be gone that whole month, you know, of October. So I'll have just two weeks in November to look for a place.
+A: Well I'll start it off by saying I'm homeless folks. I got kicked out of my Malibu place. That's a clinic, you know, rehab for wealthy people, and they decided they wanted to make some changes on the property. So they had to have a building inspector come over and approve the changes that they wanted to make. So the building inspector decided to inspect everything on the property. Came to my house and he said, there's no permit for this house, you've got to tear it down. So I just got notice on Tuesday. So everything is going into boxes. So I'm homeless. And they gave me until the 18th, but I'm leaving tomorrow for Thailand, so I had to pack up everything in five days.
+
+Q: Do you have help?
+
+A: No, I don't want any help because I want to know where exactly everything is. Thank you. People did offer to help, but I can't afford it, I need to know where everything is. So I've been getting one hour of sleep a day. So, you know, they've offered me a, you know, I return September 23rd to no home. So they have some bungalows up near Canaan Doom Road, and one of them is a one bedroom, so they're going to give me that until mid-November. Because as soon as I get back, I'm only back a week, and then I go on my next tour here, I go to Aspen, then Sedona, Chicago, and then St. Louis. So I'll be gone that whole month, you know, of October. So I'll have just two weeks in November to look for a place.
 
 Q: You don't need a home.
 
@@ -322,7 +326,7 @@ Q: Calcium, they need an acidic environment.
 
 A: No, if you didn't have calcium, phosphorus, magnesium, and potassium, we wouldn't be alive. But our ratio needs to be right around 5.5, 5.7, not 7, not 6.7. That's an herbivore. Become a cow next life if you want that. 
 
-Q: When I have a cold, I've been told to have a glass of 8 ounces of water and put a half a teaspoon of baking soda in there to alkaline instead of keeping it acid. If baking soda is an acid, how can it alkaline your body?
+Q: When I have a cold, I've been told to have a glass of 8 ounces of water and put a half a teaspoon of baking soda in there to alkalize instead of keeping it acid. If baking soda is an acid, how can it alkaline your body?
 
 A: You got me.
 
@@ -826,7 +830,7 @@ A: No, you need to mix it around because if it gets into the blood, you want a l
 
 Q: Can you, like, just maybe swallow your milk real fast?
 
-A: If you can't mix it here, what makes you think it's going to mix in the stomach? You need to disperse it. Otherwise, it's just going to – the reason I don't like it is a lot of people in autopsies and people who play, I've seen plate impactation. That's a trick. You let it settle. Places where it dried up into their intestine, it just stayed there. That meant that whole area of that intestine didn't function.
+A: If you can't mix it here, what makes you think it's going to mix in the stomach? You need to disperse it. Otherwise, it's just going to – the reason I don't like it is a lot of people in autopsies and people who plaque, I've seen plaque impactation. You let it settle. Places where it dried up into their intestine, it just stayed there. That meant that whole area of that intestine didn't function.
 
 Q: So you don't recommend using clay regularly?
 
@@ -1148,7 +1152,7 @@ A: They weren't regular eggs. I told her doctor to get them at least at a health
 
 Q: And she got results. Can you get similar results by putting half a dozen eggs in a smoothie or a milkshake?
 
-A: No, you can put on lots of weight that way. See, it takes milk six to ten hours to digest. So once you put it into the milk, it slows everything down. I make sure I digest it within 27 minutes because I will break the egg and I suck out the egg white. You know, I dip it in without putting a hole in it, the fat end. And then the narrow end, I'll punch the hole in it and I'll hold it down like this and I'll suck it gently. Only the egg white comes out first. And then the egg white digests very rapidly because there's some fat, you know, you don't have to have the bile. It takes longer for the bile to work on it. We don't need any hydrochloric acid for the egg white because it's already liquid. All we need to do is the bacteria working, so I keep the egg white in my mouth until it's completely water. And I know it's full of bacteria and then I swallow it. And then the egg yolk will last and, of course, your body kind of layers things. As it goes in, it kind of layers itself, so it moves that way. So the yolk comes in behind and the yolk will digest much faster by itself, too, as well as the egg white will. 
+A: No, you can put on lots of weight that way. See, it takes milk six to ten hours to digest. So once you put it into the milk, it slows everything down. I make sure I digest it within 27 minutes because I will break the egg and I suck out the egg white. You know, I dip it in without putting a hole in it, the fat end. And then the narrow end, I'll punch the hole in it and I'll hold it down like this and I'll suck it gently. Only the egg white comes out first. And then the egg white digests very rapidly because there's some fat, you know, you don't have to have the bile. It takes longer for the bile to work on it. We don't need any hydrochloric acid for the egg white because it's already liquid. All we need to do is the bacteria working, so I keep the egg white in my mouth until it's completely water. And I know it's full of bacteria and then I swallow it. And then the egg yolk will last and, of course, your body kind of layers things. As it goes in, it kind of layers itself, so it moves that way. So the yolk comes in behind and the yolk will digest much faster by itself, too, as well as the egg white will.
 
 Q: Is it okay to leave the umbilical cord out of that? Can you not eat that?
 

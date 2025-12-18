@@ -1277,11 +1277,11 @@ I don't think that it’s a good solution. I think it’s better to sing or
 do an exercise such as swimming to relieve that kind of anxiety or energy.
 
 I know quite a few people who went a little nuts. And people wanted to
-institutionalize them. Eleanora Van Winkle, the scientist was into the diet
+institutionalize them. Elnora Van Winkle, the scientist was into the diet
 for quite a few years until she went into instincto and it killed her. She
 was almost 80 years old. She did very well on the diet, but when she went
 to instincto she ate all of this fruit and was dead in a year and a half.
-She and I had conversations about this and I said ‘Eleanora, if you are
+She and I had conversations about this and I said ‘Elnora, if you are
 always expressing that energy and anger as violence, what do you think you
 are creating, what do you think your propagating? Sing! Find some sport you
 like to do and exercise it that way, and you’ll be happier.” And she said,

@@ -763,9 +763,9 @@ tablespoons of that with your meat meal. And this would last for four days -
 over eight meat meals. And the sport drink would be very good to assist in
 removing brain tumors.
 
-Q:[unclear question]
+Q: [unclear question]
 
-A: Don’t every try to talk anybody into it. Give them my We Want to Life Book
+A: Don’t every try to talk anybody into it. Give them my We Want to Live Book
 and it will seduce them into opening their minds at least.
 
 Q: Taste plastic packaging on meat.

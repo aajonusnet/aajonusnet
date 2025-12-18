@@ -1058,7 +1058,7 @@ A: It coats the vegetation.
 
 Q: What if you just have vinegar on it? Is that ok?
 
-A: It's ok. You'll start fermenting it. It'll be just a little bit better with that.
+A: It's ok. You'll start fermenting it. It'll be just a little bit better with vinegar.
 
 Q: It won't feel good on your stomach if you put olive oil on it.
 

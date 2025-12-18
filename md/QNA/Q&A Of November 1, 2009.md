@@ -318,7 +318,7 @@ Q: My original question was, once you get one of those brain tumors, what do you
 
 A: Well, his question was, benign tumors I don't like because they don't dissolve easily. Malignant tumors I like because a cancer cell is part of the remedy. A cancer cell has a viral fluid in it. It's viral-like. It's enzymatic. It will dissolve dead cells. Tumors are the body's inability to dissolve dead cells, so it stores them in tumors. These are, you know, flat. You know, you can have warts. Warts are tumors Moles are tumors. Any protrusion, hard protrusion of the body is, are dead cells that the body cannot dissolve and get rid of. So when it collects them into tumors, whether they're fibroid, which are usually flat and long, or circular or egg-shaped or whatever, oval, whatever shape they might be, or even bumpy and lumpy, they do not dissolve well if they're benign. There's no cancer cells there to dissolve those dead cells at any time. There's no blood circulation through a benign tumor. So your body has circulation to it on the rims, so the body has to dissolve it perimeter out. You know, to work on it gradually, could take 30 years, 50 years, or a lifetime and never dissolve them completely. If you have a malignant tumor, you have the cancer cells with that fluid to dissolve all the dead cells and make up a tumor. That's why you have reversals in like 5 days. You can have a huge tumor dissolve and disappear. If your body is healthy enough and has enough fat to handle the waste product from that. Because the waste product most often will dissolve good tissue as well and damage the body. So you have to be healthy enough to do it. And you have to have enough fats in the body to do it. That's why when I have a person who's riddled with cancer like Barbara, I want them to be extremely overweight. So when they start dissolving those tumors in her spine, she'll have all this fat around here to take care of her and protect her, so she won't lose her spinal cord or else she'll be paralyzed or dead. So it's important to have that fat. So, does that answer your question, William?
 
-Q: No. 
+Q: No. What do you...
 
 A: What do you do about it? You drop back 10 and punt. You've got a benign tumor.
 
@@ -434,9 +434,9 @@ Q: [unintelligible]
 
 A: You don't want to do that every day if the skin isn't already broken with a tumor. If the skin's already broken with a tumor, then, hell, pack the fecal matter on there. It's fine.
 
-Q: How do you use the black [unintelligible]?
+Q: How do you use the black salve?
 
-A: Black [unintelligible] is nasty stuff. Yeah, what it does is it seals the tumor in so that the whole area where it used to perspire and then seep and bleed and eject, it's now going to be thrown somewhere else in your body. Every person I've seen has had black saddles died. Nasty stuff. It just causes metastasis.
+A: Black salve is nasty stuff. Yeah, what it does is it seals the tumor in so that the whole area where it used to perspire and then seep and bleed and eject, it's now going to be thrown somewhere else in your body. Every person I've seen has had black salve died. Nasty stuff. It just causes metastasis.
 
 Q: Good question.
 
@@ -706,9 +706,9 @@ Q: [unintelligible]
 
 A: He was trained medically to believe that. Smallpox... How many people got a smallpox vaccine? That was the first vaccine, only vaccine I was forced to get until 1958. That was the big money maker of all vaccines since 1890... What was it? 1889? They've been making that smallpox vaccine for a very, very long time.
 
-Q: I was going to say that there's a lot of German doctors right now, particularly Dr. Kammerer, who's been talking about German new medicine, who is scientifically proving there is no such thing as a virus, and that everything they're calling a virus under a microscope is not. And I think you'd find that very interesting, and you too, Michael.
+Q: I was going to say that there's a lot of German doctors right now, particularly Dr. Hamer, who's been talking about German new medicine, who is scientifically proving there is no such thing as a virus, and that everything they're calling a virus under a microscope is not. And I think you'd find that very interesting, and you too, Michael.
 
-A: Well, you can label anything anything, but they've labeled certain substances that have a particular molecular structure as virus. So it's okay, call them what you want. But what they are is they are enzymatic activity. They are proteins that are formed in certain structures that cause dissolution, that cause fragmentation of particles, of cells. When I use solvent, a lot of people say, well, if I use muriatic acid and pour it in, it's going to make a soup and a mush. Viruses don't work like a mush, like muriatic acid. So I had to stop using that analysis. It acts like any enzyme in the intestines. It fractionates, it takes things apart without making much of them. And when the virus does that, it's just a certain kind of molecular structure, pattern of proteins, that causes a fractionation of certain substances. Their waste products are with it, the value of the RNA and DNA of that particular tissue that's being dissolved. There's nothing to do with contagion. You can put that in somebody, you can put it on the tissue, you can put it in their mouth, you can put it on their mucous membranes, and they won't get it. Many animal experiments are doing that. But when it's injected into the body, yes, then that solvent starts working to disassemble the cellular structure of that animal's body upon injection. So, did that woman ever get a smallpox vaccine when she was a kid?
+A: Well, you can label anything anything, but they've labeled certain substances that have a particular molecular structure as virus. So it's okay, call them what you want. But what they are is they are enzymatic activity. They are proteins that are formed in certain structures that cause dissolution, that cause fragmentation of particles, of cells. When I use solvent, a lot of people say, well, if I use muriatic acid and pour it in, it's going to make a soup and a mush. Viruses don't work like a mush, like muriatic acid. So I had to stop using that analysis. It acts like any enzyme in the intestines. It fractionates, it takes things apart without making mush of them. And when the virus does that, it's just a certain kind of molecular structure, pattern of proteins, that causes a fractionation of certain substances. Their waste products are with it, the value of the RNA and DNA of that particular tissue that's being dissolved. There's nothing to do with contagion. You can put that in somebody, you can put it on the tissue, you can put it in their mouth, you can put it on their mucous membranes, and they won't get it. Many animal experiments are doing that. But when it's injected into the body, yes, then that solvent starts working to disassemble the cellular structure of that animal's body upon injection. So, did that woman ever get a smallpox vaccine when she was a kid?
 
 Q: I don't know.
 
@@ -802,7 +802,9 @@ Q: Going back to the foot bath that was talked about earlier, you had mentioned 
 
 A: Vinegar and milk. Yes. That's my book.
 
-Q: The question I had was, have you ever heard of black henna, making a paste out of black henna and applying it on your teeth for neuropathy to help? Well, that will help draw out some heavy metals, best to use a terramin clay to do that. Or you can use terramin clay, you can also put some cilantro juice in the terramin clay and then use that as a [unintelligible]. That would be much better than using henna.
+Q: The question I had was, have you ever heard of black henna, making a paste out of black henna and applying it on your feet for neuropathy to help?
+
+A: Well, that will help draw out some heavy metals, best to use a terramin clay to do that. Or you can use terramin clay, you can also put some cilantro juice in the terramin clay and then use that as a [unintelligible]. That would be much better than using henna.
 
 Q: How much terramin clay and how much cilantro juice?
 
@@ -824,7 +826,9 @@ Q: Will the clay pick up something if it is metal? Why not?
 
 A: Yeah, it does react that way with metal. It definitely will start moving the metal. That's why if you leave even stainless steel in the clay, it will tarnish it. Even stainless steel, it will tarnish stainless steel, because it will start dissolving metal. Maybe you have to leave it in for a week, but it will do it. Before you can see it noticing. Yeah.
 
-A: Is there any clay you use? Terramin. T-E-R-R-A-M-I-N. Terramin clay.
+Q: Is there any clay you use? 
+
+A: Terramin. T-E-R-R-A-M-I-N. Terramin clay.
 
 Q: Have you ever used a [unintelligible]?
 
@@ -844,7 +848,7 @@ A: Is it far to yours?
 
 Q: Plenty. No, I'm not used to this. I've never been here. Last times were easy, so I hope to do this time too. Okay, a different type of question, but still I think in the realm of your interest. My father died about three years ago. He lived down in Australia. As he was crossing the street, he felt suddenly something in his left side of the body, and he immediately thought it was a heart attack. But it didn't disable him. He was able, in fact, to drive himself to a doctor, and the doctor said, yes, this is a heart attack. You'd better get to the hospital as soon as you can. So he goes to the hospital, and they run the tests, and that's the question I want to ask. They say, oh, yeah, this is a heart attack, and you have an arterial blockage, they said. We need to do a bypass operation. While they were doing this test and this and that, he got pneumonia. They said, well, we need to cure the pneumonia first and then do the operation. A couple of days later, he dies of pneumonia. So what happened? What do you think happened?
 
-A: Well, pneumonia is a disease where you're detoxing the lymphatic system out the lungs because you don't do it out the skin. So a lot of water forms on the lungs. So he probably had some kind of detox, because a heart attack is a detoxification. You don't panic, usually you won't die. I've had 300 heart attacks, 50 of them put me unconscious after I got the polio vaccine. When I was 15 and a half, the third one. I had angina and those 300 heart attacks, and then until I was 22 years old, when I started drinking raw milk and raw carrot juice, my heart attacks went away. I've only had one in all of that time, and that was about three years ago. And that was during a cleanse, when the heart was trying to cleanse. The heart was trying to cleanse of the mercury and aluminum from the polio vaccine that's stored in my heart, that was causing a Charlie horse. A heart attack is a Charlie horse. You either have some kind of chemical causing the cramping in the heart, the heart attack, the Charlie horse, or you've got lactic acid buildup, or you've got some kind of congestive heart failure where the body's trying to push very hard, and the muscles are contracting very hard until they go into a cramp to push whatever congestion is there out. So normally your body will go into high blood pressure before that, so the heart doesn't have to work so hard individually in its own tissue. It will just make the pump a little faster and irregularly to raise the blood pressure to keep things moving through. So a heart attack is not the problem. He was going through a detoxification. He was already fragile. They put him in the hospital, started screwing with his body, created pneumonia. They gave him antibiotics for that and killed him.
+A: Well, pneumonia is a disease where you're detoxing the lymphatic system out the lungs because you don't do it out the skin. So a lot of water forms on the lungs. So he probably had some kind of detox, because a heart attack is a detoxification. You don't panic, usually you won't die. I've had 300 heart attacks, 50 of them put me unconscious after I got the polio vaccine. When I was 15 and a half, the third one. I had angina and those 300 heart attacks, and then until I was 22 years old, when I started drinking raw milk and raw carrot juice, my heart attacks went away. I've only had one in all of that time, and that was about three years ago. And that was during a cleanse, when the heart was trying to cleanse. The heart was trying to cleanse of the mercury and aluminum from the polio vaccine that's stored in my heart, that was causing a Charley horse. A heart attack is a Charley horse. You either have some kind of chemical causing the cramping in the heart, the heart attack, the Charley horse, or you've got lactic acid buildup, or you've got some kind of congestive heart failure where the body's trying to push very hard, and the muscles are contracting very hard until they go into a cramp to push whatever congestion is there out. So normally your body will go into high blood pressure before that, so the heart doesn't have to work so hard individually in its own tissue. It will just make the pump a little faster and irregularly to raise the blood pressure to keep things moving through. So a heart attack is not the problem. He was going through a detoxification. He was already fragile. They put him in the hospital, started screwing with his body, created pneumonia. They gave him antibiotics for that and killed him.
 
 Q: So it's antibiotics. I thought I'd kind of figured that by reading your articles and books. So it would have been better off not to go to hospital.
 
@@ -948,7 +952,9 @@ A: Because the walls get hot, ceiling gets hot, underneath the floor usually doe
 
 Q: So putting tiles with what?
 
-A: What do you suggest people do in the meantime if they can't afford it right away? Well, anything that gets rid of, you know, heavy metals and toxic vapors, like the combination of a third mango, a third kiwi, a third of the mixture. So you're talking about a medium-sized kiwi, a third of a mango, not, you know, on the green.
+Q: What do you suggest people do in the meantime if they can't afford it right away?
+
+A: Well, anything that gets rid of, you know, heavy metals and toxic vapors, like the combination of a third mango, a third kiwi, a third of the mixture. So you're talking about a medium-sized kiwi, a third of a mango, not, you know, on the green.
 
 Q: Together?
 

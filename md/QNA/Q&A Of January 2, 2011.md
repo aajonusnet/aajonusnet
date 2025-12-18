@@ -1222,9 +1222,9 @@ A: I don't use white vinegar in my house.
 
 Q: How do you clean your windows?
 
-A: I'll use BioClean.
+A: I'll use Biokleen.
 
-Q: BioClean.
+Q: Biokleen.
 
 A: The water is squeegee.
 

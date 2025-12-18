@@ -1,4 +1,0 @@
-The recently introduced "Inflammatory breast cancer (IBC)" scare is a creation of the pharmaceutical/medical companies and is hysteria-creating. It is another terrorist attack on womens minds via their breasts. When cancer begins to reverse, it becomes inflammatory by nature of the solvents rendered by dying cancer cells. 
-
-Those solvents dissolve the
-surrounding dead cells (mummified cells) that constitute approximately 95% of every tumor. When any cancer becomes inflammatory, it is the process of reversing. In other words, the body is finalizing detoxification and should begin healing. Ignore the misinformation regarding IBC and spread the word to your loved ones and friends.

@@ -1,71 +1,139 @@
-// Global variables to manage debouncing and aborting in-flight fetches
-let searchTimeout = null;
-let currentSearchController = null;
-
 async function search(input) {
-  const searchValue = input.value.toLowerCase();
-  const trimmedSearchValue = searchValue.trim();
-  const grid = document.querySelector('.grid');
-  const results_DOM = document.querySelector('.results');
-  
-  // Show/hide clear icon as before
-  document.getElementById('clear-icon').style.display = searchValue.length > 0 ? 'block' : 'none';
+    const searchValue = input.value.toLowerCase();
+    const trimmedSearchValue = searchValue.trim();
+    const grid = document.querySelector('.grid');
+    const results_DOM = document.querySelector('.results');
+    results_DOM.innerHTML = '';
 
-  // If every word is less than 3 characters, restore the grid and hide results.
-  const words = searchValue.split(/\s+/).filter(word => word && word !== "the");
-  if (words.every(word => word.length < 3)) {
-    grid.style.display = 'block';
-    results_DOM.style.display = 'none';
-    return;
-  }
-  
-  // Hide the grid and show the results area.
-  grid.style.display = 'none';
-  results_DOM.style.display = 'block';
-  
-  // Instead of immediately clearing the results, we display a loading indicator.
-  results_DOM.innerHTML = '<p>Loading...</p>';
+    // Show/hide 'clear' icon
+    document.getElementById('clear-icon').style.display = searchValue.length > 0 ? 'block' : 'none';
 
-  // Debounce: clear the previous timeout (if any) and wait 300ms after the user stops typing.
-  if (searchTimeout) {
-    clearTimeout(searchTimeout);
-  }
-  
-  searchTimeout = setTimeout(() => {
-    // Abort any pending fetch
-    if (currentSearchController) {
-      currentSearchController.abort();
+    // If we want to skip searches under 3 characters, do it here on the client:
+    if (trimmedSearchValue.length < 3) {
+        grid.style.display = 'block';
+        results_DOM.style.display = 'none';
+        return;
     }
-    currentSearchController = new AbortController();
-    performCloudSearch(trimmedSearchValue, currentSearchController);
-  }, 300);
+
+    // Hide main grid, show results container
+    grid.style.display = 'none';
+    results_DOM.style.display = 'block';
+
+    // Make request to server
+    try {
+        const response = await fetch('/serverSearch.php', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({ query: trimmedSearchValue })
+        });
+
+        if (!response.ok) {
+            throw new Error(`Server responded with ${response.status}`);
+        }
+
+        const data = await response.json();
+
+        // data should contain: { titleMatches, exactMatches, partialMatches }
+        const fragmentTitle   = document.createDocumentFragment();
+        const fragmentExact   = document.createDocumentFragment();
+        const fragmentPartial = document.createDocumentFragment();
+
+        let totalResults = 0;
+
+        // TITLE MATCHES
+        if (data.titleMatches && data.titleMatches.length > 0) {
+            data.titleMatches.forEach(match => {
+                const resultCard = createResultCard(
+                    match.title,
+                    match.url,
+                    [] // no snippet if it’s a title-only match
+                );
+                fragmentTitle.appendChild(resultCard);
+            });
+        }
+
+        // EXACT MATCHES
+        if (data.exactMatches && data.exactMatches.length > 0) {
+            data.exactMatches.forEach(match => {
+                const resultCard = createResultCard(
+                    match.title,
+                    match.url,
+                    match.snippets
+                );
+                fragmentExact.appendChild(resultCard);
+                totalResults += match.snippets.length;
+            });
+        }
+
+        // PARTIAL MATCHES
+        if (data.partialMatches && data.partialMatches.length > 0) {
+            data.partialMatches.forEach(match => {
+                const resultCard = createResultCard(
+                    match.title,
+                    match.url,
+                    match.snippets
+                );
+                fragmentPartial.appendChild(resultCard);
+                totalResults += match.snippets.length;
+            });
+        }
+
+        // If no exact or partial, show "No results found"
+        if ( (!data.exactMatches || data.exactMatches.length === 0) &&
+             (!data.partialMatches || data.partialMatches.length === 0) &&
+             (!data.titleMatches  || data.titleMatches.length === 0) ) {
+            const noResults = document.createElement('p');
+            noResults.textContent = 'No results found';
+            fragmentExact.appendChild(noResults);
+        }
+
+        // Optionally show total results:
+        // const resultsSummary = document.createElement('p');
+        // resultsSummary.textContent = `There are ${totalResults} results.`;
+        // results_DOM.insertBefore(resultsSummary, results_DOM.firstChild);
+
+        // Append everything in order
+        results_DOM.appendChild(fragmentTitle);
+        results_DOM.appendChild(fragmentExact);
+
+        if (fragmentPartial.childElementCount > 0) {
+            results_DOM.insertAdjacentHTML('beforeend', 
+                '<p style="font-style:italic; margin:20px 0 10px;">Partial matches:</p>'
+            );
+        }
+        results_DOM.appendChild(fragmentPartial);
+
+    } catch (error) {
+        console.error("Error fetching search results:", error);
+        const errMsg = document.createElement('p');
+        errMsg.textContent = "Error fetching search results.";
+        results_DOM.appendChild(errMsg);
+    }
 }
 
-async function performCloudSearch(query, controller) {
-  const results_DOM = document.querySelector('.results');
-  try {
-    const response = await fetch('/cloudsearch.php', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      signal: controller.signal,
-      body: JSON.stringify({ query: query })
+function createResultCard(title, link, snippets) {
+    // Create a new card for the search result
+    const resultCard = document.createElement('div');
+    resultCard.className = 'card';
+
+    const resultTitle = document.createElement('h2');
+    resultTitle.innerHTML = `<a class="result-link" href="${link}">${title}</a>`;
+    resultCard.appendChild(resultTitle);
+
+    if (!snippets || snippets.length === 0) {
+        return resultCard;
+    }
+
+    snippets.forEach(snippet => {
+        const resultContent = document.createElement('p');
+        // snippet is assumed to be safe or already sanitized HTML from the server
+        resultContent.innerHTML = snippet;
+        resultCard.appendChild(resultContent);
     });
-    // If the fetch was aborted, do nothing.
-    if (!response.ok) {
-      results_DOM.innerHTML = '<p>Error performing search.</p>';
-      return;
-    }
-    // Update the results with the returned HTML.
-    const html = await response.text();
-    results_DOM.innerHTML = html;
-  } catch (error) {
-    // If the fetch was aborted, silently ignore.
-    if (error.name === 'AbortError') {
-      return;
-    }
-    console.error('Error during cloud search:', error);
-    results_DOM.innerHTML = '<p>Error performing search.</p>';
-  }
+
+    return resultCard;
 }
 
 // Clear button

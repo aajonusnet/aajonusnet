@@ -20,7 +20,7 @@ A: Well, I think three of them and three of the doctors were a little bit consid
 
 Q: When did it air?
 
-A: It aired Monday. It aired in ten days. Shot it on a Friday and aired it on a Monday. Ten days later. That quick. I was surprised. They did let me, they did keep in the part about milk. They said, well, you know, milk is dangerous. Salmon oil is a bacteria. And I said, well, at UC Davis a couple of years ago, they spiked the raw milk with five bacteria that are believed to contaminate raw milk. And they found that because the lactic acid was raw in the raw milk, that the bacteria wouldn't grow. But when they spiked the same bacteria into pasteurized milk, it grew in a flash. So I said, it's dangerous in pasteurized milk. Nobody had any comments about anything that I said beyond that. Except, no, raw meat is dangerous. And that's all they could retort. Or the one fellow, Dr. Stork. At least it got on the air. And they let me say some viable things that they allowed to stay in. When I shut them up, about the 25,000 people that I observed, and he just mouth dropped, I went into a whole five minute, or four or five minutes, talking with the audience. So they would understand how the bacteria works, how you've got digestive juices which fractionates your food molecules, into smaller particles so that the bacteria can eat. And that's how we thrive. If we don't have good bacteria, we don't have good digestion. So the bacteria's waste product, or produce, their byproduct, is our food. That's how we feed ourselves. So, I mean, nobody knew that's how it worked. What did they think the intestinal bacteria was all about?
+A: It aired Monday. It aired in ten days. Shot it on a Friday and aired it on a Monday. Ten days later. That quick. I was surprised. They did let me, they did keep in the part about milk. They said, well, you know, milk is dangerous. Salmonella is a bacteria. And I said, well, at UC Davis a couple of years ago, they spiked the raw milk with five bacteria that are believed to contaminate raw milk. And they found that because the lactic acid was raw in the raw milk, that the bacteria wouldn't grow. But when they spiked the same bacteria into pasteurized milk, it grew in a flash. So I said, it's dangerous in pasteurized milk. Nobody had any comments about anything that I said beyond that. Except, no, raw meat is dangerous. And that's all they could retort. Or the one fellow, Dr. Stork. At least it got on the air. And they let me say some viable things that they allowed to stay in. When I shut them up, about the 25,000 people that I observed, and he just mouth dropped, I went into a whole five minute, or four or five minutes, talking with the audience. So they would understand how the bacteria works, how you've got digestive juices which fractionates your food molecules, into smaller particles so that the bacteria can eat. And that's how we thrive. If we don't have good bacteria, we don't have good digestion. So the bacteria's waste product, or produce, their byproduct, is our food. That's how we feed ourselves. So, I mean, nobody knew that's how it worked. What did they think the intestinal bacteria was all about?
 
 Q: So the audience reception was okay?
 
@@ -68,11 +68,11 @@ A: No.
 
 Q: How old were they?
 
-A: The ones I got to meet with were from 60 to 80. The 80-year-old man who seemed to be the leader of that group, the elders, they wouldn't let me back into the tribe. These came out to meet me. These people were brought out to meet me. The way that I got that, I've been trying for three weeks, almost four weeks, with the authorities because you have to have permission. They wouldn't even rent me a car. Burr Budget wouldn't even rent me a car when I told him where I was going to go. They said, you can't go back there. They'll kill you. There's cannibals. The only cannibals I know are still in... That's what they said. They were cannibals. They have people terrified to go back where these tribes are. So I went for a massage at a health spa, and the receptionist there had a little baby that was about five and a half months old, almost six months old, and the baby was white. White as her pants or as her shorts. The mother was dark brown and the father was black. This baby was so anemic, so leukemic, that the baby was white and very weak. There was a nearby island, on Samal Island, where I had made a contact with a dairy. They were selling me raw dairy milk. They would feed it, like they would feed each cow during milkings. They were grazed cows, but at milking time, they ate probably about ten pounds of green bananas. That was what they were fed for milking time. So I smelled like unripe bananas after a few weeks of drinking that milk. You know, kind of the alame that smells, you know, that peels on them.
+A: The ones I got to meet with were from 60 to 80. The 80-year-old man who seemed to be the leader of that group, the elders, they wouldn't let me back into the tribe. These came out to meet me. These people were brought out to meet me. The way that I got that, I've been trying for three weeks, almost four weeks, with the authorities because you have to have permission. They wouldn't even rent me a car. Burr Budget wouldn't even rent me a car when I told him where I was going to go. They said, you can't go back there. They'll kill you. There's cannibals. The only cannibals I know are still in... That's what they said. They were cannibals. They have people terrified to go back where these tribes are. So I went for a massage at a health spa, and the receptionist there had a little baby that was about five and a half months old, almost six months old, and the baby was white. White as her pants or as her shorts. The mother was dark brown and the father was black. This baby was so anemic, so leukemic, that the baby was white and very weak. There was a nearby island, on Samal Island, where I had made a contact with a dairy. They were selling me raw dairy milk. They would feed it, like they would feed each cow during milkings. They were grazed cows, but at milking time, they ate probably about ten pounds of green bananas. That was what they were fed for milking time. So I smelled like unripe bananas after a few weeks of drinking that milk. You know, kind of the alamy that smells, you know, that peels on them.
 
 Q: Did you like that stuff?
 
-A: Not really, but it was better than a foul odor. It was still an unusual alame odor or fragrance, whatever you want to call it.
+A: Not really, but it was better than a foul odor. It was still an unusual alamy odor or fragrance, whatever you want to call it.
 
 Q: Banana split.
 
@@ -640,7 +640,7 @@ A: Absolutely.
 
 Q: Do they have to regenerate the protein and fat?
 
-A: Everything. It's got to be a balanced diet. Of course you have to remove the poisons too. I had chemotherapy 41 years ago and I'm still detoxified.
+A: Everything. It's got to be a balanced diet. Of course you have to remove the poisons too. I had chemotherapy 41 years ago and I'm still detoxifying.
 
 Q: You can tell when it's coming out.
 
@@ -1282,7 +1282,7 @@ A: Three foods. That was it. Three foods.
 
 Q: Yeah, but they don't go to work that much.
 
-A: And they don't have a stressful life either. No, it's a great life. It's like they're in constant retirement from the time they're bored.
+A: And they don't have a stressful life either. No, it's a great life. It's like they're in constant retirement from the time they're born.
 
 Q: Are they taking new members?
 

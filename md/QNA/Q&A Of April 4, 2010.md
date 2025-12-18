@@ -166,9 +166,9 @@ Q: That's usually when I wake up from intense nightmares, right around 1, 1:30.
 
 A: Set your alarm clock for 12:30 and get up and do something to avoid those nightmares.
 
-Q: Bioclean?
+Q: Biokleen?
 
-A: Bioclean is 80% made from seed oils, like grapefruit seeds. Just remember all soaps are made of fats. They used to take pig lard and mix it with lye and you'd have a soap. I have a friend who makes coconut oil soap. Very expensive oil that we eat, he puts lye in it to make the soap. The lye is a hardener, it hardens the oil so as soon as water is added to it it will act as an emulsifier and solvent to break things down to get rid of dirt or caustic compounds. So that's preferable. Almost all your other soaps are made with petroleum fat, not seed oils. Very cheap, also very caustic and toxic. It'll get into everything. It'll get into your hands if you're washing your hands. You have to understand that they cut those with a kerosine or a kerosine derivative. All I use is coconut cream on myself; once it's fermented I start using it as soap. When it's cold it never ferments up in the mountains where I am so I can never get my coconut cream fermented during the winter. But during the spring, summer and fall, when it gets warm enough, it takes probably 3 days to ferment. You can get a jar and set it on the patio here and it'll ferment in 10 hours. Fermentation creates alcohol in it, and alcohol and the fat together will dissolve dirt, grease. Coconut cream is the only thing I can shave with without cutting myself or getting an ingrown hair. I leave it on my face for maybe 10 minutes before I shave. It softens the -
+A: Biokleen is 80% made from seed oils, like grapefruit seeds. Just remember all soaps are made of fats. They used to take pig lard and mix it with lye and you'd have a soap. I have a friend who makes coconut oil soap. Very expensive oil that we eat, he puts lye in it to make the soap. The lye is a hardener, it hardens the oil so as soon as water is added to it it will act as an emulsifier and solvent to break things down to get rid of dirt or caustic compounds. So that's preferable. Almost all your other soaps are made with petroleum fat, not seed oils. Very cheap, also very caustic and toxic. It'll get into everything. It'll get into your hands if you're washing your hands. You have to understand that they cut those with a kerosine or a kerosine derivative. All I use is coconut cream on myself; once it's fermented I start using it as soap. When it's cold it never ferments up in the mountains where I am so I can never get my coconut cream fermented during the winter. But during the spring, summer and fall, when it gets warm enough, it takes probably 3 days to ferment. You can get a jar and set it on the patio here and it'll ferment in 10 hours. Fermentation creates alcohol in it, and alcohol and the fat together will dissolve dirt, grease. Coconut cream is the only thing I can shave with without cutting myself or getting an ingrown hair. I leave it on my face for maybe 10 minutes before I shave. It softens the -
 
 Q: Essential oils?
 
@@ -322,8 +322,8 @@ A: That's not sciatica. Sciatica goes down here, the whole belt -
 
 Q: It felt like it was coming here and all the way down here, and it would hurt, and now it happened for a couple weeks and it just stopped.
 
-A: Well, you had some toxins moving out of this joint down this muscle. The nerves in the muscle. It wasn't the localized charlie horse, it was an extended charlie horse.
+A: Well, you had some toxins moving out of this joint down this muscle. The nerves in the muscle. It wasn't the localized charley horse, it was an extended charley horse.
 
-Q: It didn't feel like a charlie horse, it felt like a nerve thing.
+Q: It didn't feel like a charley horse, it felt like a nerve thing.
 
 A: If it was lactic acid buildup in the joints and was discharging through the muscle usually it would cause a cramp, something that's moving out of this joint, down your leg out your foot trying to leave through the skin, discharging through the skin, so let's say it was lactic acid I would say, "drink whey. Have some banana with some cottage cheese or butter or pineapple is the same.”

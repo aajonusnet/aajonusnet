@@ -88,9 +88,9 @@ A: It usually follows eating.
 
 Q: I mean, does it follow having Crohn's? Does Crohn's have leaky gut?
 
-A: Always in Crohn's you have leaky gut. Some people could have the same problem, not have crones, but I doubt it would be in the knees, affect the knees.
+A: Always in Crohn's you have leaky gut. Some people could have the same problem, not have Crohn's, but I doubt it would be in the knees, affect the knees.
 
-Q: We have a relative who has pretty severe crones, and we try to get her to eat raw eggs, and she said she had this reaction where her heart pounded severely. What is that?
+Q: We have a relative who has pretty severe Crohn's, and we try to get her to eat raw eggs, and she said she had this reaction where her heart pounded severely. What is that?
 
 A: Well, her body was passing some toxins into the blood, and the heart needed to pump the blood through quickly so it doesn't deposit in the heart or the brain. So when the blood's moving rapidly through, the heavy metals and toxins cannot lodge in the heart or brain. It can lodge in the nervous system and the muscles and the bones everywhere else, even in the intestines, but not in the heart and not in the brain. So that's all.
 
@@ -608,7 +608,7 @@ Q: So what's the difference between the vinegar and what you were talking about,
 
 A: Coconut cream will help fractionate bonds of, let's say, magnetic minerals or crystals of old toxic, hardened vegetable oils, hydrogenated vegetable oils or plastic molecules. It will help break those down into smaller substances. Vinegar will actually eat away things, eat away tissue.
 
-Q: Well, it's acid, acidic acid.
+Q: Well, it's acid, acetic acid.
 
 A: It's an acid, yeah. Mild acid. It usually won't affect good, good, healthy live cells, but it will definitely start melting down dead cells or damaged cells.
 

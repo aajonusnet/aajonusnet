@@ -42,11 +42,11 @@ A: Full-blown heart attacks.
 
 M: Right.
 
-A: Because I was autistic and not conditioned to be in fear whenever I had pain and I had pain all my life. If I lifted my arm for two minutes I had pain, severe pain. So when I had the heart attacks it was just a matter of relaxing into the pain. Most people fight it and when you fight a charlie horse what happens?
+A: Because I was autistic and not conditioned to be in fear whenever I had pain and I had pain all my life. If I lifted my arm for two minutes I had pain, severe pain. So when I had the heart attacks it was just a matter of relaxing into the pain. Most people fight it and when you fight a charley horse what happens?
 
 M: You get more pain.
 
-A: Of course. Yeah. That's what a heart attack is. A heart attack is a charlie horse in your muscle, the heart muscle. That's what the heart is, 90% muscle. So I was able to pass through it without death although it's excruciatingly painful every time.
+A: Of course. Yeah. That's what a heart attack is. A heart attack is a charley horse in your muscle, the heart muscle. That's what the heart is, 90% muscle. So I was able to pass through it without death although it's excruciatingly painful every time.
 
 M: Right. Well let's move on to why we booked the call today. This question is definitely for the listeners out there but can you tell us why do you eat your food raw?
 

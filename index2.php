@@ -405,6 +405,6 @@ if (isset($_GET['s'])) {
     </div>
 </div>
     <?php } ?>
-    <script src="index2.js?v=220"></script>
+    <script src="index2.js?v=230"></script>
 </body>
 </html>
