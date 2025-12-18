@@ -63,13 +63,13 @@ healthier living and functionality.
 
 
 Many primitive people ate meats full of pathogens to strengthen themselves and improve their
-abilities to flourish in good health in Nature, in all of its forms.The Eskimo buried fish and
+abilities to flourish in good health in Nature, in all of its forms. The Eskimo buried fish and
 caribou for up to 6 weeks at a time until it stunk for a half mile down wind before they consumed
 it. When Aajonus Vonderplanitz, a man who had always experienced extreme discomfort from
 mildly cold temperature and who was considered by medical science to be in danger of death
-from pathogens, experimented with the Eskimo’s bacteria-infested foods.After eating only 4
+from pathogens, experimented with the Eskimo’s bacteria-infested foods. After eating only 4
 ounces of pathogen-infested raw meats, Aajonus felt warm in a cold climate, that is, for the first
-time in his life he was able to enjoy being alive in cold temperatures.Laboratory tests revealed
+time in his life he was able to enjoy being alive in cold temperatures. Laboratory tests revealed
 that he had consumed enough e-coli and salmonella to kill a herd of elephants, that is,
 according medical science. Aajonus did not suffer any ill effects from eating the pathogen-
 infested food. (Ripley's Believe It Or Not, July 17, 2002.) He experienced mild loose bowels the

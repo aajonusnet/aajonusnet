@@ -205,7 +205,7 @@ A: Yes. And I'm just mentioning some of the biological contaminants. Who
 knows how many others there are? Others we don't find because we don't
 think to look for them. If tissue from, say, a bird is used to make
 a vaccine, how many possible germs can be in that tissue? We have no
-idea.We have no idea what they might be, or what effects they could have
+idea. We have no idea what they might be, or what effects they could have
 on humans.
 
 Q: And beyond the purity issue?
@@ -325,7 +325,7 @@ A: Several times I was told to keep quiet. It was made clear that I
 should go back to work and forget my misgivings. On a few occasions,
 I encountered fear. Colleagues tried to avoid me. They felt they could
 be labeled with "guilt by association." All in all, though, I behaved
-myself.I made sure I didn't create problems for myself.
+myself. I made sure I didn't create problems for myself.
 
 Q: If vaccines actually do harm, why are they given?
 
@@ -510,10 +510,10 @@ use. You only get stories, most of which are designed to enforce the
 superstition. But, from many vaccine campaigns, we can piece together a
 narrative that does reveal some very disturbing things. People have been
 harmed. The harm is real, and it can be deep and it can mean death. The
-harm is NOT limited to a few cases, as we have been led to believe.In
+harm is NOT limited to a few cases, as we have been led to believe. In
 the US, there are groups of mothers who are testifying about autism
 and childhood vaccines. They are coming forward and standing up at
-meetings.They are essentially trying to fill in the gap that has been
+meetings. They are essentially trying to fill in the gap that has been
 created by the researchers and doctors who turn their backs on the
 whole thing.
 

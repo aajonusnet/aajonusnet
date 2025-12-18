@@ -226,7 +226,7 @@ async function search(input) {
     results_DOM.innerHTML = '';
     return;
   }
-  
+
   catBar.hidden = true;
   grid.hidden = true;
   results_DOM.hidden = false;

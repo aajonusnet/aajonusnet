@@ -20,11 +20,14 @@ $twitterAccount = "@Aajonus";
 // Should links contain the category? ie website.com/books/we-want-to-live/
 $categoryInLinks = false;
 
+// Open external links (starting with http/https) in a new tab
+$openLinksInNewTab = false;
+
 // Prioritize these categories in search results
-$prioritizeCategories = ['QNA', 'Newsletters', 'Books', 'Books/Old'];
+$prioritizeCategories = ['Q&A', 'Newsletters', 'Books', 'Books/Old'];
 
 // Any main categories that should sort by date-in-title
-$sortArticlesByDate = ['QNA'];
+$sortArticlesByDate = ['Q&A'];
 
 // Pin these articles to the top for its category
 $pinnedArticles = ['we-want-to-live', 'the-recipe-for-living-without-disease'];

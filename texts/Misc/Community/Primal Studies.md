@@ -899,6 +899,15 @@ https://pmc.ncbi.nlm.nih.gov/articles/PMC4758783/
 EMF makes the blood brain barrier and gut lining more permiable:
 https://ccst.us/wp-content/uploads/082009_Nittby_Increased_Permeability.pdf
 
+Melatonin protects against EMFs
+https://pmc.ncbi.nlm.nih.gov/articles/PMC9608227
+
+Blocking EMFs in bed improves sleep
+https://ehjournal.biomedcentral.com/articles/10.1186/s12940-022-00882-8
+
+EMFs from 5G harm your gut microbiome
+https://www.nature.com/articles/s41598-024-53842-2
+
 Harmfulness of receipts:
 
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5453537/
@@ -4520,3 +4529,30 @@ Tacitus, Germania 23:
 Julius Caesar, Commentarii de Bello Gallico 4.1:
 
 "The Germans differ much from the Gauls, for they are extremely robust, of vast bodily size, and subsist chiefly on milk, cheese, and flesh"
+
+
+Eating fiber increases the amount of undigested protein and nutrient in your fecal matter:
+
+https://pubmed.ncbi.nlm.nih.gov/632492/
+
+Fiber intake is associated with rheumatoid artithris
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC10036003/
+
+Difference between young and aged meniscus in the knee, is literally just there being accumulated advanced glycation end products in it, making it age.
+
+Theese you get from consuming carbs, mostly sugar, or from cooking food. (Rather than eating it Raw)
+
+https://pubmed.ncbi.nlm.nih.gov/38491967/
+
+
+Study Finds Tattoo Ink Accumulates In Lymph Nodes:
+https://www.pnas.org/doi/10.1073/pnas.2510392122
+
+Findings from the paper: 
+- White blood cells clear tattoo ink out of the skin (this is why tattoos fade over time), which then clogs up the lymphatic system.
+- This creates a permanent inflammatory response, and chronic inflammation is associated with a variety of pathologies, including cancer.
+- It also harms the immune system, reducing the body's ability to combat pathogens.
+- Tattoo ink causes lymphatic cancer.
+
+Not mentioned in the paper is that tattoo ink has also been found in the kidneys, liver, and spleen, and that nanoparticles (such as those found in tattoo pigments) can also leak into the brain and lungs.

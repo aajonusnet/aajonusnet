@@ -138,7 +138,7 @@ Watch [Memorial service for Aajonus Vonderplanitz](https://archive.org/details/a
 
 Jim Ellingson continues to host WeWant2Live.com, the original source of Aajonus Vonderplanitz content
 
-There are also some articles, topics, and transcribed Q&A sessions hosted on aajonus.net
+There is also a full database of interviews, articles, newsletters, videos and transcribed Q&A sessions hosted on aajonus.net
 
 ### Aajonus Vonderplanitz and his mother Doris
 

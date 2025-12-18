@@ -88,4 +88,79 @@ fat and some unheated honey without any harm. Eating it only occasionally,
 they might benefit with increased energy, mental activity and creativity
 as well as the physical benefits mentioned earlier.
 
-See @[Natural Bitter-Chocolate Recipe](https://healthfully.ai/recipe/bitter_chocolate) and @[Raw Orange Chocolate Cheesecake](https://healthfully.ai/recipe/orange_chocolate_cheesecake).
+
+### AAJONUS’ NATURAL BITTER-CHOCOLATE RECIPE
+
+Makes 1 cup to be used in many recipes
+
+- 1/3 cup whole raw cocoa beans (peeled) (not dried or dehydrated)
+- 1 whole raw egg
+- 3 tablespoons unheated honey
+- 3 tablespoons unsalted raw butter (room temperature)
+- 2 tablespoons raw cream (optional: replace 1 tablespoon cream with 1 tablespoon raw coconut cream)
+- ½” vanilla bean
+
+Blenderize cocoa beans in an 8-ounces jelly jar until
+they become powder. Add butter, honey and egg and
+blenderize until smooth but do not let it get hot. If
+you would like a slightly rum-tasting chocolate, let
+stand at room temperature in a warm dark cupboard
+for 5-7 days with lid on tightly.
+
+### AAJONUS’ RAW ORANGE CHOCOLATE CHEESECAKE
+
+SERVES 8 TO 10
+
+Very lightly butter the bottom and sides of an 8 x 6 x
+2½” Pyrex baking dish. Place in the freezer while
+making Crust.
+
+CRUST
+- 1 cup raw walnuts halves
+- 4 large raw Medjool dates, stones removed
+and dates chopped (room temperature)
+- 2 tablespoons unsalted raw butter (room tem-
+perature)
+
+Place all ingredients in food-processor and blend
+until ingredients begin to clump into a ball. Spread
+and press that mixture evenly into the bottom of the
+baking dish. Place in freezer to stiffen while making
+the filling.
+
+FILLING
+
+- ¾ cup no-salt-added hard raw cheese (room
+temperature)
+- 16 tablespoons unsalted raw butter (room
+temperature)
+- 2 tablespoons unheated honey
+
+Slice cheese into 1/8th” slices. Place all ingredients in
+a 16-ounces jelly jar and blenderize until smooth. If
+ingredients do not blenderize smoothly, place jar in a
+bowl of warm water (not hotter than a finger can
+stand when immersed for 4 seconds); allow it to
+warm for 3-5 minutes. Pour and spread the mixture
+over the chilled (not frozen) crust. Place in freezer
+while making the topping.
+
+TOPPING
+
+- 12 ounces raw cream
+- 4 tablespoons NATURAL BITTER CHOCOLATE (recipe above)
+- 3 tablespoons unheated honey
+
+Whip all ingredients together with an electric mixer
+in a mixing bowl until extremely firm. Spread and
+swirl whipped cream on top of Filling (after Filling is
+firmly chilled, not frozen). Place in freezer for
+several minutes while making orange topping.
+
+TOPPING FINISH
+
+- 1 medium sized orange
+
+Squeeze orange and pour juice evenly over whipped
+cream topping. Cover and store in refrigeration for
+several hours.

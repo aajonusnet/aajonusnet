@@ -121,6 +121,14 @@ if ($is404) {
 <body>
     <header>
         <div id="title-container">
+            <?php if ($originalFile) {
+                $catPath = str_replace('\\', '/', dirname($originalFile));
+                if ($catPath !== '.') {
+                    $catDisplay = str_replace('/', ' <span class="sep">/</span> ', $catPath);
+                    echo '<nav aria-label="Breadcrumb" id="header-category">' . $catDisplay . '</nav>';
+                }
+            }
+            ?>
             <a id="title" href="/"><h1><?= $originalFile ? $dynamicTitle : $logoTitle ?></h1></a>
             <?php if ($originalFile) { ?>
             <a href="/" id="back-button" onclick="goBack(event)" aria-label="Go back" tabindex="0">
@@ -267,11 +275,14 @@ if ($is404) {
         }
 
         $htmlContent = $Parsedown->text($content);
+        if ($openLinksInNewTab) {
+            $htmlContent = preg_replace('/(<a href="http)/i', '<a target="_blank" rel="noopener noreferrer" href="http', $htmlContent);
+        }
         echo $htmlContent;
         ?>
         </div>
         <?= isset($_GET['s']) ? '<button id="remove-highlights"><span class="x">×</span>Highlights</button>' : '' ?>
-        <script defer src="/code/findonpage.js?v=2" findonpage-css="/code/findonpage.css?v=2"></script>
+        <script defer src="/code/findonpage.js?v=2"></script>
     <?php } ?>
     <script defer src="/code/<?= $script ?>?v=380"></script>
 </body>

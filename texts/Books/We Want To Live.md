@@ -1,4 +1,6 @@
- WANT TO LIVE! Expanded and Revised in 2005 by Aajonus Vonderplanitz
+[(Click here to skip straight to the remedies)](#remedies)
+
+WANT TO LIVE! Expanded and Revised in 2005 by Aajonus Vonderplanitz
  
 “Revolutionary! This is an exciting book. An important book.” Dr. Robert Atkins, M.D. Author of numerous best selling diet books
 
@@ -134,7 +136,7 @@ TO MOM, Dad, my brothers Donald, Douglas, David, my hundreds of relatives, espec
 
 ACKNOWLEDGMENT
 
-OWANZA'S knowledgeable and experimental contri- butions to diet over the years, and to the remedy section of this book, have enabled me to reach, affect and facilitate healing of many more people than I would have otherwise. Owanza thought of the simple food formula that alters coma. Not only is she wonderfully insightful, she has been one of the three most generous, kind and loving people I have known. My nutritional mentor Bruno Corigliano, and uncle Lanny Sims are the other two. Bruno and Lanny’s examples showed me how to evolve to the extent that I primarily live free of anger, resentment and self-pity, except when drama is an element of teaching.
+OWANZA'S knowledgeable and experimental contributions to diet over the years, and to the remedy section of this book, have enabled me to reach, affect and facilitate healing of many more people than I would have otherwise. Owanza thought of the simple food formula that alters coma. Not only is she wonderfully insightful, she has been one of the three most generous, kind and loving people I have known. My nutritional mentor Bruno Corigliano, and uncle Lanny Sims are the other two. Bruno and Lanny’s examples showed me how to evolve to the extent that I primarily live free of anger, resentment and self-pity, except when drama is an element of teaching.
 
 PAGE 6
 
@@ -169,7 +171,7 @@ not rely upon whether we chemically understand the phenomenon or not.
 
 Although the author would like to, he does NOT imply or suggest that anyone interfere with medical procedure.
 
-The Appendix contains biochemical, dietary and nutritional explanations that were too dis- tracting to the story but they are important to those with inquiring minds. People have benefited the most by reading the story through to the end, and then reading the Appendix.
+The Appendix contains biochemical, dietary and nutritional explanations that were too distracting to the story but they are important to those with inquiring minds. People have benefited the most by reading the story through to the end, and then reading the Appendix.
 
 PAGE 8
 
@@ -1321,7 +1323,7 @@ enthusiasm for water. “Aajonus has to raise the bed. We’ll pour you some mor
 Jeff looks down at the wetness.
 “We were gonna change your bed anyway. You get a bath every morning right here in bed,” Mary consoles. “I have to go to work for a change, but Ben, Aajonus and the nurses will bathe and shave you very soon.”
 Just as she says that, Ben arrives. He walks over to Mary and touches her shoulder. She hands him the cup.
-“Jeff’s demanding like his old self again,” Mary tells Ben. “I told him you’d help with his bath. I need to go clean up for work. Call every couple of hours, would you?” Ben smiles and nods, towering over her. “Don’t cause too much trouble, kid,” she teases Jeff. She says good- bye and leaves.
+“Jeff’s demanding like his old self again,” Mary tells Ben. “I told him you’d help with his bath. I need to go clean up for work. Call every couple of hours, would you?” Ben smiles and nods, towering over her. “Don’t cause too much trouble, kid,” she teases Jeff. She says goodbye and leaves.
 “Aaaterrrrrr!” Jeff grumbles.
 Ben sits on the bed. He gives Jeff a sip of water. Jeff swallows. He takes another sip and coughs violently. I vacuum his throat. Ben gives him a couple more swallows.
 The nurse enters and announces, “We’re taking Jeff down for a CAT scan.”
@@ -2814,7 +2816,7 @@ heated above 104° Fahrenheit are inferior for creating and maintaining optimal 
 “If, for example, you like sauces, discover what is in them, buy the raw ingredients and mix or blend and eat them raw. Pay attention to whether you digest them well. If you have problems or discomfort, simplify the ingredients. Experiment until both your taste buds and digestive system are satisfied. Sometimes quickly, but most often gradually, you will achieve better health.
 “A few rules of thumb, but not absolutes. If you are feeling shaky, it most often indicates too low of a blood protein level. Eat whatever raw meat appeals to you (no-salt-added raw cheeses - a fat that is high in concentrated minerals - will also help this symptom but not as effectively). If you are feeling depressed, it’s most often low blood sugar. Eat some fresh fruit with raw fat and a cooked starch. If you are feeling hyperactive, anxious, impatient, or irritable, it indicates one of two things: either you are overproducing adrenaline and/or other stimulants, or your blood fat level is so low the body’s own acids irritate the nerves. Eat cooked starch with lots of raw fat and/or raw meat. If you are feeling headachy, nauseous or just have no appetite, it most often indicates that your blood is over acidic and/or toxic. Eat some no-salt-added raw cheese and drink some fresh-squeezed lemon or lime juice with some unheated honey and naturally carbonated water. Sometimes a salad or fresh raw vegetable juice is also helpful. If you can’t sleep or can’t get to sleep easily, one of two things will help. Eat two to three raw eggs blended with fruit at least twenty minutes before bedtime, and/or eat raw fish in the evening.
 “Caution, anything in a can or bottle is at least pasteurized and is relatively a lifeless food, unless labeled raw, unheated or unpasteurized. Concentrates are adulterated and cause ill health.
-“Again, get in touch with your body’s signals and trust them. Some- times nothing seems to work fast enough. Patience. Your body didn’t grow in a day. Finally, if you get a cold, flu or allergy, eat the
+“Again, get in touch with your body’s signals and trust them. Sometimes nothing seems to work fast enough. Patience. Your body didn’t grow in a day. Finally, if you get a cold, flu or allergy, eat the
 
 PAGE 156
 
@@ -2975,7 +2977,7 @@ factor seemed to emerge (based on successful results): the health of living orga
 As time passed I observed that the completely raw vegetarian diet was not for everyone. While some benefited, many tended to become weakened by it. Some could not easily digest raw vegetables, even with enzyme supplementation, making it difficult or impossible for them to eat salads. In one instance I observed a rapid decline in the health of a cancer patient (who had been improving somewhat on a modified macrobiotic diet) when he switched to an all-raw diet. Doubts surfaced. The questions kept arising: Is there a fundamental dietary approach to prevention, healing, and longevity? If so, on what basis would that diet vary from one individual to another?
 I decided to approach the matter in a different way; to start from the desired result and work backwards. This took two forms, 1) to seek and research the work of health practitioners who were consistently (75- 90%) reversing deep-seated pathology (cancer, AIDS, chronic fatigue syndrome, etc.) and evaluate and compare their methods, 2) to study the diets and lifestyles of cultural groups that enjoyed radiant health and significant longevity and look for commonalities. In phase one, I found that such practitioners were hard to come by, for several reasons: a) they often work alone rather than in the context of a larger organization or clinic, b) they are generally not mainstream or even well known, and c) they generally maintain low profiles because of the political and economic dangers of curing diseases in a society controlled and policed by medical and scientific prejudices.
 I began to hear about the work of Aajonus Vonderplanitz, a practitioner who had apparently facilitated 232 cancer remissions (of 240 cases) as well as many recoveries from heart disease, chronic fatigue and other serious illnesses. Even more remarkable was the fact that these healings were effected almost exclusively through diet. I contacted him immediately and ordered the manuscript The Primal Diet; We Want To Live. The book was a revelation. The first reading left me astonished.
-After months of enjoying significant health improvements from the diet, I found myself involved in a week-long face-to-face apprentice- ship with its creator. I was pleasantly surprised at my first encounter.
+After months of enjoying significant health improvements from the diet, I found myself involved in a week-long face-to-face apprenticeship with its creator. I was pleasantly surprised at my first encounter.
 
 PAGE 167
 
@@ -3262,7 +3264,7 @@ A very small percentage of people will have intolerance to raw warm milk or raw 
 In the remedy section I have suggested full-fat raw milk. This means that the milk should be approximately 10% cream (the way it came from cows when I was a child). Raw cream facilitates proper digestion and utilization of the minerals and protein in raw milk. Dairies usually skim the milk, reducing the cream content to 2-4%. Milk containing 2- 4% cream is usually labeled “skimmed milk.” Milk containing 4-7% cream is labeled “whole milk” - which of course it is not. Add enough raw cream to the raw milk so that the cream content is 15%. For example, add 1⁄2 cup of raw cream to 6 cups of raw milk.
 The only “raw” cottage cheese that is available (at the time of this writing) is not really raw. It is heated to about 120° Fahrenheit. Many of my clients, especially women, developed thyroid sluggishness and swelling throughout the thyroid area (neck) from eating that cottage cheese. Like other cooked foods that are not starches, I don’t recommend that people eat that misnamed “raw” cottage cheese.
 
-MILK, PASTEURIZED, HOMOGENIZED AND GENETIC- ALLY ENGINEERED: Like all other cooked and processed foods, pasteurized and homogenized milks are nutritionally deficient foods. Pasteurized and homogenized milks create dry and coarse hair, skin, glands, and brittle bones that can easily break. Pasteurized and
+MILK, PASTEURIZED, HOMOGENIZED AND GENETICALLY ENGINEERED: Like all other cooked and processed foods, pasteurized and homogenized milks are nutritionally deficient foods. Pasteurized and homogenized milks create dry and coarse hair, skin, glands, and brittle bones that can easily break. Pasteurized and
 
 PAGE 193
 
@@ -3495,7 +3497,7 @@ PAGE 212
 
 Nature should not be feared; She is healing, vital and loyal. Our bodies should not be feared; they are part of Nature and are always in the process of healing. While eating our way to better health, it should be remembered that healing often takes time, endurance and requires patience. I wish you a richly healthy life.
 
-VITAL FOOD REMEDIES
+## VITAL FOOD REMEDIES
 
 I have recommended that my clients acquaint themselves with all of the ailments listed throughout this section because most people have many of these ailments, but not to the extent that they can be diagnosed. I have suggested that they highlight all of the sentences that have applied to them sometime in their lives. Highlighting makes it easier to locate applicable symptoms, explanations and remedies.
 Symptoms were usually alleviated and ailments usually mitigated in people who ate the foods that I had specifically recommended for their ailments. Where more than one food or combination was recom-mended, I suggested that they eat all that was recommended but not all at one meal. When someone desired more food than was specifically recommended, I suggested that they supplement the recommended food with food that constitutes a balanced raw diet. See the book The Recipe For Living Without Disease. They chose the foods that they desired, then prepared and ate them raw. Consequently, the speed of healing increased. But people who did not continue to eat raw food on a regular basis did not heal properly. Because optimal healing needs proper nutrients and takes time, their ailments gradually returned. Ailments that did not heal usually advanced. Detoxification and healing - to the point that people no longer felt hindered by advanced ailments - took weeks, months or years, depending on severity. Symptoms of ailments that quickly mitigated usually returned, indicating that more thorough cleansing and healing was required for better body functions. When symptoms lingered because the body continued a process of cleansing and healing, or when symptoms mitigated quickly and then returned for more cleansing and healing, people sometimes became disconcerted
@@ -3529,6 +3531,8 @@ PAGE 216
 The following remedies have worked an average of 85% in all cases.
 However, by man’s laws, they are not prescriptive.
 When beginning the Primal Diet, a person who has not eaten many fresh foods such as raw fruits, raw juices and raw salads, may do better eating more raw fruits, an occasional salad and lots of unheated honey. Also, there are people who have diseases for which the body requires more fruit until the disease is reversed. However, after those people have eaten the Primal Diet for 1-2 years, I have observed that better health and mitigated symptoms have been achieved quicker by limiting fruit intake to once daily in the afternoon. A person who exercises may need more fruit, but usually in combination with a raw fat.
+
+### Remedies {#remedies}
 
 ABORTION: Scraping of the uterus (D&C) may cause scarring; See Stretch Marks, Scars And Wrinkles, page 338, about removing scar tissue. See Hemorrhage, page 210, to stop an excessive bleed. See Family Planning for more natural abortive methods, page 333.
 
@@ -3605,7 +3609,7 @@ factor that causes Alzheimer’s is accumulated aluminum from vaccines, canned f
 Avoiding cooked and processed protein, including all meat, eggs, roasted nuts and nut butters, and avoiding cooked and processed sugar, including drinks, jams or jellies, steamed and/or sulfured fruits, any canned food, and deodorants that contain aluminum stops progression of this malady. Usually, by the time Alzheimer's symptoms manifest, hardening and deterioration of nerve tissue is too advanced to reverse. However, recent indications lead me to believe that frequently eating fresh raw coconut cream with cucumber dissolves the hardening of nerves that causes Alzheimer’s, effecting reversal in its early stages. Eating fresh raw coconut cream with banana, or eating 1 tablespoon daily of cold-pressed-below-96° Fahrenheit peanut oil with 5 drops of quinine water, gradually dissolves hardening of the arteries that feed the brain. Also, drinking moldy water from rinsing moldy raw grains every 3 weeks for the rest of one’s life, and eating moldy grains once every 6 months for the rest of one’s life removes some hardening. Eating a raw-food diet with plenty of raw meats, especially fish, fresh raw fruit and Nut Formula strengthens mental functions.
 Moldy grains are made by soaking 1/3 cup of one or more kinds of grain in a glass or ceramic vessel containing 6 ounces mineral water for three days, then pouring off the fermented water and drinking it immediately. Then let the fermented grains stand for 6-8 days in a place with little natural light with a cloth covering the vessel. After 6-8 days, pour 1⁄2 cup distilled water over the moldy grains and stir until the mold is mixed into the water, pour off and drink. Once every six months, moldy grains may be eaten after blending only 3 ounces of moldy grains with 1⁄2 cup distilled water.
 
-ANEMIA is a low red blood cell level or weak red blood cells that cause oxygen deficiencies. That results in carbon dioxide accumula- tions in cells, decreased blood and general body efficiency, general weakness, paleness, brittle nails, loss of appetite, fatigue, abdominal pain, and lower rates of bodily processes. If affecting the brain, anemia
+ANEMIA is a low red blood cell level or weak red blood cells that cause oxygen deficiencies. That results in carbon dioxide accumulations in cells, decreased blood and general body efficiency, general weakness, paleness, brittle nails, loss of appetite, fatigue, abdominal pain, and lower rates of bodily processes. If affecting the brain, anemia
 
 PAGE 224
 
@@ -3675,7 +3679,7 @@ PAGE 229
 However, as long as toxins remain in the area causing the decay, the fungus will continue to do its job unless it is poisoned by medication.
 Eating foods that alkalize minimizes discomfort. See Alkalizing Food, page 178. Letting fungus run its course increases health, but if that is not possible, coating the feet with unheated honey and covering them with clean white cotton socks for four consecutive nights smother and stop fungus for awhile. See Fungus, page 265. Also, applying the Primal Facial Body Care Cream (recipe from the book The Recipe For Living Without Disease) soothes itching and usually allows fungus to work without excessive discomfort.
 
-BACKACHE: There are many causes for this, from spinal detoxifica- tion and tension, to accidents. Often, backaches happen in conjunction with emotional exhaustion.
+BACKACHE: There are many causes for this, from spinal detoxification and tension, to accidents. Often, backaches happen in conjunction with emotional exhaustion.
 Drinking plenty of raw milk, a little good mineral water (see Appendix M, page 143, about water) and, when available, plenty of raw cream help relax the spine. During a backache, eating several smoothies daily made with 2-3 raw eggs, 1⁄4 cup unheated honey, either 2 tablespoons unsalted raw butter or 5 tablespoons raw cream or coconut cream, and either 1⁄2-1 cup unripe papaya or unripe banana helps remove toxicity and soreness. Eating nonsteamed dates or pineapple helps remove soreness. Eating no-salt-added raw cheeses with equal amounts of fat, especially raw butter, helps strengthen the back. (Note: Eating too many papayas can cause intense back detoxification and therefore too much pain.)
 Hot baths and very gentle back massages are helpful. Lying on one side and applying a hot water bottle propped between your spine and a pillow speeds circulation and nutrients to the effected area, relaxing muscles, and taking pressure off nerves, especially while sleeping.
 Also, enjoying one’s self speeds healing.
@@ -4087,7 +4091,7 @@ cider vinegar, 4-6 tablespoons fresh raw lemon or lime juice, and 2 tablespoons 
 FLU: See Influenza, page 278.
 
 FOOD ADDICTION is the frequent craving for a particular food or foods. Most people can’t digest, assimilate, and utilize what their bodies need from cooked foods, so they overeat.
-It is almost impossible for a person to overeat when on a raw diet that includes meat. The body loses its appetite when its needs are satisfied. If someone deprives her or his body of what it needs, she will experience emotional deprivation (depression), or anxiety (anxiousness and irrita- bility) and malnutrition. Eating the foods a person craves fresh and raw brings on a degree of physical and emotional satisfaction that would not have ill repercussions. For people who crave chocolate, I have included a recipe for a substitute (see Chocolate Substitutes, page 181).
+It is almost impossible for a person to overeat when on a raw diet that includes meat. The body loses its appetite when its needs are satisfied. If someone deprives her or his body of what it needs, she will experience emotional deprivation (depression), or anxiety (anxiousness and irritability) and malnutrition. Eating the foods a person craves fresh and raw brings on a degree of physical and emotional satisfaction that would not have ill repercussions. For people who crave chocolate, I have included a recipe for a substitute (see Chocolate Substitutes, page 181).
 Everyone should trust his or her cravings. Cravings are the body telling a person that it needs the nutrients in the food(s) craved. If a person craves ice cream and raw cream is not available, she or he could eat other raw fat with unheated honey, such as avocados and unheated honey, or fresh raw coconut cream with unheated honey.
 Owanza, a nutritional colleague, has found a relationship between emotional needs and physical needs. She has found that people who are overaggressive - trying to sink their teeth into things - have a protein deficiency and need to eat more raw meat, especially white meat. People who crave sweets have a need for a sweet life. Finding and interacting with sweet people will be as emotionally nourishing as raw fresh fruits and unheated honey will be physically nourishing.
 
@@ -4121,7 +4125,7 @@ Eating plenty of unheated honey and raw fat has corrected this condition, that i
 
 GINGIVITIS is an inflammation of the gums. See Pyorrhea, page 305.
 
-GLAUCOMA is edema in the eyeball and hardening of the conjunct- tiva. Eating raw red meat daily helps reverse glaucoma.
+GLAUCOMA is edema in the eyeball and hardening of the conjuncttiva. Eating raw red meat daily helps reverse glaucoma.
 Avoid all cheese for 6 months. Eating 1⁄4 cup stone-pressed olive oil daily, several fresh raw tomatoes blended into puree with plenty of unheated honey and a little fresh live hot pepper once or twice daily, and fresh raw fish at least once daily usually heals this condition in several months. If you are diabetic, glaucoma is probably due to poorly assimilated or metabolized sugars (see Diabetes, page 258).
 
 GOITER is the enlargement of the thyroid. Eating raw fish everyday for five weeks has corrected this mineral-imbalanced condition and helped fortify the thyroid gland. See Thyroid problem, page 315.
@@ -4154,7 +4158,7 @@ Also, eating fresh local bee pollen can help reverse this condition. If a person
 unheated bee pollen daily with at least 1/3 teaspoon royal jelly and 1
 tablespoon unheated honey mixed with 12 ounces of fresh raw vegetable juice (including carrot) and sipping it throughout the day may be a more palatable form to consume the pollen. Drinking 1/6 of this mixture 6 times daily has stopped sneezing and headache. Avoid cheeses during hay fever season; they can cause dryness of the sinuses.
 
-HEADACHES: The common headache is from either high blood pres- sure (most often caused by eating salt), or low blood circulation, or toxic blood stream.
+HEADACHES: The common headache is from either high blood pressure (most often caused by eating salt), or low blood circulation, or toxic blood stream.
 High blood pressure headache: Mix 2 ounces of naturally sparkling water with 2 tablespoons of unheated honey and the juice of 1 lemon. Add 6 ounces more of naturally sparkling water and drink. Usually, that relieves this headache in 20-40 minutes.
 Low blood circulation headache is accompanied by sluggishness: Mix
 
@@ -4194,7 +4198,7 @@ The missing enzyme can be replaced by eating raw fresh unripe pineapple often. G
 raw eggs and 3/4 cup pineapple), and no more than one cup of food at a time, make the liver strong again. Eating pineapple twice daily as often
 as possible supplies the liver with enzymes that make its work easier while it cleanses and rebuilds itself. Eating fresh raw fish at least three times weekly for the first three weeks, then at least twice weekly for another 6 weeks, helps regenerate nerves in the liver.
 
-HERPES is an inflammation of the skin or mucous membrane, charac- terized by clusters of blisters that seem to spread. This is sometimes a condition that results from taking medication during chicken pox. Sometimes it is a condition resulting from taking the small pox vaccine. Another cause is very high adrenaline saturation (volatile toxic condition) in the nerve endings.
+HERPES is an inflammation of the skin or mucous membrane, characterized by clusters of blisters that seem to spread. This is sometimes a condition that results from taking medication during chicken pox. Sometimes it is a condition resulting from taking the small pox vaccine. Another cause is very high adrenaline saturation (volatile toxic condition) in the nerve endings.
 For six weeks, drinking 1 level teaspoon of powdered sun-dried clay mixed in 2-6 ounces of good mineral water or raw fresh juice helps attract and absorb toxins that cause herpes. Eating raw fresh fish and raw chicken several times weekly with no-salt-added raw cheese and an equal portion of unsalted raw butter for eight weeks helps soothe and heal the nerves. Eating fresh raw unripe pineapple with unheated honey relieves soreness. For many years thereafter, and in general, following a balanced Primal Diet, mainly utilizing alkalizing foods,
 
 PAGE 272
@@ -4438,7 +4442,7 @@ PAGE 293
 
 mononucleosis because the maladies sometimes produce similar virus. Eating plenty of raw meat helps correct this mineral-imbalance-
 related virus, that is, detoxification. Drinking raw milk, when available, at the same meal with raw meat helps mineral absorption.
-Avoid smoking for the rest of life and try to avoid smoky places. Smoking is especially harmful for people who have had this detoxifica- tion. The best healing results are achieved by not exercising for a 5- weeks period during mononucleosis, and afterward exercise plenty.
+Avoid smoking for the rest of life and try to avoid smoky places. Smoking is especially harmful for people who have had this detoxification. The best healing results are achieved by not exercising for a 5- weeks period during mononucleosis, and afterward exercise plenty.
 
 MOTION SICKNESS is intense nausea caused by involuntary constant fluctuations of the fluids in the inner ear, as experienced in the motion of an airplane, boat or car.
 Drinking a blend of 6 ounces warm good mineral water, the fresh juice of a whole lemon and 2 tablespoons unheated honey every 1-2 hours helps relax this condition. Deep slow breathing also helps. Applying gentle pressure to the insides of the wrists gives immediate relief. You may have to continue the pressure for awhile.
@@ -4790,7 +4794,7 @@ Eating raw meat and unheated honey, small amounts of Nut Formula (page 194) freq
 
 PAGE 321
 
-VISION AND FOCUS DISORDERS are characterized by blurred vision, eye fatigue, inability to see far or near, squinting, light sensiti- vity, itchy, bloodshot or burning eyes and lids.
+VISION AND FOCUS DISORDERS are characterized by blurred vision, eye fatigue, inability to see far or near, squinting, light sensitivity, itchy, bloodshot or burning eyes and lids.
 Caffeine in any form, including chocolate, coffee, tea and soda, damages nerves and brain. In many people it damages eyes. Caffeine consumed by a mother during pregnancy and breast-feeding can cause poor vision in her child. Excess adrenaline causes dryness, nerve damage, and in some people creates poor vision. Medicinal insulin also causes vision disorders. See Cataracts, page 244.
 Eating plenty of live foods, especially raw fats with foods that are red or orange (indicating abundant vitamin A content), such as carrot juice, apricots, watermelon and raw tuna, soothes and nourishes eyes. As a result of eating a raw diet, especially raw red meat, most vision disorders have stopped the “normal” progression toward poorer vision. I have seen few instances where vision disorders completely reversed. Adding 1-2 drops of raw egg white (from antibiotic-free and hormone- free chickens) to the eyes once or twice daily gradually and continuously improved vision. Those who continued to consume caffeine on a predominantly raw diet did not improve their vision. Either their eyesight remained poor or it continued a slower progression toward poorer eyesight.
 
@@ -4812,7 +4816,7 @@ WORMS, see Parasites, page 299.
 X-RAYS: See Detoxification of Radiation, page 257, and Radiation Burn, page 306.
 
 YEAST INFECTION is characterized by swollen, inflamed and itchy skin. Yeast eat tissue toxins and alkalize the system. Yeast are helpful and should be allowed to run their cycle. Medication poisons the already toxic and hardened tissue, causing it to remain toxic and hardened. If your goal is to improve your health, the worst thing you can do is to destroy a yeast infection with medications.
-Alcohol, coffee, teas, aspirin, soft drinks with caffeine and salt consumed in large quantities over years are all poisonous, overstimu- lating adrenals and pancreas. The high levels of adrenaline and insulin create toxic conditions and dryness that cause lesions, thereby creating conditions where yeast are necessary for cleansing.
+Alcohol, coffee, teas, aspirin, soft drinks with caffeine and salt consumed in large quantities over years are all poisonous, overstimulating adrenals and pancreas. The high levels of adrenaline and insulin create toxic conditions and dryness that cause lesions, thereby creating conditions where yeast are necessary for cleansing.
 Eating a raw diet that contains regular meals, small quantities of Nut Formula (page 194) or some cooked starch with plenty of raw fat eliminates the excess adrenaline and insulin levels. Eating raw tomatoes, nonsteamed figs, fresh vegetable juices, especially green, and raw unpasteurized apple cider vinegar alkalizes and soothes tissues and reverses the toxic condition.
 Vaginal yeast infection: All of the above applies. Drinking 2-3 raw eggs blended with 2-3 tablespoons unheated honey and 1⁄2 unripe banana provides the vagina with a constant supply of healthy nutrients
 
@@ -4866,7 +4870,7 @@ Electro Dermal Screening Devices can cause serious ill effects. See page 332.
 
 BIRTH CONTROL: In all fairness and logic, since it is the man’s sperm that impregnates a woman, it is the man’s responsibility. It is up to the man to calculate fertile times. He should not rely on anyone else’s calculations, including the woman’s. If a man wants to be certain that he does not impregnate a woman, he must not ejaculate inside her. If a woman cannot trust a man to withhold ejaculation, during intercourse use a diaphragm or cervical cap eight days before and during ovulation (ten days total). If you failed to practice birth control eight days before and during ovulation, douche with apple cider vinegar immediately after intercourse. Drinking the pepper-tasting blended combination of 6 tablespoons fresh papaya seeds and 1⁄2 cup good drinking water 1-3 hours before sex or within 20 minutes after sex usually prevents pregnancy. When using a prophylactic, sensation can be increased by lubricating the penis with unheated-above-96o Fahrenheit fermented coconut oil, or peanut oil or stone-pressed olive oil and lubricating, thoroughly, the penis and outside of the condom after it is on the penis. It feels the closest to not wearing anything.
 
-BIRTHING: Using any or all of the pain remedies reduces pain and bruising, especially the unheated honey/raw unsalted butter mixture, and the bee pollen mixed with raw milk or carrot/green vegetable mix. See Pain, page 297. Drinking the Drink For Moisturizing and Lubrica- tion (page 210) daily 3 weeks before baby is due helps ease birth and prevent tearing of tissue during birth. The prone position for birthing makes birthing more difficult and painful, working against gravity. The
+BIRTHING: Using any or all of the pain remedies reduces pain and bruising, especially the unheated honey/raw unsalted butter mixture, and the bee pollen mixed with raw milk or carrot/green vegetable mix. See Pain, page 297. Drinking the Drink For Moisturizing and Lubrication (page 210) daily 3 weeks before baby is due helps ease birth and prevent tearing of tissue during birth. The prone position for birthing makes birthing more difficult and painful, working against gravity. The
 
 PAGE 329
 
@@ -4983,7 +4987,7 @@ BIO-ATTACK ALERT, Theodore A. Strecker, LL.D., The Strecker Group, 1301 Colorado
 
 CANCER: DISEASE OF CIVILIZATION? AN ANTHROPOLOGICAL AND HISTORICAL STUDY, Vilhjalmur Stefansson, Hill and Wang, New York (1960), available at the Stefansson Collection, Dartmouth College. (This collection contains numerous reports and accounts by medical doctors, nurses, researchers and explorers that eating raw food, including raw meat, prevented disease.)
 
-CONFESSIONS OF A MEDICAL HERETIC, Robert S. Mendelsohn, M.D., Contem- porary Books, Inc., Two Prudential Plaza, Chicago, IL 60601-6790 (1990).
+CONFESSIONS OF A MEDICAL HERETIC, Robert S. Mendelsohn, M.D., Contemporary Books, Inc., Two Prudential Plaza, Chicago, IL 60601-6790 (1990).
 
 DON’T GET STUCK! THE CASE AGAINST VACCINATIONS, Hannah Allen, The American Natural Hygiene Press, P.O. Box 1083, Oldsmar, FL 33557.
 
@@ -5576,7 +5580,7 @@ insect fluids, 285 insomnia
 insomnia formula,
 155 overview of, 280 instinct and intuition
 in choosing foods, 114– 115 development of, 47 raw foods and, 154–155
-insulin. See also hypoglycemia excessive, 215 over- production of, 142–143 overweight and, 296 problems with use of, 258 unheated honey and, 189
+insulin. See also hypoglycemia excessive, 215 overproduction of, 142–143 overweight and, 296 problems with use of, 258 unheated honey and, 189
 intestines
 infections of, 280–281. See
 also peritonitis intestinal cramps, 280 intestinal worms, 68 ulcers, 318

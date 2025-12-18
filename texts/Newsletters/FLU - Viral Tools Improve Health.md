@@ -184,9 +184,9 @@ consumed during flu.
 My suggested dietary regimes for influenza are:
 
 * 1/2-1	pound fowl daily
-* 2-3 @[MOISTURIZING/LUBRICATION FORMULA DRINKS](https://healthfully.ai/recipe/moisturizing-formula)
-or @[MILKSHAKEs](https://healthfully.ai/recipe/milkshake)
-* 1 @[SMOOTHIE](https://healthfully.ai/recipe/orange-smoothie)
+* 2-3 MOISTURIZING/LUBRICATION FORMULA DRINKS, see @[page 146](the-recipe-for-living-without-disease?s=page%2B146&pos=177216)
+or 2-3 MILKSHAKEs, see @[page 57](the-recipe-for-living-without-disease?s=page%2B57&pos=91205)
+* 1 SMOOTHIE, see @[pages 58-59](the-recipe-for-living-without-disease?s=page%2B58&pos=92191)
 
 Or the following regime works the best but may not
 be as convenient:
@@ -194,7 +194,7 @@ be as convenient:
 From the moment we awaken, I suggest consuming:
 
 * 1 raw egg every 30-60 minutes
-* After each raw egg, eat 1 teaspoon @[MOISTURIZING/LUBRICATION FORMULA DRINK](https://healthfully.ai/recipe/moisturizing-formula)
+* After each raw egg, eat 1 teaspoon MOISTURIZING/LUBRICATION FORMULA DRINK, see @[page 146](the-recipe-for-living-without-disease?s=page%2B146&pos=177216)
 * At about 3 PM eat a grapefruit with either avocado or raw cream
 * At about 7 PM eat 1/2-1 pound fowl or ocean-caught fish.
 * Immediately before sleep consume 1 cup warm raw milk or raw kefir.

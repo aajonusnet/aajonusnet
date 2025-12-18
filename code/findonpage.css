@@ -24,7 +24,7 @@
   height: 24px;
   display: block;
 }
-/* Finder bar (top-right or middle on mobile) */
+/* Finder bar (top-right or top-middle on mobile) */
 #findx-bar[data-findx-ui] {
   position: fixed;
   top: 12px;
@@ -89,8 +89,6 @@
 .findx-input::placeholder {
   color: #a1a1aa;
 }
-
-/* Clear button */
 .findx-clear {
   position: absolute;
   right: 6px;
@@ -115,14 +113,12 @@
 #findx-bar[hidden], .findx-clear[hidden] {
   display:none !important;
 }
-
 .findx-count {
   min-width: 72px;
   text-align: center;
   color: #a1a1aa;
   white-space: nowrap;
 }
-
 /* Highlights */
 mark.findx-hit {
   background: #fff1a6;
@@ -135,7 +131,6 @@ mark.findx-hit.findx-current {
   color: #000;
   box-shadow: 0 0 0 2px #ffb300 inset;
 }
-
 /* Keep UI out of selection & search scope */
 [data-findx-ui] {
   -webkit-user-select: none;

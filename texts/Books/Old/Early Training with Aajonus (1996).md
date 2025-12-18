@@ -7915,7 +7915,7 @@ Aajonus: Okay. [Recipe] Make a bread crust without the fat. Doesn’t
 even need yeast, because it doesn’t really need to leaven at all. Make
 it or buy one. If you are going to buy one, it’s usually made from
 fortified and bleached flour. You can make your own bread and go
-ahead and toast that or bake it.You can make it with fish. There are
+ahead and toast that or bake it. You can make it with fish. There are
 all different kinds of things you can make it with. You can take slices,
 very thin slices of filet mignon. That will break up easily and put
 little strips of them on there. Sometimes somebody will take ground
@@ -9019,7 +9019,7 @@ towards cider. So you have about two or three days with the apple.
 
 _— What about apple cider?_
 
-Aajonus: It’s fine.But no hot apple cider.
+Aajonus: It’s fine. But no hot apple cider.
 
 All right. Blending honey. Even when I sort of add it as the last
 ingredient, very often a lot of it comes out below the blade in there.
@@ -10062,7 +10062,7 @@ first time. Take five tablets with a meat meal. The Nutripack.
 
 _— Because we had her on that at one point.
 Sally: We have some at home.
-— Five Nutripack raw thyroid.With meat._
+— Five Nutripack raw thyroid. With meat._
 
 Aajonus: Yes. With meat. Five times a week. Five days the first
 session of it. So it would be five tablets all at once for five days with a

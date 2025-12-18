@@ -110,7 +110,7 @@ causing bumps, rashes or warts. However, it is better to rid the body
 and suffer some skin alterations than to contain caustic compounds inside
 the body.
 
-@[Sport Formula](https://healthfully.ai/recipe/sport_formula) contains most of
+My Sport Formula contains most of
 those ingredients and is a way to facilitate careful detoxification. And/or
 having the one fruit meal daily of 1/2 cup berries, 1/4 cup diced pineapple,
 1 tsp. to 1 T. raw apple cider or coconut vinegar, 1.5 T. lime juice,
@@ -120,6 +120,7 @@ suggest that you reduce consumption of raw apple cider vinegar and lime juice
 daily to 1 T. each.
 
 Aajonus' Sport Formula (not sport drink)
+
 3 cups of at least 2 of the following foods:
 
 cucumber,

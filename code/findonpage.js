@@ -5,8 +5,7 @@
     const link = document.createElement('link');
     link.id = 'find-on-page-css';
     link.rel = 'stylesheet';
-    const s = document.currentScript || document.querySelector('script[findonpage-css]');
-    link.href = (s && s.getAttribute('findonpage-css')) || '/code/findonpage.css';
+    link.href = '/code/findonpage.css';
     document.head.appendChild(link);
   }
 
@@ -25,6 +24,7 @@
 
   function isVisible(el) {
     if (!(el.offsetWidth || el.offsetHeight || el.getClientRects().length)) return false;
+    if (el.checkVisibility && !el.checkVisibility()) return false;
     if (el.inert) return false;
     if (el.getAttribute('aria-hidden') === 'true') return false;
     return true;
@@ -210,8 +210,8 @@
     const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, {
       acceptNode(node){
         if (!node || !node.parentElement) return NodeFilter.FILTER_REJECT;
-        if (node.parentElement.closest('[data-findx-ui]')) return NodeFilter.FILTER_REJECT;
         if (!node.nodeValue || !node.nodeValue.trim()) return NodeFilter.FILTER_REJECT;
+        if (node.parentElement.closest('[data-findx-ui]')) return NodeFilter.FILTER_REJECT;
         const tn = node.parentElement.tagName.toLowerCase();
         if (['script', 'style', 'textarea', 'input', 'select', 'button', 'noscript', 'svg'].includes(tn)) {
            return NodeFilter.FILTER_REJECT;
@@ -300,16 +300,20 @@ function clearHighlights(){
     const el = state.matches[state.current];
     el.classList.add('findx-current');
 
+    const vv = window.visualViewport;
     const rect = el.getBoundingClientRect();
     const elemTopAbs = rect.top + window.pageYOffset;
-    const viewportHeight = window.visualViewport ? window.visualViewport.height : window.innerHeight;
+    const viewportHeight = vv ? vv.height : window.innerHeight;
     const newY = elemTopAbs + rect.height/2 - (viewportHeight / 2);
     const safeY = Math.max(0, newY);
 
-    window.scrollTo({ top: safeY, behavior: 'auto' });
-    if (state.ui.style.position === 'absolute') {
-       requestAnimationFrame(updatePosition);
+    // Pre-position the bar to its destination BEFORE scrolling (prevents flash on mobile keyboard)
+    if (state.ui && state.ui.style.position === 'absolute' && vv) {
+      const left = (vv.pageLeft || window.pageXOffset + (vv.offsetLeft || 0)) + vv.width - state.ui.offsetWidth - 12;
+      state.ui.style.top = `${safeY + 12}px`;
+      state.ui.style.left = `${Math.max(0, left)}px`;
     }
+    window.scrollTo({ top: safeY, behavior: 'auto' });
   }
 
   // boot
