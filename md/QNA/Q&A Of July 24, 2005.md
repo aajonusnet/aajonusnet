@@ -1,4 +1,4 @@
-Aajonus.net & Rawmeatgang
+Transcribed by Aajonus.net & Rawmeatgang
 
 A: The carbonated water. And the Perriers gas is getting low and so is San Pellegrinos. So as you notice, Gerolsteiner is very strong with all that carbon and their gas is so great that they have to depressurize it to get it out so it doesn't explode. So they're selling their gas to some other bottlers.
 

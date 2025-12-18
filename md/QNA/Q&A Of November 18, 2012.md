@@ -1,4 +1,4 @@
-Aajonus.net & Rawmeatgang
+Transcribed by Aajonus.net & Rawmeatgang
 
 A: I'm going to begin because there are quite a few people here, so do you have a question?
 

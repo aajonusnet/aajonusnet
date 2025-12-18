@@ -1,4 +1,4 @@
-Aajonus.net & Rawmeatgang
+Transcribed by Aajonus.net & Rawmeatgang
 
 Q: Are bugs healthy to eat?
 

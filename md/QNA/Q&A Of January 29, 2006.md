@@ -1,4 +1,4 @@
-Aajonus.net & Rawmeatgang
+Transcribed by Aajonus.net & Rawmeatgang
 
 Q: Much bigger than the one we are using at the moment. Much bigger than the Green Star.
 

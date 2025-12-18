@@ -1,4 +1,4 @@
-Aajonus.net & Rawmeatgang
+Transcribed by Aajonus.net & Rawmeatgang
 
 Q: Is it toxic to smell your own farts?
 
@@ -1234,7 +1234,7 @@ A: No, because then you turn it into a vegetable. And then you have other enzyme
 
 Q: [unintelligible]
 
-A: Powdered. What you do is you put it in the butter or the cream, in about two parts butter, two parts cream, to one part the clay. And I mean we're talking about, let's say, six drops of butter or clay, unless you're making a batch, you keep it in the refrigerator, then you make a larger batch. So it should be about one-third clay to two-thirds cream or butter.
+A: Powdered. What you do is you put it in the butter or the cream, in about two parts butter, two parts cream, to one part the clay. And I mean we're talking about, let's say, six drops of butter or clay, unless you're making a batch, you keep it in the refrigerator, then you make a larger batch. So it should be about one-third clay to two-thirds cream or butter. And that makes a great dental...
 
 Q: And that'll make your teeth whiter?
 

@@ -1,4 +1,4 @@
-Aajonus.net & Rawmeatgang
+Transcribed by Aajonus.net & Rawmeatgang
 
 A: Vonderplanitz.
 
@@ -1068,7 +1068,7 @@ Q: Created? Created?
 
 A: Created. What they did was, that's the new warfare. They created a deficit and destitute countries. Who's running those countries now? World Bank. Just where the American government people wanted them. The military wanted them. It's another bio warfare.
 
-Q: How is it that we get smallpox vaccine?
+Q: How is it that we were kids and we get smallpox vaccine?
 
 A: They weren't infected with it. These vaccines were purposely infected with HIV.
 

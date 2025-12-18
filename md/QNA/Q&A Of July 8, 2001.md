@@ -1,4 +1,4 @@
-Aajonus.net & Rawmeatgang
+Transcribed by Aajonus.net & Rawmeatgang
 
 A: Yeast don't feed on the fats, you know like saturated fats, but molds do, bacteria does and viruses do, they feed on both of the same fats. You know get in there and look and try to break it down, they are not the problem. The cooked saturated fats are a problem, but they're still not as bad as what has been the major cause of arthritis and rheumatism is margarine and hydrogenated oils, which are of course polyunsaturated, they are not saturated fats, but those are the real problem.
 

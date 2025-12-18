@@ -1,4 +1,4 @@
-Aajonus.net & Rawmeatgang
+Transcribed by Aajonus.net & Rawmeatgang
 
 Q: Don't forget me. With the van.
 
@@ -1136,7 +1136,7 @@ Q: [unintelligible]
 
 A: Just lowering the bacteria level.
 
-Q: [unintelligible]
+Q: Can you have too much honey [unintelligible] and they love sugar and beef and I like to take them on...
 
 A: Like I said in the recipe book, you know, six tablespoons of honey per pound of meat.
 

@@ -1,4 +1,4 @@
-Aajonus.net & Rawmeatgang
+Transcribed by Aajonus.net & Rawmeatgang
 
 A: Okay, first of all, I've been working on an experiment with some new toothpaste, it actually whitens the teeth. You know my teeth from tetracycline and the chemotherapy, grayed my teeth. See, my teeth are getting white again. And all I'm doing is using a tablespoon of vinegar, a teaspoon of apple cider vinegar, and a teaspoon of terramin clay. Mix that together in a little one ounce jar, and I used that for about a week. One tablespoon of coconut cream, one teaspoon of vinegar, raw apple cider vinegar, and one teaspoon of clay, the terramine clay. Mix that together, and it takes about a week if you're brushing your teeth every day to use up that one ounce. And it's good to make it every week because the vinegar mixed with the clay will reduce its effectiveness. And that's what's causing the teeth to become whitened, is the vinegar. But you can't put straight vinegar on because it demineralizes the system. It also stops gum bleeding. It has a lot of advantages, so I've been working well in the last year on my guinea pigs, human guinea pigs. 
 

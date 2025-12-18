@@ -32,9 +32,6 @@ liability or responsibility to any person or entity with respect to
 any loss, damage or injury caused, or alleged to be caused,
 directly or indirectly by the information contained in this book.
 
-(^1) Santa Monica, CA; Carnelian Bay Castle Press, 1997, 2005.
-
-
 # The Recipe For
 
 # Living Without Disease

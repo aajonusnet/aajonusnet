@@ -985,7 +985,7 @@ Primal Diet fully but he now eats the raw meat and raw butter.
 
 Q: Is that like a permanent life condition? Is he big like that?
 
-A: no, you can see I'm not big anymore . I still am a little bit more
+A: No, you can see I'm not big anymore . I still am a little bit more
 testy. I'm usually able to handle the confrontation with somebody.
 
 A: With a little bit more...with a little bit more grace than I did

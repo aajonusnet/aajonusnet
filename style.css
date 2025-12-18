@@ -87,7 +87,7 @@ h1, .header, .title {
 .back-arrow, #share-button {
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(-50%) translateZ(0);
     transition: opacity 0.3s ease;
 }
 
@@ -185,14 +185,14 @@ h1, .header, .title {
     align-items: center;
     position: relative;
 }
-.links {
+.categories {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
     margin-bottom: 20px;
 }
-.links a {
+.categories a {
     color: #fff;
     text-decoration: none;
     margin: 5px;
@@ -214,7 +214,7 @@ h1, .header, .title {
         flex-basis: 48%;
     }
     #removeHighlights {
-        right: calc(50% - 400px);
+        right: calc(90%);
     }
 }
 
@@ -324,5 +324,8 @@ body.find-on-page-active {
     
     .find-on-page-content {
         width: 100%;
+    }
+    .content {
+        padding-bottom: 60px;
     }
 }

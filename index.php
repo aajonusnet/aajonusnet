@@ -1,8 +1,8 @@
 <?php
-$title = "Aajonus.net";
-$description = "Raw Primal Diet: Aajonus Online Database by Aajonus Vonderplanitz. Aajonus Transcriptions.";
+$title = "Aajonus Vonderplanitz";
+$description = "Raw Primal Diet: Aajonus Online Archive by Aajonus Vonderplanitz. Complete Aajonus Transcriptions.";
 $url = "https://aajonus.net/";
-$sitename = "Aajonus Net";
+$sitename = "Aajonus Vonderplanitz";
 $categoryInLinks = false;
 $prioritizeCategories = ['QNA', 'Newsletters', 'Books', 'Books/Old'];
 ?>
@@ -58,7 +58,7 @@ $dynamicTitle = (!$originalFile) ? $title : basename($originalFile, '.md');
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="canonical" href="<?php echo $url; ?>">
     <base href="/">
-    <link rel="stylesheet" href="style.css?v=22">
+    <link rel="stylesheet" href="style.css?v=27">
     <link rel="icon" href="favicon.ico" type="image/x-icon" sizes="any">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <meta name="title" content="<?php echo $dynamicTitle; ?>">
@@ -86,7 +86,7 @@ $dynamicTitle = (!$originalFile) ? $title : basename($originalFile, '.md');
                 </div>
 
             <?php } ?>
-            <a class="title" href="/"><h1><?php echo $dynamicTitle; ?></h1></a>
+            <a class="title" href="/"><h1><?php echo $dynamicTitle === "Aajonus Vonderplanitz" ? "Aajonus.net" : $dynamicTitle; ?></h1></a>
         <?php if ($originalFile) { ?>
 <div id="share-button" onclick="shareArticle()" style="display: none;" role="button" tabindex="0">
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M16 5l-1.42 1.42-1.59-1.59V16h-1.98V4.83L9.42 6.42 8 5l4-4 4 4zm4 5v11c0 1.1-.9 2-2 2H6c-1.11 0-2-.9-2-2V10c0-1.11.89-2 2-2h3v2H6v11h12V10h-3V8h3c1.1 0 2 .89 2 2z" fill="white"></path></svg>
@@ -102,8 +102,8 @@ if (!$originalFile) { ?>
             <input type="text" id="search" class="search-bar" oninput="search(this)" placeholder="Loading..." disabled>
             <div id="clear-icon" class="clear-icon" onclick="clearSearch()">&#10005;</div>
         </div>
-        <!-- Links -->
-	    <div class="links">
+        <!-- Categories -->
+	    <div class="categories">
     		    <a href="#" onclick="filterCategory('All', 'All', this)">All</a>
     		    <?php 
    		    $mdFolder = 'md';
@@ -172,7 +172,7 @@ foreach ($files as $file) {
         $category = ltrim($category, '/');
     }
 
-    $articles[] = ['filePath' => $filePath, 'filename' => $filename, 'category' => $category]; // Add this line
+    $articles[] = ['filePath' => $filePath, 'filename' => $filename, 'category' => $category];
 }
 usort($articles, function ($a, $b) use ($prioritizeCategories) {
     $catA = explode('/', $a['category']);
@@ -279,6 +279,8 @@ $sanitizedName = sanitizeFileName($originalName);
             <?php } ?>
 
         </div>
+    <div class="results"></div>
+    </main>
     <?php } else { ?>
         <div class="content"><?php
                 $file = 'md/' . $originalFile . '.md';
@@ -391,7 +393,6 @@ if (isset($_GET['s'])) {
     </div>
 </div>
     <?php } ?>
-    <div class="results"></div>
-    <script src="index.js?v=208"></script>
+    <script src="index.js?v=212"></script>
 </body>
 </html>

@@ -1,4 +1,4 @@
-Aajonus.net & Rawmeatgang
+Transcribed by Aajonus.net & Rawmeatgang
 
 A: OK, I'm going to begin. We've got a little bit of a crowd here, so I'm not going to tell any story unless something interests me that somebody asks. OK, so we're going to go around and start with you.
 

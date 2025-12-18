@@ -1,4 +1,4 @@
-Aajonus.net & Rawmeatgang
+Transcribed by Aajonus.net & Rawmeatgang
 
 Q: We're Catherine and David Gold. We're from here in Burbank and we brought two dishes. We brought turkey marinated in lemon juice, garlic and ginger. And then in the second dish I added sour cream and cheddar cheese to that all raw. I soured the cream myself. It takes about, I have a dehydrator and I put it on top of the dehydrator. It takes about two days to complete the souring process of the cream.
 

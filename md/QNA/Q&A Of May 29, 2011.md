@@ -2554,8 +2554,8 @@ happened. So, I’m just now coming to a point of detoxing all of it.
 G: What happened?
 
 A: I was abducted – I talked against the swine flu vaccine on national radio.
-I created a cold campaign against it because I was in the swine flu fiasco of
-1976. I got death threats and everything. Six weeks after that I was in the
+I created a cold campaign against it because I was in the swine flu fiasco of 1976.
+I got death threats and everything. Six weeks after that I was in the
 Philippines and abducted in a hotel room and given three shots and I got very
 sick – I got sores bigger than this all over.
 

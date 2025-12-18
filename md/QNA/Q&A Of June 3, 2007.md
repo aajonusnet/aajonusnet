@@ -1,4 +1,4 @@
-Aajonus.net & Rawmeatgang
+Transcribed by Aajonus.net & Rawmeatgang
 
 A: They never used to have motorcycle police sheriffs on Sundays, and now they have.
 

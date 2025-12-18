@@ -1,4 +1,4 @@
-Aajonus.net & Rawmeatgang
+Transcribed by Aajonus.net & Rawmeatgang
 
 A: Okay, this week folks, I'm officially a PhD in nutrition.
 
@@ -854,7 +854,7 @@ Q: Are you going to have it in your book?
 
 A: I don't have it in the book. There's a website that's going up. And I've already contracted, so I can't give out that recipe normally to people because that kind of new stuff and information is going to be on that website. There will be a biweekly or a monthly newsletter where I'm going to be giving out information like I do here. I'll pick a particular subject and go through it. You'll be able to go online and search all the information that is not even in my books that I make available. The books will be able to be searchable. You'll be able to buy the books in PDF format so you can search them yourself if you have Acrobat Reader. So there's going to be many benefits to that. You can have your hard copy and you can have your digital copy. If you want to search something quickly, that's the way to do it.
 
-Q: Is this your [unintelligible]?
+Q: Is this your website?
 
 A: No, I don't have the time to do it. But I found somebody else who does.
 

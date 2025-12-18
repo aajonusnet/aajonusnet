@@ -1,4 +1,4 @@
-Aajonus.net & Rawmeatgang
+Transcribed by Aajonus.net & Rawmeatgang
 
 A: This is the first one we've had here in LA since I went to Colby's last week. He's done. I had another motorcycle accident.
 
@@ -544,11 +544,15 @@ Q: So what is James going to do if she goes bankrupt?
 
 A: Who knows what James will do. James is off on his trip too. None of them know what to do. I'm successful, and yet, it's like your own family, how your own family doesn't listen to you. My own family doesn't listen to me. Do you have a question?
 
-Q: Yeah. About four months ago, I started out [unintelligible], just a little swollen.
+Q: Yeah. About four months ago, I started out having lower quadrant pain, just a little swollen.
 
-A: [unintelligible] way down here.
+A: Cecum's way down here.
 
-Q: Yeah, it was like, it's actually right in here. Swollen, waves of pain coming across the stomach, and then afterwards, every 15 to 30 minutes, I would urinate dark orange. I've been fairly, no fast food, none of that, I haven't done it for years, I grew up on that, I ate a lot of fresh vegetables, a lot of green juice, and I basically, I started eating pork, natural pork, whole foods, and I just had this intuition that maybe it was [unintelligible] that something like that being processed down here, and my body was getting it out, so my family wanted me to go to the emergency room, the doctor, no way, right? So I went through nine days, going on the internet and there was a natural hygienist here, and he just said to lay down and fast.
+Q: Yeah, it was like, it's actually right up here.
+
+A: That's the appendix.
+
+Q: Okay. Swollen, waves of pain coming across the stomach, and then afterwards, every 15 to 30 minutes, I would urinate dark orange. I've been fairly, no fast food, none of that, I haven't done it for years, I grew up on that, I ate a lot of fresh vegetables, a lot of green juice, and I basically, I started eating pork, natural pork, whole foods, and I just had this intuition that maybe it was uric acid that something like that being processed down here, and my body was getting it out, so my family wanted me to go to the emergency room, the doctor, no way, right? So I went through nine days, going on the internet and there was a natural hygienist here, and he just said to lay down and fast.
 
 A: Dr. Bass?
 
@@ -558,7 +562,7 @@ A: Sounds like your appendix.
 
 Q: Okay.
 
-A: So the appendix is the library of whatever has ever entered the body, and what to do about it chemically. So the appendix is a very important little organ. Sometimes people will store a lot more toxins in that appendix than they should, and it will burst, but it's a very important organ to have. Yours is probably trying to detox.
+A: So the appendix is the library of all foreign matter that's ever entered the body, and what to do about it chemically. So the appendix is a very important little organ. Sometimes people will store a lot more toxins in that appendix than they should, and it will burst, but it's a very important organ to have. Yours is probably trying to detox.
 
 Q: Right.
 

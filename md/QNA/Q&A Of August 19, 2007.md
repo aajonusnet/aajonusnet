@@ -1,4 +1,4 @@
-Aajonus.net & Rawmeatgang
+Transcribed by Aajonus.net & Rawmeatgang
 
 A: 76, thought that raw milk was dangerous until our meeting, and I gave my newest milk report that I rewrote. The first 10 days that I rewrote the report, it was instinctively when I found out how things work in Washington.
 

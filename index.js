@@ -66,6 +66,11 @@ async function search(input) {
     
      results_DOM.appendChild(fragmentTitle);
      results_DOM.appendChild(fragmentExact); // Append exact matches
+
+
+     if (fragmentPartial.childElementCount > 0) {
+          results_DOM.insertAdjacentHTML('beforeend', '<p style="font-style:italic; margin:20px 0 10px;">Partial matches:</p>');
+     }
      results_DOM.appendChild(fragmentPartial); // Append partial matches
 }
 
@@ -124,10 +129,10 @@ function findMatches(text, searchValue, words, maxLength, link, exactMatches, pa
             let fragment = encodeURIComponent(se);
 
             if (exactMatchPos !== -1) {
-                let highlightedResult = windowText.split(searchValue).join('<span class="highlight">' + searchValue + '</span>');
+                let highlightedResult = highlightTerms(windowText, [searchValue]);
                 exactMatches.push(`<a class='result-link' href=${link}?s=${urlSearchTermsExact}&search=${fragment}>${highlightedResult}</a><br><br><hr>`);
             } else if (partialMatchPos !== -1) {
-                let highlightedResult = words.reduce((result, w) => result.split(w).join('<span class="highlight">' + w + '</span>'), windowText);
+                let highlightedResult = highlightTerms(windowText, words);
                 partialMatches.push(`<a class='result-link' href=${link}?s=${urlSearchTermsPartial}&search=${fragment}>${highlightedResult}</a><br><br><hr>`);
             }
 
@@ -137,6 +142,36 @@ function findMatches(text, searchValue, words, maxLength, link, exactMatches, pa
     });
     return;
 }
+
+function highlightTerms(text, terms) {
+    let result = '';
+    let lastIndex = 0;
+    
+    while (lastIndex < text.length) {
+        let nearestMatch = null;
+        let nearestIndex = text.length;
+
+        for (let term of terms) {
+            let index = text.indexOf(term, lastIndex);
+            if (index !== -1 && index < nearestIndex) {
+                nearestMatch = term;
+                nearestIndex = index;
+            }
+        }
+
+        if (nearestMatch) {
+            result += text.slice(lastIndex, nearestIndex);
+            result += '<span class="highlight">' + text.slice(nearestIndex, nearestIndex + nearestMatch.length) + '</span>';
+            lastIndex = nearestIndex + nearestMatch.length;
+        } else {
+            result += text.slice(lastIndex);
+            break;
+        }
+    }
+
+    return result;
+}
+
 
 function clearSearch() {
     const searchInput = document.getElementById('search');
@@ -234,9 +269,9 @@ document.body.addEventListener('click', function(e) {
 function filterCategory(category, sanitizedCategory, element) {
   // Deselect all categories
   event.preventDefault();
-  var links = document.querySelectorAll('.links a');
-  for (var i = 0; i < links.length; i++) {
-    links[i].classList.remove('chosen-link');
+  var categories = document.querySelectorAll('.categories a');
+  for (var i = 0; i < categories.length; i++) {
+    categories[i].classList.remove('chosen-link');
   }
 
   // Clear search input
@@ -629,10 +664,15 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // Add a keyboard shortcut to open the search (e.g., Ctrl+F or Cmd+F)
 document.addEventListener('keydown', (e) => {
-    if ((e.ctrlKey || e.metaKey) && e.key === 'f') {
-        e.preventDefault();
-        showFindOnPage();
-    } else if (e.key === 'Escape' && document.getElementById('find-on-page').style.display === 'flex') {
+    /*if ((e.ctrlKey || e.metaKey || e.altKey) && (e.key === 'f' || e.key === 'F')) {
+        const findOnPageElement = document.getElementById('find-on-page');
+        if (findOnPageElement) {
+            e.preventDefault();
+            e.stopPropagation();
+            showFindOnPage();
+        } BROKEN ON LINUX :(
+    } else */
+    if (e.key === 'Escape' && document.getElementById('find-on-page').style.display === 'flex') {
         e.preventDefault();
         hideFindOnPage();
     }

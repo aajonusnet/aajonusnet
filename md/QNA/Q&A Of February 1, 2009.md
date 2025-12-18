@@ -1,4 +1,4 @@
-Aajonus.net & Rawmeatgang
+Transcribed by Aajonus.net & Rawmeatgang
 
 A: The same way we took over the American Indians' land here. Call them savages, kill them, and it's okay to kill them. Too bad.
 

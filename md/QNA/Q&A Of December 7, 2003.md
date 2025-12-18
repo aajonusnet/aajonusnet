@@ -1,4 +1,4 @@
-Aajonus.net & Rawmeatgang
+Transcribed by Aajonus.net & Rawmeatgang
 
 A: OK, first I'm going to tell you about the Bangkok incident. Well, I was in a very, very nice [unintelligible] executive suite in a hotel. And it's not even finished yet. So it seemed like it was in a good neighborhood. So I was at 2.50 in the morning. I was out with my digital video and videotaping stuff. And I caught three guys doing an illegal deal, something illegal. And they came after people in my camp. And I stopped and talked with a girl who was working. We talked together for about five minutes. So as I left that area, they were waiting between cars. And they had a guy getting my attention. So I noticed that he jumped out of the crew bar, pinned me here, and he stuffed his lip completely open so it was all the way through. He took this [unintelligible], crushed the bone all the way back under my tongue. The [unintelligible] was stuck under my tongue. He had a forge, and whacked me in the eye here and split this part all the way open here. This was just a week ago, so you can see how it healed. This whole lip and whole mouth.
 

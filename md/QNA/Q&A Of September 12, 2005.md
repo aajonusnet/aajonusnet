@@ -1,4 +1,4 @@
-Aajonus.net & Rawmeatgang
+Transcribed by Aajonus.net & Rawmeatgang
 
 A: Okay, so we're going to get started. I'll start with Kay. Question? No question? Question?
 

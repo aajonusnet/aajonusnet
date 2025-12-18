@@ -1,4 +1,4 @@
-Aajonus.net & Rawmeatgang
+Transcribed by Aajonus.net & Rawmeatgang
 
 A: dead cells like pineapple. So you just take a thin slice of pineapple and just go like this all over your body.
 
