@@ -1,4 +1,6 @@
-# Natural Health M2M Magazine interview with Aajonus Vonderplanitz (1999)
+### Natural Health M2M Magazine interview with Aajonus Vonderplanitz (1998)
+
+Date: October 1998 (Confirmed @[here](http://www.rawtimes.com/m2m))
 
 Note: This interview was also reprinted by Dr. Stanley S. Bass in January 2000.
 
@@ -9,11 +11,11 @@ verification of your points as this format will allow. If you would,
 start by telling us about yourself and your practice in the nutritional
 field, as well as something about your earlier illnesses and the road
 to your present standard of health. If you could elaborate on that with
-some data, it would be helpful
+some data, it would be helpful.
 
 A: I was born very sickly into a violent household. I had a brother who
 was still in diapers when I was born. He went from having had mother's
-full attention to having none and he never forgave e for it. He tortured
+full attention to having none and he never forgave me for it. He tortured
 me nearly daily. My father's discipline put me in the hospital several
 times. My dyslexia and autism, which no one understood at the time,
 embarrassed and frustrated my parents. My dyslexia was to the extent that

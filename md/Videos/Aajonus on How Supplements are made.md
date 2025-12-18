@@ -1,3 +1,5 @@
+@[Video Source](https://archive.org/details/aajonus-on-how-supplements-are-made)
+
 Transcribed by Aajonus.net & Rawmeatgang
 
 F = Fred Albach, A = Aajonus
@@ -60,7 +62,7 @@ A: Just cut that off for a second.
 
 Videographer: Okay.
 
-[part 2]
+[Part 2]
 
 F: Yeah, that might not even be necessary because when you said derivatives, when you started explaining, then I remember you actually had explained it earlier, but actually when you said derivatives, I went, derivatives of what, you know what I mean? So it's not necessarily a necessary question, it's just that I had the question in my head.
 

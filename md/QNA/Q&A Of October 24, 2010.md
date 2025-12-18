@@ -572,7 +572,7 @@ A: So I told him that. We'll see how he honors it, but I sent it to his attorney
 
 Q: US wellness meats?
 
-A: Great. John's very good. It took me two years to get him to good quality and not freezing. Yeah.
+A: Great. John [https://grasslandbeef.com/] is very good. It took me two years to get him to good quality and not freeze it. Yeah.
 
 Q: So you still buy the cheese and everything else from Rawesome?
 

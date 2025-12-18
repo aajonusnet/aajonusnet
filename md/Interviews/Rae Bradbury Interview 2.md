@@ -1,4 +1,4 @@
-# Living disease-free
+### Living disease-free
 
 The medical profession is finally taking a closer look at alternative
 therapies for cancer and other diseases. Why? In spite of trillions of

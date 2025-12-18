@@ -1,3 +1,5 @@
+@[Video Source](https://archive.org/details/aajonus-on-the-paleo-diet)
+
 Transcribed by Aajonus.net & Rawmeatgang
 
 F = Fred, A = Aajonus

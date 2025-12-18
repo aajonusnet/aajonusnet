@@ -1,4 +1,4 @@
-@[Video Source](https://web.archive.org/web/20250423141044/https://www.youtube.com/watch?v=W5QOXm69PXg)
+@[Video Source](https://archive.org/details/aajonus-on-his-2nd-accident)
 
 Transcribed by Aajonus.net & Rawmeatgang
 

@@ -72,7 +72,7 @@ T: Yes.
 
 J: So what happened to you and your company out there on the West Coast?
 
-A: Well, I'm overseer of about 60 clubs in the United States, anywhere from 40 to 60, depending upon whether their clothes are open. And that's depending upon what the government tries to do. And I have contracts with farmers to supply members with their own food. So I contract with farmers, probably have about 40 to 60 altogether. I don't like to give out exact figures because the government's always watching.
+A: Well, I'm overseer of about 60 clubs in the United States, anywhere from 40 to 60, depending upon whether they're closed or open. And that's depending upon what the government tries to do. And I have contracts with farmers to supply members with their own food. So I contract with farmers, probably have about 40 to 60 altogether. I don't like to give out exact figures because the government's always watching.
 
 J: Yep.
 
@@ -376,7 +376,7 @@ A: It's an industrial fascism, autocracy, you know, so that's basically what it 
 
 J: You're right. You're absolutely right.
 
-A: Okay my name is Aajonus Vonderplanitz, that's A-A-J-O-N-U-S. Last name is all one word, V-O-N-D-E-R-P-L-A-N-I-T-Z. And website is primaldiet.com, and we want to live. We want to live is all spelled out except for the T-O is the numeral two, dot com.
+A: Okay my name is Aajonus Vonderplanitz, that's A-A-J-O-N-U-S. Last name is all one word, V-O-N-D-E-R-P-L-A-N-I-T-Z. And website is primaldiet.com, and wewant2live.com. We want to live is all spelled out except for the T-O is the numeral two, dot com.
 
 J: Gotcha. Dot. Well, we appreciate you coming on. You know, a lot of folks that have been attacked by the FTC, the FDA, a lot of them aren't even speaking out. They all signed papers. See, we're still fighting, and they're really mad because I refuse to sign a letter. My wife can tell you about what the letter is. And maybe if you get a chance, you can check out our site, danielchapteronefreedom.com, and you can see the battle that we've been going through fighting this evil, you know?
 

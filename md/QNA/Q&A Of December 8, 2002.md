@@ -1074,7 +1074,7 @@ Q: Are there any ground meat in the store that are acceptable?
 
 A: No. Well, not acceptable for regenerating cells, for reproducing cells, but for detoxification and energy, ground is fine in the store. But it's a hell of a waste of protein.
 
-Q: And on the chicken steak, all I get is just the breast, skinless and [unintellgible].
+Q: And on the chicken steak, all I get is just the breast, skinless and [unintelligible].
 
 A: Skinless and boneless is fine, unless you're [unintelligible].
 

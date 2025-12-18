@@ -84,9 +84,9 @@ A: I have no idea.
 
 Q: [unintelligible]
 
-A: Yes. Yes. Well no [unintelligible] longest person to [unintelligble]. But you know I had some [unintelligible] and some chemicals in my body.
+A: Yes. Yes. Well no [unintelligible] longest person to [unintelligible]. But you know I had some [unintelligible] and some chemicals in my body.
 
-Q: [unintelligble]
+Q: [unintelligible]
 
 A: Exactly.
 
@@ -296,7 +296,7 @@ A: Excellent. Do you have a question?
 
 Q: I don't have a question except those [unintelligible].
 
-A: Because your liver may not be just being digesting. So you have to almost most of that you have [unintelligible]. You want to gain weight. I have a lot of clients like you, but 55, 60 years old. And with that way, their whole life, not able to gain weight. And then they get on this diet and I say, you know, do a lubrication formula. She, you know, like a half a pound of meat at a time. And then the lubrication and one fellow who's six one, he's almost 60 years old now. 68, 69... He was [unintellligible] all his life and all of a sudden, he's got this developing all over his [unintelligible]. He says, listen, can you bodybuild on this diet? I said yeah, sure you can. Make sure you eat an extra meat meal. So you've got two meals right now. You eat up to a pound at a time. And with a full lubrication formula, at least two to three eggs and at least three ounces of butter. And a couple of tablespoons of lemon.  So he started doing that in two and a half months. He had four inches on his arms and six inches on his chest. Everybody at the gym accused him. He's on steroids. I'm telling you, it's just the meat. No, no, no, no. He's still developing. And here's a guy who looks like, you know, Schwarzenegger. He doesn't work out that much.
+A: Because your liver may not be just being digesting. So you have to almost most of that you have [unintelligible]. You want to gain weight. I have a lot of clients like you, but 55, 60 years old. And with that way, their whole life, not able to gain weight. And then they get on this diet and I say, you know, do a lubrication formula. She, you know, like a half a pound of meat at a time. And then the lubrication and one fellow who's six one, he's almost 60 years old now. 68, 69... He was [unintelligible] all his life and all of a sudden, he's got this developing all over his [unintelligible]. He says, listen, can you bodybuild on this diet? I said yeah, sure you can. Make sure you eat an extra meat meal. So you've got two meals right now. You eat up to a pound at a time. And with a full lubrication formula, at least two to three eggs and at least three ounces of butter. And a couple of tablespoons of lemon.  So he started doing that in two and a half months. He had four inches on his arms and six inches on his chest. Everybody at the gym accused him. He's on steroids. I'm telling you, it's just the meat. No, no, no, no. He's still developing. And here's a guy who looks like, you know, Schwarzenegger. He doesn't work out that much.
 
 Q: [unintelligible]
 
@@ -422,7 +422,7 @@ Q: They're using it on a regular basis?
 
 A: Oh, yeah.
 
-Q: [unintelligble]
+Q: [unintelligible]
 
 A: You know, there are 18 universities using different viruses and bacteria to dissolve tumours. [unintelligible] was the first one to issue one for experimentation in the human population. And they [unintelligible] the salmonella, the salmonella will go in and start dissolving the tumour.  It will go in and choke off the oxygen to a tumor. And then it starts eating the tumor. They're charging you about eight thousand dollars for the injection of this thing. We were saying we need to eat high meat or high chicken or high eggs. And then they charge you twelve thousand dollars for an injection of the solvent to dissolve the tumor. Which is highly toxic. Twenty thousand dollars for around. You can just eat high meat and live.
 
@@ -432,7 +432,7 @@ A: No, it's very mild. The E. coli is strong, strong bacteria. Not as good as pa
 
 Q: [unintelligible]
 
-A: Well, it's the medical treatment for the bacteria because they're given antibiotics. They're going to get anaphylaxis shock. Like the little girl who was supposed to die from the E. coli  in the orange juice, the apple juice. Well, what? How absurd can anybody buy that garbage story? It's ridiculous. The female doctor who treated that little girl gave her Cipro. Cipro causes kidney damage, the same as [unintelligible, sounds like h2s] from so called E. Coli [unintelligible]. E. Coli hasn't been linked with kidney problems, but Cipro has. They always blame bacteria. 
+A: Well, it's the medical treatment for the bacteria because they're given antibiotics. They're going to get anaphylaxis shock. Like the little girl who was supposed to die from the E. coli  in the orange juice, the apple juice. Well, what? How absurd can anybody buy that garbage story? It's ridiculous. The female doctor who treated that little girl gave her Cipro. Cipro causes kidney damage, the same as HUS from so called E. Coli [unintelligible]. E. Coli hasn't been linked with kidney problems, but Cipro has. They always blame bacteria. 
 
 Q: [unintelligible]
 
@@ -540,7 +540,7 @@ Q: [unintelligible]
 
 A: Some plastic. You get that. You have a hard plastic so you have BPAs. Now, the report came out a few months ago and showed that the incidence of brain cancer [unintelligible].
 
-Q: [unintelligble]
+Q: [unintelligible]
 
 A: I don't know. I don't [unintelligible]. [unintelligible] bacteria.
 

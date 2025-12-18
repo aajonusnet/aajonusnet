@@ -390,7 +390,7 @@ of fat and protein in the testosterone molecules. So it takes those out and if
 you don’t have the highest quality fats – and I mean, concentrated fat and
 you’re very fat - it’s likely you’re going to lose hair.
 
-If it is thimerosol from vaccine injections, even if you’re very overweight,
+If it is thimerosal from vaccine injections, even if you’re very overweight,
 you’re still going to lose hair; it’s going to damage the follicles.
 Chemotherapy is a high poison that will cause it in anybody and testosterone
 won’t have anything to do with that kind of chemical contamination follicle

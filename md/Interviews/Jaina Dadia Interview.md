@@ -1,4 +1,4 @@
-@[Source](https://creators.spotify.com/pod/profile/health-paradigm/episodes/Aajonus-Vonderplanitz-The-Primal-Diet-e2cecd)
+@[Source](https://archive.org/details/aajonus-jaina-dadia-interview)
 
 Date: 2012
 
@@ -30,7 +30,7 @@ Q: Oh, that's fantastic, then. So Aajonus, you've been on the most amazing journ
 
 A: Well, the book starts with getting a call from my mother. My son, at the time, was 22 years old, and damaged 1/5 of his brain, and was in a coma and was going to die any minute.
 
-And so I flew back there, and I tell the story of how I reversed my diseases, including autism, cancer of the blood, bone, stomach and limp. All four cancers, diabetes, juvenile diabetes, and psoriasis, and angina pectoris, which were all supposedly incurable. 
+And so I flew back there, and I tell the story of how I reversed my diseases, including autism, cancer of the blood, bone, stomach and lymph. All four cancers, diabetes, juvenile diabetes, and psoriasis, and angina pectoris, which were all supposedly incurable. 
 
 Q: And so the doctors told you that these diseases were incurable and that there were no cures for them at all. 
 

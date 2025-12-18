@@ -1,4 +1,8 @@
-#  Meat but no heat
+Date: 31 January 2001
+
+## Meat but no heat
+
+By Emily Green
 
 As Pat Crowder settles down in the living room of the Burbank bungalow
 with her plate of food from the buffet, she isn't quite sure what she's
@@ -98,7 +102,3 @@ Primal Potluck. James, the man who eats a half pound of raw chicken a day,
 is so devout, he is now training with Aajonus. "It's amazing how easy
 digestion becomes," he says, before playfully pelting fellow travelers
 with empty egg shells.
-
-===
-
-By EMILY GREEN | 2001-01-31

@@ -2,6 +2,8 @@ Transcribed by Aajonus.net & Rawmeatgang
 
 Location: Marina Del Rey, CA
 
+@[Video Clips](https://archive.org/details/aajonus-7-june-2009-qa-video-clips)
+
 A: This is the first one we've had here in LA since I went to Colby's last week. He's done. I had another motorcycle accident.
 
 Q: Oh no.
@@ -194,7 +196,7 @@ Q: You know what, Aajonus?
 
 A: Uh huh, okay.
 
-Q: We were out on the beach and I just wanted to show him Lucky's place. I'm wondering, I have no idea. I've never been to one of your talks. I know they're generally here, but I didn't even know that this was today and we're both in hoodies. So we don't want to disrespect, we're actually going to take off.
+Q: We were out on the beach and I just wanted to show him Lucky's place. I'm wondering, I have no idea. I've never been to one of your talks. I know they're generally here, but I didn't even know that this was today and we're both foodies. So we don't want to disrespect, we're actually going to take off.
 
 Q: A pretty girl's discount.
 

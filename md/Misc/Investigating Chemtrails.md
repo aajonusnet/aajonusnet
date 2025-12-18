@@ -51,5 +51,5 @@ During tests to perfect the technology, reports that aerosol barium titanate sal
 
 Is the military continuing open-air-testing in populated areas across the USA with dangerous chemical biowarfare, or arrogantly dumping military chemical waste on us? Whatever it is, we must stop this mass poisoning of us and our children now!
 
-**Please call and fax them once a week! We must be insistent**: Contact your local and U.S. Senators and demand that they introduce and pass legislation to stop the chemtrails-poisoning of U.S. inhabitants. To discover your U.S. Senators call (202) 224-3121, or log on the net at http://www.senate.gov/. To discover your U.S. House Representative, call (202) 225-7000, or log on the net at http://www.house.gov/writerep/.
+**Please call and fax them once a week! We must be insistent**: Contact your local and U.S. Senators and demand that they introduce and pass legislation to stop the chemtrails-poisoning of U.S. inhabitants. To discover your U.S. Senators call (202) 224-3121, or log on the net at https://www.senate.gov/. To discover your U.S. House Representative, call (202) 225-7000, or log on the net at https://www.house.gov/writerep/.
 

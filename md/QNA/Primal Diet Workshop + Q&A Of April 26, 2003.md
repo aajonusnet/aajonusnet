@@ -1236,7 +1236,7 @@ A: Yeah.
 
 Q: Same thing.
 
-A: Yep. It's just that those particular chemicals that may be coming out of one of those glands is causing a cramp in the stomach wall, stomach lining, as it passes through and touches the nerves. \It causes a cramping because it burns the tissue.
+A: Yep. It's just that those particular chemicals that may be coming out of one of those glands is causing a cramp in the stomach wall, stomach lining, as it passes through and touches the nerves. It causes a cramping because it burns the tissue.
 
 Q: So no honey might be the ticket.
 

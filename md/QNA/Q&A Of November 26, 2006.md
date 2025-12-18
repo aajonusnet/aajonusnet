@@ -158,7 +158,7 @@ Q: Two whole oranges and one pound of meat daily?
 
 A: No, no, I said that one pound of meat contains as much assimilable vitamin C as two oranges. Do you have a question?
 
-Q: [unintellgible]
+Q: [unintelligible]
 
 A: Ask me about what?
 

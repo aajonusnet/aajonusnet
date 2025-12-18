@@ -1,3 +1,5 @@
+@[Video Source](https://archive.org/details/aajonus-conscious-media-network-regina-interview)
+
 Date: June 2010
 
 Transcribed by Aajonus.net & Rawmeatgang

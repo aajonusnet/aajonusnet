@@ -1,3 +1,7 @@
+@[Video Source](https://archive.org/details/health-panel-experiences-from-primals-2001)
+
+Transcribed by Aajonus.net & Rawmeatgang
+
 In spring of 2001 nine clients of Aajonus were speaking about their experience with his primal diet. At the end Aajonus talks about bacteria and high meat.
 
 

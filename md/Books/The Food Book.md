@@ -474,7 +474,7 @@ Q: _However, this interesting reference to a low-
 cost, healing clay came my way. It was
 recommended to me by a cooked-food eater, but it
 looks like it might be helpful to anyone:
-[http://www.pascalite.com/](http://www.pascalite.com/) I was wondering if
+[https://www.pascalite.com/](https://www.pascalite.com/) I was wondering if
 you had ever taken it or heard of it._
 
 A: This clay is not active in the beneficial soil
@@ -1996,7 +1996,7 @@ That means they boil it and press it. [Aajonus
 later helped develop a truly unheated coconut
 oil product that uses an 8 hour ferment process
 that can be ordered at this website:
-[http://www.thaiorganiclife.com/product/virgin](http://www.thaiorganiclife.com/product/virgin-coconut-oil-pure-raw/ .]
+[https://www.thaiorganiclife.com/product/virgin-coconut-oil-pure-raw/ .]
 
 _Kokonut Pacific operates out of Canberra,
 Australia - not Malaysia. Their oil is dried
@@ -2039,7 +2039,7 @@ systems. It is usually between 45°C (110°F) and
 60°C (130°F) immediately before pressing. This is
 "cold" by oil standards._
 
-[http://www.qualityfirst.on.ca](http://www.qualityfirst.on.ca/Definitions.htm)
+[https://www.qualityfirst.on.ca](https://www.qualityfirst.on.ca/Definitions.htm)
 
 Virgin Oil de Coco-CrèmeT:
 Literally 'untouched oil' extracted from coconut
@@ -2071,7 +2071,7 @@ like solvent extraction. This, along with the need
 to use high quality raw materials, translates into
 a higher product cost.
 
-[http://www.qualityfirst.on.ca](http://www.qualityfirst.on.ca/CVO.htm)
+[https://www.qualityfirst.on.ca](https://www.qualityfirst.on.ca/CVO.htm)
 
 Visual: White solid / Colourless and crystal clear when melted
 
@@ -2349,7 +2349,7 @@ that destructive alteration occurs at a much
 lower temperatures. [As mentioned earlier,
 Aajonus later recommended coconut oil from
 this company:
-[http://www.thaiorganiclife.com/product/virgin](http://www.thaiorganiclife.com/product/virgin-coconut-oil-pure-raw/ .]
+[https://www.thaiorganiclife.com/product/virgin-coconut-oil-pure-raw/ .]
 
 
 ## FATS – COD LIVER OIL - 2
@@ -2954,7 +2954,7 @@ Q: _Would he need to do it 100% or have more of something to get off them comple
 A: Whether he gets on the diet 100% or not, the
 pills could cause neurological toxicity that can
 cause the problem he now faces. Go to
-[http://www.rxlist.com](http://www.rxlist.com) and enter the medication that
+[https://www.rxlist.com](https://www.rxlist.com) and enter the medication that
 he is ingesting and discover the side effects.
 
 Q: _I started eating lots more fruit. All in all my
@@ -5104,7 +5104,7 @@ remedial, but continuously causes diseases.
 
 Q: _Hi, I realize you don't know me but please at
 your convenience go to
-[http://www.pulseparty.com/117734.](http://www.pulseparty.com/117734.) When you get in go
+[https://www.pulseparty.com/117734](https://www.pulseparty.com/117734) When you get in go
 to whole foods. please look at Sol Saltz and Pulse and Parched Pulse. The Pulse is raw because the
 temp is not above 93._
 
@@ -5199,7 +5199,7 @@ meat, as I recommended in my book, and avocado may be eaten with vegetables.
 Note: Although one or two companies claim that
 their coconut oils are raw, they are heated and I
 do not recommend eating them [except for
-[http://www.thaiorganiclife.com/product/virgin-coconut-](http://www.thaiorganiclife.com/product/virgin-coconut-oil-pure-raw/ .]
+[https://www.thaiorganiclife.com/product/virgin-coconut-oil-pure-raw/ .]
 
 Note to questions 4 and 5: The problem with
 eating whole vegetables on a raw diet is that it
@@ -5779,5 +5779,5 @@ guise of health.
 No one tells his story better than Aajonus
 himself: click here.
 
-(Note: https://www.primaldiet.net/videos-aajonus-tells-his-own-story/ )
+(Note: https://archive.org/details/aajonus-tells-his-story )
 

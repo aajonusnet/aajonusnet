@@ -76,4 +76,6 @@ We probably should avoid addressing the basic issues that I divulged above becau
 * washed animal red blood
 * a variety of unintentional bacteria, viruses and other harmful accidents produced during production.
 
-I suggest that you print and distribute my Vaccine Responsibility Acceptance (VRA) form to everyone you know to get them thinking rationally and logically about any vaccine. My VRA form can be found at this link: http://www.wewant2live.com/2011/07/14/vaccination-acceptance-responsibility-form/
+I suggest that you print and distribute my Vaccine Responsibility Acceptance (VRA) form to everyone you know to get them thinking rationally and logically about any vaccine. My VRA form can be found here:
+
+[PDF File - Vaccination Responsibility Acceptance | 14 July 2011](docs/vaccination_responsibility_acceptance.pdf)

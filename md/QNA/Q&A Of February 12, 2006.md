@@ -756,7 +756,7 @@ Q: Yeah. This summer, I visited a friend [unintelligible] when I was back in Ita
 
 A: You have to understand that what they call a lesion is not a hole at all. That's the most protected and healthiest area you have. How that whole theory came up, I don't understand it. It's all for one. So just, whatever he said about those particular areas, are the healthiest parts of your body.
 
-Q: And he told me one thing that he told me before, [unintelligble].
+Q: And he told me one thing that he told me before, [unintelligible].
 
 A: [unintelligible] sugars, acrylamide, yeah.
 

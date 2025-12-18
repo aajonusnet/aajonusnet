@@ -1,3 +1,7 @@
+Date: 17 March 2009
+
+By Julia Llewellyn Smith
+
 Plenty of people have already told me how happy they are with the [Primal]
 diet, so something must be working! As a long-time lover of sushi, sashimi
 and steak tartare I'm delighted to hear such foods could be beneficial...
@@ -46,7 +50,7 @@ chemical substance Twinkies. Such substances that are not really food, as
 well as foods have to be completely dead of all natural health-promoting
 microbes for them to have endless shelflives.
 
-In order for people to ignore and fight adamantly against healthpromoting
+In order for people to ignore and fight adamantly against health-promoting
 raw foods and eat only processed foods, people must be afraid of microbes
 in their foods. Take for example the scares of last 2 years. First, it was
 contaminated spinach which was always considered blood and musclebuilding
@@ -155,7 +159,3 @@ their health. That is, until governments remove our rights to raw foods
 by telling us that microbes cause disease when in fact it is poisonous
 chemical food-additives, pesticides, herbicides, chemical fertilizers
 and anti-microbial chemicals that cause diseases.
-
-===
-
-By Julia Llewellyn Smith | 2009-03-17

@@ -572,7 +572,7 @@ Q: I do. I have been enjoying a lot of strength and health because of what you j
 
 A: That's because you never got married. You never got married.
 
-[laughter|
+[laughter]
 
 Q: I got married after.
 

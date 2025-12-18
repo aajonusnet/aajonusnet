@@ -1,4 +1,4 @@
-# How do sugars interfere with living disease free?
+### How do sugars interfere with living disease free?
 
 In Concepts September/October 1997 issue (Volume 1 Issue 21) I
 discussed the dietary approach to living disease-free with nutritional

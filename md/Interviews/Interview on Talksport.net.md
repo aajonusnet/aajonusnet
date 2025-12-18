@@ -1,3 +1,5 @@
+Date: 18 April 2010
+
 Q: Let's speak about the Primal Diet. This is Aajonus Vonderplanitz.
 What's the derivative of that name, sir?
 
@@ -9,7 +11,7 @@ A: Well, thank you. It's a lot to write.
 
 Q: But, it's not such an exotic diet that you have.
 
-A: (laugh) Well, actually it is.
+A: [laugh] Well, actually it is.
 
 Q: What's it called? Is it actually called the Primal Diet?
 
@@ -131,7 +133,7 @@ it is quite incredibly complex and beautiful.
 
 Q: Well, indeed. Which, perhaps prompts some people to not want to eat it.
 
-A: (laughs) Yes, you know, before I had eaten the meat to kill myself,
+A: [laughs] Yes, you know, before I had eaten the meat to kill myself,
 if I had seen that, it probably would have repulsed me.
 
 Q: If I was in the States and I said "Let's go to a nice restaurant for
@@ -164,7 +166,3 @@ Q: Well, listen, it's been great to have you on sir.
 A: Well, thank you,.
 
 Q: That's a pleasure and great to talk.
-
-===
-
-2010-04-18

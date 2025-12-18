@@ -1,4 +1,4 @@
-@[Video Source](https://web.archive.org/web/20240712113436/https://www.youtube.com/watch?v=54OGGE6zdXk)
+@[Video Source](https://archive.org/details/aajonus-formula-for-a-healthy-baby)
 
 Date: 7 April 2010
 

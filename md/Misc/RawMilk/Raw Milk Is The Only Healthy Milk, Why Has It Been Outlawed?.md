@@ -1,4 +1,4 @@
-@[Source](https://web.archive.org/web/20131007194327/http://www.rawmilk.org/pdf/raw-milk-is-the-only-healthy-milk.pdf)
+@[Source](docs/rawmilkorg_raw-milk-is-the-only-healthy-milk.pdf)
 
 Article on RawMilk.org
 

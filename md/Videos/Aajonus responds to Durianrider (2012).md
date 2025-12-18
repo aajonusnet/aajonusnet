@@ -1,3 +1,5 @@
+@[Video Source](https://archive.org/details/aajonus-responds-to-durianrider-2012)
+
 Transcribed by Aajonus.net & Rawmeatgang
 
 Comment on Durian Rider, 2012

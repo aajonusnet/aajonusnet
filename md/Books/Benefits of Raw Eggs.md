@@ -4494,8 +4494,7 @@ tablespoon raw cream (dairy cream) and 1/2 - 3/4 cup of organically-grown dark b
 Simply choosing a poultry that is not fed arsenic does not resolve every toxin-issue
 regarding poultry. See Soy Toxicity In Poultry Meat And Eggs.
 
-Note: To view the complete collection of Primal Diet Newsletters, choose the trial
-subscription here: https://www.wewant2live.com/members/
+Note: To view the complete collection of Primal Diet Newsletters, click here: https://aajonus.net/newsletters/
 
 - - - - - - - - -
 

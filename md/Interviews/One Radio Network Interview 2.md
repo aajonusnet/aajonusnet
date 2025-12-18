@@ -126,11 +126,11 @@ A: Well, we have the campylobacter in the stomach, and of course, the ones grown
 
 P: Let's take a call or two. What's your first name? Where are you calling from? Hello?
 
-[Yuri]: Hello.
+Yuri: Hello.
 
 P: Hi, go ahead, you're on the air.
 
-[Yuri]: Hello, gentlemen, my name is Yuri. I'm calling you from Ukraine. First of all, I want to thank you both. Patrick, your show is awesome, and Aajonus, your raw concept is enlightening. I have this question. Several people that I know, myself included, have suffered from practicing intermittent fasting, that is, eating one meal a day. That causes massive health problems, including cold intolerance, extreme fatigue, and I think it's related to hormones. So could you suggest how to bounce back and recover effectively from hormone imbalance, something like that?
+Yuri: Hello, gentlemen, my name is Yuri. I'm calling you from Ukraine. First of all, I want to thank you both. Patrick, your show is awesome, and Aajonus, your raw concept is enlightening. I have this question. Several people that I know, myself included, have suffered from practicing intermittent fasting, that is, eating one meal a day. That causes massive health problems, including cold intolerance, extreme fatigue, and I think it's related to hormones. So could you suggest how to bounce back and recover effectively from hormone imbalance, something like that?
 
 A: Well, when you eat one meal a day, you have great deals of problems. The first and major is that the blood protein drops after five hours of not eating. And if you don't eat, let's say, if you ate fruit in that one meal, then you're never supplying the proteins properly, so the red blood cells become cannibalistic, and they eat each other. So let's say you're sleeping an eight-hour period, eight to 10 hours at night, and you don't wake in, and you don't eat anything in that period. Depending upon how active your body is in your sleep, your heart rate, and your brain activity, and your lungs, you can consume anywhere from two to four tablespoons of red blood cells every night. That means that you'll wake up with anemia. That's why people who awaken after eight to 10 hours and are tired have to go for some kind of drug like caffeine, or nicotine, or theobromine, or theophycine, something like that from chocolate, to boost their energy level, because they have anemia. And those drugs are not a cure for anemia. Eating's a cure for anemia. So I suggest for people who, during the night that they wake up, if you're a very hyperactive person, and if you eat after five hours, you can't go back to sleep and you want eight hours, then it's better to wake after three hours and then sleep five hours. But to recover from that kind of eating, from a monodiet, it's called a monomeal diet, it's usually better to sip on raw milk, to eat lots of raw eggs. Raw eggs digest in about 27 minutes, because your body doesn't require, or it's not required of your body to form enzymes to disassemble large food particles. It's already in liquid form, so the bacteria can go right to work. So it only takes up about 27 minutes and about five inches of the small intestines to digest and absorb eggs. If you're eating one at a time, if you eat two at a time, it could take about 50 minutes or less. So eggs are the best way to supply massive amount of nutrients and reawaken the digestive tract. And sipping on some raw milk throughout the day is also helpful.
 
@@ -148,15 +148,15 @@ A: Yeah, you could have like a half a cup of raw milk or a couple of raw eggs. O
 
 P: Does that help you, Mr. Ukraine?
 
-[Yuri]: Yeah, thank you very much for the explanation.
+Yuri: Yeah, thank you very much for the explanation.
 
 P: Thank you for calling. We sure appreciate that you're out there. What's your first name and where are you calling from?
 
-[Ben]: Patrick, Ben Agostino, Albany, New York.
+Ben: Patrick, Ben Agostino, Albany, New York.
 
 P: Hi, Albany. Go ahead, you're on the air with Aajonus Vonderplanitz.
 
-[Ben]: Vonderplanitz, I know. Aajonus, in your book, We Want to Live, you mentioned taking olive oil for cataracts. Can you suggest anything else plus the olive oil?
+Ben: Vonderplanitz, I know. Aajonus, in your book, We Want to Live, you mentioned taking olive oil for cataracts. Can you suggest anything else plus the olive oil?
 
 A: Yes, you can use any kind of a good cleansing raw fat. Coconut cream is an oil that you can get. Now, the only truly raw fat that I recommend are all pressed under 96 degrees. And there's no oil that you can get pressed under 96 degrees these days unless you're pressing it yourself. And the only, I've watched people and they claimed that their oils were pressed under a certain temperature. And I took a heat gun, a thermometer gun, and held it right up against where the oil was coming out. And it was going all the way up to 176 with pumpkin seeds and flax seeds about the same. It was down to as low as 134 with pumpkin seeds, but usually it went higher. Sunflower seeds, after about a minute of pressing, was down to a good temperature, but that's not in a high manufacturing environment. So I've found that you can only get stone pressed olive oil and coconut cream if you press it yourself with like a Green Star juicer. There is one oil that's pressed under 93 degrees in Thailand and if you went to Thaiorganics.com, that website, that's the oil I sat and watched all day, watched them make that one in Thailand, so I know it's good.
 
@@ -182,7 +182,7 @@ A: If you say it's stone pressed, then you'll get a truthful answer because when
 
 P: Oh, is that right? Oh, that's interesting. Did that help, Ben?
 
-[Ben]: Thanks very much, Patrick and Aajonus.
+Ben: Thanks very much, Patrick and Aajonus.
 
 A: Thank you very much.
 
@@ -252,69 +252,69 @@ A: Because it dehydrates cells, and it dries out the intestines and washes nutri
 
 P: Let's go to the telephone again. Hi, what's your first name? Where are you calling from?
 
-[John]: Hi, this is John DeRosa, and I'm calling from Washington, D.C. area.
+John: Hi, this is John DeRosa, and I'm calling from Washington, D.C. area.
 
 P: Hi, John, go ahead. You're on the air with Aajonus.
 
-[John]: Yes, Aajonus, I know you've, I've been on the Primal Diet for a long time, and my question is in regard to the toothpaste. I've been using that new mixture you've got of coconut cream, terramin clay, and apple cider vinegar. And I think I've overdone it, because I got one tablespoon of coconut cream, one tablespoon, or one teaspoon of clay, and one teaspoon of apple cider vinegar. It must be incorrect, because my gums have become sensitized... get bleeding, because I've been doing it for about six months.
+John: Yes, Aajonus, I know you've, I've been on the Primal Diet for a long time, and my question is in regard to the toothpaste. I've been using that new mixture you've got of coconut cream, terramin clay, and apple cider vinegar. And I think I've overdone it, because I got one tablespoon of coconut cream, one tablespoon, or one teaspoon of clay, and one teaspoon of apple cider vinegar. It must be incorrect, because my gums have become sensitized... get bleeding, because I've been doing it for about six months.
 
 A: Are you doing it, how often are you doing it?
 
-[John]: Yeah, I started out doing it every day.
+John: Yeah, I started out doing it every day.
 
 A: Oh, that's not necessary. As I made a statement, you know, it'll dissolve and keep it pretty clean for three days. Only if you have heavy plaquing is it good on those teeth, where you have heavy plaquing. If you want to dilute it some more, use a whole tablespoon of clay, and, you know, just a teaspoon of vinegar, and a tablespoon of the coconut cream. And I'd still only do it once every other day at the most.
 
 P: And caller, what, tell everybody, excuse me caller, tell everybody what you were using exactly.
 
-[John]: Oh, Aajonus mentioned it. I was using one tablespoon of coconut cream, one teaspoon of what's called terramin clay.
+John: Oh, Aajonus mentioned it. I was using one tablespoon of coconut cream, one teaspoon of what's called terramin clay.
 
 P: Terramin clay, yeah.
 
-[John]: And one teaspoon of apple cider vinegar.
+John: And one teaspoon of apple cider vinegar.
 
-P: And Agnes, you say you just don't want to do that every day.
+P: And Aajonus, you say you just don't want to do that every day.
 
 A: No, it's usually, like I suggested, every three days, once a week even. You know, you don't need to brush your teeth with anything, but let's say coconut cream on a daily basis. But to dissolve plaque, plaque comes from heavy metals being discharged from the brain out the gums. So it has a lot of toxic metals in it because of our processed and cooked foods. So what happens is the body will use a lot of calcium, phosphorus, magnesium, potassium to bind with like mercury, lead, or anything like that's coming down the gums. And that's plaque on the teeth. That is a defense so that the mercury, or the lead, whatever it is, does not damage the dentine. However, when we cook foods, even if we eat raw foods, those free radical heavy metals are so toxic that they can eat through those alkalinizing minerals and start deteriorating the dentine in about three days if it isn't cleansed. So I say once a week, or at least every three days, brush with that mixture, and that will keep the plaque removed so the heavy metals don't damage the dentine. And that's what causes damage to dentine. Then the bacteria rises to clean the dead tissue so you can replace the dentine. Of course, nobody eats well enough to replace the dentine.
 
-[John]: My further question is I obviously really overdid it because I put a hole in one of my incisors, a little small hole.
+John: My further question is I obviously really overdid it because I put a hole in one of my incisors, a little small hole.
 
 P: Wow.
 
 A: Well, it's unlikely that that caused it. You had to have had, if you put a hole in there, you already had to have a soft spot there that was already damaged.
 
-[John]: Ah, okay.
+John: Ah, okay.
 
 A: But that will just make your gum sensitive usually.
 
-[John]: I just stay on my standard diet to get that to heal up?
+John: I just stay on my standard diet to get that to heal up?
 
 A: You could eat some cheese and honey together, how tall are you?
 
-[John]: I'm about 5'8".
+John: I'm about 5'8".
 
 A: Okay, I would suggest about two tablespoons of raw, no-salt cheese with a teaspoon of honey.
 
-[John]: So that's two tablespoons of unsalted cheese.
+John: So that's two tablespoons of unsalted cheese.
 
 A: Right, unsalted raw cheese.
 
-[John]: And one teaspoon of raw honey.
+John: And one teaspoon of raw honey.
 
 A: One teaspoon of honey, so it's very little honey.
 
-[John]: Okay.
+John: Okay.
 
 A: The cheese, when it's raw, will not digest. It'll attract the poisons that are dumped from the stomach lining into the stomach and throughout the intestines and absorb it, hold on to it, and then like a sponge, and discard it in the fecal matter.
 
-[John]: Should I do that?
+John: Should I do that?
 
 A: Raw cheese, when eaten with honey directly with honey, not with anything that already has honey in it, but when you eat cheese and honey together, you will be able to digest the minerals in the cheese and then it becomes a mineral supplement.
 
-[John]: Should that be two or three times a day or?
+John: Should that be two or three times a day or?
 
 A: Well, I would say you could do it three times a day, until everything stabilizes, probably in about seven, 10 days. And then after that, do it twice daily after your meat meals.
 
-[John]: Okay, that sounds wonderful. Thank you very much.
+John: Okay, that sounds wonderful. Thank you very much.
 
 P: You're quite welcome. Aajonus, meat meals for those who don't know what you talk about, eating some raw meats. Do you then recommend people eat something with the meat, butter, vegetables, fruit, or eat the meat alone?
 
@@ -326,7 +326,7 @@ A: Raw butter so you don't burn up your meat as fuel, as pyruvate or even turn i
 
 P: What about the blood type diet? Another email wants to know if you think that there's something to that and does it matter what our ancestors ate four or five generations back?
 
-A: Well, I have to say that most of that is all intellectual, well, I'll just say intellectual masturbation as far as I can see because I've had over 50 type A's come to me from the type A, I mean from the food for your type diet, the Adamo's intellectualism. And it isn't based on, it's based on theory, not actual practice. So I had 50 type A's who were told not to eat red meat come to me with anemia and two with leukemia from that particular eating style. And as soon as I put all of them, all 50, it's about 52, 51 or 52 of them now, on a red beet diet or put red beet in their diet, they got healthy very quickly.
+A: Well, I have to say that most of that is all intellectual, well, I'll just say intellectual masturbation as far as I can see because I've had over 50 type A's come to me from the type A, I mean from the food for your type diet, the Adamo's intellectualism. And it isn't based on, it's based on theory, not actual practice. So I had 50 type A's who were told not to eat red meat come to me with anemia and two with leukemia from that particular eating style. And as soon as I put all of them, all 50, it's about 52, 51 or 52 of them now, on a red meat diet or put red meat in their diet, they got healthy very quickly.
 
 P: Here's an email from Rosalind. She says when indigenous people fermented meat and fish in the ground making high meat, did they have to dig it up every four days? I want to ferment meat this way in the ground. Do you have any tips on making it out of the refrigerator? Tell folks what high meat is.
 
@@ -450,33 +450,33 @@ A: Absolutely. Like I said, the high meats are used and work the best for any of
 
 P: Very interesting. What's your first name and where are you calling from?
 
-[Peggy]: Me?
+Peggy: Me?
 
 P: Yes.
 
-[Peggy]: Peggy from New Mexico.
+Peggy: Peggy from New Mexico.
 
 P: Speak up, Peggy, go ahead.
 
-[Peggy]: Hi, I just wondered what he thinks causes osteoporosis.
+Peggy: Hi, I just wondered what he thinks causes osteoporosis.
 
 P: Osteoporosis.
 
 A: Processed foods, pasteurized dairy, anything that is cooked will help to cause that problem. There are other things that will add to it like eating tremendous amounts of citrus. Anything that will rob the body of its calcium supply.
 
-[Peggy]: Is this a new disease, like in the last 80 years or anything?
+Peggy: Is this a new disease, like in the last 80 years or anything?
 
 A: No, it was found in tribes all over the world. It's found in New Guinea. The tribes that just eat cooked meat, that's one of the only five diseases that they have. Now, those tribes that eat just the raw meat are eating the proper human diet, which is an animal diet. So they only have five diseases, but osteoporosis is one of them. Heart disease and arteriosclerosis, they do not have. Your vegetarian communities have a lot more osteoporosis. People who eat skim milk have a high rate of osteoporosis. But the body uses calcium, phosphorus, magnesium, potassium to bind with free radicals in the body.
 
-[Peggy]: And this can be fixed by eating a raw diet?
+Peggy: And this can be fixed by eating a raw diet?
 
 A: Yes, if you're eating a cooked food, you have all those free radicals and you lose, and you're cauterizing those minerals so they're only half as effective. It's been shown that if you pasteurize dairy, only 50% of that calcium is utilizable.
 
-[Peggy]: Well, how long does it take to grow the bone back if you actually have broken it?
+Peggy: Well, how long does it take to grow the bone back if you actually have broken it?
 
 A: On the primal diet, it depends upon how much deterioration you've had. I've had people with deterioration that have come to me up to 37% bone loss. And it's taken about two and a half to three years to correct that.
 
-[Peggy]: Okay, thanks.
+Peggy: Okay, thanks.
 
 A: Which is nothing. Your medical profession says it's forever.
 

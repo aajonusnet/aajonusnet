@@ -1,4 +1,4 @@
-@[Video Source](https://web.archive.org/web/20240712111358/https://www.youtube.com/watch?v=WnJeYIHgVaQ)
+@[Source](https://archive.org/details/my-first-consult-with-aajonus-vls)
 
 Transcribed by Aajonus.net & Rawmeatgang
 

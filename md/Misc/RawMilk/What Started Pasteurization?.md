@@ -1,4 +1,4 @@
-@[Source](https://web.archive.org/web/20121021021619/http://www.rawmilk.org/pdf/pasteurization-history.pdf)
+@[Source](docs/rawmilkorg_pasteurization-history.pdf)
 
 Article on RawMilk.org
 

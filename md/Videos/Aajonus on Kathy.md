@@ -1,3 +1,5 @@
+@[Video Source](https://archive.org/details/aajonus-on-kathy)
+
 Transcribed by Aajonus.net & Rawmeatgang
 
 F = Fred, A = Aajonus

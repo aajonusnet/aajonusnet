@@ -3,7 +3,7 @@
 FOREWORD
 
 All of my students reported that they learned as much from
-their sixteenth read of my book _The Primal Diet;We Want To
+their sixteenth read of my book _The Primal Diet; We Want To
 Live, Vol. 1, Out Of The Grips Of Disease And Death (the story);
 and Vol. 2, Healthfully (the facts)_ ,^1 as they did when they read it
 for the first time. The information in that book and this book is
@@ -332,7 +332,7 @@ Diet; We Want To Live, Volume 2_.
 **PAGE 14**
 
 To see several hundred testimonials go to the website:
-[http://www.PrimalDiet.com.](http://www.PrimalDiet.com.)
+[https://www.PrimalDiet.com.](https://www.PrimalDiet.com.)
 If you are interested in my journey and others’ case histories
 of disease reversals with diet, and to discover specific foods that
 have proved to beneficially affect an individual’s health, read
@@ -6759,7 +6759,7 @@ and their blood vessels within 2-7 days. ^26 Dr. K. Brooks Lowe of
 together.
 
 (^25) Strange Attractor, Volume 2, Number 1, A News Letter of
-Alternative Science and Medicine; [http://www.newscience.santa-fe.nm.us/strange.htm](http://www.newscience.santa-fe.nm.us/strange.htm)
+Alternative Science and Medicine; [https://web.archive.org/web/19990203053114/https://www.newscience.santa-fe.nm.us/strange.htm](https://web.archive.org/web/19990203053114/https://www.newscience.santa-fe.nm.us/strange.htm)
 
 (^26) “Verotoxin Induces Apoptosis and the Complete, Rapid, Long-Term
 Elimination of Human Astrocytoma Xen ografts in Nude Mice” by S.
@@ -7053,7 +7053,7 @@ and/or penalizing the sale of raw food must be reversed
 immediately.
 
 To change the laws in your city, county and state, see the
-Right To Choose Healthy Food^28 website: [http://www.rawmilk.org](http://www.rawmilk.org)
+Right To Choose Healthy Food^28 website: [https://www.rawmilk.org](https://www.rawmilk.org)
 
 #### Chapter 29
 
@@ -7557,7 +7557,7 @@ CD/DVDs will be published by Fall 2006 that shows how to
 make recipes and use kitchen equipment, and another in which
 Aajonus presents a workshop on how to live disease-free with
 more clarity, strength and energy. Notice for all publications will
-be posted on the website [http://www.PrimalDiet.com.](http://www.PrimalDiet.com.)
+be posted on the website [https://www.PrimalDiet.com.](https://www.PrimalDiet.com.)
 
 **PAGE 190**
 

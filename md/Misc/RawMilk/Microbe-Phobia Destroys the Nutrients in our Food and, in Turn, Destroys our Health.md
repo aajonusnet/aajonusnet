@@ -1,4 +1,4 @@
-@[Source](https://web.archive.org/web/20130919031354/http://www.rawmilk.org/pdf/microbe-phobia-destroys-nutrients.pdf)
+@[Source](docs/rawmilkorg_microbe-phobia-destroys-nutrients.pdf)
 
 Article on RawMilk.org
 

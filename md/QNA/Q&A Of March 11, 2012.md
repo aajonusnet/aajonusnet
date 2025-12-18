@@ -86,7 +86,7 @@ they came in and they taped everything and said you couldn't open it or sell
 anything. The only people who are consuming that food are owners, workers and
 family right out of their jurisdiction. DATCP keep pushing jurisdiction where
 they don't have it, so they are acting illegally. So, during this process
-we find out that the head of that agency for this branch, Jaqueline Owens,
+we find out that the head of that agency for this branch, Jacqueline Owens,
 doesn’t have an oath with office or a bond. She is impersonating a state
 actor, because she has neither of those.  She should be in jail. She’s got
 warrants issued - she’s been trespassing many times - and yet she keeps

@@ -1,4 +1,4 @@
-@[Source](https://web.archive.org/web/20130919032056/http://www.rawmilk.org/pdf/food-surveillance-of-raw-milk.pdf)
+@[Source](docs/rawmilkorg_food-surveillance-of-raw-milk.pdf)
 
 Article on RawMilk.org
 

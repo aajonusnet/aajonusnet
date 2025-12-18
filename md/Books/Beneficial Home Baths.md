@@ -25,7 +25,7 @@ information in layman's terms. He would choose to work very hard, very long
 hours, and to take on toweringly giant institutions and businesses when he knew
 their products and actions were just plain harmful. That was his choice. His work
 did not die with him. Several of us are carrying it forward. One project is well
-underway to provide subscribers on the [http://www.WeWant2Live.com](http://www.WeWant2Live.com) site with written
+underway to provide subscribers on the [https://www.WeWant2Live.com](https://www.WeWant2Live.com) site with written
 transcripts of intimate 'Question and Answer' sessions which were recorded over a
 ten year period in Los Angeles and in San Diego. There has been a fair amount of
 labor involved. We thank several volunteers for their participation.

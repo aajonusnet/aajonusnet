@@ -6,7 +6,7 @@ The New Yorker magazines RAW DEAL article was so far more favorable to our right
 
 Everyone continues to argue bacteria.
 
-[New Yorker Profile of Rawesome Highlights Stresses of Raw Milk Producers in the Spotlight, As James Stewart Faces New Charges](http://www.davidgumpert.com/new-yorker-profile-of-rawesome-highlights-stresses-of-raw-milk-producers-in-the-spotlight-as-james-stewart-faces-new-charges)
+[New Yorker Profile of Rawesome Highlights Stresses of Raw Milk Producers in the Spotlight, As James Stewart Faces New Charges](https://web.archive.org/web/20210227125100/https://www.davidgumpert.com/new-yorker-profile-of-rawesome-highlights-stresses-of-raw-milk-producers-in-the-spotlight-as-james-stewart-faces-new-charges)
 
 Bacteria is not the problem.
 

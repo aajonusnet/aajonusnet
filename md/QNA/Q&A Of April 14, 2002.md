@@ -242,7 +242,7 @@ Q: [unintelligible]
 
 A: Yeah, I mean, when he's 70 years old, I think David's going to have problems. I think he's going to have problems. When he's 60, 65, I can't say for sure, but he has that kind of personality and has that kind of physical chemistry that tells me he's probably going to have a problem.
 
-Q: [unintelligble]
+Q: [unintelligible]
 
 A: It depends on the individual. If you've got a good working pancreas, you can have a whole [unintelligible] of day.
 

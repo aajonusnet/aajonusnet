@@ -1,4 +1,4 @@
-@[Source](http://oneradionetwork.com/diet-and-nutrition/primal-diet-raw-everything-aajonus-vonderplanitz/)
+@[Source](https://web.archive.org/web/20220524184432/https://oneradionetwork.com/diet-and-nutrition/primal-diet-raw-everything-aajonus-vonderplanitz/)
 
 Date: 11 February 2009
 
@@ -60,7 +60,7 @@ A: When I had all of those diseases by 21?
 
 P: Yeah, a lot, huh? A lot of stuff.
 
-A: Well, I was a very sickly child. I had a brother who was born... I was born about 18 months after he was, so he was still in diapers. And he never forgave me for taking mom's attention away from him. I see. And, you know, the snap beats as I get home. So he was pushing me on rusty nails and rakes and things like that. Anything that my mother would take me to the hospital. You know, everybody's afraid of locked jaws, especially with infants and children. So I had three tetanus shots by the time I was 18 months old. And that gave me autism. So I was unable to communicate. And when I would go into my stairs, my parents would slap me and prevent me from doing that. I mean, if I just kept going for five minutes, kept going in the stairs, they'd slap me for the whole five minutes.
+A: Well, I was a very sickly child. I had a brother who was born... I was born about 18 months after he was, so he was still in diapers. And he never forgave me for taking mom's attention away from him. I see. And, you know, the snap beats as I get home. So he was pushing me on rusty nails and rakes and things like that. Anything that my mother would take me to the hospital. You know, everybody's afraid of lockjaws, especially with infants and children. So I had three tetanus shots by the time I was 18 months old. And that gave me autism. So I was unable to communicate. And when I would go into my stairs, my parents would slap me and prevent me from doing that. I mean, if I just kept going for five minutes, kept going in the stairs, they'd slap me for the whole five minutes.
 
 P: My goodness.
 

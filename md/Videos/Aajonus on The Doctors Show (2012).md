@@ -1,3 +1,5 @@
+@[Video Source](https://archive.org/details/aajonus-on-the-doctors-show-2012)
+
 Transcribed by Aajonus.net & Rawmeatgang
 
 Host: Well, today's show is full of some of the most eyebrow-raising, surprising, and downright shocking health trends that you've ever seen, and it all starts right now.

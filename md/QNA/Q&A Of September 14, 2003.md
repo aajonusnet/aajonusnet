@@ -118,7 +118,7 @@ A: This man had it.
 
 Q: [unintelligible]
 
-A: About three months. Well, I can see it within a month, but most people can't see it within three months, until three months have passed. So I, unless somebody is definitely ill, I say come back in a year. Anyway, you get to see a big change then. Everybody's very happy about those changes. It's something they can see dramatically.= If you come back in three months, you'll see the subtle changes. And that can make you happy, but it's better to just come back in a year unless you have cancer or something like that. I like to keep it up with them about every three months. Otherwise, a year is fine. If somebody has MS or something like that, I like to see them every three to six months.
+A: About three months. Well, I can see it within a month, but most people can't see it within three months, until three months have passed. So I, unless somebody is definitely ill, I say come back in a year. Anyway, you get to see a big change then. Everybody's very happy about those changes. It's something they can see dramatically. If you come back in three months, you'll see the subtle changes. And that can make you happy, but it's better to just come back in a year unless you have cancer or something like that. I like to keep it up with them about every three months. Otherwise, a year is fine. If somebody has MS or something like that, I like to see them every three to six months.
 
 Q: My husband has big blotches on his back about this big.
 

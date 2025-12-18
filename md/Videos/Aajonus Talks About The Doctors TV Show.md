@@ -1,3 +1,5 @@
+@[Video Source](https://archive.org/details/aajonus-talks-about-the-doctors-tv-show)
+
 Transcribed by Aajonus.net & Rawmeatgang
 
 F = Fred, A = Aajonus

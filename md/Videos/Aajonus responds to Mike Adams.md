@@ -1,6 +1,10 @@
+@[Video Source](https://archive.org/details/aajonus-responds-to-mike-adams)
+
 Transcribed by Aajonus.net & Rawmeatgang
 
-Aajonus reponds to Mike Adams articles on NaturalNews titled: "Rawesome Bombshell" and "Aajonus Vonderplanitz PhD". Infowars also did a video report on them which can be found on youtube titled:  "Aajonus Vonderplanitz, Rawesome, Sharon Palmer explained in HR interview on InfoWars Nightly News". @[Archive](https://web.archive.org/web/20240712120405/https://www.youtube.com/watch?v=nqeK9gOtdjA)
+Aajonus reponds to Mike Adams articles on NaturalNews titled: "Rawesome Bombshell" and "Aajonus Vonderplanitz PhD".
+
+Infowars also did a video report on them which can be found on the Internet Archive titled: "Aajonus Vonderplanitz, Rawesome, Sharon Palmer explained in HR interview on InfoWars Nightly News". @[Video](https://archive.org/details/aajonus-vonderplanitz-rawesome-sharon-palmer-explained-in-hr-interview-on-info-wars-nightly-news)
 
 F = Fred, A = Aajonus
 

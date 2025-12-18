@@ -1,3 +1,5 @@
+@[Video Source](https://archive.org/details/aajonus-cancer-control-society-2000)
+
 Transcribed by Aajonus.net & Rawmeatgang
 
 [Presenter]: Ladies and gentlemen, we pride ourselves on presenting a variety of approaches not only to cancer but to life. You've just heard a talk on enzymes and cancer, enzyme therapy, and we've had a number of different therapies and approaches today. Well, our next guest is a similar theory, a little different approach. He comes to us by way of a technical degree in computer programming and systems analysis, which seems perhaps not to be compatible with some of what we're discussing, but an event in his life, mainly multiple myeloma, kind of changed the course of his life. And so the search for a chance, a way to treat it that's effective and safe, led him into a totally new way of living. And our author, our friend, Aajonus Vonderplanitz, is going to tell us now about raw foods and cancer. Aajonus Vonderplanitz, thank you very much.

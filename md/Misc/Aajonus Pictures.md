@@ -17,6 +17,9 @@ A full list of pictures of Aajonus Vonderplanitz.
 ![[aajonus_15.jpg]]
 ![[aajonus_16.jpg]]
 ![[aajonus_17.jpg]]
+
+Aajonus and Dr. Tomas Winslow Britton (May 2013):
+
 ![[aajonus_18.jpg]]
 ![[aajonus_19.jpg]]
 
@@ -63,3 +66,7 @@ Aajonus and Katharine Clark:
 ![[aajonus_51.jpg]]
 ![[aajonus_52.jpg]]
 ![[aajonus_53.jpg]]
+![[primaldiet.jpg]]
+![[primaldietnewsletter.jpg]]
+![[bookcover_wwtl.jpg]]
+![[bookcover_recipes.jpg]]

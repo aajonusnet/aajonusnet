@@ -3,7 +3,7 @@
 
 [PDF File - Original](https://web.cs.ucdavis.edu/~rogaway/classes/188/materials/Diamond-TheWorstMistakeInTheHistoryOfTheHumanRace.pdf)
 
-Aajonus reposted this article on his website back in April 2012.
+Aajonus reposted this article on his website in April 2012.
 
 ### The Worst Mistake in the History of the Human Race
 

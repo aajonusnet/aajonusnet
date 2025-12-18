@@ -1,4 +1,6 @@
-@[Video Source](https://facebook.com/watch/?v=794855034629648)
+@[Video Source](https://facebook.com/watch/?v=794855034629648) - Unfortunately taken down before we had the chance to preserve it.
+
+Transcribed by Aajonus.net & Rawmeatgang
 
 A = Aajonus, V = Videographer	
 

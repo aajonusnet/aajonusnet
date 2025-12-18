@@ -901,7 +901,7 @@ convince people to take their hormones. You don’t need artificial hormones;
 you need good fats. The artificial hormones are made from - synthesized from -
 kerosene-derived proteins from soy.
 
-[They can cause} brain cancer, ovarian cancer, breast cancer.
+[They can cause] brain cancer, ovarian cancer, breast cancer.
 
 Q: Andropause where your testosterone drops flat and estrogen increases.
 

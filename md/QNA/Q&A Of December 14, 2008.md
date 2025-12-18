@@ -2298,9 +2298,7 @@ are fluid.
 
 Q: So you are not recommending vinegar?
 
-A: Yes I'm recommending vinegar. I'm talking about the chelation,
-@[EDTA](https://en.wikipedia.org/wiki/Ethylenediaminetetraacetic_acid)
-and those things.
+A: Yes I'm recommending vinegar. I'm talking about the chelation, EDTA (Ethylenediaminetetraacetic acid) and those things.
 
 Q: What I realized about the pain was that it was not like a normal pain. The
 pain, to be quite frank is when you have an orgasm those six or seven seconds

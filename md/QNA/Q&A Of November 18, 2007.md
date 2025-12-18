@@ -1,5 +1,7 @@
 @[Source](https://www.primaldiet.net/aajonus-qa-2007-11-18/)
 
+@[Video Clips](https://archive.org/details/aajonus-18-november-2007-qa-video-clips)
+
 A: I guess people got my email this morning that I wrote last night about all
 the lobbying thatfive of us did. Five of us were in Washington D.C.. I went May
 28th and stayed until August first. We lobbied congress almost five days a week.
@@ -1187,7 +1189,7 @@ help remove that and on a slow process because banana is one of the hardest
 foods to digest. It is one of the longest fruits to digest so that is a good
 slow time release as long as it’s not too ripe; as long as it’s not really
 ripe at all. It should be half yellow half green at the most ripeness. So you
-can if you feel fine eat meat, eat anything you want. Tat’s just for people
+can if you feel fine eat meat, eat anything you want. That’s just for people
 who are really overwhelmed with the cold or flu. Just remember, a lot of people
 say 'I don’t want to eat the dairy, it creates mucus'. What the hell do you
 think a cold and a flu are? They’re a detoxification through your mucus

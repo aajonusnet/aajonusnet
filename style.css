@@ -37,6 +37,11 @@ h1, .header, .title {
     word-wrap: break-word;
 }
 
+pre, code, h4, h3, h2, h1, h5, h6 {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
 .content p {
     color: #fff;
     margin-top: 0;
@@ -53,11 +58,6 @@ h1, .header, .title {
     padding-left: 15px;
     margin: 10px 0;
     color: #ddd;
-}
-
-.content pre, code, h4, h3, h2, h1, h5, h6 {
-    white-space: pre-wrap;
-    word-wrap: break-word;
 }
 
 .content li {

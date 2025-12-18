@@ -324,15 +324,15 @@ M: Okay, well, yeah, that's good. But I guess the thing that I would, you know, 
 
 A: No, 93 degrees for honey.
 
-M: Yeah, sorry. Yep, 93 degrees for honey. Now, is maluca honey the same thing or is that unheated? Is maluca honey better? Is it worse? Or should people just be opting for the raw honey?
+M: Yeah, sorry. Yep, 93 degrees for honey. Now, is manuka honey the same thing or is that unheated? Is manuka honey better? Is it worse? Or should people just be opting for the raw honey?
 
 A: Depends on the beekeeper. Those beekeepers heat their honey to make it pour fast so they can bottle more quicker and sell it. They don't have to put as much time in. 93 degrees is what the bees, when they collect the honey, they swallow it. I mean, they could, yeah, they collect the nectar. They swallow it. That process of swallowing the nectar, re-digesting it, they produce an insulin-like substance which allows for pre-digestion of the sugar. So it converts those sugars into more active enzymes than sugars. So when you heat the honey above 93 degrees, it starts breaking down that insulin-like substance. And then it's all sugar again.
 
-M: And that's the same truth for maluca honey? Maluca honey still can be heated?
+M: And that's the same truth for manuka honey? Manuka honey still can be heated?
 
 A: Absolutely.
 
-M: And what about the argument, I guess, with maluca honey? I was speaking to a beekeeper the other day, actually, and he said that they have to heat, slightly heat, maluca honey because otherwise they can't pour it. Is that...
+M: And what about the argument, I guess, with manuka honey? I was speaking to a beekeeper the other day, actually, and he said that they have to heat, slightly heat, manuka honey because otherwise they can't pour it. Is that...
 
 A: They can pour it, it's just very slow.
 

@@ -1,4 +1,6 @@
-# Man ate raw meat to die - now he eats it to live
+@[Source](https://web.archive.org/web/20150703025840/http://joanneunleashed.com:80/1181/man-ate-raw-meat-to-die-now-he-eats-it-to-live/)
+
+### Man ate raw meat to die - now he eats it to live
 
 Q: Hello, welcome to Joanne Unleashed. Today's guest is Aajonus
 Vonderplanitz. He was born in 1947, and he's a seeker, author, a raw food
@@ -183,7 +185,7 @@ buying it in the grocery store?
 
 A: No. I was either going to a specialty market. But I wouldn't go into
 a regular grocery store. At that time I didn't. When I started traveling
-more, of course, I did. I just at more butter, or more fat with it,
+more, of course, I did. I just ate more butter, or more fat with it,
 an avocado or something with it to help remove toxins that might have
 been in the poorly grown or chemically grown animals.
 

@@ -10,15 +10,18 @@ async function search(input) {
 
     document.getElementById('clear-icon').style.display = searchValue.length > 0 ? 'block' : 'none';
 
-    if (words.every(word => word.length < 3)) {
+    const isAl = /^[a-z]+$/i;
+    const hasValidToken = words.some(word => {
+        return !isAl.test(word) || word.length >= 3;
+    });
+    if (!hasValidToken) {
         // Less than 3 consecutive non-space characters, ignore this search
         grid.style.display = 'block';
         results_DOM.style.display = 'none';
-				catBar.style.display = 'flex';
+        catBar.style.display = 'flex';
         return;
     }
     catBar.style.display = 'none';
-
     grid.style.display = 'none';
     results_DOM.style.display = 'block';
     
@@ -29,10 +32,7 @@ async function search(input) {
     
     let totalResults = 0;
 
-    let validwords = searchValue.split(" ").filter(
-        word => word.length >= 3 && word !== "the"
-        );
-
+    const searchTitleWords = trimmedSearchValue.split(/\s+/);
     for (let i = 0; i < cards.length; i++) {
        const card = cards[i];
        const title = card.querySelector('h2').textContent.toLowerCase();
@@ -46,9 +46,8 @@ async function search(input) {
        }
 
        const content = dataEntry.text;
-       const [exactResults, partialResults] = highlightSearchText(content, searchValue, validwords, trimmedSearchValue, link);
+       const [exactResults, partialResults] = highlightSearchText(content, searchValue, words, link);
 
-       const searchTitleWords = trimmedSearchValue.split(/\s+/);
        if (searchTitleWords.every(word => title.includes(word))) {
            const resultCard = createResultCard(card, [], link);
            fragmentTitle.appendChild(resultCard);
@@ -110,8 +109,8 @@ function createResultCard(card, results, link) {
     return resultCard;
 }
 
-function highlightSearchText(text, searchValue, words, trimmedSearchValue, link) {
-    var maxLength = 200; // Maximum number of characters to display before and after the search value
+function highlightSearchText(text, searchValue, words, link) {
+    const maxLength = 200; // Maximum number of characters to display before and after the search value
     
     let exactMatches = [], partialMatches = [];
     findMatches(text, searchValue, words, maxLength, link, exactMatches, partialMatches);
@@ -120,12 +119,12 @@ function highlightSearchText(text, searchValue, words, trimmedSearchValue, link)
 }
 
 function findMatches(text, searchValue, words, maxLength, link, exactMatches, partialMatches) {
+    const partial = words.length > 1;
     let urlSearchTermsExact = encodeURIComponent(searchValue.split(" ").join('+'));
-    let urlSearchTermsPartial = encodeURIComponent(words.join('+'));
-		
-		const exactRegex = new RegExp(`(${escapeRegExp(searchValue)})`, 'gi');
-    const partialRegex = new RegExp(`(${words.map(escapeRegExp).join('|')})`, 'gi');
-		
+    let urlSearchTermsPartial = partial ? (encodeURIComponent(words.join('+'))) : null;
+
+    const exactRegex = new RegExp(`(${escapeRegExp(searchValue)})`, 'gi');
+    const partialRegex = partial ? (new RegExp(`(${words.map(escapeRegExp).join('|')})`, 'gi')) : null;
 
     let lastWindowEnd = 0;
     words.forEach(word => {
@@ -138,16 +137,14 @@ function findMatches(text, searchValue, words, maxLength, link, exactMatches, pa
             let windowText = text.substring(start, end);
 
             let exactMatchPos = windowText.indexOf(searchValue);
-            let partialMatchPos = words.every(w => windowText.indexOf(w) !== -1) ? windowText.indexOf(words[0]) : -1;
+            let partialMatchPos = partial ? (words.every(w => windowText.indexOf(w) !== -1) ? windowText.indexOf(words[0]) : -1) : -1;
 
             if (exactMatchPos !== -1) {
-						    let se = windowText.substr(0, windowText.length);
-                let fragment = encodeURIComponent(se);
+                let fragment = encodeURIComponent(windowText);
                 let highlightedResult = highlightTerms(windowText, exactRegex);
                 exactMatches.push(`<a class='result-link' href=${link}?s=${urlSearchTermsExact}&search=${fragment}>${highlightedResult}</a><br><br><hr>`);
-            } else if (partialMatchPos !== -1) {
-						    let se = windowText.substr(0, windowText.length);
-                let fragment = encodeURIComponent(se);
+            } else if (partial && partialMatchPos !== -1) {
+                let fragment = encodeURIComponent(windowText);
                 let highlightedResult = highlightTerms(windowText, partialRegex);
                 partialMatches.push(`<a class='result-link' href=${link}?s=${urlSearchTermsPartial}&search=${fragment}>${highlightedResult}</a><br><br><hr>`);
             }
@@ -156,7 +153,6 @@ function findMatches(text, searchValue, words, maxLength, link, exactMatches, pa
             offset = text.indexOf(word, offset + 1);
         }
     });
-    return;
 }
 
 function highlightTerms(text, regex) {
@@ -188,7 +184,7 @@ function goBack() {
 }
 
 window.onload = function() {
-	var searchInput = document.getElementById('search');
+	const searchInput = document.getElementById('search');
 	if (searchInput){
 		searchInput.focus();
 		search(searchInput) // may be not needed
@@ -203,9 +199,9 @@ window.onload = function() {
 };
 
 function scrollToElement(element) {
-	var viewHeight = window.innerHeight;
-	var elementPosition = element.getBoundingClientRect().top;
-	var scrollPosition = elementPosition - (viewHeight / 2);
+	const viewHeight = window.innerHeight;
+	const elementPosition = element.getBoundingClientRect().top;
+	const scrollPosition = elementPosition - (viewHeight / 2);
 	window.scrollBy({
 		top: scrollPosition,
 		behavior: 'smooth'
@@ -231,7 +227,7 @@ function scrollToPosition() {
 scrollToPosition();
 
 document.body.addEventListener('click', function(e) {
-    var target = e.target;
+    let target = e.target;
     
     // Traverse up to find the anchor tag
     while (target && target.tagName !== 'A') {
@@ -241,10 +237,10 @@ document.body.addEventListener('click', function(e) {
     // If an anchor tag is found and it matches the criteria
     if (target && /\.(jpg|png|gif)$/.test(target.href)) {
         e.preventDefault();
-        var imgSrc = target.href;
-        var previewDiv = document.createElement('div');
+        const imgSrc = target.href;
+        const previewDiv = document.createElement('div');
         previewDiv.className = 'image-preview';
-        var img = document.createElement('img');
+        const img = document.createElement('img');
         img.src = imgSrc;
         img.style.maxWidth = '100%';
         img.style.height = 'auto';
@@ -265,13 +261,13 @@ document.body.addEventListener('click', function(e) {
 function filterCategory(category, sanitizedCategory, element) {
   // Deselect all categories
   event.preventDefault();
-  var categories = document.querySelectorAll('.categories a');
-  for (var i = 0; i < categories.length; i++) {
+  const categories = document.querySelectorAll('.categories a');
+  for (let i = 0; i < categories.length; i++) {
     categories[i].classList.remove('chosen-category');
   }
 
   // Clear search input
-  var searchInput = document.getElementById('search');
+  const searchInput = document.getElementById('search');
   searchInput.value = '';
   search(searchInput);
 
@@ -279,10 +275,10 @@ function filterCategory(category, sanitizedCategory, element) {
   // Select the clicked category
   element.classList.add('chosen-category');
 
-  var cards = document.getElementsByClassName('card-md');
-  for (var i = 0; i < cards.length; i++) {
-    var card = cards[i];
-    var cardCategory = card.getElementsByClassName('category')[0].innerText;
+  const cards = document.getElementsByClassName('card-md');
+  for (let i = 0; i < cards.length; i++) {
+    const card = cards[i];
+    const cardCategory = card.getElementsByClassName('category')[0].innerText;
 
     if (category === 'All' || cardCategory.startsWith(category)) {
       card.style.display = '';
@@ -291,7 +287,7 @@ function filterCategory(category, sanitizedCategory, element) {
     }
   }
 
-  var notFoundMessage = document.getElementById('not-found');
+  const notFoundMessage = document.getElementById('not-found');
   if (notFoundMessage) {
     notFoundMessage.style.display = 'none';
   }
@@ -305,30 +301,26 @@ function filterCategory(category, sanitizedCategory, element) {
 }
 
 document.addEventListener("DOMContentLoaded", function() {
-  var removeHighlightsBtn = document.getElementById("removeHighlights");
+  const removeHighlightsBtn = document.getElementById("removeHighlights");
   
   if (removeHighlightsBtn) {
-  removeHighlightsBtn.addEventListener("click", function() {
+    removeHighlightsBtn.addEventListener("click", function() {
         removeHighlights();
     });
     document.querySelectorAll("code, pre").forEach(el => {
         el.innerHTML = el.innerHTML.replace(/&lt;span class="highlight"&gt;(.*?)&lt;\/span&gt;/g, '<span class="highlight">$1</span>');
-      });
+    });
   }
 });
 
-function isPWA() {
-    return window.navigator.standalone === true;
-}
-
 function removeHighlights() {
-      var removeHighlightsBtn = document.getElementById("removeHighlights");
+      const removeHighlightsBtn = document.getElementById("removeHighlights");
       if (!removeHighlightsBtn) {
           return;
       }
       // Remove highlights
-      var highlighted = document.querySelectorAll(".highlight");
-      for (var i = 0; i < highlighted.length; i++) {
+      const highlighted = document.querySelectorAll(".highlight");
+      for (let i = 0; i < highlighted.length; i++) {
         highlighted[i].outerHTML = highlighted[i].innerHTML;
       }
 
@@ -336,7 +328,7 @@ function removeHighlights() {
       removeHighlightsBtn.style.display = "none";
   
       // Update URL
-      var url = window.location.href;
+      let url = window.location.href;
       url = url.split('?')[0];
       window.history.replaceState({}, '', url);
 }
@@ -357,7 +349,7 @@ function shareArticle() {
     } else {
       // Fallback to copying URL to clipboard
       const textArea = document.createElement("textarea");
-      textArea.value = text;
+      textArea.value = url;
       document.body.appendChild(textArea);
       textArea.select();
       document.execCommand("Copy");
@@ -449,10 +441,8 @@ function getCachedData() {
 }
 
 async function loadContentAsync() {
-  const ids = Array.from(document.querySelectorAll('.data')).map(el => el.id);
-  if (!ids.length) return;
-
   const searchEl = document.getElementById('search');
+  if (!searchEl) return;
   searchEl.disabled = true;
   searchEl.placeholder = 'Loading…';
 
@@ -464,11 +454,7 @@ async function loadContentAsync() {
 
   searchEl.placeholder = 'Loading… 0%';
 
-  const response = await fetch('/loadsearch.php', {
-    method: 'POST',
-    headers: {'Content-Type': 'application/json'},
-    body: JSON.stringify({ ids })
-  });
+  const response = await fetch('/loadsearch.php');
 
   const total = parseInt(
     response.headers.get('X-Total-Uncompressed-Length'),
@@ -499,8 +485,6 @@ async function loadContentAsync() {
 
 
 
-
-
 // Entry point: Wait for the DOM to load before proceeding
 document.addEventListener("DOMContentLoaded", function() {
   if (db) {
@@ -509,7 +493,9 @@ document.addEventListener("DOMContentLoaded", function() {
   // If db is not available yet, it will be triggered by openRequest.onsuccess
 });
 
-
+const isPWA = () =>
+  window.matchMedia?.('(display-mode: standalone)')?.matches ||
+  !!window.navigator.standalone;
 
 // FIND ON PAGE
 
@@ -542,23 +528,6 @@ function updateFindOnPagePosition() {
     }
     if (isPWA()) bar.style.paddingBottom = 'calc(env(safe-area-inset-bottom, 0px) + 50px)';
 }
-
-/*function updateFindOnPagePosition() {
-  const bar = document.getElementById('find-on-page');
-  if (!bar) return;
-
-  if (window.visualViewport) {
-    const { height: vvH, offsetTop } = window.visualViewport;
-    const kbHeight = Math.max(0, window.innerHeight - (vvH + offsetTop));
-    bar.style.transform = `translateY(-${kbHeight}px)`;
-  } else {
-    bar.style.transform = '';
-  }
-  bar.style.paddingBottom = isPWA()
-    ? 'calc(env(safe-area-inset-bottom, 0px) + 60px)'
-    : '';
-}*/
-
 
 function showFindOnPage() {
     removeHighlights();
@@ -618,7 +587,7 @@ function scrollToCurrentResult() {
         const scrollY = window.scrollY + rect.top - viewportHeight / 2 + rect.height / 2;
         window.scrollTo({
             top: scrollY,
-            behavior: 'smooth'
+            behavior: isPWA() ? 'auto' : 'smooth'
         });
         updateCurrentResultHighlight();
     }
@@ -656,11 +625,12 @@ function isElementVisible(element) {
 
 function performSearch() {
     clearHighlights();
-    const searchText = document.getElementById('find-on-page-input').value.toLowerCase();
-    if (searchText.length === 0) return;
+    const rawInput = document.getElementById('find-on-page-input').value.toLowerCase();
+    if (rawInput.length === 0) return;
 
-    const body = document.body;
+    const searchText = escapeRegExp(rawInput);
     const regex = new RegExp(searchText, 'gi');
+    const body = document.body;
     
     function highlightMatches(node) {
         if (node.nodeType === Node.TEXT_NODE && isElementVisible(node.parentElement)) {
@@ -738,19 +708,13 @@ document.addEventListener('DOMContentLoaded', function() {
     if (activateButton && window.visualViewport) {
         window.visualViewport.addEventListener('resize', updateFindOnPagePosition);
         window.visualViewport.addEventListener('scroll', updateFindOnPagePosition);
+        window.addEventListener('focusin', updateFindOnPagePosition);
+        window.addEventListener('focusout', () => setTimeout(updateFindOnPagePosition, 50));
+        window.addEventListener('scroll',  updateFindOnPagePosition);
     }
 });
 
-// Add a keyboard shortcut to open the search (e.g., Ctrl+F or Cmd+F)
 document.addEventListener('keydown', (e) => {
-    /*if ((e.ctrlKey || e.metaKey || e.altKey) && (e.key === 'f' || e.key === 'F')) {
-        const findOnPageElement = document.getElementById('find-on-page');
-        if (findOnPageElement) {
-            e.preventDefault();
-            e.stopPropagation();
-            showFindOnPage();
-        } BROKEN ON LINUX :(
-    } else */
     if (e.key === 'Escape' && document.getElementById('find-on-page').style.display === 'flex') {
         e.preventDefault();
         hideFindOnPage();

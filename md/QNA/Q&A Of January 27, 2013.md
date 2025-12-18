@@ -515,7 +515,7 @@ Act with the help of a Senator either from Wisconsin or Minnesota
 Huff of Chicago]. Both his brother and the Representative were dead within three
 months of publication of that book. And no one would publish it; he had to
 publish it himself [Transcriber’s note:
-http://www.umoja-research.com/strecker_memorandum.htm].
+https://www.umoja-research.com/strecker_memorandum.htm].
 
 Q: How to increase hydrochloric acid?
 

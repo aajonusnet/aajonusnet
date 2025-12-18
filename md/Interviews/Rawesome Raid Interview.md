@@ -1,3 +1,5 @@
+@[Video Source](https://archive.org/details/aajonus-rawesome-raid-interview)
+
 Date: 9 August 2011
 
 Transcribed by Aajonus.net & Rawmeatgang

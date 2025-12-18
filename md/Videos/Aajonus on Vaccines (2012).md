@@ -1,3 +1,5 @@
+@[Video Source](https://archive.org/details/aajonus-on-vaccines-2012)
+
 Transcribed by Aajonus.net & Rawmeatgang
 
 Comment on Vaccines, 2012

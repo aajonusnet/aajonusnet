@@ -273,11 +273,8 @@ so much more. And it's continual. It's like trying to digest 38 years of
 material that I know in a day, you can't do it. So you repeat so you have the
 dvd's you'll be able to play them as often as you like, to grasp everything. To
 have the insight into it that's necessary to really be able to know exactly what
-you're doing or close to understanding exactly what's happening. [Note from Jim:
-This Primal Diet Workshop DVD set did get completed. If you don't already have
-the DVD, click @[here](https://www.primaldiet.net/shop/primal-diet-workshop-digital-video-download/)
-to obtain the three segments; they will be sent straight to you within 24 hours
-of your purchase. The DVD set is out of stock but this is exactly the same.]
+you're doing or close to understanding exactly what's happening. [Note:
+This Primal Diet Workshop DVD set did get completed. Click @[here](primal-diet-workshop-of-january-28-2007-dvd) to read/watch it.]
 
 A: Ok so let's start with the Q&A.
 
@@ -309,8 +306,7 @@ A: Oh, Raw to Radiant. Raw to Radiant. Her name is Kimberly Cohen. She
 self-published this so I don't know if this is available stores. But you might
 be able to find it online somewhere. I think her website is rawtoradiant.com so
 you can probably go get it there. [Note from Jim: The book is available on
-Amazon as @['Raw to Radiant'](https://www.amazon.com/Raw-Radiant-Secrets-Health-through/dp/1847285015/ref=sr_1_1?s=books&ie=UTF8&qid=1465968374&sr=1-1&keywords=raw+to+radiant.),
-the website is not currently operating.]
+Amazon as @['Raw to Radiant'](https://www.amazon.com/Raw-Radiant-Secrets-Health-through/dp/1847285015/), the website is not currently operating.]
 
 Q: What's the other book?
 

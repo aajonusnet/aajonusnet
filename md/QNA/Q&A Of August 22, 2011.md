@@ -757,7 +757,7 @@ Q: Does Standard Vitamins make from vegetables...
 
 A: ...juice ...vegetable juice.
 
-Q: What was the name...{inaudible] Green Pastures.
+Q: What was the name...[inaudible] Green Pastures.
 
 A: Green Pastures. ... called Blue Ice.
 
@@ -1086,7 +1086,7 @@ A: Did you get a consult with me?
 Q: No
 
 A: When you get a consult with me, you get a product list. Or you go on
-WeWant2Live.com and buy the @[product list](https://www.primaldiet.net/shop/primal-diet-tm-raw-food-list-2020/).
+WeWant2Live.com and buy the @[product list](primal-diet-raw-food-list).
 Then you can order it and have it shipped to you.
 
 Q: [inaudible] newsletters
@@ -1131,7 +1131,7 @@ her jaundice. Mostly, it is anywhere from 20 to 30 percent carrot.
 
 Q: Is that what causes dark meat intolerance in a lot of people?
 
-A: No {inaudible]. But anybody can get it. Any kind of a sugar toxicity when it
+A: No [inaudible]. But anybody can get it. Any kind of a sugar toxicity when it
 builds up. Your body doesn't handle it; it starts storing and multiplying in
 your system. Then that next one will be the one that does all the damage.
 ...seems to do all the damage. It is just an over [inaudible]. Then after that,

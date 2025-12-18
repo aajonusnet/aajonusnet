@@ -748,7 +748,7 @@ P: Is it?
 
 A: You know, people are so poor in the areas. Of course, if you go buy in the regular supermarkets, you're getting the regular same stuff from either France or Australia, you know, same old, same old. But if you go to the poor shops with all the flies all over it, people have slaughtered that animal during the night. They're out selling it that day. And they've, you know, there's so much growing here because of all the rain. You know, the cows grow up just on grass.
 
-P: Here's an email from Chelsea. Maybe it's Chelsea Clinton. Just kidding. Ask Agnes whether bone broth and cooked marrow contain bad fats. Love to you both. Chelsea. Probably Chelsea Clinton.
+P: Here's an email from Chelsea. Maybe it's Chelsea Clinton. Just kidding. Ask Aajonus whether bone broth and cooked marrow contain bad fats. Love to you both. Chelsea. Probably Chelsea Clinton.
 
 A: Absolutely. You have, you know, you've got lipid peroxides that form from cooking any fat. You've got other toxins, too, but the lipid peroxides are, I mean, yeah, the lipid peroxides and heterocyclic amines, that's the proteins that are usually toxic in the broth.
 

@@ -1,3 +1,5 @@
+@[Video Source](https://archive.org/details/aajonus-on-ripleys-believe-it-or-not)
+
 Date: 17 July 2002
 
 Transcribed by Aajonus.net & Rawmeatgang

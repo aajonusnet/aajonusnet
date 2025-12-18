@@ -1,4 +1,4 @@
-@[Source](https://web.archive.org/web/20131102181626/http://www.thelivinlowcarbshow.com/shownotes/4204/481-aajonus-vonderplanitz-on-raw-paleo-and-dr-joseph-mercola-on-intermittent-fasting/)
+@[Source](https://archive.org/details/aajonus-jimmy-moore-interview)
 
 Date: 20 June 2011
 
@@ -162,7 +162,7 @@ A: Well, the first 50 pages is how to do the diet. And on page 40 and 41, there'
 
 J: Right.
 
-A: To support the diet. In 2009, a five-camera video of my workshop, which tells about the physiology and anatomy of the human body, not a medical perspective, but from a dietary perspective, including all of the bacteria in the mouth and the stomach, everything going all the way down to the rectum, what we should be eating and how we should eat. And that's about five and a half hours. Then I just finished a DVD on recipes, so there's two hours and about 20 minutes of a DVD where I make recipes.
+A: That support the diet. In 2009, a five-camera video of my workshop, which tells about the physiology and anatomy of the human body, not a medical perspective, but from a dietary perspective, including all of the bacteria in the mouth and the stomach, everything going all the way down to the rectum, what we should be eating and how we should eat. And that's about five and a half hours. Then I just finished a DVD on recipes, so there's two hours and about 20 minutes of a DVD where I make recipes.
 
 J: Right.
 

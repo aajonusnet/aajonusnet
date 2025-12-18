@@ -1,3 +1,5 @@
+Whole Life Times magazine feature article for March 1998
+
 # Diet of our ancestors
 
 There are many roads to health. In the face of serious illness, people
@@ -337,7 +339,3 @@ Q: "It is believed (by whom?) that hydrochloric acid in the stomach
 kills parasites and harmful bacteria before they can enter the system."
 
 A: By every gastrologist and registered nurse with whom I had spoken.
-
-===
-
-Whole Life Times magazine feature article for March 1998

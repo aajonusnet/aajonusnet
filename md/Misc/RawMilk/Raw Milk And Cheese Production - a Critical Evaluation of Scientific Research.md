@@ -1,4 +1,4 @@
-@[Source](https://web.archive.org/web/20121021021702/http://www.rawmilk.org/pdf/raw-milk-critical-evaluation.pdf)
+@[Source](docs/rawmilkorg_raw-milk-critical-evaluation.pdf)
 
 Article on RawMilk.org
 

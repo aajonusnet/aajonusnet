@@ -1,4 +1,4 @@
-@[Video Source](https://web.archive.org/web/20240712115052/https://www.youtube.com/watch?v=5GWU_n_HdwM)
+@[Video Source](https://archive.org/details/aajonus-talks-about-the-doctors-tv-show-2012)
 
 Transcribed by Aajonus.net & Rawmeatgang
 

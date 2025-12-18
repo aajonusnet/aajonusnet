@@ -10,7 +10,7 @@ Let's look at the confusion and diversions Mr. Adams has created with his inaccu
 
 Upon an independent investigation by an investigative firm, it was discovered that Sharon Palmer and people working for her bought commercial product from several suppliers and sold/distributed it to farmers' market shoppers, and to Rawesome members through James Stewart. That is the final issue that landed Stewart and Palmer in jail with 37 counts of criminal activity.
 
-[UnheatlhyFamilyFarm.com (archived link)](https://web.archive.org/web/20111016191328/http://unhealthyfamilyfarm.com/)
+[UnhealthyFamilyFarm.com (archived link)](https://web.archive.org/web/20111016191328/http://unhealthyfamilyfarm.com/)
 
 First things first. Mike Adams made a frivolous contention that he was impartial to any party in his reporting of this matter can be adamantly contested by the following facts.
 
