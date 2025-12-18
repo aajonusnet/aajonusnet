@@ -1,15 +1,13 @@
-Welcome to Aajonus.net
+> Everybody will be able to take care of themselves if I give everybody enough information.
 
-Features:
+> — Aajonus Vonderplanitz
+
+Website Features:
 - Live, Instant Search for all Aajonus knowledge
 
-- 100% Local, Free & Open source
+- 100% Free & On-device search
 
-- No search ever leaves your computer
-
-- No cloud, No frameworks, No trackers, No external APIs
-
-- Just 400 lines of code & Aajonus Knowledge
+- No cloud, No trackers, No APIs
 
 - Copyright Takedown Requests (DMCA) are ignored
 
@@ -19,4 +17,4 @@ Features:
 
 If you have any texts you would like to be added,
 
-please contact me at **aajonus@skiff.com**
+please contact **aajonus@skiff.com**

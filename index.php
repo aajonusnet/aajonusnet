@@ -3,54 +3,51 @@
 <head>
     <title>Aajonus.net</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css?v=63">
+    <link rel="canonical" href="https://aajonus.net/">
+    <link rel="stylesheet" href="style.css?v=71">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="manifest" href="manifest.json">
     <meta name="title" content="News">
-    <meta name="description" content="Raw Primal Aajonus Database">
+    <meta name="description" content="Raw Primal Diet: Aajonus Online Database by Aajonus Vonderplanitz">
     <meta name="format-detection" content="telephone=no">
     <meta property="og:title" content="News">
-    <meta property="og:description" content="Raw Primal Aajonus Database">
+    <meta property="og:description" content="Raw Primal Diet: Aajonus Online Database by Aajonus Vonderplanitz">
     <meta property="og:url" content="https://aajonus.net/">
     <meta property="og:site_name" content="Aajonus Net">
     <meta property="og:type" content="website">
 </head>
 <body>
     <div class="header">
-    <div class="title-container">
-    <?php if (isset($_GET['file'])) { ?>
-        <button class="back-button" onclick="goBack()">←</button>
-    <?php } ?>
-    <a class="title" href="/"><h1><?php echo (!isset($_GET['file'])) ? 'Aajonus.net' : basename($_GET['file'], '.md'); ?></h1></a>
-    </div>
+        <div class="title-container">
+            <?php if (isset($_GET['file'])) { ?>
+                <button class="back-button" onclick="goBack()">←</button>
+            <?php } ?>
+            <a class="title" href="/"><h1><?php echo (!isset($_GET['file'])) ? 'Aajonus.net' : basename($_GET['file'], '.md'); ?></h1></a>
+        </div>
     </div>
 
     <?php if (!isset($_GET['file'])) { ?>
         <!-- Search Bar -->
-        <input type="text" id="search" class="search-bar"  oninput="search(this)" placeholder="Search">
-        <!-- Links -->
-        <div class="links">
-            <a href="/">All</a>
-            <?php 
-            $mdFolder = 'md';
-            $directories = glob($mdFolder . '/*', GLOB_ONLYDIR);
-            $folderName = "";
-            if (isset($_GET['category'])) {
-                $folderName = str_replace("/index.php", "", $_GET['category']);
-            }
-            $folderName = str_replace("/", "\\", $folderName);
-
-            foreach ($directories as $dir) {
-                $category = basename($dir);
-                $category = str_replace('md', '', $category);
-                if ($category == $folderName) {
-                    echo '<a class="chosen-link" href="' . urlencode($category) . '">' . $category . '</a><br>';
-                }else{
-                    echo '<a href="' . urlencode($category) . '">' . $category . '</a><br>';
-                }
-            }
-            ?>
+        <div class="search-container">
+            <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 44"> <path fill="#757575" d="M14.298,27.202l-3.87-3.87c0.701-0.929,1.122-2.081,1.122-3.332c0-3.06-2.489-5.55-5.55-5.55c-3.06,0-5.55,2.49-5.55,5.55 c0,3.061,2.49,5.55,5.55,5.55c1.251,0,2.403-0.421,3.332-1.122l3.87,3.87c0.151,0.151,0.35,0.228,0.548,0.228 s0.396-0.076,0.548-0.228C14.601,27.995,14.601,27.505,14.298,27.202z M1.55,20c0-2.454,1.997-4.45,4.45-4.45 c2.454,0,4.45,1.997,4.45,4.45S8.454,24.45,6,24.45C3.546,24.45,1.55,22.454,1.55,20z"></path> </svg>
+            <input type="text" id="search" class="search-bar" oninput="search(this)" placeholder="Search">
         </div>
+        <!-- Links -->
+	    <div class="links">
+    		    <a href="#" onclick="filterCategory('All', this)">All</a>
+    		    <?php 
+   		    $mdFolder = 'md';
+    		    $directories = glob($mdFolder . '/*', GLOB_ONLYDIR);
+    		    foreach ($directories as $dir) {
+       		    $category = str_replace('md', '', basename($dir));
+        		    echo '<a href="#" onclick="event.preventDefault(); filterCategory(\'' . $category . '\', this)">' . $category . '</a><br>';
+   		    }
+   		    ?>
+	    </div>
+
         <div class="grid">
         <?php
             function escapeRegex($string) {
@@ -60,9 +57,15 @@
             $folderName = "";
 		   if (isset($_GET['category'])) {
     		        $folderName = str_replace("/index.php", "", $_GET['category']);
+                $fullFolderPath = "md/" . $folderName;
+
+                if (is_dir($fullFolderPath) == false) {
+                    echo '<p>Page not found.</p>';
+                }
 		   }
 
             $folderName = str_replace("/", "\\", $folderName);
+            $lowerFolderName = strtolower($folderName);
 
             $mdFolder = 'md';
             $files = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($mdFolder));
@@ -99,7 +102,7 @@
                 ?>
                 
                 <div class="card-md" 
-                <?php if (strpos(strtolower($filePath), strtolower($folderName)) === false) 
+                <?php if (strpos(strtolower($filePath), $lowerFolderName) === false) 
                 echo ' style="display: none;"'; ?>>
                     <span class="category"><?php echo $category;?></span>
                     <h2><u><a class="read-more" href="<?php echo isset($_GET['category']) ? '../?file=' : '?file='; ?><?php echo urlencode($filePath); ?>">
@@ -119,72 +122,48 @@
                     $Parsedown = new Parsedown();  
                     $content = file_get_contents($file);
                     $content = trim($content);
-                    // if start and end exist in GET request
-                    if ( isset($_GET['s']) && isset($_GET['len']) ) {
-                        error_reporting(E_ALL);
-                        ini_set('display_errors', 1);
 
+$scrollToThisPlaceholder = "\u{F8FF}";
 
-                        $s = $_GET['s'];
-                        $s = strip_tags($s);
-                        $s = html_entity_decode($s);
-                        $s = preg_replace('/\s/', '', $s);
-                        // $s = preg_quote($s, '/');
-                        // $s = preg_replace('/(.)/u', '$1(?:\\s*|)', $s);
-
-                        $pattern = '';
-                        for ($i = 0; $i < mb_strlen($s); $i++) {
-                            $char = preg_quote(mb_substr($s, $i, 1), '/');
-                            // if ($char == '&') {
-                            //     $char = '\&';
-                            // }
-                            $pattern .= $char . '(?:\\s*|)';
-                        }
-                        
-                        $s = $pattern;
-                        // echo $s;
-                        
-                        // regex to find $s
-                        $regex = '#' . $s . '#miu';
-                
-                        $matches = [];
-                        $pos = preg_match($regex, $content, $matches, PREG_OFFSET_CAPTURE, 0);
-                        // echo $s;
- 					if ($pos) {
-   					 	// get the position of the first match
-    						$pos = $matches[0][1];
-    						// cut the content from start
-    						$length = $_GET['len'];
-                        
-    						// save the original markdown as a substring
-    						$substring = substr($content, $pos, $length);
+if (isset($_GET['search'])) {
+    $pattern = '';
+    $searchValue = preg_replace('/\s/', '', html_entity_decode(strip_tags($_GET['search'])));
     
-    						// highlight the substring by wrapping it with the highlight span tags
-    						$replacement = '</span><br><span class="highlight" id="scrollToThis">';
-    						$replace = str_replace("\n", $replacement, $substring); 
-    
-    						// strip out markdown bold identifiers ** and __
-    						$replace = str_replace('**', '', $replace);
-    						$replace = str_replace('__', '', $replace);
-    
-    						// wrap the substring in highlight span tags
-    						$replace = '<span class="highlight" id="scrollToThis">' . $replace . '</span>';
+    for ($i = 0; $i < mb_strlen($searchValue); $i++) {
+        $pattern .= preg_quote(mb_substr($searchValue, $i, 1), '/') . '(?:\\s*|)';
+    }
 
-    						// replace the original substring in content with the highlighted version
-    						$content = substr_replace($content, $replace, $pos, $length);
-					}
+    if (preg_match('#' . $pattern . '#miu', $content, $matches, PREG_OFFSET_CAPTURE)) {
+        $content = substr_replace($content, $scrollToThisPlaceholder, $matches[0][1], 0);
+    }
+}
+    if (isset($_GET['s'])) {
+        $s = $_GET['s'];
+        $s = strip_tags($s);
+        $s = html_entity_decode($s);
+        $words = explode('+', $s); // Split the words
 
-                    }
-                    
-                    $category = basename(dirname($file));
+        $pattern = implode('|', array_map(function ($word) {
+            return preg_quote($word, '/');
+        }, $words)); // Create a pattern that matches any of the words
+
+        // Replace each match with the highlighted version
+        $content = preg_replace_callback('/' . $pattern . '/miu', function ($match) {
+            return '<span class="highlight">' . $match[0] . '</span>';
+        }, $content);
+    }
+
+$content = str_replace($scrollToThisPlaceholder, '<span id="scrollToThis"></span>', $content);
+     
+     $category = basename(dirname($file));
 
 if ($category == 'Books' || $category == 'Workshops') {
     $content = str_replace("\n", "\n\n", $content);
 }
 
-                    $content = preg_replace('/!\[(.*?)\]\((.*?)\)/', '![$1](imgs/$2)', $content);
-                    $content = preg_replace('/!\[\[(.*?)\]\]/', '![$1](imgs/$1 "Title")', $content);
-                    $htmlContent = $Parsedown->text($content);
+         $content = preg_replace('/!\[(.*?)\]\((.*?)\)/', '![$1](imgs/$2)', $content);
+         $content = preg_replace('/!\[\[(.*?)\]\]/', '![$1](imgs/$1 "Title")', $content);
+         $htmlContent = $Parsedown->text($content);
 
 // Identify footnote references and footnotes
 preg_match_all('/\[\^(\d+)\]/', $htmlContent, $refs);
@@ -204,21 +183,18 @@ foreach ($footnoteRefs as $ref) {
         }
     }, $htmlContent);
 }
-
-// TODO: Footnotes not working in "Bacteria and Other Microbes" for example
-// Also in "How much Bacteria are we today"
-// Also in "Multiple Lacerations Healed Without Medical Help"
-// Replace footnote references with links to footnotes
                     echo $htmlContent;
+if (isset($_GET['s'])) {
+            echo '<button id="removeHighlights">&#10005; Highlights</button>';
+        }
                     // echo $content;
                 } else {
                     echo '<p>File not found.</p>';
                 }
-            ?></div>  
+            ?>
+</div>  
     <?php } ?>
     <div class="results"></div>
-    <script src="index.js?v=86">
-       
-    </script>
+    <script src="index.js?v=172"></script>
 </body>
 </html>

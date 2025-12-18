@@ -98,6 +98,6 @@ we can prevent diseases in ourselves.
 
 ===
 
-[^1]: @(https://www.ted.com/talks/bonnie_bassler_how_bacteria_talk)
+[^1]: TED @(https://www.ted.com/talks/bonnie_bassler_how_bacteria_talk)
 
-[^2]: @(https://www.ncbi.nlm.nih.gov/bioproject/43021?report=HMP)
+[^2]: Pubmed @(https://www.ncbi.nlm.nih.gov/bioproject/43021?report=HMP)
