@@ -1299,7 +1299,7 @@ degrees.
 
 Q: No, just the warm water from the tap.
 
-A:But some people put a hundred and twenty degree water in there and put
+A: But some people put a hundred and twenty degree water in there and put
 it in there for a little while. The refrigerated milk or cool milk or room
 temperature milk is going to get too hot. You have to kind of test it and see
 how long it takes for the milk to get warm and it doesn't exceed a hundred

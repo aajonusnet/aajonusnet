@@ -278,6 +278,21 @@ document.addEventListener("DOMContentLoaded", function() {
   
   if (removeHighlightsBtn) {
     removeHighlightsBtn.addEventListener("click", function() {
+        removeHighlights();
+    });
+  }
+  
+  // Check if running as a web app and article is open
+  if (window.navigator.standalone && document.getElementById("share-button")) {
+      document.getElementById("share-button").style.display = "inline-block";
+  }
+});
+
+function removeHighlights() {
+      var removeHighlightsBtn = document.getElementById("removeHighlights");
+      if (!removeHighlightsBtn) {
+          return;
+      }
       // Remove highlights
       var highlighted = document.querySelectorAll(".highlight");
       for (var i = 0; i < highlighted.length; i++) {
@@ -291,14 +306,7 @@ document.addEventListener("DOMContentLoaded", function() {
       var url = window.location.href;
       url = url.split('?')[0];
       window.history.replaceState({}, '', url);
-    });
-  }
-  
-  // Check if running as a web app and article is open
-  if (window.navigator.standalone && document.getElementById("share-button")) {
-      document.getElementById("share-button").style.display = "inline-block";
-  }
-});
+}
 
 function shareArticle() {
     const url = window.location.href;
@@ -433,4 +441,199 @@ document.addEventListener("DOMContentLoaded", function() {
     loadContentAsync();
   }
   // If db is not available yet, it will be triggered by openRequest.onsuccess
+});
+
+
+
+// FIND ON PAGE
+
+let searchResults = [];
+let currentResultIndex = -1;
+
+// Debounce function to limit how often a function is called
+function debounce(func, wait) {
+    let timeout;
+    return function executedFunction(...args) {
+        const later = () => {
+            clearTimeout(timeout);
+            func(...args);
+        };
+        clearTimeout(timeout);
+        timeout = setTimeout(later, wait);
+    };
+}
+
+function showFindOnPage() {
+    removeHighlights();
+    document.getElementById('find-on-page').style.display = 'flex';
+    document.getElementById('activate-find-on-page').style.display = 'none';
+    document.body.classList.add('find-on-page-active');
+    const searchInput = document.getElementById('find-on-page-input');
+    searchInput.focus();
+    
+    // Perform search if there's already text in the input
+    if (searchInput.value.trim() !== '') {
+        performSearch();
+    }
+}
+
+function hideFindOnPage() {
+    document.getElementById('find-on-page').style.display = 'none';
+    document.getElementById('activate-find-on-page').style.display = 'flex';
+    document.body.classList.remove('find-on-page-active');
+    clearHighlights();
+}
+
+function clearHighlights() {
+    document.querySelectorAll('.find-on-page-highlight').forEach(el => {
+        el.outerHTML = el.innerHTML;
+    });
+    searchResults = [];
+    currentResultIndex = -1;
+    updateSearchCount();
+}
+
+function updateSearchCount() {
+    const countElement = document.getElementById('find-on-page-count');
+    if (searchResults.length > 0) {
+        countElement.textContent = `${currentResultIndex + 1} of ${searchResults.length}`;
+    } else {
+        countElement.textContent = '0 of 0';
+    }
+}
+
+function updateCurrentResultHighlight() {
+    document.querySelectorAll('.find-on-page-highlight-current').forEach(el => {
+        el.classList.remove('find-on-page-highlight-current');
+    });
+    if (currentResultIndex >= 0 && currentResultIndex < searchResults.length) {
+        searchResults[currentResultIndex].classList.add('find-on-page-highlight-current');
+    }
+}
+
+function scrollToCurrentResult() {
+    if (currentResultIndex >= 0 && currentResultIndex < searchResults.length) {
+        const result = searchResults[currentResultIndex];
+        const rect = result.getBoundingClientRect();
+        const scrollY = window.scrollY + rect.top - window.innerHeight / 2 + rect.height / 2;
+        window.scrollTo({
+            top: scrollY,
+            behavior: 'smooth'
+        });
+        updateCurrentResultHighlight();
+    }
+}
+
+function moveToNextResult() {
+    if (searchResults.length > 0) {
+        currentResultIndex = (currentResultIndex + 1) % searchResults.length;
+        scrollToCurrentResult();
+        updateSearchCount();
+    }
+}
+
+function moveToPreviousResult() {
+    if (searchResults.length > 0) {
+        currentResultIndex = (currentResultIndex - 1 + searchResults.length) % searchResults.length;
+        scrollToCurrentResult();
+        updateSearchCount();
+    }
+}
+
+function isElementVisible(element) {
+    return !!(element.offsetWidth || element.offsetHeight || element.getClientRects().length);
+}
+
+function performSearch() {
+    clearHighlights();
+    const searchText = document.getElementById('find-on-page-input').value.toLowerCase();
+    if (searchText.length === 0) return;
+
+    const body = document.body;
+    const regex = new RegExp(searchText, 'gi');
+    
+    function highlightMatches(node) {
+        if (node.nodeType === Node.TEXT_NODE && isElementVisible(node.parentElement)) {
+            const matches = node.textContent.match(regex);
+            if (matches) {
+                const fragment = document.createDocumentFragment();
+                let lastIndex = 0;
+                matches.forEach((match) => {
+                    const index = node.textContent.indexOf(match, lastIndex);
+                    if (index > lastIndex) {
+                        fragment.appendChild(document.createTextNode(node.textContent.slice(lastIndex, index)));
+                    }
+                    const span = document.createElement('span');
+                    span.className = 'find-on-page-highlight';
+                    span.textContent = match;
+                    fragment.appendChild(span);
+                    searchResults.push(span);
+                    lastIndex = index + match.length;
+                });
+                if (lastIndex < node.textContent.length) {
+                    fragment.appendChild(document.createTextNode(node.textContent.slice(lastIndex)));
+                }
+                node.parentNode.replaceChild(fragment, node);
+            }
+        } else if (node.nodeType === Node.ELEMENT_NODE && isElementVisible(node) && !['script', 'style', 'iframe', 'canvas', 'svg'].includes(node.tagName.toLowerCase())) {
+            Array.from(node.childNodes).forEach(highlightMatches);
+        }
+    }
+
+    highlightMatches(body);
+
+    if (searchResults.length > 0) {
+        currentResultIndex = 0;
+        scrollToCurrentResult();
+    }
+    updateSearchCount();
+}
+
+// Wrap all event listeners in a DOMContentLoaded event
+document.addEventListener('DOMContentLoaded', function() {
+    const activateButton = document.getElementById('activate-find-on-page');
+    const searchInput = document.getElementById('find-on-page-input');
+    const searchUp = document.getElementById('find-on-page-up');
+    const searchDown = document.getElementById('find-on-page-down');
+    const searchClose = document.getElementById('find-on-page-close');
+
+    if (activateButton) {
+        activateButton.addEventListener('click', showFindOnPage);
+    }
+
+    if (searchInput) {
+        searchInput.addEventListener('input', debounce(performSearch, 300));
+        searchInput.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter') {
+                e.preventDefault();
+                moveToNextResult();
+            } else if (e.key === 'Escape') {
+                e.preventDefault();
+                hideFindOnPage();
+            }
+        });
+    }
+
+    if (searchUp) {
+        searchUp.addEventListener('click', moveToPreviousResult);
+    }
+
+    if (searchDown) {
+        searchDown.addEventListener('click', moveToNextResult);
+    }
+
+    if (searchClose) {
+        searchClose.addEventListener('click', hideFindOnPage);
+    }
+});
+
+// Add a keyboard shortcut to open the search (e.g., Ctrl+F or Cmd+F)
+document.addEventListener('keydown', (e) => {
+    if ((e.ctrlKey || e.metaKey) && e.key === 'f') {
+        e.preventDefault();
+        showFindOnPage();
+    } else if (e.key === 'Escape' && document.getElementById('find-on-page').style.display === 'flex') {
+        e.preventDefault();
+        hideFindOnPage();
+    }
 });

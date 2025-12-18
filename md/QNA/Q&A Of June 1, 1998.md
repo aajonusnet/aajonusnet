@@ -1,6 +1,6 @@
 Q&A of June 1998
 
-( Not quoted here is a description of all his health challenges that he overcame with diet.)
+(Not quoted here is a description of all his health challenges that he overcame with diet.)
 
 Cooked fats—minerals are cauterized and not absorbed.
 Cured of bursitis with raw fats.

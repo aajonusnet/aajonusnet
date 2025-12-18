@@ -1,0 +1,5 @@
+@[Source](https://www.primaldiet.net/aajonus-hair-loss-remedy/)
+
+I have recently been utilizing floured mixed peppercorns to grow hair and stop hair loss. (Rogaine, the famous hair restorer, is made from peppercorns but has lots of chemical additives.) I blend 2 Tbls each of black and white peppercorns until it is a powder. I add 3 ozs. of rain water (or distilled water not from a plastic bottle) and blend for 1 minute on medium speed. I allow it to stand in a dark cupboard for a day before I begin applying it. I apply it on a clean scalp by dipping my fingers into the peppered water and rub it into my scalp. I leave it until I wash my hair. You may apply it every time you wash your hair as long as it does not irritate scalp. Because the pepper can be irritating, I suggest applying it only every 3rd day. Within 3 weeks I noticed a thickening of my hair on my longtime thinned hair on the top of my head created by radiation and chemo therapies. I have only applied it once or twice a week after washing my hair.
+
+My mixture is working with each of the 5 people experimenting with it. - Aajonus 2003

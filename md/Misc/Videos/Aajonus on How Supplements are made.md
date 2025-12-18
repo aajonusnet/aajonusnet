@@ -1,6 +1,6 @@
 Transcribed by Aajonus.net & Rawmeatgang
 
-F = Fred, A = Aajonus
+F = Fred Albach, A = Aajonus
 
 A: No, I like that. I like saying that.
 

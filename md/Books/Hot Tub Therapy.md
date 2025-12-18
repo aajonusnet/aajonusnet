@@ -1527,9 +1527,13 @@ bath tubs or soaking tubs available. Some higher end
 homes have large stone hot tubs which are custom
 built.
 
+![[hottub_1.png]]
+
 
 5’ x 5’ Western Red Cedar hot tub with a cedar wood
 hot tub patented insulation installed.
+
+![[hottub_2.png]]
 
 
 5’ X 5’ Western Red Cedar wood hot tub nestled in the
@@ -1548,6 +1552,8 @@ ends. If you can get one large enough it is possible for a
 normal size person to get his/her whole body into an
 Ofuro at one time. The Ofuro is set up like a bathtub.
 One can customize one as a hot tub if desired,
+
+![[hottub_3.png]]
 
 
 A Japanese style _ofuro_ tub for 1 or 2 persons.
@@ -1602,6 +1608,8 @@ costs about the same to heat as an electric acrylic spa.
 A wood hot tub properly built and cared for will last 15
 to 20 years. A marble or stone hot tub will of course
 last almost forever unless damaged.
+
+![[hottub_4.png]]
 
 
 An acrylic spa (this example made from fiberglass).
@@ -1786,6 +1794,8 @@ Realize if you place the ties on the dirt they will
 eventually rot out from the dirt moisture even with the
 creosote coating.
 
+![[hottub_5.png]]
+
 Another option is to use a 6 to 8 inch gravel bed upon
 dirt.
 
@@ -1942,6 +1952,8 @@ this angle that forms the round tub by putting all
 the pieces (staves) together.
 Trapezoid:
 
+![[hottub_6.png]]
+
 6. Using the table saw and dado blade, notch all the
 staves to accept the floor. Measure 3 inches up
 from the bottom of the stave and make the notch
@@ -1949,6 +1961,8 @@ there. The notch is to be 5/8th of an inch deep.
 Make the width of the notch 1/ 16 th to 1 / 8 th less
 than the width of the floorboard so it can fit
 tightly around the floor.
+
+![[hottub_7.png]]
 
 7. Clean any burs and edges off the staves and keep
 them dry.
@@ -1994,6 +2008,8 @@ not be able to with that size wood and screw.)
 
 15. This will be the bottom of the floor.
 
+![[hottub_8.png]]
+
 16. Draw the circle for the circumference cut. For a 6
 foot tub, measure 3 feet into the floor boards
 now assembled and find the center. Take a nail
@@ -2034,6 +2050,8 @@ have installed several staves, go back and pound
 them in completely. Make sure you pound the
 staves in sideways as you go along. Repeat these
 steps as you go along.
+
+![[hottub_9.png]]
 
 21. The final stave is a custom cut as the angle is
 dictated by the width and it is bound to be
@@ -2091,6 +2109,8 @@ about 3 feet up from the floor for a 4 feet tall hot tub.
 Cut the plumbing holes so it is tight fit for the fitting
 and secure with silicone waterproof sealant.
 
+![[hottub_10.png]]
+
 If you desire to install jets, more holes will need to be
 cut for this additional plumbing. You will need to obtain
 a design or plan for the jets and work out where the
@@ -2143,6 +2163,8 @@ penetrate the wall of the hot tub with the screw._ Allow at
 least 5/8th of an inch minimum space to the outside
 wall. 3/4 of an inch is plenty to secure the block and
 this is half the width of the 2 x 6.
+
+![[hottub_11.png]]
 
 
 Repeat for more benches of different heights as
@@ -2710,6 +2732,8 @@ the edge of another board is fixed.
 **Dado blade:** a specially designed table saw blade that
 is designed to make thick notches in boards.
 
+![[hottub_12.jpg]]
+
 **Earthing / Grounding:** refers to contact with the
 Earth's surface electrons by walking barefoot outside
 or laying down on the grass with skin contact on the
@@ -2743,6 +2767,8 @@ instead of theory.
 **Flush:** when two adjoining surfaces are joined
 perfectly flat to each other they are flush. If off a bit,
 one is 'proud' and the other 'shy'.
+
+![[hottub_13.jpg]]
 
 
 **Hammam: a** hammam or Turkish bath is a type of

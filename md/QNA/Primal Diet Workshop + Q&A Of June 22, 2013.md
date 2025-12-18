@@ -1851,8 +1851,7 @@ went over it. ‘That’s pretty good; not exactly as I stipulated, that’s
 good, and it shouldn’t cause you any problems. Maybe take things a little
 slower’ and I said and ‘how are you doing the baths?’. He says ‘I do
 them every day’. And I said and how much time? He says ‘90 minutes a day,
-sometimes two hours a day’. ‘And what’s the temperature?’ And he said
-110. And I said ‘oh my god, it supposed to be 101’. No it says 110 in your
+sometimes two hours a day’. ‘And what’s the temperature?’ And he said 110. And I said ‘oh my god, it supposed to be 101’. No it says 110 in your
 book. So this is two years after the book was printed. You know the retype,
 remake was 2005, this is 2007. So I looked in the book. And sure enough
 misprinted 110 and I thought Oh, what did I do? You know how many people I have

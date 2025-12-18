@@ -50,7 +50,7 @@ evidence was outstanding. Employees were actually fired because they kept
 telling her, “Wait a minute. You’re selling these as organic at twelve
 farmers’ markets and to Rawsome. We know what you’re buying. You’re having
 us take commercial chickens out of the companies’ bagging, clean them and put
-them into unlabeled bags to sell as organic.” We’ve got pictures”. Another
+them into unlabeled bags to sell as organic. ”We’ve got pictures”. Another
 reason I finally did something about it was that when we started investigating,
 it came up that one person had written the district attorney up in that area
 saying that their little girl had lead poisoning and was in a very serious state
@@ -181,19 +181,19 @@ dairy. So – sure enough – that’s where it was.
 Q: [unclear]
 
 A: Rocky Jr. are still 23-30% soy but the rest is corn - a lot of it
-genetically modified. The tests that are coming out now in the scientific
+genetically modified, GMO corn. The tests that are coming out now in the scientific
 reports on GMO products is terrifying. It will kill our animals in a very short
 period of time. Gives them all kinds of diseases and deformities. I’m not
-eating chicken or eggs right now.
+eating chicken or eggs right now. Fish and beef, yeah.
 
-Q: Bison?
+Q: What you think about bison?
 
 A: Bison is great but if you get it from Northstar, you have to make sure
 you’re not buying a female. She vaccinates the females.
 
-Q: [unclear] sold at Cosco.
+Q: Great Range sold at Cosco?
 
-A: No de-worming? You have to find out all the stuff because they usually
+A: I don't know Great Range. No de-worming? You have to find out all the stuff because they usually
 de-worm.
 
 Q: [unclear] When I give my son raw milk, he breaks out in a rash on his face.

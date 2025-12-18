@@ -58,7 +58,7 @@ $dynamicTitle = (!$originalFile) ? $title : basename($originalFile, '.md');
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="canonical" href="<?php echo $url; ?>">
     <base href="/">
-    <link rel="stylesheet" href="style.css?v=6">
+    <link rel="stylesheet" href="style.css?v=22">
     <link rel="icon" href="favicon.ico" type="image/x-icon" sizes="any">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <meta name="title" content="<?php echo $dynamicTitle; ?>">
@@ -79,7 +79,12 @@ $dynamicTitle = (!$originalFile) ? $title : basename($originalFile, '.md');
     <div class="header">
         <div class="title-container">
             <?php if ($originalFile) { ?>
-                <button class="back-button" onclick="goBack()">←</button>
+                <div class="back-arrow" onclick="goBack()">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                        <path fill="#FFFFFF" d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"/>
+                    </svg>
+                </div>
+
             <?php } ?>
             <a class="title" href="/"><h1><?php echo $dynamicTitle; ?></h1></a>
         <?php if ($originalFile) { ?>
@@ -186,6 +191,11 @@ usort($articles, function ($a, $b) use ($prioritizeCategories) {
         return $priorityA - $priorityB;
     }
     
+    // If main categories are different but have the same priority, sort alphabetically
+    if ($mainCatA != $mainCatB) {
+        return strcmp($mainCatA, $mainCatB);
+    }
+    
     // If main categories are the same
     if ($mainCatA == $mainCatB) {
         // Special handling for "QNA" category
@@ -216,17 +226,20 @@ usort($articles, function ($a, $b) use ($prioritizeCategories) {
             }
         }
         
-        // If no priority difference for full categories, sort subcategories alphabetically
+        // Sort subcategories
         $subCatA = isset($catA[1]) ? $catA[1] : '';
         $subCatB = isset($catB[1]) ? $catB[1] : '';
         
-        $subCatCompare = strcmp($subCatA, $subCatB);
-        if ($subCatCompare !== 0) {
-            return $subCatCompare;
+        if ($subCatA != $subCatB) {
+            // If one is a subcategory and the other isn't, put the main category first
+            if ($subCatA === '' && $subCatB !== '') return -1;
+            if ($subCatA !== '' && $subCatB === '') return 1;
+            // Otherwise, sort subcategories alphabetically
+            return strcmp($subCatA, $subCatB);
         }
     }
     
-    // If categories are the same or have same priority, sort by article name
+    // If categories are the same, sort by article name
     return strcmp($a['filename'], $b['filename']);
 });
             foreach ($articles as $article) {
@@ -359,9 +372,26 @@ if (isset($_GET['s'])) {
                 }
             ?>
     </main>
-</div>  
+</div>
+<button id="activate-find-on-page" class="activate-find-on-page">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="11" cy="11" r="8"></circle>
+        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+    </svg>
+</button>
+<div id="find-on-page" class="find-on-page">
+    <div class="find-on-page-content">
+        <input type="text" id="find-on-page-input" placeholder="Find on Page">
+        <div id="find-on-page-count"></div>
+        <div class="find-on-page-buttons">
+            <button id="find-on-page-up">▲</button>
+            <button id="find-on-page-down">▼</button>
+            <button id="find-on-page-close">✕</button>
+        </div>
+    </div>
+</div>
     <?php } ?>
     <div class="results"></div>
-    <script src="index.js?v=196"></script>
+    <script src="index.js?v=208"></script>
 </body>
 </html>

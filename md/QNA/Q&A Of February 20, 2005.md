@@ -1,4 +1,4 @@
-Aajonus.net & Rawmeatgang
+Transcribed by Aajonus.net & Rawmeatgang
 
 A: Do you have a question?
 
@@ -358,7 +358,7 @@ Q: I want to thank this gentleman again for the century eggs. However, when you 
 
 Q: I'm like, is that what you were trying to get me to eat?
 
-Q:So you blew my lie.
+Q: So you blew my lie.
  
 A: Oh, well.
 

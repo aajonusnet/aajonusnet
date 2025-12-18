@@ -48,7 +48,7 @@ constipation that's been carried on all their life. And it will work, and it's
 worked for us to eat lots at a time, just one eating. Okay, do you have a
 question?
 
-Q: Yes. Chronic athlete's feet or fungus, right? … over, a lifetime, right?
+Q: Yes. Chronic athlete's foot or fungus, right? … over, a lifetime, right?
 How would you address that?
 
 A: Well there's no way you can stop it because that mold eats... The body flows
@@ -627,7 +627,7 @@ around forty different types of high meat.
 
 Q: Is it possible to get a copy of the video of that?
 
-A: It’s on You Tube now.
+A: I think if you write them, you.... Just give them the date is July 17th 2002. [It’s on YouTube now]
 
 Q: But after a while, if you leave it out in the cupboard, it did turn liquid.
 It becomes liquid.
@@ -874,7 +874,7 @@ Q: Yeah.
 A: EMF fields in computers, yeah.
 
 Q: One time when I was talking to someone at the airport, trying to convince
-them to not X Ray my food, the fellow said that when I'm up in the airplane
+them to not X-Ray my food, the fellow said that when I'm up in the airplane
 flying that I get hit with way more radiation from the sun.
 
 A: Absolutely. But it's a sun radiation, and there's no damage from sun
@@ -908,18 +908,22 @@ Q: We weren't either. But Aajonus seems to have a way.
 A: Well, I'm persistent and I'm very nice about. I just keep telling them,
 “well, let me talk to your boss”
 
-Q: Well we did that to.
+Q: Well we did that too.
 
 A: But, I spend an hour and a half most of the time doing this. I just have to
 be patient.
 
 Q: He's just more stubborn than they are.
 
-Q: I thought we were too
+Q: I thought we were too.
 
 A: I turn heavy guilt on them to. I tell them, “you know, I was diagnosed
 with bone cancer” you know, show them my teeth or my scar. I just keep doing
-it until they break.
+it until they break down.
+
+[laughter]
+
+A: TSA, yeah, well I'm going this week to talk with them.
 
 Q: I was wondering how your son's doing - Jeff? I read the story, I think he is
 in the midwest?
@@ -1122,9 +1126,15 @@ it to prisoners, to military people, stuff like that.
 
 Q: You know, when somebody has autism, like my nephew's daughter, they only
 like pasta. Pasta, rice, anything starch. Nothing else, they have no taste for
-anything else.
+anything else. Maybe a little hot dog, that's all she ate. Six years old.
 
 A: Then they'll stay autistic.
+
+Q: Exactly, but she talks to people, she talks to me or to my sister or grandmother, but they don't socialize very well. They can't.
+
+Q: Are we going around? I'm ready.
+
+A: Let's do it Jim.
 
 Q: I have a real fundamental lack of understanding of like, if the stomach has
 acid, to digest, like, meat and stuff like that, when you...when you take
@@ -1207,6 +1217,8 @@ ounces enough?
 A: I don't think that anybody needs it unless they have a kidney problem or a
 digestive problem. But if you're going to have it, you know, just to make sure
 then maybe once a month. Four ounces a month, two ounces at a time.
+
+Q: I put some Gerolsteiner in mine, I couldn't drink it straight. Just once a week, okay.
 
 Q: Yeah, going way back when they were talking about viruses and how viruses
 are made by the body as solvents to clean up matter...and the CDC talked about
@@ -1486,7 +1498,15 @@ Q: Okay.
 A: Hot water bottle at your liver at night, make sure your circulation
 increases.
 
-Q: What about like Indian sweat lodges
+Q: External body temperatures, I know 105 is the magic number.. what happens if you get into a bath that's 106?
+
+A: You'll start destroying the enzymes and vitamins in your skin and connective tissue.
+
+Q: A sauna bath?
+
+A: Any kind of bath that's above 105 degrees.
+
+Q: Okay, So it's right immediately above that. What about like Indian sweat lodges?
 
 A: Toxic, very toxic. And if you were at the sweat lodges I was at, you'd find
 out that the Indians, when they put us in sweat lodges, they lie down in back.
@@ -1531,6 +1551,12 @@ Q: Gotcha.
 A: Especially if you're moving around. If you stay completely still, you might
 have quarter to half an inch buffering zone but that's not enough. Normally we
 have about a three inch buffering zone, with air. But with fluids, no.
+
+Q: What would you suggest is a good amount of exercise for me to do. Or would you need to check the worry circles in my eyes?
+
+A: I need to check the worry circles. But you do have worry circles. And you do need to exercise.
+
+Q: I remember, yeah, we we had a talking, you recommended it.
 
 Q: About the viruses...this man, Brian Alice, wrote a book about why we'll
 never win the war on AIDS. But he just gives this whole lengthy history of
