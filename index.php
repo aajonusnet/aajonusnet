@@ -10,7 +10,6 @@ require_once __DIR__ . '/config.php';
 
 $articleMap = [];
 $categoryMap = [];
-$articles = buildIndex();
 
 $script = isset($_GET['cloudsearch']) ? 'cloudindex.js' : 'index.js';
 
@@ -20,6 +19,8 @@ function sanitizeFileName($string) {
     $string = preg_replace('/\s+/', '-', $string);
     return strtolower(trim($string, '-'));
 }
+
+$articles = buildIndex();
 
 function buildIndex() {
     global $articleMap, $categoryMap, $mdFolder;
@@ -70,7 +71,7 @@ $isHome = ($slug === '' || $uri === '/');
 $is404  = !$isHome && !$originalFile && !isset($categoryMap[sanitizeFileName($slug)]);
 if ($is404) {
     http_response_code(404);
-    header('X-Robots-Tag: noindex, nofollow', true);
+    header('X-Robots-Tag: noindex', true);
 }
 ?>
 <!DOCTYPE html>
@@ -111,9 +112,9 @@ if ($is404) {
     <div class="header">
         <div class="title-container">
             <?php if ($originalFile) { ?>
-                <div class="back-arrow" onclick="goBack()" role="button" aria-label="Go back">
+                <a href="/" class="back-arrow" onclick="goBack()" role="button" aria-label="Go back">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><polyline points="13.42,5.41 4,12 13.41,18.59" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                </div>
+                </a>
             <?php } ?>
             <a class="title" href="/"><h1><?= $dynamicTitle === "Aajonus Vonderplanitz" ? "Aajonus.net" : $dynamicTitle ?></h1>
 </a>
@@ -256,79 +257,78 @@ if ($is404) {
         $fileTxt = $mdFolder.'/'.$originalFile.'.txt';
         $file = file_exists($fileMd) ?$fileMd:(file_exists($fileTxt) ?$fileTxt : null);
 
-        if ($file) {
-            require_once 'code/Parsedown.php';
-            require_once 'code/ParsedownExtra.php';
-            $Parsedown = new ParsedownExtra();  
-            $content = trim(file_get_contents($file));
-
-            $scrollToThisPlaceholder = "\u{F8FF}";
-
-            if (isset($_GET['search'])) {
-                $pattern = '';
-                $searchValue = preg_replace('/\s/', '', html_entity_decode(strip_tags($_GET['search'])));
-    
-                for ($i = 0; $i < iconv_strlen($searchValue, 'UTF-8'); $i++) {
-                    $pattern .= preg_quote(iconv_substr($searchValue, $i, 1, 'UTF-8'), '/') . '(?:\\s*|)';
-                }
-
-                if (preg_match('#' . $pattern . '#miu', $content, $matches, PREG_OFFSET_CAPTURE)) {
-                    $position = $matches[0][1];
-                    $currentURL = $_SERVER['REQUEST_URI'];
-                    $newURL = preg_replace('/&search=[^&]*/', '', $currentURL) . "&pos={$position}";
-                    echo "<script>history.replaceState({}, null, '{$newURL}');</script>";
-                    $content = substr_replace($content, $scrollToThisPlaceholder, $matches[0][1], 0);
-                }
-            }
-
-            if (isset($_GET['pos'])) {
-                $position = intval($_GET['pos']);
-                if ($position > 0 && $position < strlen($content)) {
-                    $content = substr_replace($content, $scrollToThisPlaceholder, $position, 0);
-                }
-            }
-            if (isset($_GET['s'])) {
-                $s = $_GET['s'];
-                $s = strip_tags($s);
-                $s = html_entity_decode($s);
-                $words = explode('+', $s); // Split the words
-
-                $words = array_filter($words, function($word) {
-				   if ($word === '') return false;			
-                    if (iconv_strlen($word, 'UTF-8') > 1) return true;
-                    return !preg_match('/^[a-z]$/i', $word);
-                });
-								
-                $pattern = implode('|', array_map(function ($word) {
-                     return preg_quote($word, '/');
-                }, $words)); // Create a pattern that matches any of the words
-								
-                // Replace each match with the highlighted version
-                if ($pattern !== '') {
-                    $content = preg_replace_callback('/' . $pattern . '/miu', function ($match) {
-                        return '<span class="highlight">' . $match[0] . '</span>';
-                    }, $content);
-                }
-            }
-
-            $content = str_replace($scrollToThisPlaceholder, '<span id="scrollToThis"></span>', $content);
-
-            $content = preg_replace('/!\[\[(.*?) \| (\d+)\]\]/', '<img src="imgs/$1" alt="$1" width="$2">', $content);
-            $content = preg_replace('/!\[(.*?)\]\((.*?)\)/', '![$1](imgs/$2)', $content);
-            $content = preg_replace('/!\[\[(.*?)\]\]/', '![$1](imgs/$1 "Title")', $content);
-            $htmlContent = $Parsedown->text($content);
-            
-            // Fix footnote links (because of base href ='/')
-            $htmlContent = preg_replace('/href=(["\'])#([^"\']+)\1/i', 'href=$1' . $uri . '#$2$1', $htmlContent);
-
-            echo $htmlContent;
-            if (isset($_GET['s'])) {
-                echo '<button id="removeHighlights"><span class="x">×</span>Highlights</button>';
-            }
-        } else {
+        if (!$file) {
             echo '<p id="not-found">Page not found. Go to the <a href="/">homepage</a>.</p>';
             echo '</div></body></html>';
             exit;
+        }
+        require_once 'code/Parsedown.php';
+        require_once 'code/ParsedownExtra.php';
+        $Parsedown = new ParsedownExtra();  
+        $content = trim(file_get_contents($file));
+
+        $scrollToThisPlaceholder = "\u{F8FF}";
+
+        if (isset($_GET['search'])) {
+            $pattern = '';
+            $searchValue = preg_replace('/\s/', '', html_entity_decode(strip_tags($_GET['search'])));
+    
+            for ($i = 0; $i < iconv_strlen($searchValue, 'UTF-8'); $i++) {
+                $pattern .= preg_quote(iconv_substr($searchValue, $i, 1, 'UTF-8'), '/') . '(?:\\s*|)';
+            }
+
+            if (preg_match('#' . $pattern . '#miu', $content, $matches, PREG_OFFSET_CAPTURE)) {
+                $position = $matches[0][1];
+                $currentURL = $_SERVER['REQUEST_URI'];
+                $newURL = preg_replace('/&search=[^&]*/', '', $currentURL) . "&pos={$position}";
+                echo "<script>history.replaceState({}, null, '{$newURL}');</script>";
+                $content = substr_replace($content, $scrollToThisPlaceholder, $matches[0][1], 0);
+            }
+        }
+
+        if (isset($_GET['pos'])) {
+            $position = intval($_GET['pos']);
+            if ($position > 0 && $position < strlen($content)) {
+                $content = substr_replace($content, $scrollToThisPlaceholder, $position, 0);
+            }
+        }
+        if (isset($_GET['s'])) {
+            $s = $_GET['s'];
+            $s = strip_tags($s);
+            $s = html_entity_decode($s);
+            $words = explode('+', $s); // Split the words
+
+            $words = array_filter($words, function($word) {
+                if ($word === '') return false;			
+                if (iconv_strlen($word, 'UTF-8') > 1) return true;
+                return !preg_match('/^[a-z]$/i', $word);
+            });
+								
+            $pattern = implode('|', array_map(function ($word) {
+                 return preg_quote($word, '/');
+            }, $words)); // Create a pattern that matches any of the words
+								
+            // Replace each match with the highlighted version
+            if ($pattern !== '') {
+                $content = preg_replace_callback('/' . $pattern . '/miu', function ($match) {
+                    return '<span class="highlight">' . $match[0] . '</span>';
+                }, $content);
+            }
+        }
+
+        $content = str_replace($scrollToThisPlaceholder, '<span id="scrollToThis"></span>', $content);
+
+        $content = preg_replace('/!\[\[(.*?) \| (\d+)\]\]/', '<img src="imgs/$1" alt="$1" width="$2">', $content);
+        $content = preg_replace('/!\[(.*?)\]\((.*?)\)/', '![$1](imgs/$2)', $content);
+        $content = preg_replace('/!\[\[(.*?)\]\]/', '![$1](imgs/$1 "Title")', $content);
+        $htmlContent = $Parsedown->text($content);
+            
+        // Fix footnote links (because of base href ='/')
+        $htmlContent = preg_replace('/href=(["\'])#([^"\']+)\1/i', 'href=$1' . $uri . '#$2$1', $htmlContent);
+
+        echo $htmlContent;
+        if (isset($_GET['s'])) {
+            echo '<button id="removeHighlights"><span class="x">×</span>Highlights</button>';
         }
         ?>
         </div>
