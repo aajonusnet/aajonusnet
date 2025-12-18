@@ -4,6 +4,7 @@ $description = "Raw Primal Diet: Aajonus Online Database by Aajonus Vonderplanit
 $url = "https://aajonus.net/";
 $sitename = "Aajonus Net";
 $categoryInLinks = false;
+$prioritizeCategories = ['QNA', 'Newsletters', 'Books'];
 ?>
 <?php
 function sanitizeFileName($string) {
@@ -134,17 +135,70 @@ if (!$originalFile) { ?>
 
             $folderName = str_replace("/", "\\", $folderName);
             $lowerFolderName = strtolower($folderName);
+            
+            $articles = [];
 
             $mdFolder = 'md';
             $files = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($mdFolder));
-            foreach ($files as $file) {
-                if ($file->isDir()) {
-                    continue;
-                }
 
-                $filePath = $file->getPathname();
+foreach ($files as $file) {
+    if ($file->isDir()) {
+        continue;
+    }
 
-                $category = dirname($filePath);   
+    $filePath = $file->getPathname();
+    $filename = $file->getBasename('.md');
+    $category = dirname($filePath);
+
+    if ($category == $mdFolder) {
+        $category = 'other';
+    } else {
+        $category = str_replace($mdFolder, '', $category);
+        $category = str_replace("\\", "/", $category);
+        $category = ltrim($category, '/');
+    }
+
+    $articles[] = ['filePath' => $filePath, 'filename' => $filename, 'category' => $category]; // Add this line
+}
+usort($articles, function ($a, $b) use ($prioritizeCategories) {
+    // Special sorting for "QNA" category
+    if ($a['category'] == 'QNA' && $b['category'] == 'QNA') {
+        preg_match('/\b(?:January|February|March|April|May|June|July|August|September|October|November|December)\s(\d{1,2}),\s(\d{4})\b/', $a['filename'], $matchesA);
+        preg_match('/\b(?:January|February|March|April|May|June|July|August|September|October|November|December)\s(\d{1,2}),\s(\d{4})\b/', $b['filename'], $matchesB);
+        
+        $dateStrA = isset($matchesA[0]) ? $matchesA[0] : 'January 1, 1970';
+        $dateStrB = isset($matchesB[0]) ? $matchesB[0] : 'January 1, 1970';
+
+        $timestampA = strtotime($dateStrA);
+        $timestampB = strtotime($dateStrB);
+        
+        return $timestampB - $timestampA;  // Newest first
+    }
+
+    $mainCatA = explode("/", $a['category'])[0];
+    $mainCatB = explode("/", $b['category'])[0];
+    $priorityA = array_search($mainCatA, $prioritizeCategories);
+    $priorityB = array_search($mainCatB, $prioritizeCategories);
+    $priorityA = $priorityA === false ? PHP_INT_MAX : $priorityA;
+    $priorityB = $priorityB === false ? PHP_INT_MAX : $priorityB;
+    
+    $depthA = substr_count($a['category'], '/');
+    $depthB = substr_count($b['category'], '/');
+    
+    if ($priorityA == $priorityB) {
+        if ($depthA == $depthB) {
+            return strcmp($a['filename'], $b['filename']);
+        }
+        return $depthA - $depthB;
+    }
+    return $priorityA - $priorityB;
+});
+
+            foreach ($articles as $article) {
+                $filePath = $article['filePath'];
+                $filename = $article['filename'];
+                $category = $article['category'];
+
                 if ($category == $mdFolder){
                     $category = 'other';
                 }else{
@@ -158,7 +212,6 @@ if (!$originalFile) { ?>
                 }
                 
                 $sanitizedCategory = sanitizeFileName($category);
-                $filename = $file->getBasename('.md');
                 $sanitizedName = sanitizeFileName($filename);
                 $articleMap[$sanitizedName] = $filename;
                 ?>
