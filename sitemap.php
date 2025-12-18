@@ -43,7 +43,10 @@ foreach ($files as $file) {
     if ($file->isDir()) {
         continue;
     }
-    $filename = $file->getBasename('.' . $file->getExtension());
+    $ext = strtolower($file->getExtension());
+    if ($ext !== 'md' && $ext !== 'txt') continue;
+
+    $filename = $file->getBasename('.' . $ext);
     $sanitizedFileName = sanitizeFileName($filename);
 
     $xml .= '<url>';

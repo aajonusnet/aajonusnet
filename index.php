@@ -12,6 +12,7 @@ $twitterAccount = "@Aajonus";
 
 $categoryInLinks = false;
 $prioritizeCategories = ['QNA', 'Newsletters', 'Books', 'Books/Old'];
+$pinnedArticles = ['we-want-to-live'];
 
 $mdFolder = 'md';
 $articleMap = [];
@@ -39,9 +40,11 @@ function populateArticleMap() {
             $categoryMap[$sanitizedCategory] = $category;
             continue;
         }
-        $filename = $file->getBasename('.md');
+        $ext=strtolower($file->getExtension());
+        if($ext !== 'md' && $ext !== 'txt') continue;
+        $filename = $file->getBasename('.' . $ext);
         $sanitizedName = sanitizeFileName($filename);
-        $relativePath = substr($filePath, $mdFolderLength, -3);  // Remove 'md/' and '.md' from the path
+        $relativePath = substr($filePath, $mdFolderLength, -(strlen($ext) + 1));
         $articleMap[$sanitizedName] = $relativePath;
     }
 }
@@ -162,9 +165,10 @@ $dynamicTitle = $originalFile ? basename($originalFile, '.md') : $title;
            if ($file->isDir()) {
                     continue;
             }
-
+            $ext=strtolower($file->getExtension());
+            if($ext !== 'md' && $ext !== 'txt') continue;
             $filePath = $file->getPathname();
-            $filename = $file->getBasename('.md');
+            $filename=$file->getBasename('.' . $ext);
             $category = dirname($filePath);
 
             if ($category == $mdFolder) {
@@ -177,7 +181,7 @@ $dynamicTitle = $originalFile ? basename($originalFile, '.md') : $title;
 
             $articles[] = ['filePath' => $filePath, 'filename' => $filename, 'category' => $category];
         }
-        usort($articles, function ($a, $b) use ($prioritizeCategories) {
+        usort($articles, function ($a, $b) use ($prioritizeCategories, $pinnedArticles) {
             $catA = explode('/', $a['category']);
             $catB = explode('/', $b['category']);
     
@@ -224,6 +228,10 @@ $dynamicTitle = $originalFile ? basename($originalFile, '.md') : $title;
         
                 $subPriorityA = array_search($fullCatA, $prioritizeCategories);
                 $subPriorityB = array_search($fullCatB, $prioritizeCategories);
+
+                $pinA = in_array(sanitizeFileName($a['filename']), $pinnedArticles, true);
+                $pinB = in_array(sanitizeFileName($b['filename']), $pinnedArticles, true);
+                if ($pinA !== $pinB) return $pinA ? -1 : 1;
         
                 if ($subPriorityA !== false || $subPriorityB !== false) {
                     $subPriorityA = $subPriorityA === false ? PHP_INT_MAX : $subPriorityA;
@@ -376,6 +384,8 @@ $pattern = implode('|', array_map(function ($word) {
             if (isset($_GET['s'])) {
                 echo '<button id="removeHighlights"><span class="x">×</span>Highlights</button>';
             }
+  echo '<div id="transcript-meta" data-md-path="'.htmlspecialchars($file).'" data-audio-src=""></div>';
+  //echo '<audio id="player" controls preload="metadata" style="width:100%;margin:10px 0;"></audio>';
         } else {
             echo '<p>File not found.</p>';
         }

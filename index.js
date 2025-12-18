@@ -730,3 +730,315 @@ document.addEventListener('keydown', (e) => {
         hideFindOnPage();
     }
 });
+
+// ===== Transcript ↔ Audio Sync v3 (no offsets, no drift, DOM-safe) =====
+(function () {
+  const VS_RE = /[\uFE0E\uFE0F]/g;
+
+  document.addEventListener('DOMContentLoaded', async () => {
+    const meta   = document.getElementById('transcript-meta');
+    const root   = document.querySelector('.content');
+    const player = document.getElementById('player');
+    if (!root || !player) return;
+
+    const mdPath    = meta?.dataset.mdPath || '';
+    const base      = mdPath ? mdPath.replace(/\.md$/i, '') : '';
+    const audioPref = (meta?.dataset.audioSrc || '').trim();
+
+    // pick audio (optional; remove if you set src in PHP)
+    const audioCandidates = [audioPref, base && (base + '.mp3'), base && (base + '.m4a'), base && (base + '.wav')].filter(Boolean);
+    if (!player.src) player.src = await firstExisting(audioCandidates).catch(() => '') || player.src || '';
+
+    // load timestamped transcript
+    const timefile = await firstExisting([base + '.srt', base + '.vtt', base + '.timestamped.txt'].filter(Boolean)).catch(() => null);
+    if (!timefile) return;
+    const tsText = await fetch(timefile).then(r => r.text());
+
+    // parse → segments
+    const segments = parseTimestamped(tsText);
+    if (!segments.length) return;
+
+    // wrap DOM text nodes → chunks (preserve links/formatting)
+    const chunks = wrapTextNodesToChunks(root);
+    if (!chunks.length) return;
+
+    // align without adding seconds; all times come from transcript
+    alignChunksToSegments(chunks, segments);
+
+    // interactions
+    setupClicks(chunks, player);
+    setupTimeUpdate(chunks, player);
+
+    injectMiniCSS(`
+      .sync-chunk { display:inline; white-space:inherit; cursor:pointer }
+      .sync-chunk.playing { background: rgba(255,235,150,.6); border-radius:4px }
+    `);
+  });
+
+  // ---------- fetch helpers ----------
+  async function firstExisting(cands){
+    for (const url of cands){
+      try {
+        let r = await fetch(url, { method:'HEAD' });
+        if (!r.ok) r = await fetch(url);
+        if (r.ok) return url;
+      } catch(e){}
+    }
+    throw new Error('no candidate');
+  }
+
+  // ---------- normalize / clean ----------
+  function stripLabels(s){
+    return s
+      .replace(VS_RE, '')
+      .replace(/\[[^\]]*?\]/g, ' ')                          // [Speaker 1], [laughs]
+      .replace(/^\s*(?:speaker\s*\d+|spk\s*\d+)\s*[:\-–.]?\s*/i, '')
+      .replace(/^\s*(?:q|a|f|h|m)\s*[:\-–.]?\s+/i, '')       // Q: A: F: H: M:
+      .replace(/^\s*(?:fred|aajonus|kathy|host|caller|interviewer|audience|question|answer)\s*[:\-–.]?\s+/i, '')
+      .replace(/\s+/g, ' ')
+      .trim();
+  }
+  function normalize(s){
+    return stripLabels(s)
+      .toLowerCase()
+      .replace(/[^a-z0-9\s]/gi, ' ')
+      .replace(/\s+/g, ' ')
+      .trim();
+  }
+
+  // ---------- parse SRT/VTT or flat timestamped lines ----------
+  function parseTimestamped(txt){
+    const lines = txt.replace(/\r/g,'').split('\n');
+    const segs = [];
+    const cue = { start:null, end:null, buf:[] };
+    const tsRE = /(\d{2}):(\d{2}):(\d{2})(?:[,\.](\d{1,3}))?\s*-->\s*(\d{2}):(\d{2}):(\d{2})(?:[,\.](\d{1,3}))?/;
+
+    const push = () => {
+      if (cue.start==null) return;
+      const text = stripLabels(cue.buf.join(' ').trim());
+      if (text) segs.push({ start:cue.start, end:cue.end, text, norm: normalize(text) });
+      cue.start = cue.end = null; cue.buf.length = 0;
+    };
+
+    for (let i=0;i<lines.length;i++){
+      const L = lines[i];
+      if (i===0 && /^WEBVTT/i.test(L)) continue;
+      const m = L.match(tsRE);
+      if (m){
+        push();
+        cue.start = hms(m[1],m[2],m[3],m[4]);
+        cue.end   = hms(m[5],m[6],m[7],m[8]);
+        continue;
+      }
+      if (/^\s*$/.test(L)) { push(); continue; }
+      if (/^\d+$/.test(L.trim())) continue; // cue id
+      cue.buf.push(L);
+    }
+    push();
+
+    if (!segs.length){
+      // flat: "00:00:03,679 text..."
+      const flat = /^(\d{2}):(\d{2}):(\d{2})(?:[,\.](\d{1,3}))?\s+(.*)$/;
+      for (const L of lines){
+        const m = L.match(flat);
+        if (m){
+          const t = hms(m[1],m[2],m[3],m[4]);
+          const text = stripLabels(m[4]||'');
+          if (text) segs.push({ start:t, end:t+3, text, norm: normalize(text) });
+        }
+      }
+    }
+
+    segs.sort((a,b)=>a.start-b.start);
+    segs._starts = segs.map(s=>s.start);
+    segs._t0 = segs[0]?.start || 0;
+    segs._t1 = segs[segs.length-1]?.end || 0;
+    segs._dur = Math.max(0, segs._t1 - segs._t0);
+    return segs;
+  }
+  function hms(h,m,s,ms){
+    let t = (+h)*3600 + (+m)*60 + (+s);
+    if (ms) t += (+ms)/1000;
+    return t;
+  }
+
+  // ---------- DOM-safe chunking ----------
+  function wrapTextNodesToChunks(root){
+    const isBlacklisted = (el) => !!el.closest('a, code, pre, kbd, samp, var, svg, figcaption, button, input, textarea, select');
+    const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
+      acceptNode(n){
+        if (!n.nodeValue || !/\S/.test(n.nodeValue)) return NodeFilter.FILTER_REJECT;
+        const p = n.parentElement;
+        if (!p || isBlacklisted(p)) return NodeFilter.FILTER_REJECT;
+        return NodeFilter.FILTER_ACCEPT;
+      }
+    });
+    const nodes = [];
+    for (let n=walker.nextNode(); n; n=walker.nextNode()) nodes.push(n);
+
+    const chunks = [];
+    let idx = 0;
+    for (const n of nodes){
+      const text = n.nodeValue;
+      const runs = splitIntoRuns(text); // keeps whitespace
+      if (!runs.length) continue;
+
+      const frag = document.createDocumentFragment();
+      for (const run of runs){
+        if (/\S/.test(run)){
+          const span = document.createElement('span');
+          span.className = 'sync-chunk';
+          span.dataset.idx = String(idx);
+          span.textContent = run; // preserve exact run (no trimming)
+          frag.appendChild(span);
+          chunks.push({ el:span, text:run, norm: normalize(run), idx, time:NaN });
+          idx++;
+        } else {
+          frag.appendChild(document.createTextNode(run));
+        }
+      }
+      n.parentNode.insertBefore(frag, n);
+      n.parentNode.removeChild(n);
+    }
+
+    // merge tiny neighbors for stability
+    const MIN = 14;
+    for (let i=0;i<chunks.length-1;i++){
+      const a = chunks[i], b = chunks[i+1];
+      if (a.el.parentNode===b.el.parentNode && a.text.trim().length<MIN){
+        const mergedText = (a.text + b.text).replace(/\s+/g,' ');
+        a.text = mergedText;
+        a.norm = normalize(mergedText);
+        a.el.textContent = mergedText;
+        b.el.remove();
+        chunks.splice(i+1,1);
+        i--;
+      }
+    }
+    return chunks;
+  }
+  function splitIntoRuns(text){
+    // sentence-ish; preserves trailing spaces/newlines by not trimming
+    const re = /[^.!?…\n]+(?:[.!?…]+|\n+|$)\s*/g;
+    const out = [];
+    let m; while ((m = re.exec(text)) !== null) out.push(m[0]);
+    return out.length ? out : [text];
+  }
+
+  // ---------- alignment (no additive seconds) ----------
+  function alignChunksToSegments(chunks, segs){
+    const SIZES  = [1,2,3];     // text windows on segment side
+    const THRESH = 0.28;        // match threshold
+    const MIN_STEP = 0.15;      // keep strictly increasing
+
+    const starts = segs._starts;
+    const t0 = segs._t0, dur = segs._dur || 1;
+
+    let prevTime = t0;
+
+    for (let i=0; i<chunks.length; i++){
+      // expected index by *time* proportion
+      const expectedTime = t0 + (i / Math.max(1, chunks.length-1)) * dur;
+      let expIdx = lowerBound(starts, expectedTime);
+      if (expIdx >= segs.length) expIdx = segs.length - 1;
+
+      // search around expected index
+      const windowByIdx = 40;
+      const lo = Math.max(0, expIdx - windowByIdx);
+      const hi = Math.min(segs.length - 1, expIdx + windowByIdx);
+
+      let best = { score:-1, j:-1 };
+      for (let j=lo; j<=hi; j++){
+        for (const w of SIZES){
+          if (j+w-1 >= segs.length) break;
+          const win = joinSegText(segs, j, w);
+          const score = similarity(chunks[i].norm, win.norm) - 0.0008 * Math.abs(j-expIdx);
+          if (score > best.score) best = { score, j };
+        }
+      }
+
+      // decide time: either best match, or the **nearest real timestamp** (no drift)
+      let t = (best.score >= THRESH && best.j >= 0) ? segs[best.j].start
+              : segs[expIdx].start;
+
+      // monotonic clamp
+      if (t < prevTime + MIN_STEP) t = prevTime + MIN_STEP;
+      if (t > segs._t1) t = segs._t1;
+
+      chunks[i].time = t;
+      chunks[i].el.dataset.t = String(t.toFixed(3));
+      prevTime = t;
+    }
+  }
+  function joinSegText(segs, j, w){
+    let s = '';
+    for (let k=0;k<w;k++) s += (k?' ':'') + segs[j+k].text;
+    return { raw:s, norm: normalize(s) };
+  }
+
+  // ---------- similarity ----------
+  function tokens(s){ return s.split(' ').filter(w => w && w.length>1 && w!=='the'); }
+  function jaccard(a,b){
+    if (!a.length || !b.length) return 0;
+    const A=new Set(a), B=new Set(b);
+    let inter=0; for (const x of A) if (B.has(x)) inter++;
+    const uni = A.size + B.size - inter;
+    return uni? inter/uni : 0;
+  }
+  function dice(a,b){
+    if (a.length<2 || b.length<2) return 0;
+    const grams = s => {
+      const m=new Map();
+      for (let i=0;i<s.length-1;i++){ const g=s.slice(i,i+2); m.set(g,(m.get(g)||0)+1); }
+      return m;
+    };
+    const A=grams(a), B=grams(b);
+    let inter=0, tot=0;
+    for (const [k,v] of A){ tot+=v; const w=B.get(k); if (w) inter+=Math.min(v,w); }
+    for (const [,v] of B) tot+=v;
+    return tot? (2*inter)/tot : 0;
+  }
+  function similarity(normA, normB){
+    return 0.6*jaccard(tokens(normA), tokens(normB)) + 0.4*dice(normA, normB);
+  }
+
+  // ---------- playback glue ----------
+  function setupClicks(chunks, player){
+    chunks.forEach(c => {
+      c.el.addEventListener('click', (e) => {
+        if (e.target.closest('a')) return; // we didn't wrap <a>, but guard anyway
+        const t = (+c.el.dataset.t || 0);
+        player.currentTime = Math.max(0, t);
+        player.play().catch(()=>{});
+        setActive(chunks, c.el, true);
+      });
+    });
+  }
+  function setupTimeUpdate(chunks, player){
+    const times = chunks.map(c => c.time);
+    let last = null;
+    player.addEventListener('timeupdate', () => {
+      const t = player.currentTime + 1e-3;
+      let i = lowerBound(times, t);
+      if (i >= times.length) i = times.length-1;
+      const el = chunks[i].el;
+      if (el !== last) {
+        setActive(chunks, el, false);
+        last = el;
+      }
+    });
+  }
+  function setActive(chunks, el, scroll){
+    for (const c of chunks) c.el.classList.remove('playing');
+    el.classList.add('playing');
+    if (scroll) el.scrollIntoView({ behavior:'smooth', block:'center' });
+  }
+
+  // ---------- small utils ----------
+  function injectMiniCSS(css){ const s=document.createElement('style'); s.textContent=css; document.head.appendChild(s); }
+  function lowerBound(arr, x){
+    let lo=0, hi=arr.length;
+    while (lo<hi){ const mid=(lo+hi)>>1; (arr[mid] < x) ? (lo=mid+1) : (hi=mid); }
+    return lo;
+  }
+})();

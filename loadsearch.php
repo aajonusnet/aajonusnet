@@ -14,6 +14,8 @@ $files = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($mdFolder,
 
 foreach ($files as $fileInfo) {
     if (!$fileInfo->isFile()) continue;
+    $ext = strtolower($fileInfo->getExtension());
+    if ($ext !== 'md' && $ext !== 'txt') continue;
     $rel = $fileInfo->getPathname();
     $text = file_get_contents($rel);
     $text = strtr($text, $whiteSpaceList);
