@@ -1,4 +1,6 @@
-Date: 2009_02_11
+Date: 11 February 2009
+
+Transcribed by Aajonus.net & Rawmeatgang
 
 P = Patrick, A = Aajonus
 

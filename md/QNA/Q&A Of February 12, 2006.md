@@ -106,7 +106,7 @@ A: Yeah, some of them are still fighting it.
 
 Q: Is there a bottled water that's the best?
 
-A: I like Gerolsteiner, but Ramlusa, San Pellegrino, Perrier, any of those are okay. Perrier says on it, CO2 added. But they're buying the carbon, the natural carbon from Gerolsteiner, because Gerolsteiner's well is so high in carbon. That's why Gerolsteiner has the most gas in it. Because their carbon layer in their well is so packed that they're selling it to other companies. Perrier's well started going dry of carbon about three or four years ago. So they started buying other companies' well gas.
+A: I like Gerolsteiner, but Ramlosa, San Pellegrino, Perrier, any of those are okay. Perrier says on it, CO2 added. But they're buying the carbon, the natural carbon from Gerolsteiner, because Gerolsteiner's well is so high in carbon. That's why Gerolsteiner has the most gas in it. Because their carbon layer in their well is so packed that they're selling it to other companies. Perrier's well started going dry of carbon about three or four years ago. So they started buying other companies' well gas.
 
 Q: What do you think of PentaWater?
 
@@ -732,7 +732,7 @@ A: It'll work for anything to help them heal faster.
 
 Q: You got a fungus on your toenail?
 
-A: Yep, it'll help that. Well, as I said in the book, you put honey on a fungus, and it'll smother the fungus. I always put the saliva with it, because the saliva helps. You have Tylen in your saliva. Tylen helps utilize the honey. If you use water, it neutralizes the honey, and it won't work.
+A: Yep, it'll help that. Well, as I said in the book, you put honey on a fungus, and it'll smother the fungus. I always put the saliva with it, because the saliva helps. You have ptyalin in your saliva. Ptyalin helps utilize the honey. If you use water, it neutralizes the honey, and it won't work.
 
 Q: No, what I'm saying is that...
 

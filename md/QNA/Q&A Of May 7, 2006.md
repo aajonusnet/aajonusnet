@@ -602,7 +602,7 @@ A: Yes?
 
 Q: [unintelligible]
 
-A: What it means is just like with kefir or yogurt, they put a bacteria in it that favors sweetness. See, you have three bacterias. You have one that digests the sugar, which is acidophilus. And you have bulgarius, which digests the protein. And coccus. Excuse me, bulgarias digests the fats, coccus digests the protein. Bulgarius has a tendency to lead. And when it leads, it makes everything bitter and sour, because it breaks up fat. If you put honey in it or a culture in it that favors the acidophilus, then the acidophilus thrives more than the bulgarius. So it makes a sweeter product, soured product.
+A: What it means is just like with kefir or yogurt, they put a bacteria in it that favors sweetness. See, you have three bacterias. You have one that digests the sugar, which is acidophilus. And you have bulgaricus, which digests the protein. And coccus. Excuse me, bulgaricus digests the fats, coccus digests the protein. Bulgaricus has a tendency to lead. And when it leads, it makes everything bitter and sour, because it breaks up fat. If you put honey in it or a culture in it that favors the acidophilus, then the acidophilus thrives more than the bulgaricus. So it makes a sweeter product, soured product.
 
 Q: What does buttermilk mean?
 

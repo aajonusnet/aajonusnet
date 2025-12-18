@@ -1662,7 +1662,7 @@ A: No.
 
 Q: Nobody sells without salt.
 
-A: I know. You just have to get the product list and find sources. We have a Rawsome Club that's in Los Angeles in Venice that sells all kinds of raw unsalted cheese that an Amish group makes from Pennsylvania. We have a truck in every week.
+A: I know. You just have to get the product list and find sources. We have a Rawesome Club that's in Los Angeles in Venice that sells all kinds of raw unsalted cheese that an Amish group makes from Pennsylvania. We have a truck in every week.
 
 Q: James.
 

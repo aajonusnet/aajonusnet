@@ -536,7 +536,7 @@ A: Then I put the honey in. Yeah, I will leave it that long in the cupboard. But
 
 Q: But doesn't the honey kill the bacteria that you want?
 
-A: No, what it does is it helps the acidophilus grow quicker. It causes the lactate to be digested predominantly over the fats and the proteins because we have the bulgaris and [unintelligible] bacteria. When you put the honey in, it allows the other bacterias to become less active. And then you have the sweeter kefir. It's not bitter. Well, it's not a salad.
+A: No, what it does is it helps the acidophilus grow quicker. It causes the lactate to be digested predominantly over the fats and the proteins because we have the bulgaricus and [unintelligible] bacteria. When you put the honey in, it allows the other bacterias to become less active. And then you have the sweeter kefir. It's not bitter. Well, it's not a salad.
 
 Q: So in the winter, you want to leave it three days in the cupboard?
 
@@ -706,7 +706,7 @@ A: There are 16...
 
 Q: What do you know about marijuana?
 
-A: What do I know about marijuana? Marijuana has 16 times minimum the tars that regular cigarettes do. So one joint is like smoking a pack of cigarettes as far as tar goes. And when you're smoking... Pardon? And when you're smoking, the tars are being heated from 750 to 1232 degrees. That crystallizes in the system. It causes lymphatic congestion. It causes severe neurological congestion. So not a good thing. If you're going to take marijuana, you juice it. You get it green and fresh, and you juice it. And I wouldn't take over a teaspoon at a time. And it takes the tylen enzyme to release the THC. So you have to leave it in the mouth for as long as you can. If you don't want to juice it, you just chew the leaf. You have to chew and chew and chew and leave it in the mouth for about 20 minutes to get the THC to release if you want to have a high. That's a good high because there's no monoxides in it, and your high lasts for about 3 days without being unruly high.
+A: What do I know about marijuana? Marijuana has 16 times minimum the tars that regular cigarettes do. So one joint is like smoking a pack of cigarettes as far as tar goes. And when you're smoking... Pardon? And when you're smoking, the tars are being heated from 750 to 1232 degrees. That crystallizes in the system. It causes lymphatic congestion. It causes severe neurological congestion. So not a good thing. If you're going to take marijuana, you juice it. You get it green and fresh, and you juice it. And I wouldn't take over a teaspoon at a time. And it takes the ptyalin enzyme to release the THC. So you have to leave it in the mouth for as long as you can. If you don't want to juice it, you just chew the leaf. You have to chew and chew and chew and leave it in the mouth for about 20 minutes to get the THC to release if you want to have a high. That's a good high because there's no monoxides in it, and your high lasts for about 3 days without being unruly high.
 
 Q: What is it good for? Is cilantro good for it?
 
@@ -730,7 +730,7 @@ A: Yes. They crystallize. Crystallized tars have an affinity towards the brain. 
 
 Q: So THC isn't part of it?
 
-A: THC is locked in the tar and in the cellulose. So that's why if you chew it a long time, the tylen enzyme that's in our saliva will help break it and release it.
+A: THC is locked in the tar and in the cellulose. So that's why if you chew it a long time, the ptyalin enzyme that's in our saliva will help break it and release it.
 
 Q: [unintelligible]
 

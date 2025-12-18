@@ -1,6 +1,8 @@
 Aajonus.net & Rawmeatgang
 
-A: Does anybody know about the country of Finland?
+A: Does anybody know about the country of Estonia?
+
+Q: Near Finland?
 
 Q: Yeah.
 
@@ -865,7 +867,7 @@ A: I have some people who have already done it. They live in their own farms. Th
 
 Q: Hey, you said to use your newsletter for the chemtrails? If we do that, is that sufficient? If they HAARP us to be immune to that?
 
-A: Well, you've just got to get a lot of the aluminum out. And I would say you've got a lot of aluminum out because you're gray. Nothing causes more gray in a body. It destroys the benzoic acid, which regulates pigmentation of skin and hair. So when aluminum gets into the molecules, the paths are no longer being utilized for pigmentation, so the hair will go gray from aluminum. So if you're gray, you know you're discharging a lot of aluminum. Like when I was discharging, having all this was gray at one time, this was all gray. It keeps going in and out. If I'm discharging aluminum more than anything else, my hair goes more gray. You're discharging more aluminum. So you're lowering your enhancement of explosions.
+A: Well, you've just got to get a lot of the aluminum out. And I would say you've got a lot of aluminum out because you're gray. Nothing causes more gray in a body. It destroys the para-aminobenzoic acid, which regulates pigmentation of skin and hair. So when aluminum gets into the molecules, the paths are no longer being utilized for pigmentation, so the hair will go gray from aluminum. So if you're gray, you know you're discharging a lot of aluminum. Like when I was discharging, having all this was gray at one time, this was all gray. It keeps going in and out. If I'm discharging aluminum more than anything else, my hair goes more gray. You're discharging more aluminum. So you're lowering your enhancement of explosions.
 
 Q: Yeah, but Lewis is black, but I'm sure he's healthier than me because he's been on the diet a lot longer than me. He's probably already gotten the aluminum out, right?
 

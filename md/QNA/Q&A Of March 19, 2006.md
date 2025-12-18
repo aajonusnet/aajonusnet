@@ -560,7 +560,7 @@ A: It's just like yogurt.
 
 Q: It's supposed to be better for you?
 
-A: Well, it just means it's predigested by some bacteria that they've entered into it. And the bacteria that they've entered into it causes a sweeter byproduct than the bitter bulgarius. So it just means it's sweeter butter and it's partially digested.
+A: Well, it just means it's predigested by some bacteria that they've entered into it. And the bacteria that they've entered into it causes a sweeter byproduct than the bitter bulgaricus. So it just means it's sweeter butter and it's partially digested.
 
 Q: The thing I was talking about, the coconut oil, I had asked her if you could eat that. And she said yes, I remember reading [unintelligible]. Do you recommend eating that for us?
 

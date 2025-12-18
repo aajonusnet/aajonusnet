@@ -118,7 +118,7 @@ Q: I still like the meat. The meat is very attractive to me. Okay.
 
 A: When you never refrigerate the milk, you have the growth hormones that are active. As soon as the milk goes below about 72, 71 degrees, the growth hormones that are in the milk for the calf go dormant. They aren't utilized the same way. As long as it's chilled to that temperature, it'll never recreate itself again.
 
-Q: So the milk at rawsome isn't good?
+Q: So the milk at Rawesome isn't good?
 
 A: No, still it's very healthy. I certainly drink a half a gallon a day. But when I can, I get the raw milk never refrigerated, but that's a rarity. So I just have to eat more red meat. I mean more meats. 
 
@@ -580,7 +580,7 @@ Q: And I read in your book, the tomatoes with honey and then the lime juice, tha
 
 A: That helps.
 
-Q: I was drawn to coconut cream automatically, and just lots of fat that I would get down here on the street at rawsome.
+Q: I was drawn to coconut cream automatically, and just lots of fat that I would get down here on the street at Rawesome.
 
 A: The vinegar, the raw unpasteurized apple cider vinegar has the same amino acids that they use in chelation therapy. Why don't they use vinegar for chelation therapy? Because there's no money in it.
 
@@ -636,7 +636,7 @@ Q: Okay, and then the same thing, I need to get a new mattress and I wanted to k
 
 A: I had mine made. I went to a Futon place and they manufacture them in San Francisco, California. And I said, I want you to get organic cotton and organic wool. Weave it together like you normally do. I want an 8 inch futon and plus I want all cotton, organic cotton material. And they said, that we can't get. So I went to an organic cotton place that has heavy upholstery fabric material and I gave that to them and they sent up to San Francisco and made my two futons. For my box spring, I used all natural rubber box spring. Because no, I don't use metal because I hear radio stations if I sleep on metal. I had it made. But there are companies that make all natural mattresses. It's actual rubber latex mattress. They have holes in it. Lori and I, I got on one with Lori, Lori and I slept on it and it was so hot. We had fungus growing out of it. So we used it as our box spring and then had the futons made. They're wonderful. Wonderful. Okay, Kathy, do you have a question.
 
-Q: Oh yeah, I've been trying now for a while, you know, at rawsome with James to try and get the chlorella. And for some reason, I don't know, and Ibrahim's been asking Nikki, I don't know what's going on with the chlorella now.
+Q: Oh yeah, I've been trying now for a while, you know, at Rawesome with James to try and get the chlorella. And for some reason, I don't know, and Ibrahim's been asking Nikki, I don't know what's going on with the chlorella now.
 
 A: I don't know either. First time I heard about it, I didn't know that she wasn't producing it.
 
@@ -824,7 +824,7 @@ Q: I didn't do the butter because she was really not feeling comfortable with th
 
 A: Honey and cheese, honey and butter?
 
-Q: She started trying the cheese yesterday, so I was able to go to Rawsome, and I gave her some cheese. It's kind of like we're treating this behind our family's back, but she's in it with me, and I feel comfortable at this point.
+Q: She started trying the cheese yesterday, so I was able to go to Rawesome, and I gave her some cheese. It's kind of like we're treating this behind our family's back, but she's in it with me, and I feel comfortable at this point.
 
 But again, and we'll talk a little bit about that tomorrow, and go into the details, but I wanted to just let you know, she only speaks Spanish, and I'll go in there and translate for her.
 

@@ -216,7 +216,7 @@ other countries and they're not going to turn around. Did you find that out in
 Thailand?
 
 A: Yes I found that out in Thailand. When I was over there the last time in
-June I was in Patia and it's about probably 70 miles from Pattasip which is a
+June I was in Pattaya and it's about probably 70 miles from Pattasip which is a
 major naval base and they were spraying chemtrails for the first time in
 Thailand. The US military was their doing exercises with the Thai government,
 Thai military and they were spraying chemtrails… means putting their military

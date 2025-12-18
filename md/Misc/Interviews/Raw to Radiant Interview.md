@@ -1,4 +1,6 @@
-Date: 2007_06_05
+Date: 5 June 2007
+
+Transcribed by Aajonus.net & Rawmeatgang
 
 K = Kim (Host), A = Aajonus
 

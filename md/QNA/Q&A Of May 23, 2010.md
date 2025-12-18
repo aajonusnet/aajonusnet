@@ -144,7 +144,7 @@ and insect eggs in it. In this material. It’s actually wet and put on sticky.
 This stuff you breathe and inhale, so then they’ve got insects breeding in
 your body, in your lungs in your sinuses, so these people who have insects
 coming through their skin attached to these fibres. And that’s what ??
-Morgellans disease? Also we’re doing our air testing. They’ve got barium in
+Morgellons disease? Also we’re doing our air testing. They’ve got barium in
 it, they’ve got aluminium, they’ve got all kinds of things. Fluoride is the
 latest thing..they’ve come down pretty heavy in it and you have to look at it.
 What does aluminium do? It destroys the zeta potential, which is the ability for

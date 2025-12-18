@@ -694,7 +694,7 @@ A: You mean in the Valley?
 
 Q: Mm-hmm. Where do you get your stuff?
 
-A: I go over to our Rawsome Club in Venice. And we have, or James has, Amish truck that comes from Pennsylvania, an Amish group. A group of farmers that supply us. There are about seven farmers. And Amos Miller is the one that handles organizing, getting all of it for us. We have a truck that comes out once a week and delivers to us.
+A: I go over to our Rawesome Club in Venice. And we have, or James has, Amish truck that comes from Pennsylvania, an Amish group. A group of farmers that supply us. There are about seven farmers. And Amos Miller is the one that handles organizing, getting all of it for us. We have a truck that comes out once a week and delivers to us.
 
 Q: Whole Foods...
 

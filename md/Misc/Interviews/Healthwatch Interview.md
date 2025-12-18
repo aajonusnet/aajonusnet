@@ -1,4 +1,6 @@
-Date: 2010_10_29
+Date: 29 October 2010
+
+Transcribed by Aajonus.net & Rawmeatgang
 
 J = Host (Jim), T = Host (Tricia), A = Aajonus
 
@@ -132,7 +134,7 @@ T: Amen.
 
 A: A healthy food.
 
-J: Doc, my wife and I, we lived in Poland. We were there when communism crashed. We were in Berlin when the wall went down and we marched with the Chinese students. So we're pretty familiar with the way the secret police in these countries work, communist apparatchiks, how they operate, and we can just see this happening. And I have to tell you right now, in Poland we had more freedom. As a matter of fact, we were able to go to the farmers and get our own raw milk. As a matter of fact, that's the way we wanted it. We were able to go get our own herbs and do what we want with them. But you can't do this here in America, and people don't understand. It is not just Rawesome. It's not just Rawsome. It's not all your companies. It's not just Daniel Chapter One. But what they're going after is beyond the borders of the United States. It's world dominance through Codex Alimentarius. And Codex Alimentarius, folks, you've heard me talk about it as far as vitamins, but it covers all foods, too, I believe.
+J: Doc, my wife and I, we lived in Poland. We were there when communism crashed. We were in Berlin when the wall went down and we marched with the Chinese students. So we're pretty familiar with the way the secret police in these countries work, communist apparatchiks, how they operate, and we can just see this happening. And I have to tell you right now, in Poland we had more freedom. As a matter of fact, we were able to go to the farmers and get our own raw milk. As a matter of fact, that's the way we wanted it. We were able to go get our own herbs and do what we want with them. But you can't do this here in America, and people don't understand. It is not just Rawesome. It's not just Rawesome. It's not all your companies. It's not just Daniel Chapter One. But what they're going after is beyond the borders of the United States. It's world dominance through Codex Alimentarius. And Codex Alimentarius, folks, you've heard me talk about it as far as vitamins, but it covers all foods, too, I believe.
 
 A: Absolutely. It wants to completely control through Monsanto and Dow and all those agricultural chemical companies. They want to close down all natural. These whole staged events like the E. coli 0157h7 in the California spinach fields, it's like the rice tag and 9-11, all of that, they create hazards for people to panic about, and then they give up all their rights.
 

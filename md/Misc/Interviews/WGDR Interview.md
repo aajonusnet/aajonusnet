@@ -1,4 +1,6 @@
-Date: 2010_04_09
+Date: 9 April 2010
+
+Transcribed by Aajonus.net & Rawmeatgang
 
 H = Host (Antonio), M = Mark, A = Aajonus
 

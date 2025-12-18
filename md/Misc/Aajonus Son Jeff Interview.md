@@ -1,20 +1,20 @@
-By Z. Milan
-
-Date: June 10, 2023
+Date: 10 June 2023
 
 ![[sonjeff.webp]]
 
-On vacations to Aajonus’ house in Malibu as an adult:
+J = Jeff, Z = Zara Milan
+
+**On vacations to Aajonus’ house in Malibu as an adult:**
 
 Z: Did you enjoy those?
 
 J: I loved it. We had a great time together. We’d be playing basketball, and one time he broke my nose (laughter). He stuck two fingers in my nose and went (cracking noise) and straightened it back just like that!
 
-On his own food sourcing:
+**On his own food sourcing:**
 
 J: I go to Amish farms and pay them extra money to get truly raw honey.
 
-On the hospital story:
+**On the hospital story:**
 
 Z: Many people have asked how accurate the main story told in the first half of the book (WWTL) about your accident is. Did you want to tell it from your perspective?
 
@@ -36,7 +36,7 @@ I was in the hospital for 10 1/2 months. All of the sudden one day I just jumped
 
 I started college a month and a half after that and graduated my program with a 3.4 GPA.
 
-On Aajonus’ death:
+**On Aajonus’ death:**
 
 J: They (Thailand officials) called me and asked what I wanted to do with Aajonus’ body — ’Do you want it shipped back to the US?’ — I said I want an autopsy done.
 
@@ -150,7 +150,7 @@ Z: Although you didn’t get closer until you were an adult, do you look back on
 
 J: The time I spent with Aajonus was awesome. He was always willing to help me. And somehow he was in tune with when I needed help and when I didn’t, I didn’t really have to tell him. He had a lot of spiritual awareness.
 
-Speaking about his relationship with Aajonus growing up:
+**Speaking about his relationship with Aajonus growing up:**
 
 J: From my perception I believe the biggest reason I never saw him was because of her (Mary). Her only motivation was to get us away from him, she didn’t ask him for child support or nothing, she just wanted to push him out and that’s what she did. She hasn’t let go of her anger towards him to this day.
 

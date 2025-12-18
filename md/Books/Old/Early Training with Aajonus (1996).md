@@ -6640,7 +6640,7 @@ a sudden I get cloudy; I can’t think straight.
 
 _— Well, take something like Gerolsteiner or Perrier._
 
-Aajonus: Those are two of them. There is Ramlusa. There is San
+Aajonus: Those are two of them. There is Ramlosa. There is San
 Pellegrino. There are quite a few of them that are naturally
 carbonated.
 
@@ -8457,9 +8457,9 @@ culture to grow in the kefir. How is the process different?_
 Aajonus: They don’t heat it at all. They take the grains. Of course they
 put gelatin to thicken it. They start with milk, they add cream, add
 raw cream to it, because the milk that you buy like the whole milk is
-really skimmed milk. So they add it back because the bulgaris is the
+really skimmed milk. So they add it back because the bulgaricus is the
 one that pre-digests the fat and if there is not enough fat then that
-enzyme dies in there, the bulgaris.
+enzyme dies in there, the bulgaricus.
 
 _— So they take milk and add cream to it. The cream provides the
 bacteria._

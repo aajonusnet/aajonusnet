@@ -409,7 +409,7 @@ but the rest of it is just slightly acid.
 The Fulani tribe eats 90 % of their diet as raw dairy, in fact, they have a
 10 year period in maturation of a man where he is not allowed to eat anything
 but milk for 10 years. And it is too alkaline, they retain too much water,
-it also causes a problem with their Perimeno benzoic acid. So they get spots
+it also causes a problem with their para-aminobenzoic acid. So they get spots
 on the skin. I'm not saying its ugly, but it isn't even and its part of the
 character of their race, ; they get discolorations, but otherwise they're
 healthy. They have no degenerative diseases. If you get to the science of the

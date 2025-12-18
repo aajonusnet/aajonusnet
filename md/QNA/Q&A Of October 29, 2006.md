@@ -1144,11 +1144,11 @@ A: Oh, you just go up to him. That place sells everything on this diet. Cheese, 
 
 Q: Is it somebody's house?
 
-A: No. It's a corrugated fence. It looks like there's probably some mechanic garage behind there. And you go into that gate, and it says on there, Rawsome Club.
+A: No. It's a corrugated fence. It looks like there's probably some mechanic garage behind there. And you go into that gate, and it says on there, Rawesome Club.
 
 Q: Oh, okay.
 
-A: Rawsome Club. 665 Rose Avenue.
+A: Rawesome Club. 665 Rose Avenue.
 
 Q: Oh, what is that?
 
@@ -1160,9 +1160,9 @@ Q: Do you have a phone number on that, Madison?
 
 Q: No.
 
-Q: And the name of the place is Rawsome?
+Q: And the name of the place is Rawesome?
 
-A: R-A-W-S-O-M-E. Rawsome. It's not listed. It's open on Wednesdays from noon until 8 o'clock. And on Saturdays.
+A: R-A-W-S-O-M-E. Rawesome. It's not listed. It's open on Wednesdays from noon until 8 o'clock. And on Saturdays.
 
 Q: Are you there parking?
 

@@ -141,7 +141,7 @@ Let’s say you get a pinhead worth of chemicals that’s a preservative, in a w
 
 (inaudible from the questioner)
 
-(Aajonus): Yes, studies have been done on animals. If you look at Pottinger’s work with 900 cats, you’ll see that all of the bones and organs…, there was no leaching at all of any of the tissues -including the bone, the cartilage, or the tendons - of any of the animals that received completely raw meat.
+(Aajonus): Yes, studies have been done on animals. If you look at Pottenger’s work with 900 cats, you’ll see that all of the bones and organs…, there was no leaching at all of any of the tissues -including the bone, the cartilage, or the tendons - of any of the animals that received completely raw meat.
 
 The control groups that ate either some pasteurized milk or some cooked meat, or some condensed milk, the different control groups that he experimented with, there was bone disintegration, degeneration in every one of those, but in the raw group there was none.
 

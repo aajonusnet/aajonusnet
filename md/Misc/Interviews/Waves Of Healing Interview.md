@@ -1,4 +1,6 @@
-Date: 2011_10_04
+Date: 4 October 2011
+
+Transcribed by Aajonus.net & Rawmeatgang
 
 L = Lea (Host), A = Aajonus
 

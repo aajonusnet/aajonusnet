@@ -1,4 +1,6 @@
-Date: 2010_08_17
+Date: 17 August 2010
+
+Transcribed by Aajonus.net & Rawmeatgang
 
 A = Aajonus, P = Patrick (Host)
 

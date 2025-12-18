@@ -326,7 +326,7 @@ A: It's not bacteria. Bacteria occurs... We have 23,000 varieties of bacteria in
 
 Q: You get a dog bite.
 
-A: That's right. The main enzyme we have is the Tylen enzyme, and that breaks down sugar.
+A: That's right. The main enzyme we have is the ptyalin enzyme, and that breaks down sugar.
 
 Q: It's the same thing if a dog bites you, you're going to get rabies.
 

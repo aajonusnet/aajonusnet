@@ -512,7 +512,7 @@ A: Yeah. Well, you've got a lot in there to remove. And you may get lots of acne
 
 Q: [unintelligible]
 
-A: You can get it at whole foods. Rawsome, you know, you get a better quality at Rawsome. Do you know where Rawsome is? No, you won't find it anywhere. 665 Rose Avenue.
+A: You can get it at whole foods. Rawesome, you know, you get a better quality at Rawesome. Do you know where Rawesome is? No, you won't find it anywhere. 665 Rose Avenue.
 
 Q: Only on Wednesdays and Saturdays.
 

@@ -1,3 +1,9 @@
+@[Video Source](https://web.archive.org/web/20240712113436/https://www.youtube.com/watch?v=54OGGE6zdXk)
+
+Date: 7 April 2010
+
+Transcribed by Aajonus.net & Rawmeatgang
+
 V = Videographer, M = Mother, F = Father
 
 V: So this is his liver, this is chicken liver here isn't it?

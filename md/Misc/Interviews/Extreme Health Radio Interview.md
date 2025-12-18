@@ -1,4 +1,6 @@
-Date: 2013_03_14
+Date: 14 March 2013
+
+Transcribed by Aajonus.net & Rawmeatgang
 
 H = Host
 A = Aajonus

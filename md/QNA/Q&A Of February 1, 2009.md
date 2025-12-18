@@ -762,7 +762,7 @@ Q: I remember you mentioned that.
 
 A: You know, I was autistic, so I never, rarely understood what he was talking about. I understood his vehemence and anger and frustration with me. And he just said, he said listen to me, and he popped both eardrums. I lost 60% hearing in one ear and 80% in the other. And then, you know, I always had to be a lip reader, and then I didn't know language anyway, so it didn't help. But I learned the same sounds that would come. So I just repeated them, mimicked them like a parrot. But when I got into the raw foods, they eventually got better. Now I have 80% hearing in this ear and 60% in this ear. I started using bone marrow. Started putting it on my finger, and I couldn't get it deep enough, so I rubbed the moisture bone marrow, the one that has more oil to it, this little oil here, put it on a q-tip and got it very oily. And that's when you leave the bone marrow out at room temperature long enough to get really soft.
 
-Q: I've never seen bone marrow. It comes in a jar, you get it at Rawsome? 
+Q: I've never seen bone marrow. It comes in a jar, you get it at Rawesome? 
 
 A: You get it in the bone and you poke it out of the bone.
 
@@ -772,7 +772,7 @@ A: It's in a bone. It's the center of the bone.
 
 Q: You buy it in the supermarket or what?
 
-A: No, no, no, at rawsome.
+A: No, no, no, at Rawesome.
 
 Q: You want to get one of the femur bones of a big cow, a big, thick bone.
 

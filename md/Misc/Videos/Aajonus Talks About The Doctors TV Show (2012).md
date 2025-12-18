@@ -1,0 +1,7 @@
+@[Video Source](https://web.archive.org/web/20240712115052/https://www.youtube.com/watch?v=5GWU_n_HdwM)
+
+Transcribed by Aajonus.net & Rawmeatgang
+
+Comment on the Doctor's Show, 2012
+
+A: Hi, I'm Aajonus Vonderplanitz, and I'm sure many of you saw me on the Doctors' Program. It wasn't quite fair because they did not let me answer all questions because there are four of them and only one of me. And the fact that Dr. Travis went on the Dr. Phil show and talked about this diet, and this is a diet he knows nothing about. Doctors have no training in nutrition, on diet at all. Five or six hours maybe in all of the twelve years of their education. And when they're in the hospitals and in practice, they have no exposure to it except by hearsay. They don't study it, they don't observe it. So for him to make a commentary that is dangerous is one of the most unscientifically, unsound, irrelevant, and immaterial comments of all times. I'm a living testament. I have been eating raw meats and some high rotten meats since 1976. I've never gotten a parasite from it. And I was a very sickly individual. I was dying of four types of cancers, plus I had diabetes, psoriasis, and angina pectoris. All of them so-called incurable. Here I am today. So, Dr. Travis, you need to go and do some research on your own or be quiet.

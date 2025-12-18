@@ -4,7 +4,7 @@ $description = "Raw Primal Diet: Aajonus Online Database by Aajonus Vonderplanit
 $url = "https://aajonus.net/";
 $sitename = "Aajonus Net";
 $categoryInLinks = false;
-$prioritizeCategories = ['QNA', 'Newsletters', 'Books'];
+$prioritizeCategories = ['QNA', 'Newsletters', 'Books', 'Books/Old'];
 ?>
 <?php
 function sanitizeFileName($string) {
@@ -170,39 +170,65 @@ foreach ($files as $file) {
     $articles[] = ['filePath' => $filePath, 'filename' => $filename, 'category' => $category]; // Add this line
 }
 usort($articles, function ($a, $b) use ($prioritizeCategories) {
-    // Special sorting for "QNA" category
-    if ($a['category'] == 'QNA' && $b['category'] == 'QNA') {
-        preg_match('/\b(?:January|February|March|April|May|June|July|August|September|October|November|December)\s(\d{1,2}),\s(\d{4})\b/', $a['filename'], $matchesA);
-        preg_match('/\b(?:January|February|March|April|May|June|July|August|September|October|November|December)\s(\d{1,2}),\s(\d{4})\b/', $b['filename'], $matchesB);
-        
-        $dateStrA = isset($matchesA[0]) ? $matchesA[0] : 'January 1, 1970';
-        $dateStrB = isset($matchesB[0]) ? $matchesB[0] : 'January 1, 1970';
-
-        $timestampA = strtotime($dateStrA);
-        $timestampB = strtotime($dateStrB);
-        
-        return $timestampB - $timestampA;  // Newest first
-    }
-
-    $mainCatA = explode("/", $a['category'])[0];
-    $mainCatB = explode("/", $b['category'])[0];
+    $catA = explode('/', $a['category']);
+    $catB = explode('/', $b['category']);
+    
+    $mainCatA = $catA[0];
+    $mainCatB = $catB[0];
+    
+    // Check main category priority
     $priorityA = array_search($mainCatA, $prioritizeCategories);
     $priorityB = array_search($mainCatB, $prioritizeCategories);
     $priorityA = $priorityA === false ? PHP_INT_MAX : $priorityA;
     $priorityB = $priorityB === false ? PHP_INT_MAX : $priorityB;
     
-    $depthA = substr_count($a['category'], '/');
-    $depthB = substr_count($b['category'], '/');
-    
-    if ($priorityA == $priorityB) {
-        if ($depthA == $depthB) {
-            return strcmp($a['filename'], $b['filename']);
-        }
-        return $depthA - $depthB;
+    if ($priorityA != $priorityB) {
+        return $priorityA - $priorityB;
     }
-    return $priorityA - $priorityB;
-});
+    
+    // If main categories are the same
+    if ($mainCatA == $mainCatB) {
+        // Special handling for "QNA" category
+        if ($mainCatA == 'QNA') {
+            preg_match('/\b(?:January|February|March|April|May|June|July|August|September|October|November|December)\s(\d{1,2}),\s(\d{4})\b/', $a['filename'], $matchesA);
+            preg_match('/\b(?:January|February|March|April|May|June|July|August|September|October|November|December)\s(\d{1,2}),\s(\d{4})\b/', $b['filename'], $matchesB);
+            
+            $dateStrA = isset($matchesA[0]) ? $matchesA[0] : 'January 1, 1970';
+            $dateStrB = isset($matchesB[0]) ? $matchesB[0] : 'January 1, 1970';
 
+            $timestampA = strtotime($dateStrA);
+            $timestampB = strtotime($dateStrB);
+            
+            return $timestampB - $timestampA;  // Newest first
+        }
+        
+        $fullCatA = $a['category'];
+        $fullCatB = $b['category'];
+        
+        $subPriorityA = array_search($fullCatA, $prioritizeCategories);
+        $subPriorityB = array_search($fullCatB, $prioritizeCategories);
+        
+        if ($subPriorityA !== false || $subPriorityB !== false) {
+            $subPriorityA = $subPriorityA === false ? PHP_INT_MAX : $subPriorityA;
+            $subPriorityB = $subPriorityB === false ? PHP_INT_MAX : $subPriorityB;
+            if ($subPriorityA != $subPriorityB) {
+                return $subPriorityA - $subPriorityB;
+            }
+        }
+        
+        // If no priority difference for full categories, sort subcategories alphabetically
+        $subCatA = isset($catA[1]) ? $catA[1] : '';
+        $subCatB = isset($catB[1]) ? $catB[1] : '';
+        
+        $subCatCompare = strcmp($subCatA, $subCatB);
+        if ($subCatCompare !== 0) {
+            return $subCatCompare;
+        }
+    }
+    
+    // If categories are the same or have same priority, sort by article name
+    return strcmp($a['filename'], $b['filename']);
+});
             foreach ($articles as $article) {
                 $filePath = $article['filePath'];
                 $filename = $article['filename'];

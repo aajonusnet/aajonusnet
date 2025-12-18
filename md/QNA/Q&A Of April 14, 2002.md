@@ -1514,7 +1514,7 @@ A: Is that a magnetic?
 
 Q: No.
 
-A: You know, Nikon's got these magnetic patches and pocket things. That'll help pull some of it out and regulate your system a little bit. Their beds work to an extent, as long as you don't overdo it.
+A: You know, Nikken's got these magnetic patches and pocket things. That'll help pull some of it out and regulate your system a little bit. Their beds work to an extent, as long as you don't overdo it.
 
 Q: [unintelligible]
 

@@ -1,4 +1,6 @@
-Date: 2011_03_28
+Date: 28 March 2011
+
+Transcribed by Aajonus.net & Rawmeatgang
 
 M = Mark, A = Aajonus
 

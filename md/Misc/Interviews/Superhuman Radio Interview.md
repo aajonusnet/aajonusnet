@@ -1,4 +1,6 @@
-Date: 28 Apr 2009
+Date: 28 April 2009
+
+Transcribed by Aajonus.net & Rawmeatgang
 
 C = Carl (Host), A = Aajonus
 

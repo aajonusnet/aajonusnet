@@ -1,5 +1,7 @@
 Date: June 2010
 
+Transcribed by Aajonus.net & Rawmeatgang
+
 R = Regina (Host), A = Aajonus
 
 R: Aajonus Vonderplanitz had to fight for his life from a very early age. His story is challenging. After experiencing many injuries and illnesses, the medical care he received took him deeper and deeper into a downward spiral until, in his early 20s, facing another bout with cancer, he decided to fast himself to death. The hand of fate, however, did not allow him to die. In the end, it was raw animal fats and proteins that saved his life, and he says it's fat that saves many of our lives, too. Aajonus, this is really interesting sitting here with you. I've been trying to get together with you for about a year now, and if I were to look you up on the internet knowing nothing about you, I would find some of the most controversial information out there. You bring up a lot of fear in people because of what we're going to get into in a bit, which is interesting as I'm sitting here in your home, and we're surrounded by lotus blossoms and bougainvillea and beautiful artwork. It seems to me such a delicate being and beautiful heart is who you are, and yet at the same time, this perception of this primal element frightens people. So I want to get into who you are first, because you've had what most people would consider to be, certainly early in life, an extremely painful journey to get where you are now. Can you talk a little bit, just give your backstory a bit, if you don't mind, from childhood, just for a few minutes?
