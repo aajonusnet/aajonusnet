@@ -15,7 +15,7 @@ function goBack(ev) {
 
 function shareArticle() {
   const url = location.href;
-    // Check if Web Share API is supported
+  // Check if Web Share API is supported
   if (navigator.share) {
     navigator.share({
       title: document.title, url
@@ -99,22 +99,17 @@ if (pageContent) {
     
     e.preventDefault();
     const next = target.nextElementSibling;
-    if (next && next.classList.contains('image-preview')) {
+    if (next && next.classList.contains('image-preview-container')) {
       next.remove();
       return;
     }
-    const imgSrc = target.href;
     const preview = document.createElement('div');
-    preview.className = 'image-preview';
+    preview.className = 'image-preview-container';
     const img = document.createElement('img');
-    img.src = imgSrc;
-    img.style.maxWidth = '100%';
-    img.style.height = 'auto';
-    img.style.display = 'block';
-    img.style.margin = '10px auto';
-    img.style.border = '1px solid #ddd';
+    img.src = target.href;
+    img.className = 'image-preview';
     preview.appendChild(img);
-  target.parentNode.insertBefore(preview, target.nextSibling);
+    target.parentNode.insertBefore(preview, target.nextSibling);
   });
 }
 
@@ -451,7 +446,11 @@ let articleData = {}; // Global variable to store data
 let hasRetried = false;
 
 if (searchEl) {
-  searchEl.focus();
+  searchEl.addEventListener('click', function() {
+    if (searchEl.classList.contains('search-error')) {
+      loadContentAsync();
+    }
+  });
   searchEl.addEventListener('keyup', function(event) {
     // Key code 13 is the "Return" key
     if (event.keyCode === 13) {
@@ -459,6 +458,7 @@ if (searchEl) {
       searchEl.blur();
     }
   });
+
 
   // Open or create the search database
   const openRequest = indexedDB.open("myDatabase", 1);
@@ -542,41 +542,50 @@ function getCachedData() {
 
 async function loadContentAsync() {
   if (!searchEl) return;
+  searchEl.classList.remove('search-error');
+  searchEl.readOnly = false;
   searchEl.disabled = true;
   searchEl.placeholder = 'Loading...';
 
   const cached = await getCachedData();
   if (cached) {
     populateAndEnableSearch(cached);
+    searchEl.disabled = false;
     return;
   }
 
   searchEl.placeholder = 'Loading... 0%';
 
-  const response = await fetch('/code/loadsearch.php');
+  try {
+    const response = await fetch('/code/loadsearch.php');
+    if (!response.ok) throw new Error('Network error');
+    const total = parseInt(response.headers.get('X-Total-Uncompressed-Length'), 10);
 
-  const total = parseInt(
-    response.headers.get('X-Total-Uncompressed-Length'),
-    10
-  );
+    const reader  = response.body.getReader();
+    const decoder = new TextDecoder('utf-8');
+    let raw = '';
+    let loaded  = 0;
 
-  const reader  = response.body.getReader();
-  const decoder = new TextDecoder('utf-8');
-  let raw = '';
-  let loaded  = 0;
+    while (true) {
+      const { done, value } = await reader.read();
+      if (done) break;
 
-  while (true) {
-    const { done, value } = await reader.read();
-    if (done) break;
+      const chunk = decoder.decode(value, { stream: true });
+      raw += chunk;
+      loaded += chunk.length;
 
-    const chunk = decoder.decode(value, { stream: true });
-    raw += chunk;
-    loaded += chunk.length;
-
-    const pct = Math.min(100, Math.round((loaded / total) * 100));
-    searchEl.placeholder = `Loading... ${pct}%`;
+      const pct = Math.min(100, Math.round((loaded / total) * 100));
+      searchEl.placeholder = `Loading... ${pct}%`;
+    }
+    const data = JSON.parse(raw);
+    storeAllData(data);
+    populateAndEnableSearch(data);
+    searchEl.disabled = false;
+  } catch (e) {
+    searchEl.disabled = false;
+    searchEl.readOnly = true;
+    searchEl.classList.add('search-error');
+    searchEl.value = '';
+    searchEl.placeholder = 'Tap to retry';
   }
-  const data = JSON.parse(raw);
-  storeAllData(data);
-  populateAndEnableSearch(data);
 }

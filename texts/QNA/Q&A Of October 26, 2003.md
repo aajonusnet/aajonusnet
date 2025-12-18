@@ -156,7 +156,7 @@ A: But you can't get it the way it was before [unintelligible]. So [unintelligib
 
 Q: Yeah. Last time I was reading your first book you were talking about, you know, when you were working the health food store and you tried all these vitamins and only about six seemed to work. I was actually wondering, was that before you used the iridology?
 
-A: No, I started using the heredology in the early 70s.
+A: No, I started using the iridology in the early 70s.
 
 Q: Okay. My question is like this-
 

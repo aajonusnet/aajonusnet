@@ -162,7 +162,7 @@ When he was twenty-two months old, twenty-one or twenty-two months old, I was th
 
 Q: No daycare?
 
-A: No daycare at that point. He's only two years old. And she took care of him. wTwo and a half, he went to his first daycare. So he cites the alphabet. Doesn't sing the alphabet song, but says the alphabet from A to Z in the right order. And I said, say it backwards. Without missing a beat, he said every one backwards. I didn't even have to stop... from saying it backwards. He just spat it out like that. At five years old, he knew 180 countries of the world, where they were on the map, what political system was, and who the political officers were in that country. 
+A: No daycare at that point. He's only two years old. And she took care of him. Two and a half, he went to his first daycare. So he cites the alphabet. Doesn't sing the alphabet song, but says the alphabet from A to Z in the right order. And I said, say it backwards. Without missing a beat, he said every one backwards. I didn't even have to stop... from saying it backwards. He just spat it out like that. At five years old, he knew 180 countries of the world, where they were on the map, what political system was, and who the political officers were in that country. 
 
 Q: The liver formula.
 

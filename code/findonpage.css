@@ -1,157 +1,182 @@
-/* findonpage.css — v2 look, same bottom location */
-.find-on-page {
-  display: none;               /* shown as flex by JS */
+/* Activator (bottom-right) */
+.activate-find-on-page {
   position: fixed;
-  bottom: auto; left: 0; right: 0;
-  background: #111;            /* v2 palette */
+  bottom: 20px;
+  right: 20px;
+  background-color: #303030;
   color: #fff;
-  padding: 8px 12px;
-  z-index: 2147483646;
-  box-shadow: 0 -8px 24px rgba(0,0,0,.35);
-  border-top: 1px solid #2a2a2a;
-  box-sizing: border-box;
-  user-select: none; -webkit-user-select: none;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  z-index: 9999999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  visibility: visible !important;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
   touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
 }
-
-/* centers the “card” inside the full-width bar */
-.find-on-page-content {
-  display: flex; align-items: center; gap: 6px;
-  width: 100%; max-width: 786px; margin: 0 auto;
-  font: 16px/1.2 -apple-system, system-ui, Segoe UI, Roboto, Helvetica, Arial, sans-serif; /* >=16px avoids zoom */
+.activate-find-on-page svg {
+  width: 24px;
+  height: 24px;
+  display: block;
 }
-
-/* Close + nav buttons */
-.find-on-page-close,
-.find-on-page-btn {
+/* Finder bar (top-right or middle on mobile) */
+#findx-bar[data-findx-ui] {
+  position: fixed;
+  top: 12px;
+  right: 12px;
+  z-index: 9999999;
+  max-width: min(680px, calc(100vw - 24px));
+  background: #111;
+  color: #fff;
   border: 1px solid #2a2a2a;
-  background: #1b1b1b; color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0,0,0,.35);
+  box-sizing: border-box;
+  padding: 6px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.2;
+  touch-action: manipulation;
+  will-change: top, left;
+}
+/* Finder bar elements: close, input+clear, count, up/down */
+.findx-close, .findx-btn {
+  border: 1px solid #2a2a2a;
+  background: #1b1b1b;
+  color: #fff;
   border-radius: 10px;
   padding: 8px 10px;
   cursor: pointer;
-  font: inherit; line-height: 1;
-  -webkit-tap-highlight-color: transparent;
+  font: inherit;
+  line-height: 1;
   touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
 }
-.find-on-page-btn[disabled]{ opacity:.45; cursor: default; }
-
-/* Input + inline clear */
-.find-on-page-input-wrap {
+.findx-close {
+  font-size: 22px;
+}
+.findx-btn[disabled] {
+  opacity: 0.45;
+  cursor: default;
+}
+.findx-input-wrap {
   position: relative;
-  flex: 1 1 auto; min-width: 160px;
-  display: flex; align-items: center;
+  flex: 1 1 auto;
+  min-width: 160px;
+  display: flex;
+  align-items: center;
 }
-.find-on-page input {
-  width: 100%; appearance: none; -webkit-appearance: none; font: inherit;
-  border: 1px solid #2a2a2a; border-radius: 10px;
-  padding: 10px 44px 10px 12px; /* room for clear on the right */
-  outline: none; background: #0f0f0f; color: #fff;
+.findx-input {
+  width: 100%;
+  appearance: none;
+  -webkit-appearance: none;
+  font: inherit;
+  border: 1px solid #2a2a2a;
+  border-radius: 10px;
+  padding: 10px 44px 10px 12px;
+  outline: none;
+  background: #0f0f0f;
+  color: #fff;
 }
-.find-on-page input::placeholder { color: #a1a1aa; }
+.findx-input::placeholder {
+  color: #a1a1aa;
+}
 
-.find-on-page-clear[hidden]{ display:none !important; }
-.find-on-page-clear{
-  position: absolute; right: 6px; top: 50%; translate: 0 -50%;
-  display: inline-flex; align-items: center; justify-content: center;
-  width: 30px; height: 30px;
-  border: 0; background: transparent; color: #a1a1aa;
-  font: inherit; font-size: 18px; line-height: 1;
-  cursor: pointer; padding: 0;
-  -webkit-tap-highlight-color: transparent;
+/* Clear button */
+.findx-clear {
+  position: absolute;
+  right: 6px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border: 0;
+  background: transparent;
+  color: #a1a1aa;
+  font: inherit;
+  font-size: 22px;
+  line-height: 1;
+  cursor: pointer;
+  padding: 0;
   touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+}
+#findx-bar[hidden], .findx-clear[hidden] {
+  display:none !important;
 }
 
-/* Count */
-#find-on-page-count {
-  min-width: 72px; text-align: center;
-  color: #a1a1aa; white-space: nowrap; flex-shrink: 0;
+.findx-count {
+  min-width: 72px;
+  text-align: center;
+  color: #a1a1aa;
+  white-space: nowrap;
 }
 
-/* Keep original padding to prevent overlap with the bottom bar */
-body.find-on-page-active { padding-bottom: 60px; }
-
-/* Highlights (unchanged) */
-.find-on-page-highlight { background-color: yellow; color: #000; }
-.find-on-page-highlight-current { background-color: orange; color: #000; }
-
-/* Activator (unchanged) */
-.activate-find-on-page {
-  position: fixed; bottom: 20px; right: 20px;
-  background-color: #303030; color: #fff; border: none; border-radius: 50%;
-  width: 50px; height: 50px; font-size: 14px; cursor: pointer; z-index: 999;
-  display: flex; align-items: center; justify-content: center;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+/* Highlights */
+mark.findx-hit {
+  background: #fff1a6;
+  color: #000;
+  padding: 0;
+  border-radius: 2px;
 }
-.activate-find-on-page svg { width: 24px; height: 24px; }
+mark.findx-hit.findx-current {
+  background: #ffe074;
+  color: #000;
+  box-shadow: 0 0 0 2px #ffb300 inset;
+}
 
-@media (max-width: 786px){
-  .find-on-page { padding: 8px 10px; }
-  .find-on-page-content { width: 100%; }
+/* Keep UI out of selection & search scope */
+[data-findx-ui] {
+  -webkit-user-select: none;
+  user-select: none;
 }
 
 /* LIGHT MODE */
 @media (prefers-color-scheme: light) {
-  .activate-find-on-page { background-color: #e0e0e0; color: #000; }
+  .activate-find-on-page {
+    background-color: #e0e0e0;
+    color: #000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+  }
+  #findx-bar[data-findx-ui] {
+    background: #f2f2f2;
+    color: #000;
+    border-color: #ccc;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+  }
+  .findx-close, .findx-btn {
+    background: #e0e0e0;
+    border-color: #c9c9c9;
+    color: #000;
+  }
+  .findx-btn[disabled] {
+    opacity: 0.4;
+    background: #e0e0e0;
+    color: #555;
+  }
+  .findx-input {
+    background: #fff; 
+    border-color: #ccc;
+    color: #000;
+  }
+  .findx-input::placeholder {
+    color: #757575;
+  }
+  .findx-clear {
+    color: #666;
+  }
+  .findx-count {
+    color: #444; 
+  }
 }
-
-/* === v2-style skin, without moving the bar === */
-
-/* Layout + spacing inside the full-width bar */
-.find-on-page-content{
-  display:flex; align-items:center; gap:6px;
-  width:100%; max-width:786px; margin:0 auto;
-  font:16px/1.2 -apple-system,system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
-}
-
-/* Make buttons look like v2 (and override any older generic rules) */
-.find-on-page button{
-  background:#1b1b1b;
-  color:#fff !important;
-  border:1px solid #2a2a2a;
-  border-radius:10px;
-  padding:8px 10px;
-  font:inherit; line-height:1;
-  -webkit-tap-highlight-color:transparent;
-  touch-action:manipulation;
-}
-
-.find-on-page-buttons {
-    display: flex;
-    gap: 6px;
-    align-items: center;
-}
-
-/* Input + inline clear (✕) */
-.find-on-page-input-wrap{
-  position:relative; flex:1 1 auto; min-width:160px;
-  display:flex; align-items:center;
-}
-.find-on-page input{
-  width:100%; appearance:none; -webkit-appearance:none; font:inherit;
-  border:1px solid #2a2a2a; border-radius:10px;
-  padding:10px 44px 10px 12px; /* space for the clear button on right */
-  outline:none; background:#0f0f0f; color:#fff;
-}
-.find-on-page input::placeholder{ color:#a1a1aa; }
-
-/* Clear button sits inside the input (hidden until there's text) */
-.find-on-page-clear{
-  display:inline-flex;
-  position:absolute; right:6px; top:50%; translate:0 -50%;
-  display:inline-flex; align-items:center; justify-content:center;
-  width:30px; height:30px;
-  background:none !important; border:0 !important;
-  color:#a1a1aa; font-size:18px; line-height:1;
-  cursor:pointer; padding:0; -webkit-tap-highlight-color:transparent;
-}
-
-/* Count styling like v2 */
-#find-on-page-count{
-  min-width:72px; text-align:center; color:#a1a1aa; white-space:nowrap;
-}
-
-/* Restore the content padding you mentioned */
-@media (max-width: 786px){
-  .content{ padding-bottom:60px; }
-}
-

@@ -15,7 +15,7 @@ function goBack(ev) {
 
 function shareArticle() {
   const url = location.href;
-    // Check if Web Share API is supported
+  // Check if Web Share API is supported
   if (navigator.share) {
     navigator.share({
       title: document.title, url
@@ -32,7 +32,7 @@ function shareArticle() {
   }
 }
 function removeHighlights() {
-  const btn = getById("remove-highlights");
+  const btn = getById('remove-highlights');
   if (!btn) return;
   // Remove highlights
   document.querySelectorAll('mark').forEach(el => {
@@ -99,22 +99,17 @@ if (pageContent) {
     
     e.preventDefault();
     const next = target.nextElementSibling;
-    if (next && next.classList.contains('image-preview')) {
+    if (next && next.classList.contains('image-preview-container')) {
       next.remove();
       return;
     }
-    const imgSrc = target.href;
     const preview = document.createElement('div');
-    preview.className = 'image-preview';
+    preview.className = 'image-preview-container';
     const img = document.createElement('img');
-    img.src = imgSrc;
-    img.style.maxWidth = '100%';
-    img.style.height = 'auto';
-    img.style.display = 'block';
-    img.style.margin = '10px auto';
-    img.style.border = '1px solid #ddd';
+    img.src = target.href;
+    img.className = 'image-preview';
     preview.appendChild(img);
-  target.parentNode.insertBefore(preview, target.nextSibling);
+    target.parentNode.insertBefore(preview, target.nextSibling);
   });
 }
 

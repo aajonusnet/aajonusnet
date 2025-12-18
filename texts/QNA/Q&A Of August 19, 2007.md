@@ -986,7 +986,7 @@ A: I peel all the, always peel.
 
 Q: Just going back to that water, I know that you don't exercise much, so I just want to know that somebody who's exercising a lot, and sweating, say, you know, in a very hot weather in Florida or whatever, and you're sweating a couple of cups of water at a time...
 
-A: I have a martial artist who has the Blue Dragon Martial Arts School in Bergenfield, New Jersey, Ray Aulis. He does not drink water at all. He is sweating, he does high martial arts activity, and he doesn't drink water anymore. He drinks that formula that I gave you, the cucumber and tomato, and he drinks milk. He does not drink water, and you don't know anybody more powerful than this guy, and that sweats as much as this guy. He teaches 20 classes a day.
+A: I have a martial artist who has the Blue Dragon Martial Arts School in Bergenfield, New Jersey, Ray Ahles. He does not drink water at all. He is sweating, he does high martial arts activity, and he doesn't drink water anymore. He drinks that formula that I gave you, the cucumber and tomato, and he drinks milk. He does not drink water, and you don't know anybody more powerful than this guy, and that sweats as much as this guy. He teaches 20 classes a day.
 
 Q: So if the body is 70% water, and you're not drinking water, where's the water coming from?
 

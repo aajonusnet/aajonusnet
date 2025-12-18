@@ -109,6 +109,14 @@ Dick (Aajonus), Dave, Doug:
 ![[aajonus_59.jpg]]
 ![[aajonus_60.jpg]]
 ![[aajonus_61.jpg]]
+
+Aajonus Drawings:
+
+![[aajonus_drawing1.jpg]]
+![[aajonus_drawing2.jpg]]
+![[aajonus_drawing3.jpg]]
+![[aajonus_drawing4.jpg]]
+
 ![[primaldiet.jpg]]
 ![[primaldietnewsletter.jpg]]
 ![[bookcover_wwtl.jpg]]

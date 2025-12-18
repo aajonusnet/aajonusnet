@@ -94,7 +94,7 @@ if ($is404) {
     <title><?= $dynamicTitle ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php if (!$is404): ?><link rel="canonical" href="<?= $canonicalUrl ?>"><?php endif; ?>
-    <link rel="stylesheet" href="/style.css?v=61">
+    <link rel="stylesheet" href="/style.css?v=63">
     <link rel="icon" href="/logos/favicon.ico" type="image/x-icon" sizes="any">
     <link rel="apple-touch-icon" href="/logos/apple-touch-icon.png">
 
@@ -271,8 +271,8 @@ if ($is404) {
         ?>
         </div>
         <?= isset($_GET['s']) ? '<button id="remove-highlights"><span class="x">×</span>Highlights</button>' : '' ?>
-        <script defer src="/code/findonpage.js?v=8"></script>
+        <script defer src="/code/findonpage.js?v=2" findonpage-css="/code/findonpage.css?v=2"></script>
     <?php } ?>
-    <script defer src="/code/<?= $script ?>?v=378"></script>
+    <script defer src="/code/<?= $script ?>?v=380"></script>
 </body>
 </html>

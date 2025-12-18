@@ -280,7 +280,7 @@ A: No, it's like, let's say you're dead from dehydration. If I soak you in water
 
 Q: [unintelligible]
 
-A: Oh yeah, they always do. They even hold their heads up when they're born. I've seen several women that were on this diet and their babies were holding their heads up the moment they came out of the womb. Holding their heads up. Ray Aulis, where is he? Little Forrest Aulis was one of them. Held his head up the day he was born. Ray Aulis, Forrest Aulis is his name. H-L-E-S in New Jersey. When Forrest was born, his head was completely held up and strong the day he was born.
+A: Oh yeah, they always do. They even hold their heads up when they're born. I've seen several women that were on this diet and their babies were holding their heads up the moment they came out of the womb. Holding their heads up. Ray Ahles, where is he? Little Forrest Ahles was one of them. Held his head up the day he was born. Ray Ahles, Forrest Ahles is his name. A-H-L-E-S in New Jersey. When Forrest was born, his head was completely held up and strong the day he was born.
 
 Q: How long was she on the diet for?
 

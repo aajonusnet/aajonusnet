@@ -23,6 +23,13 @@ audio, video {
 video {
   background: #252525;
 }
+.image-preview {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 10px auto;
+  border: 1px solid #ddd;
+}
 #title-container {
   position: relative;
   margin-bottom: 20px;
@@ -211,6 +218,15 @@ pre, code {
 #remove-highlights:hover {
   background-color: #262626;
 }
+#search.search-error {
+  background-color: #1f1209;
+  border-color: #8c5835;
+  color: #d6bba7;
+  cursor: pointer;
+}
+.search-error::placeholder {
+  color: #d6bba7;
+}
 
 /* LIGHT MODE */
 @media (prefers-color-scheme: light) {
@@ -234,4 +250,7 @@ pre, code {
   #remove-highlights { background-color: #e0e0e0; color: #000; }
   #remove-highlights .x { background-color: #c9c9c9; }
   #remove-highlights:hover { background-color: #d5d5d5; }
+
+  #search.search-error { background-color: #fff8f2; border-color: #e0c0a0; color: #8a5a30; }
+  .search-error::placeholder { color: #8a5a30; }
 }
