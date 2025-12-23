@@ -29,7 +29,7 @@ Unknown
 2010
 - March 27 – Lake Worth, FL: Free lecture and workshop.
 - May 10 – Dayton, OH: Private consults.
-- June 18 — Audio for Joanne Unleashed Interview (transcript is [here](/joanne-unleashed-interview))
+- June 18 - Audio for Joanne Unleashed Interview (transcript is [here](/joanne-unleashed-interview))
 - October 9 – Sedona, AZ: Free lecture and workshop.
 - October 30 – St. Louis, MO: Workshop.
 - November 6–7 – San Jose, CA: Lecture, workshop, and consults.

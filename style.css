@@ -12,6 +12,7 @@ body {
 }
 header {
   text-align: center;
+  padding-top: 5px;
 }
 a {
   color: inherit;
@@ -33,7 +34,6 @@ video {
 #title-container {
   position: relative;
   margin-bottom: 20px;
-  margin-top: 5px;
   box-sizing: border-box;
 }
 #title h1 {

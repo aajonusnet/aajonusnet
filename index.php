@@ -1,12 +1,10 @@
 <?php
 // Loads: $logoTitle, $siteTitle, $siteDescription, $siteKeywords, $siteName, $twitterAccount, $categoryInLinks
-// $mdFolder, $baseUrl, $prioritizeCategories, $sortArticlesByDate, $pinnedArticles
+// $mdFolder, $baseUrl, $prioritizeCategories, $sortArticlesByDate, $pinnedArticles, $cacheHours
 require_once __DIR__ . '/config.php';
 
 $articleMap = [];
 $categoryMap = [];
-
-$script = isset($_GET['cloudsearch']) ? 'cloudindex.js' : 'index.js';
 
 function sanitizeFileName(string $s): string {
     $t = iconv('UTF-8', 'ASCII//TRANSLIT//IGNORE', $s);
@@ -94,7 +92,7 @@ if ($is404) {
     <title><?= $dynamicTitle ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php if (!$is404): ?><link rel="canonical" href="<?= $canonicalUrl ?>"><?php endif; ?>
-    <link rel="stylesheet" href="/style.css?v=63">
+    <link rel="stylesheet" href="/style.css?v=1">
     <link rel="icon" href="/logos/favicon.ico" type="image/x-icon" sizes="any">
     <link rel="apple-touch-icon" href="/logos/apple-touch-icon.png">
 
@@ -120,15 +118,15 @@ if ($is404) {
 </head>
 <body>
     <header>
-        <div id="title-container">
-            <?php if ($originalFile) {
-                $catPath = str_replace('\\', '/', dirname($originalFile));
-                if ($catPath !== '.') {
-                    $catDisplay = str_replace('/', ' <span class="sep">/</span> ', $catPath);
-                    echo '<nav aria-label="Breadcrumb" id="header-category">' . $catDisplay . '</nav>';
-                }
+        <?php if ($originalFile) {
+            $catPath = str_replace('\\', '/', dirname($originalFile));
+            if ($catPath !== '.') {
+                $catDisplay = str_replace('/', ' <span class="sep">/</span> ', $catPath);
+                echo '<nav aria-label="Breadcrumb" id="header-category">' . $catDisplay . '</nav>';
             }
-            ?>
+        }
+        ?>
+        <div id="title-container">
             <a id="title" href="/"><h1><?= $originalFile ? $dynamicTitle : $logoTitle ?></h1></a>
             <?php if ($originalFile) { ?>
             <a href="/" id="back-button" onclick="goBack(event)" aria-label="Go back" tabindex="0">
@@ -282,8 +280,8 @@ if ($is404) {
         ?>
         </div>
         <?= isset($_GET['s']) ? '<button id="remove-highlights"><span class="x">×</span>Highlights</button>' : '' ?>
-        <script defer src="/code/findonpage.js?v=2"></script>
+        <script defer src="/code/findonpage.js"></script>
     <?php } ?>
-    <script defer src="/code/<?= $script ?>?v=380"></script>
+    <script defer src="/code/index.js?v=1" id="main-js" data-cache="<?= $cacheHours ?>"></script>
 </body>
 </html>

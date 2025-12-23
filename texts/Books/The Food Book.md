@@ -1,14 +1,9 @@
-
-**The Food Book**
-
-based on the works of
-
+Based on the works of  
 **Aajonus Vonderplanitz**
 
-2021, by James Ellingson, compiled from written works of Aajonus Vonderplanitz.
+2021, compiled from written works of Aajonus Vonderplanitz.
 
-## Table of Contents
-
+### Table of Contents
 
 - ABOUT THIS BOOK
 - ALCOHOL
@@ -195,12 +190,7 @@ important and very beneficial changes in my
 regimen as a result of covering this material. We
 present this to you for your benefit.
 
-Note that clicking on a point in the Table of
-Contents takes you directly to that subject in the
-text. Note also the glossary is there to assist you.
-
 -- James (Jim) Ellingson
-Editor and Publisher
 
 
 ## ALCOHOL

@@ -1,9 +1,6 @@
 <?php
 declare(strict_types=1);
 
-// Absolute filesystem path to your Markdown / Text files root
-$mdFolder = 'texts';
-
 // Your site base URL
 $baseUrl = 'https://aajonus.net/';
 
@@ -26,8 +23,14 @@ $openLinksInNewTab = false;
 // Prioritize these categories in search results
 $prioritizeCategories = ['Q&A', 'Newsletters', 'Books', 'Books/Old'];
 
-// Any main categories that should sort by date-in-title
+// These categories will sort articles by date extracted from filename (e.g., "Question of January 2010").
 $sortArticlesByDate = ['Q&A'];
 
 // Pin these articles to the top for its category
 $pinnedArticles = ['we-want-to-live', 'the-recipe-for-living-without-disease'];
+
+// Hours to keep the search index cached in the browser
+$cacheHours = 24;
+
+// Absolute filesystem path to your Markdown / Text files root
+$mdFolder = 'texts';

@@ -20,21 +20,6 @@ Dennis Kruhm, Paul Kruhm, Lori Jacob, Lucille Jacob &
 Family, James Stewart, James Hopson, Norman Fritz,
 Pat Connolly, Greg Laur, and health-minded individuals.
 ```
-DISCLAIMER
-
-This material has been written and published solely for
-educational purposes. The reader understands that the author and
-publisher are not engaged in rendering medical advice or
-services. The author and publisher provide this information, and
-the reader accepts it, with the understanding that people act on it
-at their own risk. The author and publisher shall have neither
-liability or responsibility to any person or entity with respect to
-any loss, damage or injury caused, or alleged to be caused,
-directly or indirectly by the information contained in this book.
-
-# The Recipe For
-
-# Living Without Disease
 
 ---------------------
 

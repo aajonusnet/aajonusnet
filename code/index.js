@@ -512,7 +512,7 @@ function populateAndEnableSearch(data) {
 
 // Store entire dataset in IndexedDB with expiration time
 function storeAllData(data) {
-  const expireTime = new Date().getTime() + 24 * 60 * 60 * 1000; // 24 hours from now
+  const expireTime = new Date().getTime() + (getById('main-js').dataset.cache || 24) * 3600000;
   const transaction = db.transaction(["myData"], "readwrite");
   const objectStore = transaction.objectStore("myData");
   objectStore.put({ id: "allData", content: data, expireTime: expireTime });
