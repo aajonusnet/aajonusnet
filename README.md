@@ -143,6 +143,40 @@ That’s it.
 
 ---
 
+## 🪟 Windows (XAMPP) Quick Setup
+
+This repo also runs on Windows (for local testing or hosting).
+
+1) Copy the repo into:
+```
+C:\xampp\htdocs\aajonusnet
+```
+
+2) Enable `.htaccess` and required modules:
+- In `C:\xampp\apache\conf\httpd.conf`, ensure the `<Directory "C:/xampp/htdocs">` block has:
+```
+AllowOverride All
+```
+- In `C:\xampp\apache\conf\httpd.conf`, enable modules if commented:
+```
+LoadModule rewrite_module modules/mod_rewrite.so
+LoadModule headers_module modules/mod_headers.so
+LoadModule expires_module modules/mod_expires.so
+```
+
+3) Restart Apache from the XAMPP control panel.
+
+4) Open:
+```
+http://localhost/aajonusnet/
+```
+
+Notes:
+- Some Windows filesystems don’t allow `?` in filenames. If you are using older content dumps, rename any files containing `?` to remove the character.
+- If you want correct canonical URLs locally, adjust `$baseUrl` in `config.php`.
+
+---
+
 ## 🌐 Go public
 
 Once you have a domain name (i.e. yourdomain.com), do this.
