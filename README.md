@@ -177,6 +177,62 @@ Notes:
 
 ---
 
+## Self-hosting on Windows (Fresh install)
+
+This section assumes a clean Windows machine.
+
+### Prerequisites
+1) Install Git for Windows
+2) Install XAMPP (Apache + PHP)
+
+### Steps
+1) Clone the repo:
+```
+git clone https://github.com/aajonusnet/aajonusnet
+```
+
+2) Copy the repo into:
+```
+C:\xampp\htdocs\aajonusnet
+```
+
+3) Enable `.htaccess` and required modules:
+- In `C:\xampp\apache\conf\httpd.conf`, ensure the `<Directory "C:/xampp/htdocs">` block has:
+```
+AllowOverride All
+```
+- In `C:\xampp\apache\conf\httpd.conf`, enable modules if commented:
+```
+LoadModule rewrite_module modules/mod_rewrite.so
+LoadModule headers_module modules/mod_headers.so
+LoadModule expires_module modules/mod_expires.so
+```
+
+4) Start Apache from the XAMPP control panel.
+
+5) Open in a browser:
+```
+http://localhost/aajonusnet/
+```
+
+### Verify it works
+- You should see the homepage grid.
+- Click any article and confirm the text renders.
+- Search should return results after the initial index loads.
+
+### Troubleshooting (common Windows issues)
+- **404 on clean URLs**: `.htaccess` not enabled or `mod_rewrite` is off.
+- **Search returns nothing**: check that Apache can read `texts/` and that the page loads without errors.
+- **Bad filenames**: Windows does not allow `?` in filenames; rename any files containing `?`.
+
+### CI verification on GitHub Actions (Windows)
+This repo includes a workflow that spins up PHP on `windows-latest` and performs a basic smoke test. See:
+```
+.github/workflows/windows-selfhost-smoketest.yml
+```
+
+---
+
 ## 🌐 Go public
 
 Once you have a domain name (i.e. yourdomain.com), do this.
