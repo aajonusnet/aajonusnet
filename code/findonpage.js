@@ -1,14 +1,11 @@
 (() => {
-  const BASE_PATH = window.basePath || '';
-  const withBase = (path = '') => (BASE_PATH ? BASE_PATH : '') + '/' + path.replace(/^\/+/, '');
-
   // --- simple CSS loader
   function ensureCSS() {
     if (document.getElementById('find-on-page-css')) return;
     const link = document.createElement('link');
     link.id = 'find-on-page-css';
     link.rel = 'stylesheet';
-    link.href = withBase('code/findonpage.css');
+    link.href = '/code/findonpage.css';
     document.head.appendChild(link);
   }
 

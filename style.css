@@ -270,41 +270,4 @@ pre, code {
 
   #search.search-error { background-color: #fff8f2; border-color: #e0c0a0; color: #8a5a30; }
   .search-error::placeholder { color: #8a5a30; }
-
-  .sync-text.active { background-color: #ffedb3; color: #2b1a00; }
-  .sync-text.speaker-A.active {
-      background-color: #ffedb3;
-      color: #2b1a00;
-  }
-  .sync-text.speaker-Q.active {
-      background-color: #d9f3ff;
-      color: #082433;
-  }
-}
-
-/* Sync Segments */
-.sync-text {
-    cursor: pointer;
-    padding: 2px 0;
-    -webkit-box-decoration-break: clone;
-    box-decoration-break: clone;
-}
-.sync-text:hover {
-    background-color: #2b3b52;
-    color: #fff;
-}
-.sync-text.active { background-color: #ffe08a; color: #000; }
-
-/* SPEAKER COLORS (When active/playing) */
-
-/* Speaker A: Standard Highlight */
-.sync-text.speaker-A.active {
-    background-color: #5a3b0e;
-    color: #f6ead7;
-}
-
-/* Speaker Q: Different Color (e.g., Light Blue) */
-.sync-text.speaker-Q.active {
-    background-color: #0f3a52;
-    color: #e6f4ff;
 }
