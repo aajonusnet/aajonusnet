@@ -188,7 +188,7 @@ This section assumes a clean Windows machine.
 ### Steps
 1) Clone the repo:
 ```
-git clone https://github.com/aajonusnet/aajonusnet
+git clone https://github.com/Ashlalala/aajonusnet
 ```
 
 2) Copy the repo into:
