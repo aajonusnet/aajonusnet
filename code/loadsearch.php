@@ -21,6 +21,7 @@ foreach ($files as $fileInfo) {
     if ($ext !== 'md' && $ext !== 'txt') continue;
     $abs = $fileInfo->getPathname();
     $rel = $mdFolder . '/' . substr($abs, strlen($mdPath) + 1);
+    $rel = str_replace('\\', '/', $rel);
     $text = file_get_contents($abs);
     $text = strtr($text, $whiteSpaceList);
     $text = preg_replace('/ {2,}/', ' ', $text); // Avoid /u (slow)

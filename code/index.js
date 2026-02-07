@@ -1,4 +1,6 @@
 const getById = (id) => document.getElementById(id);
+const BASE_PATH = window.basePath || '';
+const withBase = (path = '') => (BASE_PATH ? BASE_PATH : '') + '/' + path.replace(/^\/+/, '');
 
 /* ====
  ARTICLE PAGE ONLY
@@ -9,7 +11,7 @@ function goBack(ev) {
   if (document.referrer && document.referrer.includes(location.hostname) && history.length > 1) {
     history.back();
   } else { // There is no previous page, go to the homepage
-    location.href = '/';
+    location.href = withBase('');
   }
 }
 
@@ -174,7 +176,7 @@ function initSearchWorker() {
     return;
   }
 
-  searchWorker = new Worker('/code/localsearch.js');
+  searchWorker = new Worker(withBase('code/localsearch.js'));
   searchWorker.onmessage = (e) => {
     const msg = e.data;
     if (msg.seq !== undefined && msg.seq !== searchSeq) return;
@@ -430,7 +432,7 @@ function filterCategory(ev, category, sanitizedCategory, element) {
     card.hidden = !showAll && !cardCategory.startsWith(category);
   }
   // Update URL without reloading the page
-  history.replaceState({}, '', showAll ? '/' : `/${sanitizedCategory}/`);
+  history.replaceState({}, '', showAll ? withBase('') : withBase(`${sanitizedCategory}/`));
 }
 
 function clearSearch() {
@@ -557,7 +559,7 @@ async function loadContentAsync() {
   searchEl.placeholder = 'Loading... 0%';
 
   try {
-    const response = await fetch('/code/loadsearch.php');
+    const response = await fetch(withBase('code/loadsearch.php'));
     if (!response.ok) throw new Error('Network error');
     const total = parseInt(response.headers.get('X-Total-Uncompressed-Length'), 10);
 
