@@ -1092,7 +1092,7 @@ A: I'm listening
 
 Q: Yeah, and I know I'm not supposed to go more than five hours without
 feeding of some sort, because of cancer, etc. But when I do, normally Jim
-sets aside forme in the bathroom, the milk, egg, honey, you know, herbs, the
+sets aside for me in the bathroom, the milk, egg, honey, you know, herbs, the
 herbs you have me on and so forth and I just sort of drink them all together,
 I don't blend them or anything, I just drink, plunk the egg into the milk,
 swish it around, drink it down, a little honey, a little lemon, a little

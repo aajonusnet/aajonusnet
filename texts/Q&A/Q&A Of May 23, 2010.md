@@ -1082,7 +1082,7 @@ Q: You have to sprout it or ferment it, which was traditionally done. So I'm won
 
 A: Well, you have to understand the sources that are talking about neutralizing the phytic acid are vegetarians. They're not using butter. They're not using honey. Those are animal products. 
 
-Q: I read that from the Western Price article. They use plenty of raw fat.
+Q: I read that from the Weston Price article. They use plenty of raw fat.
 
 A: Yeah, but it does... They haven't done the tests then. Because I did the test and the phytic acid wasn't active. It had no activity when it came out of the bowels, and there was no problem with mineral absorption and protein utilization. So that's my experimentation, that's what I heard. You can laboratory shit out the zoo, and what happens in a laboratory, it's like they say, the avidin in the egg white will bind with the biotin in the egg yolk, B vitamins. However, in raw eggs, I have never had that happen. I eat up to 50 raw eggs a day, and I don't have a biotin deficiency. 50 a day, and I've eaten up to that much. I don't eat that much every day, but sometimes that's what I eat, 50 eggs, no meat. So when I do that, I have no biotin deficiency. I've never had a biotin deficiency, and I've eaten at least 100,000 eggs in my lifetime. Raw. So when they've got this scientific bullshit going on in a laboratory, it's got nothing to do with what happens in the human body. 
 

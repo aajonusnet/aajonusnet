@@ -772,7 +772,7 @@ P: Oh, really? Gosh.
 
 A: So if you have a gallbladder, then you just, you know, then you can do that kind of thing. If you don't, then you have to eat small amounts of fat throughout the day as much as the liver can produce bile to keep up with it.
 
-P: Another question on the idea of cooking or dehydrating meat like jerky or doing the bone broth idea of the Western Price cooking the bones.
+P: Another question on the idea of cooking or dehydrating meat like jerky or doing the bone broth idea of the Weston Price cooking the bones.
 
 A: Well, any time you cook anything, you're cauterizing the minerals, especially the alkalinizing ones like calcium, phosphorus, magnesium and potassium. The low levels of heat destroy the, you know, completely cauterize the calcium.
 

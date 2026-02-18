@@ -722,7 +722,7 @@ Q: And thank you.
 
 Q: Yes, but you pasteurise it and it's gone. Not to mention a bunch of other things, but that's the one I focused on because my grandson got sick.
 
-Q: Well, I know Aajonus and the Western Price Foundation are going to try to start getting raw milk reinstated in every state.
+Q: Well, I know Aajonus and the Weston Price Foundation are going to try to start getting raw milk reinstated in every state.
 
 Q: Good, very good. I mean, I got a lot of information today. I mean, I didn't even get to anything today. I just addressed Dr. Field, I can't believe he was so wrong. I mean, at least he said, you know, I really don't know. I know, I liked how the conversation got so vague on his part as it went on.
 

@@ -6,6 +6,8 @@ require_once __DIR__ . '/config.php';
 $articleMap = [];
 $categoryMap = [];
 
+$script = isset($_GET['cloud']) ? 'cloudindex.js' : 'index.js';
+
 function sanitizeFileName(string $s): string {
     $t = iconv('UTF-8', 'ASCII//TRANSLIT//IGNORE', $s);
     if ($t !== false) $s = $t;
@@ -222,7 +224,7 @@ if ($is404) {
             <h2><a class="read-more" href="/<?= $fullUrl ?>"><?= $filename ?></a></h2>
         </div>
         <?php } ?>
-        <p id="footer">Download this entire website & the text files on the <a href="https://archive.org/details/aajonusnet"><b>Internet Archive</b></a> or <a href="https://github.com/aajonusnet/aajonusnet"><b>GitHub</b></a>.</p>
+        <hr><p id="footer"><a href="/about">About & Contact</a> | <a href="https://github.com/aajonusnet/aajonusnet">GitHub</a> | <a href="https://archive.org/details/aajonusnet">Internet Archive</a> | <a href="https://t.me/aajonus">Telegram</a> | <a href="https://notebooklm.google.com/notebook/6971430c-737f-4620-9d51-3b9ede4bf216">NotebookLM</a></p>
         </div>
     <div id="results"></div>
     </main>
@@ -283,6 +285,6 @@ if ($is404) {
         <?= isset($_GET['s']) ? '<button id="remove-highlights"><span class="x">×</span>Highlights</button>' : '' ?>
         <script defer src="/code/findonpage.js"></script>
     <?php } ?>
-    <script defer src="/code/index.js?v=1" id="main-js" data-cache="<?= $cacheHours ?>"></script>
+    <script defer src="/code/<?= $script ?>?v=1" id="main-js" data-cache="<?= $cacheHours ?>"></script>
 </body>
 </html>

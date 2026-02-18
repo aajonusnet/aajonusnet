@@ -1587,7 +1587,7 @@ Q: What was the original board that you're talking about?
 
 A: The Price Pottenger Foundation.
 
-Q: Oh, this is the Western Price Foundation.
+Q: Oh, this is the Weston Price Foundation.
 
 Q: I thought they were basically the same thing.
 

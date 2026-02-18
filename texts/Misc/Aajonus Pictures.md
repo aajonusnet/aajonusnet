@@ -109,6 +109,7 @@ Dick (Aajonus), Dave, Doug:
 ![[aajonus_59.jpg]]
 ![[aajonus_60.jpg]]
 ![[aajonus_61.jpg]]
+![[aajonus_62.jpg]]
 
 Aajonus Drawings:
 
