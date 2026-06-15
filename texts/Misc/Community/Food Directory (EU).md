@@ -148,6 +148,17 @@ Pork Meat 🐷 (Berkshire x Duroc)
 
 https://www.charolais-neuwulmstorf.bio/
 
+**Corte Preziosa** - Italy 🇮🇹
+
+- No vaccines (Extremely rare) ✅
+- No antibiotics or medications ✅
+- Grass-fed ✅
+- Fresh (not frozen) ✅
+- ⚠️ "No vaccine" marketing claim dubious, given mandatory vaccine laws in Italy
+- 🇫🇷 Cows from France, raised in Italy
+
+https://cortepreziosa.com/
+
 **Jolanda de Colo** - Italy 🇮🇹 (ships 🇪🇺EU wide)
 
 - Grass-fed ✅
@@ -367,6 +378,11 @@ https://www.ortodirosolino.it
 
 https://www.lanuovaarca.org/cosa-facciamo/agricoltura-biologica-e-sociale/i-nostri-prodotti/
 
+**I Frutti Del Sole (Sicily)** - Italy 🇮🇹
+🍊🍓🥝🍉 Orange, Papaya, Strawberries, Kiwi, Grapefruit, Pomegranate, Melon
+
+https://www.ifruttidelsole.it/it/cat/frutta-e-ortaggi
+
 ---
 
 ## 🫒 Extravirgin Olive Oil
@@ -460,6 +476,10 @@ https://www.holz-leute.de/buersten-rasur/koerperbuersten/zahnbuerste-natur-dachs
 https://www.purenature.de/nachhaltige-holzzahnbuerste
 
 https://www.purenature.de/naturzahnbuerste-mit-dachshaar
+
+**Stastny Buersten** - Austria 🇦🇹 (ships EU wide)
+
+https://www.stastny-buersten.at/produkte/koerperpflege?filter_catid=121&search=&sortby=&pricefrom=0&priceto=150
 
 ---
 

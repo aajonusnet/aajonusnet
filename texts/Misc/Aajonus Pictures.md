@@ -110,6 +110,23 @@ Dick (Aajonus), Dave, Doug:
 ![[aajonus_60.jpg]]
 ![[aajonus_61.jpg]]
 ![[aajonus_62.jpg]]
+![[aajonus_63.jpg]]
+![[aajonus_64.jpg]]
+![[aajonus_65.jpg]]
+![[aajonus_66.jpg]]
+![[aajonus_67.jpg]]
+
+With Anna Maria:
+
+![[aajonus_68.jpg]]
+
+With Lucy Nicole Purling:
+
+![[aajonus_69.jpg]]
+
+Interview with C'esca Lawrence:
+
+![[aajonus_cesca.jpg]]
 
 Aajonus Drawings:
 
@@ -118,6 +135,7 @@ Aajonus Drawings:
 ![[aajonus_drawing3.jpg]]
 ![[aajonus_drawing4.jpg]]
 
+![[rawesome_sign.jpg]]
 ![[primaldiet.jpg]]
 ![[primaldietnewsletter.jpg]]
 ![[bookcover_wwtl.jpg]]

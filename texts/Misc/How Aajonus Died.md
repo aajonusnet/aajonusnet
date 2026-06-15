@@ -80,6 +80,12 @@ In Death As In Life, Controversy Follows Aajonus Vonderplanitz
 
 [Link to David Gumpert’s website](https://web.archive.org/web/20150810231012/https://davidgumpert.com/in-death-as-in-life-controversy-follows-aajonus-vonderplanitz)
 
+### Tribute by Noah James Hittner
+
+In Loving Memory of Aajonus Vonderplanitz…
+
+[Link to Noah James Hittner's website](https://web.archive.org/web/20131113162913/http://www.noahjameshittner.com/2013/08/30/in-loving-memory-of-aajonus-vonderplanitz-blog-18)
+
 ### Comments by Mark McAfee of Organic Pastures
 
 > It is with shock and sadness that I hear of his untimely death. Although I did not agree with all of what Aajonus did …no one can say that he was not an original. I thank him for investing at OPDC as one of our earliest investors and I thank my Karmal soul that he was thanked and repaid in full many years ago.

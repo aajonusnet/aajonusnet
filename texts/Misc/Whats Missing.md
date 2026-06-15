@@ -8,6 +8,9 @@ Unknown
 1983
 - You Are What You Eat, Disney Epcot TV Magazine
 
+2001
+- October - "A New View" with C'esca Lawrence. [(link)](https://web.archive.org/web/20011006035141/http://www.newviewtv.com/channel13x.htm)
+
 2008
 - September 6–9 – Aspen/Carbondale, CO: Lecture, workshop, potluck, and iridology consults.
 - September 27–29 – Edmonton, Canada event. - UNCLEAR if this ever happened.
