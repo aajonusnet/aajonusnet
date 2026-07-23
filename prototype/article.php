@@ -1746,7 +1746,149 @@ mark.hit.current {
     }
 }
 
+
+/* RESULT SET NAVIGATION V2 */
+
+.result-set-navigation {
+    display: grid;
+
+    width: min(100%, 1180px);
+
+    grid-template-columns:
+        minmax(0, 1fr)
+        auto
+        minmax(0, 1fr);
+
+    gap: 12px;
+
+    margin:
+        26px auto 12px;
+}
+
+.result-set-link,
+.result-set-position {
+    min-width: 0;
+
+    border:
+        1px solid var(--line2);
+
+    background:
+        rgba(
+            255,
+            253,
+            247,
+            0.68
+        );
+}
+
+.result-set-link {
+    display: flex;
+
+    min-height: 82px;
+
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 14px 17px;
+
+    text-decoration: none;
+}
+
+.result-set-link.next {
+    align-items: flex-end;
+    text-align: right;
+}
+
+.result-set-link:hover {
+    border-color: var(--ink);
+    background: var(--sheet);
+}
+
+.result-set-direction {
+    color: var(--rust);
+
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+
+    text-transform: uppercase;
+}
+
+.result-set-title {
+    display: block;
+
+    max-width: 100%;
+
+    margin-top: 8px;
+
+    overflow: hidden;
+
+    font:
+        18px/1.25 Georgia,
+        "Times New Roman",
+        serif;
+
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.result-set-position {
+    display: grid;
+
+    min-width: 145px;
+
+    place-items: center;
+
+    padding: 12px 18px;
+
+    color: var(--muted);
+
+    font-size: 11px;
+    line-height: 1.4;
+
+    text-align: center;
+}
+
+.result-set-position strong {
+    display: block;
+
+    margin-bottom: 5px;
+
+    color: var(--ink);
+
+    font:
+        22px/1 Georgia,
+        "Times New Roman",
+        serif;
+}
+
+.result-set-placeholder {
+    min-height: 82px;
+}
+
+@media (max-width: 760px) {
+    .result-set-navigation {
+        grid-template-columns:
+            1fr 1fr;
+    }
+
+    .result-set-position {
+        grid-column:
+            1 / -1;
+
+        grid-row: 1;
+    }
+
+    .result-set-title {
+        font-size: 16px;
+        white-space: normal;
+    }
+}
+
 </style>
+<link rel="stylesheet" href="/prototype/reading-progress.css">
+<link rel="stylesheet" href="/prototype/saved-records.css">
+<link rel="stylesheet" href="/prototype/article-notes.css">
 </head>
 
 <body>
@@ -2708,5 +2850,237 @@ window.ARTICLE_DATA = {
 })();
 </script>
 
+
+<script>
+/* RESULT_SET_NAVIGATION_V2 */
+
+(() => {
+    const storageKey =
+        "aajonusArticleContextV1";
+
+    const articleHeader =
+        document.querySelector(
+            ".article-header"
+        );
+
+    if (!articleHeader) {
+        return;
+    }
+
+    let context = null;
+
+    try {
+        context =
+            JSON.parse(
+                sessionStorage.getItem(
+                    storageKey
+                ) || "null"
+            );
+    } catch {
+        context = null;
+    }
+
+    if (
+        !context ||
+        !Array.isArray(
+            context.items
+        ) ||
+        context.items.length < 2
+    ) {
+        return;
+    }
+
+    const normalizePath =
+        value =>
+            value
+                .replace(
+                    /\/+$/,
+                    ""
+                )
+                .toLowerCase();
+
+    const currentPath =
+        normalizePath(
+            window.location.pathname
+        );
+
+    const currentIndex =
+        context.items.findIndex(
+            item => {
+                if (
+                    !item ||
+                    typeof item.url !==
+                        "string"
+                ) {
+                    return false;
+                }
+
+                try {
+                    const url =
+                        new URL(
+                            item.url,
+                            window.location.href
+                        );
+
+                    return (
+                        normalizePath(
+                            url.pathname
+                        ) ===
+                        currentPath
+                    );
+                } catch {
+                    return false;
+                }
+            }
+        );
+
+    if (currentIndex < 0) {
+        return;
+    }
+
+    context.currentIndex =
+        currentIndex;
+
+    sessionStorage.setItem(
+        storageKey,
+        JSON.stringify(
+            context
+        )
+    );
+
+    const navigation =
+        document.createElement(
+            "nav"
+        );
+
+    navigation.className =
+        "result-set-navigation";
+
+    navigation.setAttribute(
+        "aria-label",
+        "Search result navigation"
+    );
+
+    function makeResultLink(
+        item,
+        direction,
+        extraClass
+    ) {
+        if (!item) {
+            const placeholder =
+                document.createElement(
+                    "div"
+                );
+
+            placeholder.className =
+                "result-set-placeholder";
+
+            return placeholder;
+        }
+
+        const link =
+            document.createElement(
+                "a"
+            );
+
+        link.className =
+            `result-set-link ${extraClass}`;
+
+        link.href =
+            item.url;
+
+        const directionLabel =
+            document.createElement(
+                "span"
+            );
+
+        directionLabel.className =
+            "result-set-direction";
+
+        directionLabel.textContent =
+            direction;
+
+        const title =
+            document.createElement(
+                "span"
+            );
+
+        title.className =
+            "result-set-title";
+
+        title.textContent =
+            item.title;
+
+        link.append(
+            directionLabel,
+            title
+        );
+
+        return link;
+    }
+
+    const previous =
+        makeResultLink(
+            context.items[
+                currentIndex - 1
+            ],
+            "← Previous result",
+            "previous"
+        );
+
+    const next =
+        makeResultLink(
+            context.items[
+                currentIndex + 1
+            ],
+            "Next result →",
+            "next"
+        );
+
+    const position =
+        document.createElement(
+            "div"
+        );
+
+    position.className =
+        "result-set-position";
+
+    const number =
+        document.createElement(
+            "strong"
+        );
+
+    number.textContent =
+        `${currentIndex + 1} of ${context.items.length}`;
+
+    const label =
+        document.createElement(
+            "span"
+        );
+
+    label.textContent =
+        "search results";
+
+    position.append(
+        number,
+        label
+    );
+
+    navigation.append(
+        previous,
+        position,
+        next
+    );
+
+    articleHeader.insertAdjacentElement(
+        "afterend",
+        navigation
+    );
+})();
+</script>
+
+<script src="/prototype/reading-progress.js" defer></script>
+<script src="/prototype/article-save.js" defer></script>
+<script src="/prototype/article-notes.js" defer></script>
 </body>
 </html>

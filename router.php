@@ -2,6 +2,8 @@
 
 declare(strict_types=1);
 
+const ARTICLE_ROUTE_CACHE_SECONDS = 300;
+
 $requestPath = parse_url(
     $_SERVER['REQUEST_URI'] ?? '/',
     PHP_URL_PATH
@@ -11,15 +13,24 @@ if (!is_string($requestPath)) {
     $requestPath = '/';
 }
 
-$requestPath = rawurldecode($requestPath);
+$requestPath = rawurldecode(
+    $requestPath
+);
+
 $documentRoot = __DIR__;
-$candidatePath = $documentRoot . $requestPath;
-$resolvedCandidate = realpath($candidatePath);
+$candidatePath =
+    $documentRoot . $requestPath;
+
+$resolvedCandidate =
+    realpath($candidatePath);
 
 if (
     $requestPath !== '/' &&
     $resolvedCandidate !== false &&
-    str_starts_with($resolvedCandidate, $documentRoot) &&
+    str_starts_with(
+        $resolvedCandidate,
+        $documentRoot
+    ) &&
     (
         is_file($resolvedCandidate) ||
         is_dir($resolvedCandidate)
@@ -28,8 +39,9 @@ if (
     return false;
 }
 
-function prototypeSlugify(string $value): string
-{
+function prototypeSlugify(
+    string $value
+): string {
     $value = preg_replace(
         '/\.(md|txt)$/i',
         '',
@@ -66,16 +78,63 @@ function prototypeSlugify(string $value): string
     );
 }
 
-function findPrototypeArticle(
-    string $textsRoot,
-    string $slug
-): ?string {
+function routeCacheIsFresh(
+    string $cacheFile
+): bool {
+    if (!is_file($cacheFile)) {
+        return false;
+    }
+
+    $modifiedTime =
+        filemtime($cacheFile);
+
+    if (!is_int($modifiedTime)) {
+        return false;
+    }
+
+    return (
+        time() - $modifiedTime
+    ) < ARTICLE_ROUTE_CACHE_SECONDS;
+}
+
+function readRouteCache(
+    string $cacheFile
+): ?array {
+    if (!is_file($cacheFile)) {
+        return null;
+    }
+
+    $json =
+        file_get_contents(
+            $cacheFile
+        );
+
+    if (!is_string($json)) {
+        return null;
+    }
+
+    $decoded =
+        json_decode(
+            $json,
+            true
+        );
+
     if (
-        $slug === '' ||
-        !is_dir($textsRoot)
+        !is_array($decoded) ||
+        !isset($decoded['routes']) ||
+        !is_array($decoded['routes'])
     ) {
         return null;
     }
+
+    return $decoded['routes'];
+}
+
+function buildArticleRouteIndex(
+    string $textsRoot,
+    string $cacheFile
+): array {
+    $files = [];
 
     $iterator =
         new RecursiveIteratorIterator(
@@ -90,9 +149,10 @@ function findPrototypeArticle(
             continue;
         }
 
-        $extension = strtolower(
-            $fileInfo->getExtension()
-        );
+        $extension =
+            strtolower(
+                $fileInfo->getExtension()
+            );
 
         if (
             $extension !== 'md' &&
@@ -101,44 +161,258 @@ function findPrototypeArticle(
             continue;
         }
 
-        if (
+        $files[] =
+            $fileInfo->getPathname();
+    }
+
+    sort(
+        $files,
+        SORT_STRING
+    );
+
+    $routes = [];
+    $duplicates = [];
+
+    foreach ($files as $fullPath) {
+        $filename =
+            basename($fullPath);
+
+        $slug =
             prototypeSlugify(
-                $fileInfo->getFilename()
-            ) === $slug
-        ) {
-            return $fileInfo->getPathname();
+                $filename
+            );
+
+        if ($slug === '') {
+            continue;
+        }
+
+        $relativePath =
+            substr(
+                $fullPath,
+                strlen($textsRoot) + 1
+            );
+
+        $relativePath =
+            str_replace(
+                '\\',
+                '/',
+                $relativePath
+            );
+
+        if (isset($routes[$slug])) {
+            $duplicates[$slug][] =
+                $relativePath;
+
+            continue;
+        }
+
+        $routes[$slug] =
+            $relativePath;
+    }
+
+    $cacheDirectory =
+        dirname($cacheFile);
+
+    if (
+        is_dir($cacheDirectory) ||
+        @mkdir(
+            $cacheDirectory,
+            0775,
+            true
+        )
+    ) {
+        $payload =
+            json_encode(
+                [
+                    'generatedAt' =>
+                        gmdate('c'),
+
+                    'recordCount' =>
+                        count($routes),
+
+                    'routes' =>
+                        $routes,
+
+                    'duplicates' =>
+                        $duplicates,
+                ],
+                JSON_UNESCAPED_UNICODE |
+                JSON_UNESCAPED_SLASHES |
+                JSON_PRETTY_PRINT
+            );
+
+        if (is_string($payload)) {
+            $temporaryFile =
+                $cacheFile .
+                '.tmp-' .
+                bin2hex(
+                    random_bytes(4)
+                );
+
+            if (
+                file_put_contents(
+                    $temporaryFile,
+                    $payload,
+                    LOCK_EX
+                ) !== false
+            ) {
+                @rename(
+                    $temporaryFile,
+                    $cacheFile
+                );
+            }
         }
     }
 
-    return null;
+    return $routes;
 }
 
-$segments = array_values(
-    array_filter(
-        explode(
-            '/',
-            trim($requestPath, '/')
-        ),
-        static fn(string $segment): bool =>
-            $segment !== ''
-    )
-);
+function getArticleRouteIndex(
+    string $textsRoot,
+    string $cacheFile,
+    bool $forceRebuild = false
+): array {
+    if (
+        !$forceRebuild &&
+        routeCacheIsFresh(
+            $cacheFile
+        )
+    ) {
+        $cachedRoutes =
+            readRouteCache(
+                $cacheFile
+            );
 
-$requestedSlug = $segments === []
-    ? ''
-    : (string) end($segments);
+        if (is_array($cachedRoutes)) {
+            return $cachedRoutes;
+        }
+    }
 
-$textsRoot = realpath(
-    __DIR__ . '/texts'
-);
+    return buildArticleRouteIndex(
+        $textsRoot,
+        $cacheFile
+    );
+}
+
+function resolveArticleFromSlug(
+    string $textsRoot,
+    string $cacheFile,
+    string $slug
+): ?string {
+    if ($slug === '') {
+        return null;
+    }
+
+    $routes =
+        getArticleRouteIndex(
+            $textsRoot,
+            $cacheFile
+        );
+
+    $relativePath =
+        $routes[$slug] ?? null;
+
+    if (is_string($relativePath)) {
+        $fullPath =
+            realpath(
+                $textsRoot .
+                DIRECTORY_SEPARATOR .
+                $relativePath
+            );
+
+        if (
+            is_string($fullPath) &&
+            is_file($fullPath) &&
+            str_starts_with(
+                $fullPath,
+                $textsRoot .
+                    DIRECTORY_SEPARATOR
+            )
+        ) {
+            return $fullPath;
+        }
+    }
+
+    /*
+     * The cached map might be stale after
+     * adding or renaming an archive file.
+     * Rebuild once before returning no match.
+     */
+    $routes =
+        getArticleRouteIndex(
+            $textsRoot,
+            $cacheFile,
+            true
+        );
+
+    $relativePath =
+        $routes[$slug] ?? null;
+
+    if (!is_string($relativePath)) {
+        return null;
+    }
+
+    $fullPath =
+        realpath(
+            $textsRoot .
+            DIRECTORY_SEPARATOR .
+            $relativePath
+        );
+
+    if (
+        !is_string($fullPath) ||
+        !is_file($fullPath) ||
+        !str_starts_with(
+            $fullPath,
+            $textsRoot .
+                DIRECTORY_SEPARATOR
+        )
+    ) {
+        return null;
+    }
+
+    return $fullPath;
+}
+
+$segments =
+    array_values(
+        array_filter(
+            explode(
+                '/',
+                trim(
+                    $requestPath,
+                    '/'
+                )
+            ),
+            static fn(
+                string $segment
+            ): bool =>
+                $segment !== ''
+        )
+    );
+
+$requestedSlug =
+    $segments === []
+        ? ''
+        : (string) end($segments);
+
+$textsRoot =
+    realpath(
+        __DIR__ . '/texts'
+    );
+
+$routeCacheFile =
+    __DIR__ .
+    '/code/.cache/article-routes.json';
 
 if (
     $textsRoot !== false &&
     $requestedSlug !== ''
 ) {
     $matchedArticle =
-        findPrototypeArticle(
+        resolveArticleFromSlug(
             $textsRoot,
+            $routeCacheFile,
             $requestedSlug
         );
 

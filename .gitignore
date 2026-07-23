@@ -5,3 +5,6 @@
 .Trashes
 __MACOSX
 *.m4a
+
+# Generated archive search cache
+code/.cache/

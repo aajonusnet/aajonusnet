@@ -550,9 +550,9 @@ function saveArchiveToCache(
 async function fetchArchiveWithProgress() {
     const response =
         await fetch(
-            "../code/loadsearch.php",
+            "../code/loadsearch-fast.php",
             {
-                cache: "no-store"
+                cache: "default"
             }
         );
 
@@ -2479,6 +2479,9 @@ async function loadArchive() {
 const ARCHIVE_STATE_KEY =
     "aajonusArchiveStateV1";
 
+const ARTICLE_CONTEXT_KEY =
+    "aajonusArticleContextV1";
+
 function saveArchiveState() {
     const savedState = {
         query: state.query,
@@ -2664,10 +2667,891 @@ document.addEventListener(
     }
 );
 
+
+function saveArticleResultContext(
+    articleLink
+) {
+    const analysis =
+        searchAnalysis();
+
+    const items =
+        analysis.matches.map(
+            record => {
+                const url =
+                    new URL(
+                        buildArticleUrl(
+                            record
+                        ),
+                        window.location.href
+                    );
+
+                return {
+                    title:
+                        record.title,
+
+                    url:
+                        url.href
+                };
+            }
+        );
+
+    const clickedUrl =
+        new URL(
+            articleLink.href,
+            window.location.href
+        );
+
+    const currentIndex =
+        items.findIndex(
+            item => {
+                const itemUrl =
+                    new URL(
+                        item.url,
+                        window.location.href
+                    );
+
+                return (
+                    itemUrl.pathname ===
+                    clickedUrl.pathname
+                );
+            }
+        );
+
+    if (currentIndex < 0) {
+        return;
+    }
+
+    sessionStorage.setItem(
+        ARTICLE_CONTEXT_KEY,
+        JSON.stringify({
+            items,
+            currentIndex,
+            savedAt:
+                Date.now()
+        })
+    );
+}
+
+document.addEventListener(
+    "click",
+    event => {
+        if (
+            !(
+                event.target
+                instanceof Element
+            )
+        ) {
+            return;
+        }
+
+        const articleLink =
+            event.target.closest(
+                ".record-main h3 a"
+            );
+
+        if (!articleLink) {
+            return;
+        }
+
+        saveArticleResultContext(
+            articleLink
+        );
+    }
+);
+
 window.addEventListener(
     "pagehide",
     saveArchiveState
 );
+
+
+/* SHAREABLE_ARCHIVE_VIEW_URLS_V1 */
+
+let archiveUrlStateApplied =
+    false;
+
+let archiveUrlSyncReady =
+    false;
+
+let archiveUrlSyncTimer =
+    null;
+
+function archiveUrlContainsState(
+    parameters
+) {
+    return [
+        "q",
+        "topic",
+        "format",
+        "year",
+        "source",
+        "status",
+        "exact",
+        "page"
+    ].some(
+        key =>
+            parameters.has(key)
+    );
+}
+
+function updateArchiveControlsFromState() {
+    elements.search.value =
+        state.query;
+
+    if (elements.year) {
+        elements.year.value =
+            state.year;
+
+        if (
+            elements.year.value !==
+            state.year
+        ) {
+            state.year =
+                "All";
+
+            elements.year.value =
+                "All";
+        }
+    }
+
+    if (elements.source) {
+        elements.source.value =
+            state.source;
+
+        if (
+            elements.source.value !==
+            state.source
+        ) {
+            state.source =
+                "All";
+
+            elements.source.value =
+                "All";
+        }
+    }
+
+    if (elements.status) {
+        elements.status.value =
+            state.status;
+
+        if (
+            elements.status.value !==
+            state.status
+        ) {
+            state.status =
+                "All";
+
+            elements.status.value =
+                "All";
+        }
+    }
+
+    const formatButtons = [
+        ...document.querySelectorAll(
+            ".format-option"
+        )
+    ];
+
+    const formatExists =
+        formatButtons.some(
+            button =>
+                button.dataset.format ===
+                state.format
+        );
+
+    if (!formatExists) {
+        state.format =
+            "All";
+    }
+
+    formatButtons.forEach(
+        button => {
+            button.classList.toggle(
+                "active",
+                button.dataset.format ===
+                    state.format
+            );
+        }
+    );
+
+    const topicButtons = [
+        ...document.querySelectorAll(
+            ".topic-chip"
+        )
+    ];
+
+    const topicExists =
+        !state.topic ||
+        topicButtons.some(
+            button =>
+                button.dataset.topic ===
+                state.topic
+        );
+
+    if (!topicExists) {
+        state.topic = "";
+    }
+
+    topicButtons.forEach(
+        button => {
+            button.classList.toggle(
+                "active",
+                state.topic !== "" &&
+                button.dataset.topic ===
+                    state.topic
+            );
+        }
+    );
+}
+
+function applyArchiveStateFromUrl(
+    useDefaultsWhenEmpty = false
+) {
+    const parameters =
+        new URLSearchParams(
+            window.location.search
+        );
+
+    const hasState =
+        archiveUrlContainsState(
+            parameters
+        );
+
+    if (
+        !hasState &&
+        !useDefaultsWhenEmpty
+    ) {
+        return false;
+    }
+
+    state.query =
+        hasState
+            ? (
+                parameters.get("q") ||
+                ""
+            ).trim()
+            : "";
+
+    state.topic =
+        hasState
+            ? (
+                parameters.get(
+                    "topic"
+                ) || ""
+            )
+            : "";
+
+    state.format =
+        hasState
+            ? (
+                parameters.get(
+                    "format"
+                ) || "All"
+            )
+            : "All";
+
+    state.year =
+        hasState
+            ? (
+                parameters.get(
+                    "year"
+                ) || "All"
+            )
+            : "All";
+
+    state.source =
+        hasState
+            ? (
+                parameters.get(
+                    "source"
+                ) || "All"
+            )
+            : "All";
+
+    state.status =
+        hasState
+            ? (
+                parameters.get(
+                    "status"
+                ) || "All"
+            )
+            : "All";
+
+    state.exactPhraseOnly =
+        hasState &&
+        parameters.get("exact") ===
+            "1";
+
+    const requestedPage =
+        Number.parseInt(
+            parameters.get("page") ||
+                "1",
+            10
+        );
+
+    state.page =
+        Number.isInteger(
+            requestedPage
+        ) &&
+        requestedPage > 0
+            ? requestedPage
+            : 1;
+
+    state.pageSize = 20;
+
+    updateArchiveControlsFromState();
+
+    return hasState;
+}
+
+function buildArchiveViewUrl() {
+    const url =
+        new URL(
+            window.location.href
+        );
+
+    const parameters =
+        new URLSearchParams();
+
+    if (state.query) {
+        parameters.set(
+            "q",
+            state.query
+        );
+    }
+
+    if (state.topic) {
+        parameters.set(
+            "topic",
+            state.topic
+        );
+    }
+
+    if (
+        state.format !==
+        "All"
+    ) {
+        parameters.set(
+            "format",
+            state.format
+        );
+    }
+
+    if (
+        state.year !==
+        "All"
+    ) {
+        parameters.set(
+            "year",
+            state.year
+        );
+    }
+
+    if (
+        state.source !==
+        "All"
+    ) {
+        parameters.set(
+            "source",
+            state.source
+        );
+    }
+
+    if (
+        state.status !==
+        "All"
+    ) {
+        parameters.set(
+            "status",
+            state.status
+        );
+    }
+
+    if (
+        state.exactPhraseOnly
+    ) {
+        parameters.set(
+            "exact",
+            "1"
+        );
+    }
+
+    if (state.page > 1) {
+        parameters.set(
+            "page",
+            String(state.page)
+        );
+    }
+
+    url.search =
+        parameters.toString();
+
+    url.hash = "";
+
+    return url;
+}
+
+function syncArchiveViewUrl() {
+    if (!archiveUrlSyncReady) {
+        return;
+    }
+
+    const url =
+        buildArchiveViewUrl();
+
+    history.replaceState(
+        {
+            archiveView: true
+        },
+        "",
+        url
+    );
+}
+
+function queueArchiveUrlSync() {
+    clearTimeout(
+        archiveUrlSyncTimer
+    );
+
+    archiveUrlSyncTimer =
+        setTimeout(
+            syncArchiveViewUrl,
+            60
+        );
+}
+
+function ensureCopyViewLinkButton() {
+    if (
+        document.getElementById(
+            "copyArchiveViewLink"
+        )
+    ) {
+        return;
+    }
+
+    const statusRow =
+        document.querySelector(
+            ".search-status-row"
+        );
+
+    if (!statusRow) {
+        return;
+    }
+
+    const button =
+        document.createElement(
+            "button"
+        );
+
+    button.id =
+        "copyArchiveViewLink";
+
+    button.type =
+        "button";
+
+    button.className =
+        "search-clear";
+
+    button.textContent =
+        "Copy view link";
+
+    button.addEventListener(
+        "click",
+        async () => {
+            syncArchiveViewUrl();
+
+            try {
+                await navigator
+                    .clipboard
+                    .writeText(
+                        window.location.href
+                    );
+
+                button.textContent =
+                    "View link copied";
+            } catch {
+                button.textContent =
+                    "Copy failed";
+            }
+
+            setTimeout(
+                () => {
+                    button.textContent =
+                        "Copy view link";
+                },
+                1500
+            );
+        }
+    );
+
+    if (elements.clearSearch) {
+        statusRow.insertBefore(
+            button,
+            elements.clearSearch
+        );
+    } else {
+        statusRow.appendChild(
+            button
+        );
+    }
+}
+
+const renderBeforeArchiveUrlSync =
+    render;
+
+render = function () {
+    renderBeforeArchiveUrlSync();
+
+    if (archiveUrlSyncReady) {
+        queueArchiveUrlSync();
+    }
+};
+
+const applyArchiveBeforeUrlState =
+    applyArchive;
+
+applyArchive = async function (
+    archiveObject,
+    sourceLabel
+) {
+    await applyArchiveBeforeUrlState(
+        archiveObject,
+        sourceLabel
+    );
+
+    if (!archiveUrlStateApplied) {
+        const restoredFromUrl =
+            applyArchiveStateFromUrl(
+                false
+            );
+
+        archiveUrlStateApplied =
+            true;
+
+        archiveUrlSyncReady =
+            true;
+
+        ensureCopyViewLinkButton();
+
+        if (restoredFromUrl) {
+            render();
+        } else {
+            syncArchiveViewUrl();
+        }
+    }
+};
+
+window.addEventListener(
+    "popstate",
+    () => {
+        if (!records.length) {
+            return;
+        }
+
+        archiveUrlSyncReady =
+            false;
+
+        applyArchiveStateFromUrl(
+            true
+        );
+
+        render();
+
+        archiveUrlSyncReady =
+            true;
+    }
+);
+
+
+/* METADATA_FIRST_ARCHIVE_LOADING_V1 */
+
+let fullTextSearchReady =
+    false;
+
+let fullTextLoadingFailed =
+    false;
+
+function appendArchiveLoadingStatus() {
+    if (
+        fullTextSearchReady ||
+        !records.length
+    ) {
+        return;
+    }
+
+    const message =
+        fullTextLoadingFailed
+            ? " Full-text search is unavailable. Title and filename search still work."
+            : " Full-text search is loading in the background.";
+
+    if (
+        !elements.feedback
+            .textContent
+            .includes(message.trim())
+    ) {
+        elements.feedback.textContent +=
+            message;
+    }
+}
+
+const renderBeforeMetadataStatus =
+    render;
+
+render = function () {
+    renderBeforeMetadataStatus();
+
+    appendArchiveLoadingStatus();
+};
+
+async function fetchArchiveMetadata() {
+    const response =
+        await fetch(
+            "../code/loadsearch-meta.php",
+            {
+                cache: "default"
+            }
+        );
+
+    if (!response.ok) {
+        throw new Error(
+            `Archive metadata request failed with status ${response.status}.`
+        );
+    }
+
+    return response.json();
+}
+
+async function fetchFullArchiveSilently() {
+    const response =
+        await fetch(
+            "../code/loadsearch-fast.php",
+            {
+                cache: "default"
+            }
+        );
+
+    if (!response.ok) {
+        throw new Error(
+            `Full archive request failed with status ${response.status}.`
+        );
+    }
+
+    return response.json();
+}
+
+function synchronizeControlsAfterUpgrade() {
+    if (
+        typeof updateArchiveControlsFromState ===
+        "function"
+    ) {
+        updateArchiveControlsFromState();
+
+        return;
+    }
+
+    elements.search.value =
+        state.query;
+
+    elements.year.value =
+        state.year;
+
+    elements.source.value =
+        state.source;
+
+    elements.status.value =
+        state.status;
+
+    document
+        .querySelectorAll(
+            ".format-option"
+        )
+        .forEach(
+            button => {
+                button.classList.toggle(
+                    "active",
+                    button.dataset.format ===
+                        state.format
+                );
+            }
+        );
+
+    document
+        .querySelectorAll(
+            ".topic-chip"
+        )
+        .forEach(
+            button => {
+                button.classList.toggle(
+                    "active",
+                    button.dataset.topic ===
+                        state.topic
+                );
+            }
+        );
+}
+
+async function upgradeToFullTextArchive(
+    archiveObject
+) {
+    const savedState = {
+        query:
+            state.query,
+
+        topic:
+            state.topic,
+
+        format:
+            state.format,
+
+        year:
+            state.year,
+
+        source:
+            state.source,
+
+        status:
+            state.status,
+
+        exactPhraseOnly:
+            state.exactPhraseOnly,
+
+        page:
+            state.page,
+
+        pageSize:
+            state.pageSize
+    };
+
+    const savedScrollPosition =
+        window.scrollY;
+
+    records =
+        transformArchive(
+            archiveObject
+        );
+
+    updateFormatControls();
+    updateSelectControls();
+
+    Object.assign(
+        state,
+        savedState
+    );
+
+    fullTextSearchReady =
+        true;
+
+    fullTextLoadingFailed =
+        false;
+
+    synchronizeControlsAfterUpgrade();
+
+    setReady();
+    render();
+
+    requestAnimationFrame(
+        () => {
+            window.scrollTo(
+                0,
+                savedScrollPosition
+            );
+        }
+    );
+}
+
+loadArchive = async function () {
+    try {
+        setLoading(
+            "Opening archive…"
+        );
+
+        if (!searchDatabase) {
+            searchDatabase =
+                await openSearchDatabase();
+        }
+
+        const cachedArchive =
+            await readCachedArchive();
+
+        if (cachedArchive) {
+            fullTextSearchReady =
+                true;
+
+            fullTextLoadingFailed =
+                false;
+
+            await applyArchive(
+                cachedArchive,
+                "cache"
+            );
+
+            return;
+        }
+
+        fullTextSearchReady =
+            false;
+
+        fullTextLoadingFailed =
+            false;
+
+        const fullArchiveRequest =
+            fetchFullArchiveSilently()
+                .then(
+                    archiveObject => ({
+                        archiveObject,
+                        error: null
+                    })
+                )
+                .catch(
+                    error => ({
+                        archiveObject:
+                            null,
+                        error
+                    })
+                );
+
+        setLoading(
+            "Opening archive index…"
+        );
+
+        const metadataArchive =
+            await fetchArchiveMetadata();
+
+        await applyArchive(
+            metadataArchive,
+            "metadata"
+        );
+
+        const fullArchiveResult =
+            await fullArchiveRequest;
+
+        if (
+            fullArchiveResult.error ||
+            !fullArchiveResult.archiveObject
+        ) {
+            console.error(
+                fullArchiveResult.error
+            );
+
+            fullTextLoadingFailed =
+                true;
+
+            render();
+
+            return;
+        }
+
+        await saveArchiveToCache(
+            fullArchiveResult.archiveObject
+        );
+
+        await upgradeToFullTextArchive(
+            fullArchiveResult.archiveObject
+        );
+    } catch (error) {
+        setLoadError(error);
+    }
+};
 
 ensurePaginationControls();
 attachInterfaceEvents();

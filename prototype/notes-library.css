@@ -1,0 +1,254 @@
+/* Homepage research-notes library */
+
+.notes-library {
+    margin: 0 0 28px;
+    padding: 20px;
+
+    border: 1px solid var(--line-dark, #9d9384);
+    background: var(--sheet, #fffdf7);
+}
+
+.notes-library-header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 18px;
+
+    padding-bottom: 17px;
+
+    border-bottom: 1px solid var(--line, #cfc5b4);
+}
+
+.notes-library-kicker {
+    margin: 0;
+
+    color: var(--rust, #9f3d2e);
+
+    font-size: 9px;
+    font-weight: 800;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+}
+
+.notes-library-title {
+    margin: 7px 0 0;
+
+    font:
+        30px/1.05 Georgia,
+        "Times New Roman",
+        serif;
+}
+
+.notes-library-tools {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.notes-library-button {
+    padding: 10px 12px;
+
+    border: 1px solid var(--ink, #27231f);
+    background: transparent;
+    color: var(--ink, #27231f);
+
+    cursor: pointer;
+
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.notes-library-button:hover {
+    background: var(--ink, #27231f);
+    color: var(--sheet, #fffdf7);
+}
+
+.notes-library-button.danger {
+    border-color: var(--rust, #9f3d2e);
+    color: var(--rust, #9f3d2e);
+}
+
+.notes-library-button.danger:hover {
+    background: var(--rust, #9f3d2e);
+    color: var(--sheet, #fffdf7);
+}
+
+.notes-library-search {
+    display: block;
+
+    width: 100%;
+
+    margin-top: 16px;
+    padding: 12px 13px;
+
+    border: 1px solid var(--line-dark, #9d9384);
+    border-radius: 0;
+
+    background: var(--paper, #f5f0e5);
+    color: var(--ink, #27231f);
+
+    outline: none;
+
+    font-size: 13px;
+}
+
+.notes-library-search:focus {
+    border-color: var(--ink, #27231f);
+}
+
+.notes-library-count {
+    margin: 10px 0 0;
+
+    color: var(--muted, #70685e);
+
+    font-size: 10px;
+}
+
+.notes-library-list {
+    display: grid;
+    grid-template-columns:
+        repeat(
+            2,
+            minmax(0, 1fr)
+        );
+
+    margin: 16px 0 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.notes-library-item {
+    min-width: 0;
+    padding: 18px 0;
+
+    border-bottom: 1px solid var(--line, #cfc5b4);
+}
+
+.notes-library-item:nth-child(odd) {
+    padding-right: 20px;
+}
+
+.notes-library-item:nth-child(even) {
+    padding-left: 20px;
+    border-left: 1px solid var(--line, #cfc5b4);
+}
+
+.notes-library-item-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.notes-library-item-title {
+    color: var(--ink, #27231f);
+
+    font:
+        20px/1.2 Georgia,
+        "Times New Roman",
+        serif;
+
+    text-decoration: none;
+}
+
+.notes-library-item-title:hover {
+    color: var(--rust, #9f3d2e);
+}
+
+.notes-library-date {
+    flex: 0 0 auto;
+
+    color: var(--muted, #70685e);
+
+    font-size: 9px;
+    line-height: 1.4;
+    text-align: right;
+}
+
+.notes-library-preview {
+    display: -webkit-box;
+
+    margin: 12px 0 0;
+
+    overflow: hidden;
+
+    color: var(--muted, #70685e);
+
+    font:
+        14px/1.55 Georgia,
+        "Times New Roman",
+        serif;
+
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+}
+
+.notes-library-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+
+    margin-top: 13px;
+}
+
+.notes-library-action {
+    padding: 8px 10px;
+
+    border: 1px solid var(--line-dark, #9d9384);
+    background: transparent;
+    color: var(--ink, #27231f);
+
+    cursor: pointer;
+
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.notes-library-action:hover {
+    border-color: var(--ink, #27231f);
+    background: var(--ink, #27231f);
+    color: var(--sheet, #fffdf7);
+}
+
+.notes-library-empty {
+    grid-column: 1 / -1;
+
+    margin: 0;
+    padding: 26px 0;
+
+    color: var(--muted, #70685e);
+
+    font:
+        16px/1.5 Georgia,
+        "Times New Roman",
+        serif;
+}
+
+@media (max-width: 780px) {
+    .notes-library-list {
+        grid-template-columns: 1fr;
+    }
+
+    .notes-library-item:nth-child(odd),
+    .notes-library-item:nth-child(even) {
+        padding-right: 0;
+        padding-left: 0;
+        border-left: 0;
+    }
+
+    .notes-library-item-header {
+        flex-direction: column;
+    }
+
+    .notes-library-date {
+        text-align: left;
+    }
+}
