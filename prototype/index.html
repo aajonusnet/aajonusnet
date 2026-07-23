@@ -868,6 +868,39 @@ h1 {
         flex-direction: column;
     }
 }
+
+.search-status-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    margin-top: 12px;
+    color: var(--muted);
+    font-size: 12px;
+}
+
+.search-status-row p {
+    margin: 0;
+}
+
+.search-clear {
+    padding: 2px 0;
+    border: 0;
+    border-bottom: 1px solid var(--ink);
+    background: transparent;
+    color: var(--ink);
+    cursor: pointer;
+    font-size: 11px;
+}
+
+.record-main h3 a {
+    text-decoration: none;
+}
+
+.record-main h3 a:hover {
+    color: var(--rust);
+}
+
 </style>
 </head>
 
@@ -943,10 +976,15 @@ h1 {
                 placeholder="Search transcripts, books, topics, and dates"
             >
 
-            <button id="clearSearch" type="button">
-                Clear
+           <button id="submitSearch" type="button">Search</button>
+        </div>
+        <div class="search-status-row">
+            <p id="searchFeedback">Loading the archive…</p>
+            <button id="clearSearch" class="search-clear" type="button" hidden>
+                Clear search
             </button>
         </div>
+
 
         <div class="topic-strip" aria-label="Popular topics">
             <button class="topic-chip" data-topic="raw milk">
@@ -1345,488 +1383,6 @@ h1 {
     </footer>
 </main>
 
-<script>
-const records = [
-    {
-        title:
-            "Primal Diet Workshop and Q&A of June 22, 2013",
-        date: "Jun 22, 2013",
-        year: "2013",
-        format: "Q&A",
-        source: "Workshop",
-        status: "Complete",
-        topics: ["digestion", "meat", "raw milk"],
-        note:
-            "Workshop transcript with audience questions and topic markers."
-    },
-    {
-        title: "Q&A of June 16, 2013",
-        date: "Jun 16, 2013",
-        year: "2013",
-        format: "Q&A",
-        source: "Workshop",
-        status: "Complete",
-        topics: [
-            "fasting",
-            "detoxification",
-            "digestion"
-        ],
-        note:
-            "Question-and-answer transcript with source recording."
-    },
-    {
-        title:
-            "Primal Diet Workshop and Q&A of June 1, 2013",
-        date: "Jun 1, 2013",
-        year: "2013",
-        format: "Q&A",
-        source: "Workshop",
-        status: "Partial",
-        topics: ["meat", "digestion"],
-        note:
-            "Workshop record with a partially reviewed transcript."
-    },
-    {
-        title: "Q&A of May 26, 2013",
-        date: "May 26, 2013",
-        year: "2013",
-        format: "Q&A",
-        source: "Workshop",
-        status: "Complete",
-        topics: ["raw milk", "fasting"],
-        note:
-            "Audience questions organized by subject."
-    },
-    {
-        title: "Radio Interview on Food and Nutrition",
-        date: "Aug 2009",
-        year: "2009",
-        format: "Interview",
-        source: "Radio",
-        status: "Complete",
-        topics: ["digestion", "meat"],
-        note:
-            "Long-form radio interview with transcript and audio source."
-    },
-    {
-        title: "One Radio Network Interview",
-        date: "2012",
-        year: "2012",
-        format: "Interview",
-        source: "Radio",
-        status: "Partial",
-        topics: ["raw milk", "detoxification"],
-        note:
-            "Interview transcript with sections still under review."
-    },
-    {
-        title: "We Want to Live",
-        date: "Book record",
-        year: "2006",
-        format: "Book",
-        source: "Book",
-        status: "Complete",
-        topics: ["digestion", "meat", "raw milk"],
-        note:
-            "Book-level record with chapter navigation and source information."
-    },
-    {
-        title: "The Recipe for Living Without Disease",
-        date: "Book record",
-        year: "2011",
-        format: "Book",
-        source: "Book",
-        status: "Complete",
-        topics: ["digestion", "detoxification"],
-        note:
-            "Book record presented as searchable chapters."
-    },
-    {
-        title: "Newsletter, Volume 5, Issue 2",
-        date: "2011",
-        year: "2011",
-        format: "Newsletter",
-        source: "Newsletter",
-        status: "Complete",
-        topics: ["farming", "raw milk"],
-        note:
-            "Newsletter issue with original file and corrected text."
-    },
-    {
-        title: "Newsletter Archive Record",
-        date: "2012",
-        year: "2012",
-        format: "Newsletter",
-        source: "Newsletter",
-        status: "Unverified",
-        topics: ["meat", "farming"],
-        note:
-            "Source file preserved while transcription remains unverified."
-    },
-    {
-        title: "What Started Pasteurization?",
-        date: "Source article",
-        year: "2006",
-        format: "Article",
-        source: "RawMilk.org",
-        status: "Source only",
-        topics: ["raw milk", "farming"],
-        note:
-            "Historical article with original source link."
-    },
-    {
-        title:
-            "Raw Milk Is the Only Healthy Milk, Why Has It Been Outlawed?",
-        date: "Source article",
-        year: "2006",
-        format: "Article",
-        source: "RawMilk.org",
-        status: "Source only",
-        topics: ["raw milk"],
-        note:
-            "Source article preserved with citation information."
-    }
-];
-
-const state = {
-    query: "",
-    topic: "",
-    format: "All",
-    year: "All",
-    source: "All",
-    status: "All",
-    limit: 8
-};
-
-const elements = {
-    search: document.getElementById("searchInput"),
-    list: document.getElementById("recordList"),
-    count: document.getElementById("resultsCount"),
-    title: document.getElementById("resultsTitle"),
-    empty: document.getElementById("emptyState"),
-    load: document.getElementById("loadMore"),
-    year: document.getElementById("yearFilter"),
-    source: document.getElementById("sourceFilter"),
-    status: document.getElementById("statusFilter"),
-    filters: document.getElementById("filters")
-};
-
-function escapeHtml(value) {
-    const replacements = {
-        "&": "&amp;",
-        "<": "&lt;",
-        ">": "&gt;",
-        '"': "&quot;",
-        "'": "&#039;"
-    };
-
-    return value.replace(
-        /[&<>"']/g,
-        character => replacements[character]
-    );
-}
-
-function filteredRecords() {
-    const query = state.query.toLowerCase();
-
-    return records.filter(item => {
-        const searchable = [
-            item.title,
-            item.date,
-            item.year,
-            item.format,
-            item.source,
-            item.status,
-            item.note,
-            ...item.topics
-        ].join(" ").toLowerCase();
-
-        return (
-            (!query || searchable.includes(query)) &&
-            (!state.topic ||
-                item.topics.includes(state.topic)) &&
-            (state.format === "All" ||
-                item.format === state.format) &&
-            (state.year === "All" ||
-                item.year === state.year) &&
-            (state.source === "All" ||
-                item.source === state.source) &&
-            (state.status === "All" ||
-                item.status === state.status)
-        );
-    });
-}
-
-function render() {
-    const matches = filteredRecords();
-    const visible = matches.slice(0, state.limit);
-
-    elements.list.innerHTML = visible.map(item => `
-        <li class="record">
-            <div class="record-date">
-                ${escapeHtml(item.date)}
-            </div>
-
-            <div class="record-main">
-                <h3>${escapeHtml(item.title)}</h3>
-
-                <p>${escapeHtml(item.note)}</p>
-
-                <div class="record-meta">
-                    ${item.topics.map(topic => `
-                        <span class="tag">
-                            ${escapeHtml(topic)}
-                        </span>
-                    `).join("")}
-                </div>
-            </div>
-
-            <div class="record-type">
-                <strong>
-                    ${escapeHtml(item.format)}
-                </strong>
-
-                <small>
-                    ${escapeHtml(item.source)}
-                    <br>
-                    ${escapeHtml(item.status)}
-                </small>
-            </div>
-        </li>
-    `).join("");
-
-    elements.count.textContent =
-        `${matches.length} ${
-            matches.length === 1 ? "record" : "records"
-        }`;
-
-    elements.title.textContent =
-        state.format === "All"
-            ? "All records"
-            : state.format;
-
-    elements.empty.style.display =
-        matches.length ? "none" : "block";
-
-    elements.load.style.display =
-        matches.length > state.limit
-            ? "block"
-            : "none";
-}
-
-function resetAll() {
-    Object.assign(state, {
-        query: "",
-        topic: "",
-        format: "All",
-        year: "All",
-        source: "All",
-        status: "All",
-        limit: 8
-    });
-
-    elements.search.value = "";
-    elements.year.value = "All";
-    elements.source.value = "All";
-    elements.status.value = "All";
-
-    document
-        .querySelectorAll(".format-option")
-        .forEach(button => {
-            button.classList.toggle(
-                "active",
-                button.dataset.format === "All"
-            );
-        });
-
-    document
-        .querySelectorAll(".topic-chip")
-        .forEach(button => {
-            button.classList.remove("active");
-        });
-
-    render();
-}
-
-elements.search.addEventListener(
-    "input",
-    event => {
-        state.query = event.target.value.trim();
-        state.limit = 8;
-        render();
-    }
-);
-
-document
-    .getElementById("clearSearch")
-    .addEventListener("click", () => {
-        state.query = "";
-        elements.search.value = "";
-        render();
-        elements.search.focus();
-    });
-
-document
-    .getElementById("clearFilters")
-    .addEventListener("click", resetAll);
-
-elements.year.addEventListener(
-    "change",
-    event => {
-        state.year = event.target.value;
-        render();
-    }
-);
-
-elements.source.addEventListener(
-    "change",
-    event => {
-        state.source = event.target.value;
-        render();
-    }
-);
-
-elements.status.addEventListener(
-    "change",
-    event => {
-        state.status = event.target.value;
-        render();
-    }
-);
-
-elements.load.addEventListener(
-    "click",
-    () => {
-        state.limit += 8;
-        render();
-    }
-);
-
-document
-    .querySelectorAll(".format-option")
-    .forEach(button => {
-        button.addEventListener("click", () => {
-            state.format = button.dataset.format;
-            state.limit = 8;
-
-            document
-                .querySelectorAll(".format-option")
-                .forEach(item => {
-                    item.classList.toggle(
-                        "active",
-                        item === button
-                    );
-                });
-
-            render();
-        });
-    });
-
-document
-    .querySelectorAll(".collection")
-    .forEach(button => {
-        button.addEventListener("click", () => {
-            state.format = button.dataset.format;
-
-            document
-                .querySelectorAll(".format-option")
-                .forEach(item => {
-                    item.classList.toggle(
-                        "active",
-                        item.dataset.format ===
-                            state.format
-                    );
-                });
-
-            render();
-
-            document
-                .getElementById("archive")
-                .scrollIntoView({
-                    behavior: "smooth"
-                });
-        });
-    });
-
-document
-    .querySelectorAll(".topic-chip")
-    .forEach(button => {
-        button.addEventListener("click", () => {
-            const active =
-                button.classList.contains("active");
-
-            document
-                .querySelectorAll(".topic-chip")
-                .forEach(item => {
-                    item.classList.remove("active");
-                });
-
-            state.topic =
-                active ? "" : button.dataset.topic;
-
-            if (!active) {
-                button.classList.add("active");
-            }
-
-            render();
-        });
-    });
-
-document
-    .querySelectorAll("[data-topic-link]")
-    .forEach(link => {
-        link.addEventListener("click", () => {
-            state.topic = link.dataset.topicLink;
-
-            document
-                .querySelectorAll(".topic-chip")
-                .forEach(item => {
-                    item.classList.toggle(
-                        "active",
-                        item.dataset.topic ===
-                            state.topic
-                    );
-                });
-
-            render();
-        });
-    });
-
-document
-    .querySelectorAll("[data-status-link]")
-    .forEach(link => {
-        link.addEventListener("click", () => {
-            state.status =
-                link.dataset.statusLink;
-
-            elements.status.value =
-                state.status;
-
-            render();
-        });
-    });
-
-document
-    .querySelectorAll("[data-year-link]")
-    .forEach(link => {
-        link.addEventListener("click", () => {
-            state.year =
-                link.dataset.yearLink;
-
-            elements.year.value =
-                state.year;
-
-            render();
-        });
-    });
-
-document
-    .getElementById("mobileFilterButton")
-    .addEventListener("click", () => {
-        elements.filters.classList.toggle("open");
-    });
-
-render();
-</script>
+<script src="app.js"></script>
 </body>
 </html>
