@@ -1,0 +1,160 @@
+/* ========================================================================== */
+/* Functional archive timeline                                                */
+/* ========================================================================== */
+
+.timeline-clickable {
+    position: relative;
+
+    cursor: pointer;
+
+    transition:
+        color 170ms ease,
+        background-color 170ms ease,
+        border-color 170ms ease,
+        transform 170ms ease;
+}
+
+.timeline-clickable:hover {
+    transform: translateY(-2px);
+}
+
+.timeline-clickable:focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: 5px;
+}
+
+.timeline-clickable::after {
+    display: block;
+
+    width: max-content;
+
+    margin-top: 9px;
+
+    color: #9f3d2e;
+
+    content: "View records →";
+
+    font-family:
+        Arial,
+        Helvetica,
+        sans-serif;
+    font-size: 8px;
+    font-weight: 800;
+    letter-spacing: 0.11em;
+    text-transform: uppercase;
+
+    opacity: 0;
+
+    transform: translateY(3px);
+
+    transition:
+        opacity 170ms ease,
+        transform 170ms ease;
+}
+
+.timeline-clickable:hover::after,
+.timeline-clickable:focus-visible::after,
+.timeline-clickable.is-active::after {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.timeline-clickable.is-active {
+    color: #9f3d2e;
+}
+
+.timeline-clickable.is-active::after {
+    content: "Viewing this year";
+}
+
+.timeline-clickable.is-active::before {
+    border-color: #9f3d2e !important;
+    background-color: #9f3d2e !important;
+}
+
+.timeline-controls {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    margin: 0 0 14px;
+}
+
+.timeline-clear-year {
+    min-height: 32px;
+    padding: 0 13px;
+
+    border: 1px solid rgba(65, 55, 43, 0.4);
+    background: transparent;
+    color: inherit;
+
+    cursor: pointer;
+
+    font-family:
+        Arial,
+        Helvetica,
+        sans-serif;
+    font-size: 8px;
+    font-weight: 800;
+    letter-spacing: 0.11em;
+    text-transform: uppercase;
+
+    transition:
+        background-color 160ms ease,
+        color 160ms ease,
+        opacity 160ms ease;
+}
+
+.timeline-clear-year:hover,
+.timeline-clear-year:focus-visible {
+    background: #2d2923;
+    color: #fffaf0;
+    outline: none;
+}
+
+.timeline-clear-year[hidden] {
+    display: none;
+}
+
+/* Earthlight */
+
+html[data-display-mode="earthlight"] .timeline-clickable::after {
+    color: #a45135;
+}
+
+html[data-display-mode="earthlight"] .timeline-clickable.is-active {
+    color: #a45135;
+}
+
+html[data-display-mode="earthlight"]
+.timeline-clickable.is-active::before {
+    border-color: #a45135 !important;
+    background-color: #a45135 !important;
+}
+
+html[data-display-mode="earthlight"] .timeline-clear-year {
+    border-color: rgba(52, 82, 59, 0.42);
+    border-radius: 999px;
+
+    color: #35523c;
+}
+
+html[data-display-mode="earthlight"]
+.timeline-clear-year:hover,
+html[data-display-mode="earthlight"]
+.timeline-clear-year:focus-visible {
+    background: #35523c;
+    color: #fffaf0;
+}
+
+/* Mobile */
+
+@media (max-width: 700px) {
+    .timeline-clickable::after {
+        opacity: 0.72;
+    }
+
+    .timeline-controls {
+        justify-content: flex-start;
+    }
+}

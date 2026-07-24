@@ -2,7 +2,8 @@ const CACHE_DB_NAME = "myDatabase";
 const CACHE_DB_VERSION = 1;
 const CACHE_STORE_NAME = "myData";
 const CACHE_KEY = "allData";
-const CACHE_HOURS = 24;
+const CACHE_REFRESH_HOURS = 24;
+let archiveCacheLastCheckedAt = 0;
 
 const state = {
     query: "",
@@ -35,6 +36,7 @@ const elements = {
     year: byId("yearFilter"),
     source: byId("sourceFilter"),
     status: byId("statusFilter"),
+    archive: byId("archive"),
     filters: byId("filters"),
     clearFilters: byId("clearFilters"),
     mobileFilterButton: byId("mobileFilterButton"),
@@ -45,6 +47,104 @@ const elements = {
     previousPage: null,
     nextPage: null
 };
+
+const FILTER_VISIBILITY_KEY =
+    "aajonusFilterVisibilityV1";
+
+function defaultFiltersOpen() {
+    return window.matchMedia(
+        "(min-width: 981px)"
+    ).matches;
+}
+
+function readFiltersOpen() {
+    try {
+        const stored =
+            localStorage.getItem(
+                FILTER_VISIBILITY_KEY
+            );
+
+        if (stored === "open") {
+            return true;
+        }
+
+        if (stored === "closed") {
+            return false;
+        }
+    } catch (error) {
+        console.warn(
+            "Filter visibility preference could not be read.",
+            error
+        );
+    }
+
+    return defaultFiltersOpen();
+}
+
+function setFiltersOpen(
+    isOpen,
+    { persist = true } = {}
+) {
+    if (
+        !elements.filters ||
+        !elements.mobileFilterButton
+    ) {
+        return;
+    }
+
+    elements.filters.classList.toggle(
+        "open",
+        isOpen
+    );
+
+    elements.filters.setAttribute(
+        "aria-hidden",
+        String(!isOpen)
+    );
+
+    elements.mobileFilterButton.setAttribute(
+        "aria-expanded",
+        String(isOpen)
+    );
+
+    elements.mobileFilterButton.setAttribute(
+        "aria-controls",
+        "filters"
+    );
+
+    elements.mobileFilterButton.textContent =
+        isOpen
+            ? "Hide filters"
+            : "Show filters";
+
+    elements.archive?.classList.toggle(
+        "filters-collapsed",
+        !isOpen
+    );
+
+    document.documentElement.classList.toggle(
+        "filters-collapsed",
+        !isOpen
+    );
+
+    if (!persist) {
+        return;
+    }
+
+    try {
+        localStorage.setItem(
+            FILTER_VISIBILITY_KEY,
+            isOpen
+                ? "open"
+                : "closed"
+        );
+    } catch (error) {
+        console.warn(
+            "Filter visibility preference could not be saved.",
+            error
+        );
+    }
+}
 
 function escapeHtml(value) {
     const map = {
@@ -442,6 +542,27 @@ function openSearchDatabase() {
     );
 }
 
+async function requestPersistentArchiveStorage() {
+    if (
+        !navigator.storage ||
+        typeof navigator.storage.persist !==
+            "function"
+    ) {
+        return false;
+    }
+
+    try {
+        return await navigator.storage.persist();
+    } catch (error) {
+        console.warn(
+            "Persistent browser storage was not granted; the archive cache will still work normally.",
+            error
+        );
+
+        return false;
+    }
+}
+
 function readCachedArchive() {
     return new Promise(
         (resolve, reject) => {
@@ -472,10 +593,15 @@ function readCachedArchive() {
 
                     if (
                         cached &&
-                        cached.content &&
-                        cached.expireTime >
-                            Date.now()
+                        cached.content
                     ) {
+                        archiveCacheLastCheckedAt =
+                            Number(
+                                cached.lastCheckedAt ||
+                                cached.savedAt ||
+                                0
+                            );
+
                         resolve(
                             cached.content
                         );
@@ -519,16 +645,19 @@ function saveArchiveToCache(
                         CACHE_STORE_NAME
                     );
 
+            const savedAt =
+                Date.now();
+
+            archiveCacheLastCheckedAt =
+                savedAt;
+
             store.put({
                 id: CACHE_KEY,
                 content:
                     archiveObject,
-                expireTime:
-                    Date.now() +
-                    CACHE_HOURS *
-                    60 *
-                    60 *
-                    1000
+                savedAt,
+                lastCheckedAt:
+                    savedAt
             });
 
             transaction.oncomplete =
@@ -658,14 +787,18 @@ function cleanTitle(filename) {
         .trim();
 }
 
-function cleanPreview(rawText) {
+function cleanDisplayText(rawText) {
     return String(rawText)
-        .slice(
-            0,
-            2200
-        )
         .replace(
             /```[\s\S]*?```/g,
+            " "
+        )
+        .replace(
+            /^\s*\[(?:audio|video)]:\s*\([^)]+\)\s*$/gim,
+            " "
+        )
+        .replace(
+            /!\[\[[^\]]+]]/g,
             " "
         )
         .replace(
@@ -681,6 +814,10 @@ function cleanPreview(rawText) {
             " "
         )
         .replace(
+            /<[^>]+>/g,
+            " "
+        )
+        .replace(
             /[#>*_`~|]+/g,
             " "
         )
@@ -689,6 +826,213 @@ function cleanPreview(rawText) {
             " "
         )
         .trim();
+}
+
+function cleanPreview(rawText) {
+    return cleanDisplayText(
+        String(rawText).slice(0, 2200)
+    );
+}
+
+function escapeRegExp(value) {
+    return String(value).replace(
+        /[.*+?^${}()|[\]\\]/g,
+        "\\$&"
+    );
+}
+
+function highlightSnippetText(
+    text,
+    terms
+) {
+    const uniqueTerms = [
+        ...new Set(
+            terms
+                .map(term => term.trim())
+                .filter(Boolean)
+        )
+    ].sort(
+        (first, second) =>
+            second.length - first.length
+    );
+
+    if (uniqueTerms.length === 0) {
+        return escapeHtml(text);
+    }
+
+    const pattern = new RegExp(
+        uniqueTerms
+            .map(escapeRegExp)
+            .join("|"),
+        "gi"
+    );
+
+    let html = "";
+    let cursor = 0;
+
+    text.replace(
+        pattern,
+        (match, offset) => {
+            html += escapeHtml(
+                text.slice(cursor, offset)
+            );
+            html +=
+                `<mark class="search-hit">${escapeHtml(match)}</mark>`;
+            cursor = offset + match.length;
+            return match;
+        }
+    );
+
+    html += escapeHtml(
+        text.slice(cursor)
+    );
+
+    return html;
+}
+
+function buildMatchSnippets(
+    record,
+    rawQuery,
+    maximumSnippets = 3
+) {
+    const text =
+        record.displayText ||
+        record.note ||
+        "";
+
+    const query =
+        String(rawQuery)
+            .trim()
+            .toLowerCase();
+
+    if (!query || !text) {
+        return [];
+    }
+
+    const lowerText =
+        text.toLowerCase();
+
+    const tokens =
+        query
+            .split(/\s+/)
+            .filter(Boolean);
+
+    const preferredTerms =
+        lowerText.includes(query)
+            ? [query]
+            : tokens;
+
+    const positions = [];
+
+    preferredTerms.forEach(
+        term => {
+            let start = 0;
+
+            while (
+                positions.length <
+                maximumSnippets * 4
+            ) {
+                const position =
+                    lowerText.indexOf(
+                        term,
+                        start
+                    );
+
+                if (position === -1) {
+                    break;
+                }
+
+                positions.push(position);
+                start = position +
+                    Math.max(1, term.length);
+            }
+        }
+    );
+
+    positions.sort(
+        (first, second) =>
+            first - second
+    );
+
+    const selected = [];
+
+    positions.forEach(
+        position => {
+            if (
+                selected.length >=
+                maximumSnippets
+            ) {
+                return;
+            }
+
+            if (
+                selected.some(
+                    existing =>
+                        Math.abs(
+                            existing - position
+                        ) < 110
+                )
+            ) {
+                return;
+            }
+
+            selected.push(position);
+        }
+    );
+
+    const highlightTerms =
+        lowerText.includes(query)
+            ? [query, ...tokens]
+            : tokens;
+
+    return selected.map(
+        position => {
+            const radius = 105;
+            let start = Math.max(
+                0,
+                position - radius
+            );
+            let end = Math.min(
+                text.length,
+                position + radius
+            );
+
+            if (start > 0) {
+                const nextSpace =
+                    text.indexOf(" ", start);
+
+                if (
+                    nextSpace !== -1 &&
+                    nextSpace < position
+                ) {
+                    start = nextSpace + 1;
+                }
+            }
+
+            if (end < text.length) {
+                const previousSpace =
+                    text.lastIndexOf(" ", end);
+
+                if (
+                    previousSpace > position
+                ) {
+                    end = previousSpace;
+                }
+            }
+
+            const snippet =
+                text.slice(start, end);
+
+            return (
+                (start > 0 ? "…" : "") +
+                highlightSnippetText(
+                    snippet,
+                    highlightTerms
+                ) +
+                (end < text.length ? "…" : "")
+            );
+        }
+    );
 }
 
 function normalizeFormat(folder) {
@@ -887,8 +1231,11 @@ function transformArchiveEntry(
     const title =
         cleanTitle(filename);
 
+    const displayText =
+        cleanDisplayText(rawText);
+
     const previewText =
-        cleanPreview(rawText);
+        displayText.slice(0, 2200);
 
     const year =
         extractYear(
@@ -940,6 +1287,7 @@ function transformArchiveEntry(
             note ||
             "No preview text is available for this record.",
         path,
+        displayText,
         searchText:
             fullSearchText
     };
@@ -1228,10 +1576,32 @@ function searchAnalysis() {
                 return;
             }
 
+            const displayTextLower =
+                record.displayText
+                    .toLowerCase();
+
+            const matchCount =
+                exactPhrase
+                    ? countOccurrences(
+                        displayTextLower,
+                        query
+                    )
+                    : tokens.reduce(
+                        (total, token) =>
+                            total +
+                            countOccurrences(
+                                displayTextLower,
+                                token
+                            ),
+                        0
+                    );
+
             matches.push({
                 ...record,
                 _exactPhrase:
                     exactPhrase,
+                _matchCount:
+                    Math.max(1, matchCount),
                 _score:
                     calculateSearchScore(
                         record,
@@ -1607,63 +1977,131 @@ function render() {
     elements.list.innerHTML =
         visible
             .map(
-                record => `
-                    <li class="record">
-                        <div class="record-date">
-                            ${escapeHtml(record.date)}
-                        </div>
+                record => {
+                    const snippets =
+                        state.query
+                            ? buildMatchSnippets(
+                                record,
+                                state.query
+                            )
+                            : [];
 
-                        <div class="record-main">
-                            <h3>
-                                <a href="${buildArticleUrl(record)}">
-                                    ${escapeHtml(record.title)}
-                                </a>
-                            </h3>
-
-                            <p>
-                                ${escapeHtml(record.note)}
-                            </p>
-
-                            <div class="record-meta">
-                                ${
-                                    record._exactPhrase &&
-                                    state.query
-                                        ? `
-                                            <span class="tag">
-                                                Exact phrase
-                                            </span>
-                                        `
-                                        : ""
-                                }
-
-                                ${
-                                    record
-                                        .topics
+                    const previewHtml =
+                        snippets.length > 0
+                            ? `
+                                <div class="record-snippets">
+                                    ${snippets
                                         .map(
-                                            topic => `
-                                                <span class="tag">
-                                                    ${escapeHtml(topic)}
-                                                </span>
+                                            snippet => `
+                                                <p class="record-snippet">
+                                                    ${snippet}
+                                                </p>
                                             `
                                         )
-                                        .join("")
-                                }
+                                        .join("")}
+                                </div>
+                            `
+                            : `
+                                <p class="record-summary">
+                                    ${escapeHtml(record.note)}
+                                </p>
+                            `;
+
+                    const yearLabel =
+                        record.year === "Unknown"
+                            ? "Undated"
+                            : record.year;
+
+                    return `
+                        <li
+                            class="record"
+                            data-format="${escapeHtml(record.format)}"
+                        >
+                            <div class="record-stamp" aria-hidden="true">
+                                <span class="record-stamp-mark"></span>
+                                <span class="record-stamp-year">
+                                    ${escapeHtml(yearLabel)}
+                                </span>
                             </div>
-                        </div>
 
-                        <div class="record-type">
-                            <strong>
-                                ${escapeHtml(record.format)}
-                            </strong>
+                            <div class="record-main">
+                                <div class="record-overline">
+                                    <span class="record-date">
+                                        ${escapeHtml(record.date)}
+                                    </span>
 
-                            <small>
-                                ${escapeHtml(record.source)}
-                                <br>
-                                ${escapeHtml(record.status)}
-                            </small>
-                        </div>
-                    </li>
-                `
+                                    <span class="record-format-label">
+                                        ${escapeHtml(record.format)}
+                                    </span>
+                                </div>
+
+                                <h3>
+                                    <a href="${buildArticleUrl(record)}">
+                                        ${escapeHtml(record.title)}
+                                    </a>
+                                </h3>
+
+                                ${previewHtml}
+
+                                <div class="record-meta">
+                                    ${
+                                        record._exactPhrase &&
+                                        state.query
+                                            ? `
+                                                <span class="tag">
+                                                    Exact phrase
+                                                </span>
+                                            `
+                                            : ""
+                                    }
+
+                                    ${
+                                        state.query &&
+                                        record._matchCount
+                                            ? `
+                                                <span class="tag match-count">
+                                                    ${record._matchCount}
+                                                    ${record._matchCount === 1 ? "match" : "matches"}
+                                                </span>
+                                            `
+                                            : ""
+                                    }
+
+                                    ${
+                                        record
+                                            .topics
+                                            .map(
+                                                topic => `
+                                                    <span class="tag">
+                                                        ${escapeHtml(topic)}
+                                                    </span>
+                                                `
+                                            )
+                                            .join("")
+                                    }
+                                </div>
+                            </div>
+
+                            <div class="record-type">
+                                <strong>
+                                    ${escapeHtml(record.format)}
+                                </strong>
+
+                                <small class="record-source">
+                                    ${escapeHtml(record.source)}
+                                </small>
+
+                                <small class="record-status">
+                                    ${escapeHtml(record.status)}
+                                </small>
+
+                                <span class="record-open" aria-hidden="true">
+                                    Open record&nbsp;→
+                                </span>
+                            </div>
+                        </li>
+                    `;
+                }
             )
             .join("");
 
@@ -2225,19 +2663,29 @@ function attachInterfaceEvents() {
     }
 
     if (
-        elements.mobileFilterButton
+        elements.mobileFilterButton &&
+        elements.filters
     ) {
+        setFiltersOpen(
+            readFiltersOpen(),
+            { persist: false }
+        );
+
         elements
             .mobileFilterButton
             .addEventListener(
                 "click",
                 () => {
-                    elements
-                        .filters
-                        .classList
-                        .toggle(
-                            "open"
-                        );
+                    const isOpen =
+                        elements
+                            .mobileFilterButton
+                            .getAttribute(
+                                "aria-expanded"
+                            ) === "true";
+
+                    setFiltersOpen(
+                        !isOpen
+                    );
                 }
             );
     }
@@ -2442,6 +2890,8 @@ async function loadArchive() {
         if (!searchDatabase) {
             searchDatabase =
                 await openSearchDatabase();
+
+            void requestPersistentArchiveStorage();
         }
 
         const cachedArchive =
@@ -2451,6 +2901,10 @@ async function loadArchive() {
             await applyArchive(
                 cachedArchive,
                 "cache"
+            );
+
+            void refreshArchiveCacheInBackground(
+                cachedArchive
             );
 
             return;
@@ -3321,12 +3775,17 @@ async function fetchArchiveMetadata() {
     return response.json();
 }
 
-async function fetchFullArchiveSilently() {
+async function fetchFullArchiveSilently(
+    forceRevalidation = false
+) {
     const response =
         await fetch(
             "../code/loadsearch-fast.php",
             {
-                cache: "default"
+                cache:
+                    forceRevalidation
+                        ? "no-cache"
+                        : "default"
             }
         );
 
@@ -3337,6 +3796,95 @@ async function fetchFullArchiveSilently() {
     }
 
     return response.json();
+}
+
+function shouldRefreshArchiveCache() {
+    if (!archiveCacheLastCheckedAt) {
+        return true;
+    }
+
+    const refreshInterval =
+        CACHE_REFRESH_HOURS *
+        60 *
+        60 *
+        1000;
+
+    return (
+        Date.now() -
+        archiveCacheLastCheckedAt
+    ) >= refreshInterval;
+}
+
+function archiveFingerprint(
+    archiveObject
+) {
+    const serialized =
+        JSON.stringify(
+            archiveObject
+        );
+
+    let hash = 2166136261;
+
+    for (
+        let index = 0;
+        index < serialized.length;
+        index += 1
+    ) {
+        hash ^=
+            serialized.charCodeAt(
+                index
+            );
+
+        hash = Math.imul(
+            hash,
+            16777619
+        );
+    }
+
+    return `${serialized.length}:${
+        hash >>> 0
+    }`;
+}
+
+async function refreshArchiveCacheInBackground(
+    cachedArchive
+) {
+    if (!shouldRefreshArchiveCache()) {
+        return;
+    }
+
+    archiveCacheLastCheckedAt =
+        Date.now();
+
+    try {
+        const refreshedArchive =
+            await fetchFullArchiveSilently(
+                true
+            );
+
+        const archiveChanged =
+            archiveFingerprint(
+                refreshedArchive
+            ) !==
+            archiveFingerprint(
+                cachedArchive
+            );
+
+        await saveArchiveToCache(
+            refreshedArchive
+        );
+
+        if (archiveChanged) {
+            await upgradeToFullTextArchive(
+                refreshedArchive
+            );
+        }
+    } catch (error) {
+        console.warn(
+            "The archive opened from its permanent local cache, but the background refresh failed.",
+            error
+        );
+    }
 }
 
 function synchronizeControlsAfterUpgrade() {
@@ -3468,6 +4016,8 @@ loadArchive = async function () {
         if (!searchDatabase) {
             searchDatabase =
                 await openSearchDatabase();
+
+            void requestPersistentArchiveStorage();
         }
 
         const cachedArchive =
@@ -3483,6 +4033,10 @@ loadArchive = async function () {
             await applyArchive(
                 cachedArchive,
                 "cache"
+            );
+
+            void refreshArchiveCacheInBackground(
+                cachedArchive
             );
 
             return;

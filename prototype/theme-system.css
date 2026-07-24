@@ -1,0 +1,2032 @@
+/*
+ * Aajonus Archive theme system
+ *
+ * Archive keeps the restrained editorial prototype.
+ * Living Sun is an environment-first, photo-led, tactile archive theme.
+ * It borrows the useful mechanics of early Web 2.0 / Aero design:
+ * recognizable real-world imagery, optimistic light, glossy controls,
+ * soft depth, rounded materials, and humanist typography.
+ */
+
+/* =========================================================
+   SHARED THEME SWITCHER
+   ========================================================= */
+
+.theme-switcher {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 4px;
+    border: 1px solid var(--line-dark);
+    border-radius: 999px;
+    background: rgba(255, 253, 247, 0.94);
+    box-shadow:
+        0 9px 28px rgba(39, 35, 31, 0.12),
+        inset 0 1px 0 rgba(255, 255, 255, 0.78);
+    backdrop-filter: blur(14px);
+}
+
+.theme-switcher-label {
+    padding: 0 8px;
+    color: var(--muted);
+    font: 700 9px/1 "Segoe UI", "Trebuchet MS", Arial, sans-serif;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+}
+
+.theme-switcher-button {
+    min-height: 32px;
+    padding: 8px 12px;
+    border: 1px solid transparent;
+    border-radius: 999px;
+    background: transparent;
+    color: var(--ink);
+    cursor: pointer;
+    font: 700 10px/1 "Segoe UI", "Trebuchet MS", Arial, sans-serif;
+    letter-spacing: 0.04em;
+}
+
+.theme-switcher-button:hover {
+    border-color: var(--line-dark);
+}
+
+.theme-switcher-button.active {
+    border-color: var(--ink);
+    background: var(--ink);
+    color: var(--sheet);
+}
+
+/* The scenic objects are present in markup but invisible in Archive. */
+
+.ls-hero-stage,
+.ls-collection-media,
+.ls-featured-visual,
+.ls-article-scene {
+    display: none;
+}
+
+/* =========================================================
+   LIVING SUN TOKENS
+   ========================================================= */
+
+html[data-theme="living-sun"] {
+    color-scheme: light;
+
+    --ink: #2f3027;
+    --muted: #706b58;
+    --paper: #eee3bf;
+    --sheet: #fff4d4;
+    --line: rgba(101, 85, 48, 0.24);
+    --line-dark: rgba(84, 68, 36, 0.48);
+    --rust: #9e4d31;
+
+    --ls-sun: #f2c34d;
+    --ls-sun-deep: #c88622;
+    --ls-cream: #f7edca;
+    --ls-paper: #ead9aa;
+    --ls-leaf: #5d6841;
+    --ls-leaf-bright: #7c8a55;
+    --ls-forest: #2e3927;
+    --ls-forest-deep: #1f2a22;
+    --ls-sage: #7d8068;
+    --ls-sky: #9dbdbc;
+    --ls-red: #a44e39;
+    --ls-earth: #7b4a2e;
+
+    --ls-panel:
+        linear-gradient(
+            145deg,
+            rgba(255, 248, 221, 0.96),
+            rgba(235, 221, 177, 0.92)
+        );
+
+    --ls-panel-cool:
+        linear-gradient(
+            145deg,
+            rgba(247, 246, 216, 0.96),
+            rgba(213, 222, 187, 0.91)
+        );
+
+    --ls-shadow:
+        0 26px 65px rgba(58, 43, 21, 0.20),
+        0 3px 9px rgba(58, 43, 21, 0.10);
+
+    --ls-shadow-small:
+        0 13px 30px rgba(58, 43, 21, 0.14),
+        0 2px 6px rgba(58, 43, 21, 0.08);
+}
+
+/* =========================================================
+   PAGE WORLD
+   ========================================================= */
+
+html[data-theme="living-sun"] body {
+    min-height: 100vh;
+    color: var(--ink);
+    background:
+        radial-gradient(
+            circle at 12% 3%,
+            rgba(157, 189, 188, 0.45),
+            transparent 33rem
+        ),
+        radial-gradient(
+            circle at 90% 10%,
+            rgba(242, 195, 77, 0.38),
+            transparent 28rem
+        ),
+        linear-gradient(
+            180deg,
+            #cad8c3 0,
+            #e5d6a6 32rem,
+            #eee3bf 58rem,
+            #eadab3 100%
+        );
+    font-family:
+        "Segoe UI",
+        "Trebuchet MS",
+        Arial,
+        sans-serif;
+}
+
+html[data-theme="living-sun"] body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: 5000;
+    pointer-events: none;
+    opacity: 0.20;
+    background:
+        repeating-radial-gradient(
+            circle at 19% 31%,
+            rgba(69, 55, 31, 0.20) 0 0.35px,
+            transparent 0.55px 3px
+        ),
+        repeating-linear-gradient(
+            91deg,
+            rgba(255, 255, 255, 0.05) 0 1px,
+            transparent 1px 7px
+        );
+    background-size: 5px 5px, 11px 100%;
+    mix-blend-mode: multiply;
+}
+
+html[data-theme="living-sun"] body::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: -1;
+    height: 720px;
+    background:
+        linear-gradient(
+            180deg,
+            rgba(255, 255, 255, 0.04),
+            rgba(238, 227, 191, 0.92)
+        ),
+        url("/prototype/assets/ls-wildflowers.webp") center 38% / cover no-repeat;
+    opacity: 0.16;
+    filter: saturate(0.82);
+    mask-image: linear-gradient(180deg, black, transparent 95%);
+}
+
+html[data-theme="living-sun"] body > * {
+    position: relative;
+    z-index: 1;
+}
+
+html[data-theme="living-sun"] .page {
+    max-width: 1400px;
+    padding-top: 34px;
+}
+
+/* =========================================================
+   TYPOGRAPHY
+   ========================================================= */
+
+html[data-theme="living-sun"] h1,
+html[data-theme="living-sun"] h2,
+html[data-theme="living-sun"] h3,
+html[data-theme="living-sun"] .brand strong,
+html[data-theme="living-sun"] .record-main h3,
+html[data-theme="living-sun"] .saved-records-heading h2,
+html[data-theme="living-sun"] .notes-library-title,
+html[data-theme="living-sun"] .related-item strong,
+html[data-theme="living-sun"] .continue-reading-title {
+    color: var(--ink);
+    font-family:
+        "Palatino Linotype",
+        "Book Antiqua",
+        Palatino,
+        Georgia,
+        serif;
+    letter-spacing: -0.025em;
+}
+
+html[data-theme="living-sun"] .intro-copy,
+html[data-theme="living-sun"] .record-main p,
+html[data-theme="living-sun"] .featured-record p,
+html[data-theme="living-sun"] .body,
+html[data-theme="living-sun"] .deck {
+    font-family:
+        Georgia,
+        "Times New Roman",
+        serif;
+}
+
+html[data-theme="living-sun"] button,
+html[data-theme="living-sun"] input,
+html[data-theme="living-sun"] select,
+html[data-theme="living-sun"] textarea,
+html[data-theme="living-sun"] .metadata,
+html[data-theme="living-sun"] .kicker,
+html[data-theme="living-sun"] .record-overline,
+html[data-theme="living-sun"] .record-type,
+html[data-theme="living-sun"] .tag {
+    font-family:
+        "Segoe UI",
+        "Trebuchet MS",
+        Arial,
+        sans-serif;
+}
+
+html[data-theme="living-sun"] .kicker {
+    color: var(--rust);
+}
+
+/* =========================================================
+   HEADER
+   ========================================================= */
+
+html[data-theme="living-sun"] .site-header {
+    border-bottom: 1px solid rgba(104, 85, 44, 0.30);
+    background: rgba(247, 237, 205, 0.86);
+    box-shadow: 0 11px 32px rgba(60, 45, 22, 0.12);
+    backdrop-filter: blur(18px) saturate(1.06);
+}
+
+html[data-theme="living-sun"] .header-inner {
+    max-width: 1400px;
+    padding: 14px 28px;
+}
+
+html[data-theme="living-sun"] .brand-seal {
+    width: 47px;
+    height: 47px;
+    border-color: rgba(75, 61, 31, 0.68);
+    background:
+        radial-gradient(
+            circle at 35% 26%,
+            #fff2a5 0,
+            #edc253 38%,
+            #c37a27 72%,
+            #71442b 100%
+        );
+    color: #2e3329;
+    box-shadow:
+        0 0 0 5px rgba(242, 195, 77, 0.14),
+        0 7px 18px rgba(74, 52, 25, 0.18),
+        inset 0 2px 2px rgba(255, 255, 255, 0.52);
+}
+
+html[data-theme="living-sun"] .brand strong {
+    font-size: 18px;
+}
+
+html[data-theme="living-sun"] .brand small {
+    color: rgba(75, 71, 56, 0.72);
+    font-size: 10px;
+}
+
+html[data-theme="living-sun"] .top-nav {
+    gap: 18px;
+}
+
+html[data-theme="living-sun"] .top-nav > a {
+    color: #4b4d3c;
+}
+
+html[data-theme="living-sun"] .top-nav > a:hover {
+    border-color: var(--ls-earth);
+    color: var(--ls-earth);
+}
+
+html[data-theme="living-sun"] .about-link {
+    border-radius: 999px;
+    background: rgba(255, 249, 225, 0.62);
+}
+
+html[data-theme="living-sun"] .theme-switcher {
+    border-color: rgba(72, 66, 44, 0.38);
+    background:
+        linear-gradient(
+            180deg,
+            rgba(255, 252, 231, 0.88),
+            rgba(225, 213, 170, 0.84)
+        );
+}
+
+html[data-theme="living-sun"] .theme-switcher-button.active {
+    border-color: rgba(43, 55, 37, 0.76);
+    background:
+        linear-gradient(
+            180deg,
+            #718451,
+            #3f5436
+        );
+    color: #fff1c5;
+    box-shadow:
+        inset 0 2px 0 rgba(255, 255, 255, 0.20),
+        0 5px 12px rgba(43, 55, 37, 0.20);
+}
+
+/* =========================================================
+   HERO: A REAL PLACE, NOT A FLAT COLOR FIELD
+   ========================================================= */
+
+html[data-theme="living-sun"] .intro {
+    position: relative;
+    display: block;
+    min-height: 720px;
+    overflow: hidden;
+    padding: 250px 70px 150px;
+    border: 1px solid rgba(255, 244, 197, 0.54);
+    border-radius: 34px;
+    background:
+        linear-gradient(
+            180deg,
+            rgba(40, 48, 39, 0.04) 0,
+            rgba(42, 47, 36, 0.12) 48%,
+            rgba(34, 39, 31, 0.62) 100%
+        ),
+        url("/prototype/assets/ls-hero-field.webp") center 46% / cover no-repeat;
+    box-shadow:
+        0 34px 78px rgba(54, 42, 22, 0.28),
+        inset 0 1px 0 rgba(255, 255, 255, 0.72);
+}
+
+html[data-theme="living-sun"] .intro::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    pointer-events: none;
+    background:
+        radial-gradient(
+            circle at 50% 32%,
+            rgba(255, 244, 167, 0.20),
+            transparent 17rem
+        ),
+        linear-gradient(
+            90deg,
+            rgba(30, 43, 31, 0.26),
+            transparent 32%,
+            transparent 68%,
+            rgba(31, 42, 31, 0.22)
+        );
+}
+
+html[data-theme="living-sun"] .intro::after {
+    content: "";
+    position: absolute;
+    right: -10%;
+    bottom: -230px;
+    left: -10%;
+    z-index: 2;
+    height: 360px;
+    pointer-events: none;
+    background:
+        radial-gradient(
+            ellipse at 14% 50%,
+            rgba(30, 51, 35, 0.92) 0 15%,
+            transparent 48%
+        ),
+        radial-gradient(
+            ellipse at 86% 61%,
+            rgba(41, 63, 38, 0.92) 0 18%,
+            transparent 51%
+        ),
+        linear-gradient(
+            180deg,
+            transparent,
+            rgba(31, 43, 31, 0.74)
+        );
+}
+
+html[data-theme="living-sun"] .intro > div:not(.ls-hero-stage) {
+    position: relative;
+    z-index: 8;
+    max-width: 780px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+html[data-theme="living-sun"] .intro .kicker {
+    margin-bottom: 14px;
+    color: #fff0a8;
+    font-size: 11px;
+    letter-spacing: 0.16em;
+    text-shadow: 0 2px 15px rgba(47, 42, 25, 0.52);
+}
+
+html[data-theme="living-sun"] .intro h1 {
+    max-width: none;
+    color: #fff2c9;
+    font-size: clamp(58px, 7vw, 105px);
+    line-height: 0.92;
+    letter-spacing: -0.052em;
+    text-shadow:
+        0 4px 22px rgba(39, 34, 24, 0.48),
+        0 1px 0 rgba(80, 58, 23, 0.44);
+}
+
+html[data-theme="living-sun"] .intro-copy {
+    max-width: 680px;
+    margin: 18px auto 0;
+    color: rgba(255, 244, 213, 0.93);
+    font-size: 20px;
+    line-height: 1.5;
+    text-shadow: 0 3px 17px rgba(34, 34, 26, 0.48);
+}
+
+html[data-theme="living-sun"] .catalog-card {
+    display: none;
+}
+
+html[data-theme="living-sun"] .ls-hero-stage {
+    display: block;
+    position: absolute;
+    inset: 0;
+    z-index: 3;
+    pointer-events: none;
+}
+
+html[data-theme="living-sun"] .ls-sun-emblem {
+    position: absolute;
+    top: 58px;
+    left: 50%;
+    z-index: 5;
+    display: grid;
+    width: 174px;
+    height: 174px;
+    place-items: center;
+    transform: translateX(-50%);
+    border: 1px solid rgba(255, 242, 184, 0.74);
+    border-radius: 50%;
+    background:
+        radial-gradient(
+            circle at 36% 28%,
+            #fff5b2 0,
+            #f5c84f 37%,
+            #cb8127 73%,
+            #81502d 100%
+        );
+    color: #3b3a2d;
+    box-shadow:
+        0 0 0 10px rgba(249, 199, 72, 0.12),
+        0 0 48px rgba(255, 186, 53, 0.44),
+        inset 0 4px 7px rgba(255, 255, 255, 0.50);
+}
+
+html[data-theme="living-sun"] .ls-sun-core {
+    position: relative;
+    z-index: 2;
+    font: 700 56px/1 "Palatino Linotype", Georgia, serif;
+    letter-spacing: -0.08em;
+}
+
+html[data-theme="living-sun"] .ls-sun-rays {
+    position: absolute;
+    inset: -39px;
+    border-radius: 50%;
+    background:
+        repeating-conic-gradient(
+            from 0deg,
+            rgba(247, 190, 48, 0.86) 0 1deg,
+            transparent 1deg 10deg
+        );
+    mask:
+        radial-gradient(
+            circle,
+            transparent 0 57%,
+            black 58% 65%,
+            transparent 66%
+        );
+    filter: drop-shadow(0 0 6px rgba(255, 196, 54, 0.31));
+}
+
+html[data-theme="living-sun"] .ls-scene-photo {
+    position: absolute;
+    overflow: hidden;
+    margin: 0;
+    border: 1px solid rgba(255, 247, 211, 0.66);
+    background: rgba(255, 248, 219, 0.32);
+    box-shadow:
+        0 24px 52px rgba(37, 38, 29, 0.33),
+        inset 0 2px 0 rgba(255, 255, 255, 0.54);
+    backdrop-filter: blur(4px);
+}
+
+html[data-theme="living-sun"] .ls-scene-photo::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:
+        linear-gradient(
+            145deg,
+            rgba(255, 255, 255, 0.32),
+            transparent 28%,
+            transparent 72%,
+            rgba(83, 61, 29, 0.16)
+        );
+    pointer-events: none;
+}
+
+html[data-theme="living-sun"] .ls-scene-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+html[data-theme="living-sun"] .ls-scene-garden {
+    bottom: -58px;
+    left: -56px;
+    width: 285px;
+    height: 390px;
+    transform: rotate(-2.4deg);
+    border-radius: 31px 31px 80px 31px;
+}
+
+html[data-theme="living-sun"] .ls-scene-milk {
+    right: -48px;
+    bottom: -48px;
+    width: 270px;
+    height: 335px;
+    transform: rotate(2.1deg);
+    border-radius: 90px 28px 28px 28px;
+}
+
+html[data-theme="living-sun"] .ls-scene-milk .ls-scene-image {
+    object-position: 16% 50%;
+}
+
+html[data-theme="living-sun"] .ls-scene-books {
+    top: 62px;
+    right: 46px;
+    width: 230px;
+    height: 155px;
+    transform: rotate(1.5deg);
+    border-radius: 24px 70px 24px 24px;
+}
+
+html[data-theme="living-sun"] .ls-field-caption {
+    position: absolute;
+    right: 38px;
+    bottom: 25px;
+    z-index: 7;
+    padding: 12px 15px;
+    border: 1px solid rgba(255, 239, 177, 0.40);
+    border-radius: 15px;
+    background: rgba(48, 59, 40, 0.54);
+    color: #fff0bf;
+    text-align: right;
+    box-shadow: 0 11px 26px rgba(31, 38, 28, 0.22);
+    backdrop-filter: blur(11px);
+}
+
+html[data-theme="living-sun"] .ls-field-caption span {
+    display: block;
+    color: rgba(255, 240, 191, 0.72);
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+}
+
+html[data-theme="living-sun"] .ls-field-caption strong {
+    display: block;
+    margin-top: 5px;
+    font: 500 15px/1.2 "Palatino Linotype", Georgia, serif;
+}
+
+html[data-theme="living-sun"] .ls-bubble {
+    position: absolute;
+    border: 1px solid rgba(255, 255, 255, 0.66);
+    border-radius: 50%;
+    background:
+        radial-gradient(
+            circle at 32% 24%,
+            rgba(255, 255, 255, 0.62),
+            rgba(188, 222, 214, 0.23) 38%,
+            rgba(76, 111, 89, 0.08) 72%,
+            rgba(255, 255, 255, 0.18)
+        );
+    box-shadow:
+        inset -7px -9px 18px rgba(67, 104, 91, 0.16),
+        inset 5px 5px 11px rgba(255, 255, 255, 0.42),
+        0 9px 22px rgba(46, 61, 46, 0.15);
+    backdrop-filter: blur(3px);
+}
+
+html[data-theme="living-sun"] .ls-bubble-one {
+    top: 86px;
+    left: 25%;
+    width: 52px;
+    height: 52px;
+}
+
+html[data-theme="living-sun"] .ls-bubble-two {
+    top: 205px;
+    right: 20%;
+    width: 31px;
+    height: 31px;
+}
+
+html[data-theme="living-sun"] .ls-bubble-three {
+    bottom: 155px;
+    left: 20%;
+    width: 22px;
+    height: 22px;
+}
+
+/* =========================================================
+   SEARCH DOCK
+   ========================================================= */
+
+html[data-theme="living-sun"] .search-section {
+    position: relative;
+    z-index: 9;
+    width: min(920px, calc(100% - 60px));
+    margin: -114px auto 0;
+    padding: 24px 26px 20px;
+    border: 1px solid rgba(113, 89, 43, 0.42);
+    border-radius: 24px;
+    background:
+        linear-gradient(
+            145deg,
+            rgba(255, 250, 227, 0.96),
+            rgba(232, 220, 179, 0.93)
+        );
+    box-shadow:
+        0 26px 55px rgba(55, 43, 22, 0.26),
+        inset 0 2px 0 rgba(255, 255, 255, 0.72);
+    backdrop-filter: blur(16px);
+}
+
+html[data-theme="living-sun"] .search-label {
+    color: #615942;
+    font-size: 10px;
+}
+
+html[data-theme="living-sun"] .search-wrap input {
+    padding: 19px 118px 19px 23px;
+    border: 1px solid rgba(83, 70, 41, 0.48);
+    border-radius: 999px;
+    background:
+        linear-gradient(
+            180deg,
+            rgba(255, 255, 244, 0.96),
+            rgba(240, 235, 209, 0.92)
+        );
+    color: #34362d;
+    font: 18px/1.2 "Segoe UI", "Trebuchet MS", Arial, sans-serif;
+    box-shadow:
+        inset 0 2px 3px rgba(91, 74, 38, 0.10),
+        0 9px 21px rgba(65, 49, 23, 0.12);
+}
+
+html[data-theme="living-sun"] .search-wrap input:focus {
+    border-color: var(--ls-leaf);
+    outline: 4px solid rgba(124, 138, 85, 0.16);
+    box-shadow:
+        inset 0 2px 3px rgba(91, 74, 38, 0.10),
+        0 12px 28px rgba(65, 49, 23, 0.16);
+}
+
+html[data-theme="living-sun"] .search-wrap button {
+    top: 7px;
+    right: 7px;
+    bottom: 7px;
+    min-width: 102px;
+    border: 1px solid rgba(46, 61, 40, 0.65);
+    border-radius: 999px;
+    background:
+        linear-gradient(
+            180deg,
+            #71844f,
+            #405536
+        );
+    color: #fff2c6;
+    box-shadow:
+        inset 0 2px 0 rgba(255, 255, 255, 0.22),
+        0 6px 13px rgba(47, 61, 41, 0.18);
+}
+
+html[data-theme="living-sun"] .search-wrap button:hover {
+    filter: brightness(1.08) saturate(1.05);
+}
+
+html[data-theme="living-sun"] .search-status-row {
+    color: var(--muted);
+}
+
+html[data-theme="living-sun"] .topic-chip {
+    border-color: rgba(78, 75, 51, 0.34);
+    border-radius: 999px;
+    background:
+        linear-gradient(
+            180deg,
+            rgba(255, 250, 228, 0.82),
+            rgba(218, 218, 181, 0.76)
+        );
+    color: #48503d;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.55);
+}
+
+html[data-theme="living-sun"] .topic-chip:hover,
+html[data-theme="living-sun"] .topic-chip.active {
+    border-color: var(--ls-forest);
+    background:
+        linear-gradient(
+            180deg,
+            #748454,
+            #44583a
+        );
+    color: #fff1c6;
+}
+
+/* =========================================================
+   SECTION HEADINGS
+   ========================================================= */
+
+html[data-theme="living-sun"] .section {
+    padding-top: 66px;
+}
+
+html[data-theme="living-sun"] .section-heading h2 {
+    font-size: 42px;
+}
+
+html[data-theme="living-sun"] .section-heading p {
+    color: #716b59;
+    font-size: 14px;
+}
+
+/* =========================================================
+   COLLECTION CARDS
+   ========================================================= */
+
+html[data-theme="living-sun"] .collection-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 15px;
+    border: 0;
+}
+
+html[data-theme="living-sun"] .collection {
+    display: grid;
+    min-height: 300px;
+    grid-template-rows: 118px auto;
+    overflow: hidden;
+    padding: 0 21px 22px;
+    border: 1px solid rgba(98, 78, 39, 0.36);
+    border-radius: 22px;
+    background: var(--ls-panel);
+    box-shadow: var(--ls-shadow-small);
+    transition:
+        transform 180ms ease,
+        box-shadow 180ms ease,
+        border-color 180ms ease;
+}
+
+html[data-theme="living-sun"] .collection::before {
+    display: none;
+}
+
+html[data-theme="living-sun"] .collection:hover {
+    transform: translateY(-5px);
+    border-color: rgba(143, 93, 37, 0.62);
+    background: var(--ls-panel);
+    box-shadow: var(--ls-shadow);
+}
+
+html[data-theme="living-sun"] .ls-collection-media {
+    position: relative;
+    display: block;
+    height: 118px;
+    margin: 0 -21px 16px;
+    overflow: hidden;
+    border-bottom: 1px solid rgba(98, 78, 39, 0.24);
+}
+
+html[data-theme="living-sun"] .ls-collection-media::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:
+        linear-gradient(
+            180deg,
+            rgba(255, 255, 255, 0.15),
+            transparent 45%,
+            rgba(40, 48, 34, 0.24)
+        );
+}
+
+html[data-theme="living-sun"] .ls-collection-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+html[data-theme="living-sun"] .collection[data-format="Q&A"] .ls-collection-image {
+    object-position: 50% 22%;
+}
+
+html[data-theme="living-sun"] .collection[data-format="Interview"] .ls-collection-image {
+    object-position: 50% 28%;
+}
+
+html[data-theme="living-sun"] .collection[data-format="Book"] .ls-collection-image {
+    object-position: 58% 58%;
+}
+
+html[data-theme="living-sun"] .collection[data-format="Newsletter"] .ls-collection-image {
+    object-position: 50% 48%;
+}
+
+html[data-theme="living-sun"] .ls-collection-icon {
+    position: absolute;
+    right: 14px;
+    bottom: 12px;
+    z-index: 2;
+    display: grid;
+    width: 42px;
+    height: 42px;
+    place-items: center;
+    border: 1px solid rgba(255, 242, 190, 0.62);
+    border-radius: 50%;
+    background: rgba(48, 66, 43, 0.72);
+    color: #fff0bc;
+    font-size: 19px;
+    box-shadow:
+        inset 0 1px 0 rgba(255, 255, 255, 0.28),
+        0 7px 16px rgba(41, 52, 36, 0.24);
+    backdrop-filter: blur(9px);
+}
+
+html[data-theme="living-sun"] .collection span:not(.ls-collection-media):not(.ls-collection-icon) {
+    color: #806643;
+}
+
+html[data-theme="living-sun"] .collection strong {
+    margin-top: 17px;
+    font-size: 25px;
+}
+
+html[data-theme="living-sun"] .collection small {
+    color: #6f6957;
+    line-height: 1.5;
+}
+
+/* =========================================================
+   FEATURED RECORD AND FINDING AIDS
+   ========================================================= */
+
+html[data-theme="living-sun"] .featured-grid {
+    grid-template-columns: minmax(0, 1.45fr) minmax(330px, 0.75fr);
+    gap: 20px;
+}
+
+html[data-theme="living-sun"] .featured-record {
+    position: relative;
+    display: grid;
+    min-height: 410px;
+    grid-template-columns: 42% 58%;
+    grid-template-rows: 1fr auto;
+    overflow: hidden;
+    padding: 0;
+    border: 1px solid rgba(95, 75, 39, 0.38);
+    border-radius: 26px;
+    background: var(--ls-panel);
+    box-shadow: var(--ls-shadow);
+}
+
+html[data-theme="living-sun"] .ls-featured-visual {
+    position: relative;
+    display: block;
+    grid-row: 1 / -1;
+    overflow: hidden;
+    min-height: 410px;
+}
+
+html[data-theme="living-sun"] .ls-featured-visual::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:
+        linear-gradient(
+            180deg,
+            transparent 48%,
+            rgba(35, 44, 31, 0.52)
+        );
+}
+
+html[data-theme="living-sun"] .ls-featured-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 18%;
+}
+
+html[data-theme="living-sun"] .ls-featured-badge {
+    position: absolute;
+    bottom: 17px;
+    left: 17px;
+    z-index: 2;
+    padding: 8px 10px;
+    border: 1px solid rgba(255, 242, 192, 0.48);
+    border-radius: 999px;
+    background: rgba(44, 61, 39, 0.72);
+    color: #fff1c6;
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 0.10em;
+    text-transform: uppercase;
+    backdrop-filter: blur(9px);
+}
+
+html[data-theme="living-sun"] .featured-record > div:not(.ls-featured-visual) {
+    padding: 34px 34px 16px;
+}
+
+html[data-theme="living-sun"] .featured-record h3 {
+    font-size: 39px;
+}
+
+html[data-theme="living-sun"] .featured-record p {
+    color: #6c6857;
+}
+
+html[data-theme="living-sun"] .featured-meta {
+    grid-column: 2;
+    padding: 0 34px 28px;
+    color: #6c5b3d;
+}
+
+html[data-theme="living-sun"] .finding-aids {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 11px;
+    border: 0;
+}
+
+html[data-theme="living-sun"] .finding-aid {
+    min-height: 132px;
+    padding: 18px;
+    border: 1px solid rgba(91, 73, 39, 0.32);
+    border-radius: 18px;
+    background: var(--ls-panel-cool);
+    box-shadow: var(--ls-shadow-small);
+    transition:
+        transform 160ms ease,
+        border-color 160ms ease;
+}
+
+html[data-theme="living-sun"] .finding-aid:hover {
+    transform: translateY(-3px);
+    border-color: var(--ls-leaf);
+}
+
+html[data-theme="living-sun"] .finding-aid small {
+    color: var(--rust);
+}
+
+html[data-theme="living-sun"] .finding-aid strong {
+    font-size: 20px;
+}
+
+/* =========================================================
+   ARCHIVE CATALOGUE
+   ========================================================= */
+
+html[data-theme="living-sun"] #archive {
+    margin-top: 64px;
+    padding: 28px;
+    border: 1px solid rgba(98, 78, 42, 0.32);
+    border-radius: 30px;
+    background:
+        linear-gradient(
+            145deg,
+            rgba(255, 248, 222, 0.88),
+            rgba(231, 220, 180, 0.85)
+        );
+    box-shadow: var(--ls-shadow);
+    backdrop-filter: blur(14px);
+}
+
+html[data-theme="living-sun"] .archive-layout {
+    grid-template-columns: 275px minmax(0, 1fr);
+    gap: 28px;
+}
+
+html[data-theme="living-sun"] .filters {
+    top: 92px;
+    padding: 22px;
+    border: 1px solid rgba(81, 70, 45, 0.38);
+    border-radius: 21px;
+    background: var(--ls-panel-cool);
+    box-shadow: var(--ls-shadow-small);
+}
+
+html[data-theme="living-sun"] .filters h3 {
+    font-size: 25px;
+}
+
+html[data-theme="living-sun"] .filter-group {
+    border-color: rgba(101, 86, 51, 0.20);
+}
+
+html[data-theme="living-sun"] .filter-group select,
+html[data-theme="living-sun"] input,
+html[data-theme="living-sun"] textarea,
+html[data-theme="living-sun"] select {
+    border-color: rgba(82, 71, 44, 0.42);
+    border-radius: 10px;
+    background:
+        linear-gradient(
+            180deg,
+            rgba(255, 253, 233, 0.94),
+            rgba(236, 231, 202, 0.91)
+        );
+    color: var(--ink);
+}
+
+html[data-theme="living-sun"] input:focus,
+html[data-theme="living-sun"] textarea:focus,
+html[data-theme="living-sun"] select:focus {
+    border-color: var(--ls-leaf);
+    outline: 3px solid rgba(124, 138, 85, 0.14);
+}
+
+html[data-theme="living-sun"] .format-option {
+    border-radius: 10px;
+}
+
+html[data-theme="living-sun"] .record-list {
+    display: grid;
+    gap: 13px;
+}
+
+html[data-theme="living-sun"] .record {
+    display: grid !important;
+    grid-template-columns: 105px minmax(0, 1fr) 165px !important;
+    align-items: stretch;
+    gap: 0;
+    min-width: 0;
+    overflow: hidden;
+    padding: 0 !important;
+    border: 1px solid rgba(87, 72, 41, 0.31) !important;
+    border-radius: 19px;
+    background:
+        linear-gradient(
+            105deg,
+            rgba(255, 249, 224, 0.98),
+            rgba(229, 228, 193, 0.95)
+        );
+    box-shadow: var(--ls-shadow-small);
+    transition:
+        transform 160ms ease,
+        border-color 160ms ease,
+        box-shadow 160ms ease;
+}
+
+html[data-theme="living-sun"] .record:hover {
+    transform: translateY(-3px);
+    border-color: rgba(149, 90, 43, 0.56) !important;
+    box-shadow: 0 18px 39px rgba(58, 43, 21, 0.20);
+}
+
+html[data-theme="living-sun"] .record-stamp {
+    position: relative;
+    min-height: 150px;
+    overflow: hidden;
+    border-right: 1px solid rgba(81, 70, 44, 0.30);
+    background-color: var(--ls-forest);
+    background-position: center;
+    background-size: cover;
+}
+
+html[data-theme="living-sun"] .record-stamp::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:
+        linear-gradient(
+            180deg,
+            rgba(255, 255, 255, 0.08),
+            transparent 46%,
+            rgba(31, 44, 31, 0.40)
+        );
+}
+
+html[data-theme="living-sun"] .record[data-format="Q&A"] .record-stamp,
+html[data-theme="living-sun"] .record[data-format="Video"] .record-stamp {
+    background-image: url("/prototype/assets/ls-aajonus-garden.webp");
+    background-position: 50% 18%;
+}
+
+html[data-theme="living-sun"] .record[data-format="Interview"] .record-stamp,
+html[data-theme="living-sun"] .record[data-format="Audio"] .record-stamp {
+    background-image: url("/prototype/assets/ls-aajonus-hills.webp");
+    background-position: 50% 28%;
+}
+
+html[data-theme="living-sun"] .record[data-format="Book"] .record-stamp,
+html[data-theme="living-sun"] .record[data-format="Newsletter"] .record-stamp {
+    background-image: url("/prototype/assets/ls-milk-books.webp");
+    background-position: 58% 52%;
+}
+
+html[data-theme="living-sun"] .record[data-format="Article"] .record-stamp,
+html[data-theme="living-sun"] .record[data-format="Community"] .record-stamp {
+    background-image: url("/prototype/assets/ls-garden-postcard.webp");
+    background-position: 50% 50%;
+}
+
+html[data-theme="living-sun"] .record-stamp-mark {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    z-index: 2;
+    width: 34px;
+    height: 34px;
+    border: 1px solid rgba(255, 242, 193, 0.66);
+    border-radius: 50%;
+    background: rgba(49, 66, 43, 0.66);
+    box-shadow:
+        inset 0 1px 0 rgba(255, 255, 255, 0.27),
+        0 6px 14px rgba(32, 42, 30, 0.24);
+    backdrop-filter: blur(7px);
+}
+
+html[data-theme="living-sun"] .record-stamp-mark::before {
+    content: "AV";
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    color: #fff0bd;
+    font: 700 10px/1 "Palatino Linotype", Georgia, serif;
+}
+
+html[data-theme="living-sun"] .record-stamp-mark::after {
+    display: none;
+}
+
+html[data-theme="living-sun"] .record-main {
+    min-width: 0;
+    padding: 20px 22px;
+}
+
+html[data-theme="living-sun"] .record-overline {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 9px;
+    color: #746a53;
+    font-size: 9px;
+    letter-spacing: 0.10em;
+    text-transform: uppercase;
+}
+
+html[data-theme="living-sun"] .record-format-label {
+    color: var(--rust);
+    font-weight: 700;
+}
+
+html[data-theme="living-sun"] .record-main h3 {
+    margin: 7px 0 0;
+    font-size: 24px;
+    line-height: 1.14;
+    overflow-wrap: anywhere;
+}
+
+html[data-theme="living-sun"] .record-main h3 a:hover {
+    color: var(--rust);
+}
+
+html[data-theme="living-sun"] .record-main p {
+    margin: 9px 0 12px;
+    color: #686552;
+    font-size: 15px;
+    line-height: 1.48;
+}
+
+html[data-theme="living-sun"] .record-meta {
+    gap: 6px;
+}
+
+html[data-theme="living-sun"] .tag {
+    padding: 5px 8px;
+    border: 1px solid rgba(70, 88, 56, 0.32);
+    border-radius: 999px;
+    background:
+        linear-gradient(
+            180deg,
+            rgba(233, 238, 205, 0.90),
+            rgba(191, 205, 159, 0.72)
+        );
+    color: #405038;
+    font-size: 9px;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.58);
+}
+
+html[data-theme="living-sun"] .record-type {
+    display: flex;
+    min-width: 0;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 8px;
+    padding: 19px 20px;
+    border-left: 1px solid rgba(83, 70, 43, 0.20);
+    background: rgba(176, 151, 87, 0.08);
+    text-align: right;
+}
+
+html[data-theme="living-sun"] .record-source {
+    color: #4f5b42;
+    font-weight: 700;
+    overflow-wrap: anywhere;
+}
+
+html[data-theme="living-sun"] .record-status {
+    color: #7b725d;
+}
+
+html[data-theme="living-sun"] .record-open {
+    margin-top: 5px;
+    color: var(--rust);
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+/* =========================================================
+   BUTTONS AND PAGINATION
+   ========================================================= */
+
+html[data-theme="living-sun"] .button,
+html[data-theme="living-sun"] .back-link,
+html[data-theme="living-sun"] .pagination-button,
+html[data-theme="living-sun"] .search-clear,
+html[data-theme="living-sun"] .format-option,
+html[data-theme="living-sun"] .continue-reading-button,
+html[data-theme="living-sun"] .saved-records-clear,
+html[data-theme="living-sun"] .notes-library-button,
+html[data-theme="living-sun"] .notes-library-action,
+html[data-theme="living-sun"] .article-save-button,
+html[data-theme="living-sun"] .article-notes-toggle,
+html[data-theme="living-sun"] .article-notes-action,
+html[data-theme="living-sun"] .mobile-filter-button {
+    border: 1px solid rgba(71, 64, 42, 0.48);
+    border-radius: 999px;
+    background:
+        linear-gradient(
+            180deg,
+            rgba(255, 244, 196, 0.98),
+            rgba(218, 185, 103, 0.92)
+        );
+    color: #3d4233;
+    box-shadow:
+        inset 0 2px 0 rgba(255, 255, 255, 0.48),
+        0 5px 13px rgba(65, 49, 24, 0.15);
+    transition:
+        transform 140ms ease,
+        filter 140ms ease,
+        box-shadow 140ms ease;
+}
+
+html[data-theme="living-sun"] .button:hover,
+html[data-theme="living-sun"] .back-link:hover,
+html[data-theme="living-sun"] .pagination-button:hover:not(:disabled),
+html[data-theme="living-sun"] .search-clear:hover,
+html[data-theme="living-sun"] .format-option:hover,
+html[data-theme="living-sun"] .continue-reading-button:hover,
+html[data-theme="living-sun"] .saved-records-clear:hover,
+html[data-theme="living-sun"] .notes-library-button:hover,
+html[data-theme="living-sun"] .notes-library-action:hover,
+html[data-theme="living-sun"] .article-save-button:hover,
+html[data-theme="living-sun"] .article-notes-toggle:hover,
+html[data-theme="living-sun"] .article-notes-action:hover,
+html[data-theme="living-sun"] .mobile-filter-button:hover {
+    transform: translateY(-1px);
+    filter: brightness(1.05) saturate(1.05);
+    box-shadow:
+        inset 0 2px 0 rgba(255, 255, 255, 0.52),
+        0 8px 18px rgba(65, 49, 24, 0.19);
+}
+
+html[data-theme="living-sun"] .pagination-button.active,
+html[data-theme="living-sun"] .format-option.active,
+html[data-theme="living-sun"] .article-save-button.saved,
+html[data-theme="living-sun"] .article-notes-toggle.active {
+    border-color: rgba(49, 65, 41, 0.72);
+    background:
+        linear-gradient(
+            180deg,
+            #718252,
+            #3d5134
+        );
+    color: #fff0bd;
+}
+
+html[data-theme="living-sun"] #paginationControls {
+    border-color: rgba(93, 76, 43, 0.24);
+}
+
+/* =========================================================
+   PERSONAL PANELS
+   ========================================================= */
+
+html[data-theme="living-sun"] .saved-records-panel,
+html[data-theme="living-sun"] .notes-library,
+html[data-theme="living-sun"] .continue-reading-card,
+html[data-theme="living-sun"] .article-notes-panel,
+html[data-theme="living-sun"] .reading-resume-panel,
+html[data-theme="living-sun"] .reading-bookmark-controls {
+    border-color: rgba(91, 72, 39, 0.34);
+    border-radius: 22px;
+    background: var(--ls-panel);
+    box-shadow: var(--ls-shadow-small);
+}
+
+html[data-theme="living-sun"] .saved-records-kicker,
+html[data-theme="living-sun"] .notes-library-kicker,
+html[data-theme="living-sun"] .continue-reading-label,
+html[data-theme="living-sun"] .article-notes-kicker {
+    color: var(--rust);
+}
+
+/* =========================================================
+   ARTICLE HERO
+   ========================================================= */
+
+html[data-theme="living-sun"] body.article-view {
+    background:
+        radial-gradient(
+            circle at 13% 5%,
+            rgba(157, 189, 188, 0.42),
+            transparent 31rem
+        ),
+        radial-gradient(
+            circle at 89% 9%,
+            rgba(242, 195, 77, 0.36),
+            transparent 29rem
+        ),
+        linear-gradient(
+            180deg,
+            #cbd9c4 0,
+            #e6d8ad 35rem,
+            #eee3bf 70rem,
+            #eadab3 100%
+        );
+}
+
+html[data-theme="living-sun"] body.article-view .page {
+    max-width: 1400px;
+    padding-top: 34px;
+}
+
+html[data-theme="living-sun"] .article-header {
+    display: grid;
+    width: min(100%, 1240px);
+    max-width: none;
+    min-height: 440px;
+    grid-template-columns: minmax(0, 1fr) 390px;
+    align-content: start;
+    gap: 0 34px;
+    margin: 0 auto;
+    padding: 42px;
+    overflow: hidden;
+    border: 1px solid rgba(99, 78, 40, 0.36);
+    border-radius: 30px;
+    background:
+        linear-gradient(
+            145deg,
+            rgba(255, 249, 226, 0.96),
+            rgba(228, 225, 188, 0.93)
+        );
+    box-shadow: var(--ls-shadow);
+}
+
+html[data-theme="living-sun"] .article-header > .kicker,
+html[data-theme="living-sun"] .article-header > h1,
+html[data-theme="living-sun"] .article-header > .deck,
+html[data-theme="living-sun"] .article-header > .metadata {
+    grid-column: 1;
+}
+
+html[data-theme="living-sun"] .article-header h1 {
+    max-width: 780px;
+    font-size: clamp(48px, 5vw, 76px);
+    line-height: 0.98;
+}
+
+html[data-theme="living-sun"] .article-header .deck {
+    max-width: 720px;
+    color: #6c6958;
+    font-size: 19px;
+}
+
+html[data-theme="living-sun"] .article-header .metadata {
+    color: #6d644e;
+}
+
+html[data-theme="living-sun"] .article-header .tools,
+html[data-theme="living-sun"] .article-header .search-count,
+html[data-theme="living-sun"] .article-save-row,
+html[data-theme="living-sun"] .article-notes-shell {
+    grid-column: 1 / -1;
+    width: 100%;
+    max-width: none;
+}
+
+html[data-theme="living-sun"] .article-header .tools {
+    margin-top: 28px;
+}
+
+html[data-theme="living-sun"] #articleSearch {
+    border-radius: 999px;
+    background:
+        linear-gradient(
+            180deg,
+            rgba(255, 255, 244, 0.97),
+            rgba(237, 232, 204, 0.93)
+        );
+}
+
+html[data-theme="living-sun"] .ls-article-scene {
+    position: relative;
+    display: block;
+    grid-column: 2;
+    grid-row: 1 / 5;
+    min-height: 340px;
+    overflow: hidden;
+    border: 1px solid rgba(255, 246, 207, 0.55);
+    border-radius: 25px;
+    background: #53634a;
+    box-shadow:
+        0 21px 45px rgba(48, 42, 27, 0.22),
+        inset 0 2px 0 rgba(255, 255, 255, 0.28);
+}
+
+html[data-theme="living-sun"] .ls-article-landscape {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 55%;
+}
+
+html[data-theme="living-sun"] .ls-article-scene::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:
+        linear-gradient(
+            180deg,
+            rgba(255, 255, 255, 0.08),
+            transparent 45%,
+            rgba(34, 48, 34, 0.43)
+        );
+}
+
+html[data-theme="living-sun"] .ls-article-portrait-frame,
+html[data-theme="living-sun"] .ls-article-milk-frame {
+    position: absolute;
+    z-index: 2;
+    overflow: hidden;
+    border: 1px solid rgba(255, 244, 194, 0.68);
+    background: rgba(255, 245, 213, 0.22);
+    box-shadow: 0 13px 28px rgba(31, 42, 29, 0.26);
+}
+
+html[data-theme="living-sun"] .ls-article-portrait-frame {
+    right: 18px;
+    bottom: 20px;
+    width: 126px;
+    height: 126px;
+    border-radius: 50%;
+}
+
+html[data-theme="living-sun"] .ls-article-milk-frame {
+    top: 18px;
+    left: 18px;
+    width: 118px;
+    height: 88px;
+    border-radius: 18px 45px 18px 18px;
+}
+
+html[data-theme="living-sun"] .ls-article-portrait,
+html[data-theme="living-sun"] .ls-article-milk {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+html[data-theme="living-sun"] .ls-article-milk {
+    object-position: 15% 55%;
+}
+
+html[data-theme="living-sun"] .ls-article-scene-label {
+    position: absolute;
+    bottom: 22px;
+    left: 20px;
+    z-index: 3;
+    max-width: 170px;
+    padding: 8px 10px;
+    border: 1px solid rgba(255, 242, 191, 0.42);
+    border-radius: 999px;
+    background: rgba(47, 63, 42, 0.68);
+    color: #fff0bf;
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 0.10em;
+    text-transform: uppercase;
+    backdrop-filter: blur(8px);
+}
+
+/* =========================================================
+   ARTICLE NAVIGATION AND READING SURFACE
+   ========================================================= */
+
+html[data-theme="living-sun"] .result-set-navigation {
+    width: min(100%, 1240px);
+    margin: 18px auto 0;
+}
+
+html[data-theme="living-sun"] .result-set-link,
+html[data-theme="living-sun"] .result-set-position {
+    border-color: rgba(88, 72, 42, 0.35);
+    border-radius: 18px;
+    background: var(--ls-panel);
+    box-shadow: var(--ls-shadow-small);
+}
+
+html[data-theme="living-sun"] .result-set-link:hover {
+    border-color: var(--ls-leaf);
+    background: var(--ls-panel-cool);
+}
+
+html[data-theme="living-sun"] .result-set-direction {
+    color: var(--rust);
+}
+
+html[data-theme="living-sun"] .layout {
+    display: grid;
+    width: min(100%, 1240px);
+    grid-template-columns: 210px minmax(0, 1fr);
+    align-items: start;
+    gap: 28px;
+    margin: 34px auto 0;
+}
+
+html[data-theme="living-sun"] .toc-rail {
+    display: block;
+    position: sticky;
+    top: 94px;
+}
+
+html[data-theme="living-sun"] .toc {
+    overflow: hidden;
+    border: 1px solid rgba(89, 73, 42, 0.34);
+    border-radius: 18px;
+    background: var(--ls-panel-cool);
+    box-shadow: var(--ls-shadow-small);
+}
+
+html[data-theme="living-sun"] .toc a {
+    border-color: rgba(89, 73, 42, 0.20);
+    color: #676451;
+}
+
+html[data-theme="living-sun"] .toc a:hover {
+    color: var(--rust);
+}
+
+html[data-theme="living-sun"] .body {
+    width: 100%;
+    max-width: none;
+    min-width: 0;
+    padding: clamp(34px, 5vw, 68px);
+    border: 1px solid rgba(94, 76, 42, 0.34);
+    border-radius: 28px;
+    background:
+        linear-gradient(
+            145deg,
+            rgba(255, 251, 233, 0.98),
+            rgba(239, 231, 200, 0.96)
+        );
+    color: #34382f;
+    font-size: 21px;
+    line-height: 1.76;
+    box-shadow: var(--ls-shadow);
+}
+
+html[data-theme="living-sun"] .body h2 {
+    font-size: 41px;
+}
+
+html[data-theme="living-sun"] .body h3 {
+    font-size: 30px;
+}
+
+html[data-theme="living-sun"] .body a {
+    color: var(--rust);
+}
+
+html[data-theme="living-sun"] .body blockquote {
+    border-left-color: var(--ls-sun-deep);
+    border-radius: 0 17px 17px 0;
+    background: rgba(244, 212, 127, 0.26);
+}
+
+html[data-theme="living-sun"] .speaker {
+    color: var(--rust);
+}
+
+html[data-theme="living-sun"] mark.hit {
+    background: rgba(241, 195, 70, 0.54);
+}
+
+html[data-theme="living-sun"] mark.hit.current {
+    outline-color: var(--rust);
+}
+
+html[data-theme="living-sun"] .record-rail {
+    position: static;
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: start;
+    gap: 18px;
+    padding: 22px;
+    border: 1px solid rgba(88, 72, 42, 0.34);
+    border-radius: 20px;
+    background: var(--ls-panel);
+    box-shadow: var(--ls-shadow-small);
+}
+
+html[data-theme="living-sun"] .record-rail > .rail-title {
+    grid-column: 1 / -1;
+}
+
+html[data-theme="living-sun"] .record-rail .record {
+    display: block !important;
+    min-height: auto;
+    padding: 18px !important;
+    border-radius: 14px;
+    background: rgba(255, 250, 228, 0.62);
+    box-shadow: none;
+}
+
+html[data-theme="living-sun"] .record-rail .actions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+html[data-theme="living-sun"] .related {
+    width: min(100%, 1240px);
+    max-width: none;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+html[data-theme="living-sun"] .related-grid {
+    gap: 12px;
+    border: 0;
+}
+
+html[data-theme="living-sun"] .related-item {
+    min-height: 150px;
+    border: 1px solid rgba(88, 72, 42, 0.34);
+    border-radius: 19px;
+    background: var(--ls-panel-cool);
+    box-shadow: var(--ls-shadow-small);
+}
+
+html[data-theme="living-sun"] .related-item:hover {
+    border-color: var(--ls-leaf);
+    background: var(--ls-panel);
+}
+
+/* =========================================================
+   PROGRESS AND PASSAGE LINKS
+   ========================================================= */
+
+html[data-theme="living-sun"] .reading-progress-track {
+    background: rgba(58, 68, 46, 0.20);
+}
+
+html[data-theme="living-sun"] .reading-progress-value {
+    background:
+        linear-gradient(
+            90deg,
+            var(--ls-sky),
+            var(--ls-leaf-bright),
+            var(--ls-sun),
+            var(--ls-red)
+        );
+    box-shadow: 0 0 12px rgba(239, 182, 48, 0.45);
+}
+
+html[data-theme="living-sun"] .passage-anchor {
+    color: #77705b;
+}
+
+html[data-theme="living-sun"] .passage-anchor:hover {
+    border-color: var(--ls-leaf);
+    background: rgba(255, 249, 225, 0.88);
+    color: var(--rust);
+}
+
+/* =========================================================
+   RESPONSIVE
+   ========================================================= */
+
+@media (max-width: 1180px) {
+    html[data-theme="living-sun"] .ls-scene-garden {
+        left: -95px;
+        width: 250px;
+    }
+
+    html[data-theme="living-sun"] .ls-scene-milk {
+        right: -80px;
+        width: 240px;
+    }
+
+    html[data-theme="living-sun"] .ls-scene-books {
+        right: 18px;
+        width: 205px;
+    }
+
+    html[data-theme="living-sun"] .collection-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    html[data-theme="living-sun"] .featured-grid {
+        grid-template-columns: 1fr;
+    }
+
+    html[data-theme="living-sun"] .finding-aids {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+
+    html[data-theme="living-sun"] .article-header {
+        grid-template-columns: minmax(0, 1fr) 330px;
+    }
+}
+
+@media (max-width: 960px) {
+    html[data-theme="living-sun"] .top-nav > a {
+        display: none;
+    }
+
+    html[data-theme="living-sun"] .intro {
+        min-height: 680px;
+        padding-right: 35px;
+        padding-left: 35px;
+    }
+
+    html[data-theme="living-sun"] .ls-scene-garden {
+        opacity: 0.76;
+    }
+
+    html[data-theme="living-sun"] .ls-scene-books {
+        display: none;
+    }
+
+    html[data-theme="living-sun"] .archive-layout {
+        grid-template-columns: 1fr;
+    }
+
+    html[data-theme="living-sun"] .filters {
+        position: static;
+    }
+
+    html[data-theme="living-sun"] .record {
+        grid-template-columns: 92px minmax(0, 1fr) !important;
+    }
+
+    html[data-theme="living-sun"] .record-type {
+        grid-column: 2;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 0 20px 18px;
+        border: 0;
+        background: transparent;
+        text-align: left;
+    }
+
+    html[data-theme="living-sun"] .article-header {
+        grid-template-columns: 1fr;
+    }
+
+    html[data-theme="living-sun"] .ls-article-scene {
+        grid-column: 1;
+        grid-row: auto;
+        min-height: 260px;
+        margin: 0 0 28px;
+    }
+
+    html[data-theme="living-sun"] .article-header > .kicker,
+    html[data-theme="living-sun"] .article-header > h1,
+    html[data-theme="living-sun"] .article-header > .deck,
+    html[data-theme="living-sun"] .article-header > .metadata {
+        grid-column: 1;
+    }
+
+    html[data-theme="living-sun"] .layout {
+        grid-template-columns: 1fr;
+    }
+
+    html[data-theme="living-sun"] .toc-rail {
+        display: none;
+    }
+
+    html[data-theme="living-sun"] .record-rail {
+        grid-column: 1;
+    }
+}
+
+@media (max-width: 720px) {
+    html[data-theme="living-sun"] .header-inner,
+    html[data-theme="living-sun"] .page {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    html[data-theme="living-sun"] .brand small {
+        display: none;
+    }
+
+    html[data-theme="living-sun"] .theme-switcher-label {
+        display: none;
+    }
+
+    html[data-theme="living-sun"] .theme-switcher-button {
+        padding-right: 9px;
+        padding-left: 9px;
+    }
+
+    html[data-theme="living-sun"] .intro {
+        min-height: 610px;
+        padding: 220px 22px 130px;
+        border-radius: 22px;
+    }
+
+    html[data-theme="living-sun"] .intro h1 {
+        font-size: 54px;
+    }
+
+    html[data-theme="living-sun"] .intro-copy {
+        font-size: 17px;
+    }
+
+    html[data-theme="living-sun"] .ls-sun-emblem {
+        top: 53px;
+        width: 142px;
+        height: 142px;
+    }
+
+    html[data-theme="living-sun"] .ls-sun-core {
+        font-size: 46px;
+    }
+
+    html[data-theme="living-sun"] .ls-scene-garden {
+        bottom: -70px;
+        left: -93px;
+        width: 215px;
+        height: 310px;
+    }
+
+    html[data-theme="living-sun"] .ls-scene-milk {
+        right: -94px;
+        bottom: -75px;
+        width: 210px;
+        height: 280px;
+    }
+
+    html[data-theme="living-sun"] .ls-field-caption,
+    html[data-theme="living-sun"] .ls-bubble-field {
+        display: none;
+    }
+
+    html[data-theme="living-sun"] .search-section {
+        width: calc(100% - 28px);
+        margin-top: -82px;
+        padding: 18px;
+        border-radius: 19px;
+    }
+
+    html[data-theme="living-sun"] .search-wrap input {
+        padding: 17px 91px 17px 18px;
+        font-size: 15px;
+    }
+
+    html[data-theme="living-sun"] .search-wrap button {
+        min-width: 78px;
+        padding: 0 12px;
+    }
+
+    html[data-theme="living-sun"] .collection-grid,
+    html[data-theme="living-sun"] .finding-aids {
+        grid-template-columns: 1fr;
+    }
+
+    html[data-theme="living-sun"] .featured-record {
+        grid-template-columns: 1fr;
+    }
+
+    html[data-theme="living-sun"] .ls-featured-visual {
+        grid-row: auto;
+        min-height: 280px;
+    }
+
+    html[data-theme="living-sun"] .featured-meta {
+        grid-column: 1;
+    }
+
+    html[data-theme="living-sun"] #archive {
+        padding: 16px;
+        border-radius: 20px;
+    }
+
+    html[data-theme="living-sun"] .record {
+        grid-template-columns: 76px minmax(0, 1fr) !important;
+        border-radius: 15px;
+    }
+
+    html[data-theme="living-sun"] .record-stamp {
+        min-height: 132px;
+    }
+
+    html[data-theme="living-sun"] .record-main {
+        padding: 17px;
+    }
+
+    html[data-theme="living-sun"] .record-main h3 {
+        font-size: 20px;
+    }
+
+    html[data-theme="living-sun"] .record-main p {
+        font-size: 14px;
+    }
+
+    html[data-theme="living-sun"] .record-type {
+        padding-right: 17px;
+        padding-left: 17px;
+    }
+
+    html[data-theme="living-sun"] .article-header {
+        padding: 22px;
+        border-radius: 20px;
+    }
+
+    html[data-theme="living-sun"] .article-header h1 {
+        font-size: 43px;
+    }
+
+    html[data-theme="living-sun"] .article-header .tools {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    html[data-theme="living-sun"] .article-header .tools input {
+        grid-column: 1 / -1;
+    }
+
+    html[data-theme="living-sun"] .body {
+        padding: 24px 20px;
+        border-radius: 19px;
+        font-size: 19px;
+    }
+
+    html[data-theme="living-sun"] .record-rail {
+        grid-template-columns: 1fr;
+    }
+
+    html[data-theme="living-sun"] .record-rail .actions {
+        justify-content: flex-start;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html[data-theme="living-sun"] *,
+    html[data-theme="living-sun"] *::before,
+    html[data-theme="living-sun"] *::after {
+        scroll-behavior: auto !important;
+        transition-duration: 0.01ms !important;
+    }
+}

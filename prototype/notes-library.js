@@ -113,6 +113,20 @@
             return;
         }
 
+        const timeline =
+            document.getElementById(
+                "timeline"
+            );
+
+        if (timeline) {
+            timeline.insertAdjacentElement(
+                "beforebegin",
+                panel
+            );
+
+            return;
+        }
+
         const archive =
             document.getElementById(
                 "archive"
@@ -120,7 +134,7 @@
 
         if (archive) {
             archive.insertAdjacentElement(
-                "beforebegin",
+                "afterend",
                 panel
             );
 
@@ -133,7 +147,7 @@
             );
 
         if (main) {
-            main.prepend(panel);
+            main.append(panel);
         }
     }
 
@@ -201,6 +215,13 @@
             noteRecords();
 
         if (!notes.length) {
+            document.dispatchEvent(
+                new CustomEvent(
+                    "aajonus:notes-updated",
+                    { detail: { count: 0 } }
+                )
+            );
+
             return;
         }
 
@@ -599,6 +620,13 @@
 
         insertPanel(panel);
         drawNotes();
+
+        document.dispatchEvent(
+            new CustomEvent(
+                "aajonus:notes-updated",
+                { detail: { count: notes.length } }
+            )
+        );
     }
 
     if (

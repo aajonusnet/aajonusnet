@@ -58,29 +58,6 @@ function e(string $value): string
     );
 }
 
-
-if (!function_exists('mb_substr')) {
-    function mb_substr(
-        string $value,
-        int $start,
-        ?int $length = null,
-        ?string $encoding = null
-    ): string {
-        return $length === null
-            ? substr($value, $start)
-            : substr($value, $start, $length);
-    }
-}
-
-if (!function_exists('mb_strlen')) {
-    function mb_strlen(
-        string $value,
-        ?string $encoding = null
-    ): int {
-        return strlen($value);
-    }
-}
-
 function titleFromPath(
     string $path
 ): string {
@@ -175,181 +152,6 @@ function encodedFileUrl(
             )
         )
     );
-}
-
-
-function safeMediaValue(
-    string $value
-): string {
-    return trim(
-        str_replace(
-            ["\r", "\n", '"', "'"],
-            '',
-            $value
-        )
-    );
-}
-
-function archiveImagePath(
-    string $value
-): string {
-    $value = trim($value);
-
-    if (
-        preg_match(
-            '~^(?:https?:)?//|^/|^data:~i',
-            $value
-        )
-    ) {
-        return $value;
-    }
-
-    return '/imgs/' .
-        ltrim(
-            preg_replace(
-                '~^\./~',
-                '',
-                $value
-            ) ?? $value,
-            '/'
-        );
-}
-
-function preprocessArchiveMarkdown(
-    string $content
-): string {
-    $content = preg_replace_callback(
-        '~^\s*\[audio\]:\s*\(([^)]+)\)\s*$~mi',
-        static function (array $match): string {
-            $source = safeMediaValue(
-                $match[1]
-            );
-
-            return '<audio controls preload="none" src="' .
-                e($source) .
-                '"></audio>';
-        },
-        $content
-    ) ?? $content;
-
-    $content = preg_replace_callback(
-        '~^\s*\[video\]:\s*\(([^)]+)\)\s*$~mi',
-        static function (array $match): string {
-            $source = safeMediaValue(
-                $match[1]
-            );
-
-            return '<video controls playsinline preload="none" src="' .
-                e($source) .
-                '"></video>';
-        },
-        $content
-    ) ?? $content;
-
-    $content = preg_replace_callback(
-        '~!\[\[(.*?)\s*\|\s*(\d+)\]\]~',
-        static function (array $match): string {
-            $name = trim($match[1]);
-            $width = max(
-                1,
-                min(
-                    2400,
-                    (int) $match[2]
-                )
-            );
-
-            return '<img src="' .
-                e(archiveImagePath($name)) .
-                '" alt="' .
-                e($name) .
-                '" width="' .
-                $width .
-                '">';
-        },
-        $content
-    ) ?? $content;
-
-    $content = preg_replace_callback(
-        '~!\[\[(.*?)\]\]~',
-        static function (array $match): string {
-            $name = trim($match[1]);
-
-            return '![' .
-                $name .
-                '](' .
-                archiveImagePath($name) .
-                ' "' .
-                str_replace('"', '', $name) .
-                '")';
-        },
-        $content
-    ) ?? $content;
-
-    $content = preg_replace_callback(
-        '~!\[([^\]]*)\]\(([^)\s]+)(?:\s+["\'][^"\']*["\'])?\)~',
-        static function (array $match): string {
-            return '![' .
-                $match[1] .
-                '](' .
-                archiveImagePath($match[2]) .
-                ')';
-        },
-        $content
-    ) ?? $content;
-
-    return $content;
-}
-
-function archiveMetaDescription(
-    string $content,
-    int $limit = 170
-): string {
-    $plain = preg_replace(
-        [
-            '~```[\s\S]*?```~',
-            '~^\s*\[(?:audio|video)\]:\s*\([^)]+\)\s*$~mi',
-            '~!\[\[[^\]]+\]\]~',
-            '~!\[[^\]]*\]\([^)]+\)~',
-            '~\[([^\]]+)\]\([^)]+\)~',
-            '~[#>*_`\~|]+~',
-        ],
-        [' ', ' ', ' ', ' ', '$1', ' '],
-        $content
-    ) ?? $content;
-
-    $plain = trim(
-        preg_replace(
-            '~\s+~',
-            ' ',
-            strip_tags($plain)
-        ) ?? ''
-    );
-
-    if ($plain === '') {
-        return 'A record from the Aajonus Vonderplanitz Archive.';
-    }
-
-    if (mb_strlen($plain) <= $limit) {
-        return $plain;
-    }
-
-    return rtrim(
-        mb_substr(
-            $plain,
-            0,
-            $limit - 1
-        )
-    ) . '…';
-}
-
-function secureExternalLinks(
-    string $html
-): string {
-    return preg_replace(
-        '~<a\b(?![^>]*\btarget=)(?=[^>]*\bhref=["\']https?://)~i',
-        '<a target="_blank" rel="noopener noreferrer"',
-        $html
-    ) ?? $html;
 }
 
 $rawText = file_get_contents(
@@ -481,11 +283,6 @@ $parserClass =
 
 $parser = new $parserClass();
 
-$preparedText =
-    preprocessArchiveMarkdown(
-        $rawText
-    );
-
 $renderedContent =
     $extension === 'txt'
         ? '<p>' .
@@ -494,13 +291,8 @@ $renderedContent =
             ) .
             '</p>'
         : $parser->text(
-            $preparedText
+            $rawText
         );
-
-$renderedContent =
-    secureExternalLinks(
-        $renderedContent
-    );
 
 $rawFileUrl =
     encodedFileUrl(
@@ -1033,62 +825,6 @@ $related =
         6
     );
 
-$metaDescription =
-    archiveMetaDescription(
-        $rawText
-    );
-
-$requestPath =
-    parse_url(
-        $_SERVER['REQUEST_URI'] ?? '',
-        PHP_URL_PATH
-    );
-
-if (
-    !is_string($requestPath) ||
-    $requestPath === ''
-) {
-    $requestPath =
-        '/' . slugFromFilename(
-            basename($relativePath)
-        );
-}
-
-$isHttps =
-    isset($_SERVER['HTTPS']) &&
-    $_SERVER['HTTPS'] !== '' &&
-    strtolower((string) $_SERVER['HTTPS']) !== 'off';
-
-$scheme =
-    $isHttps
-        ? 'https'
-        : 'http';
-
-$host =
-    isset($_SERVER['HTTP_HOST'])
-        ? preg_replace(
-            '/[^A-Za-z0-9.\-:\[\]]/',
-            '',
-            (string) $_SERVER['HTTP_HOST']
-        )
-        : '';
-
-$canonicalUrl =
-    is_string($host) &&
-    $host !== ''
-        ? $scheme . '://' .
-            $host .
-            $requestPath
-        : $requestPath;
-
-$socialImageUrl =
-    is_string($host) &&
-    $host !== ''
-        ? $scheme . '://' .
-            $host .
-            '/logos/large-logo.jpg'
-        : '/logos/large-logo.jpg';
-
 $citation = sprintf(
     '%s. “%s.” ' .
     'The Aajonus Vonderplanitz Archive, ' .
@@ -1115,38 +851,6 @@ $citation = sprintf(
     |
     The Aajonus Vonderplanitz Archive
 </title>
-
-<meta name="description" content="<?= e($metaDescription) ?>">
-<meta name="theme-color" content="#f5f0e5">
-<script>
-(() => {
-    try {
-        const saved = localStorage.getItem("aajonusDisplayModeV1");
-        document.documentElement.dataset.displayMode =
-            saved === "earthlight" ? "earthlight" : "archive";
-    } catch {
-        document.documentElement.dataset.displayMode = "archive";
-    }
-})();
-</script>
-<link rel="canonical" href="<?= e($canonicalUrl) ?>">
-<link rel="icon" href="/logos/favicon.ico" type="image/x-icon" sizes="any">
-<link rel="apple-touch-icon" href="/logos/apple-touch-icon.png">
-<link rel="manifest" href="/manifest.json">
-<link rel="sitemap" type="application/xml" href="/prototype/sitemap.php">
-<meta property="og:type" content="article">
-<meta property="og:title" content="<?= e($title) ?>">
-<meta property="og:description" content="<?= e($metaDescription) ?>">
-<meta property="og:url" content="<?= e($canonicalUrl) ?>">
-<meta property="og:site_name" content="The Aajonus Vonderplanitz Archive">
-<meta property="og:image" content="<?= e($socialImageUrl) ?>">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="<?= e($title) ?>">
-<meta name="twitter:description" content="<?= e($metaDescription) ?>">
-<meta name="twitter:image" content="<?= e($socialImageUrl) ?>">
-<meta name="format-detection" content="telephone=no">
-<meta name="mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-capable" content="yes">
 
 <style>
 :root {
@@ -1972,16 +1676,13 @@ mark.hit.current {
 }
 
 .passage-anchor {
-    position: relative;
-    top: auto;
-    left: auto;
+    position: absolute;
+    top: 0.15em;
+    left: -38px;
 
-    display: inline-grid;
-    width: 28px;
-    height: 28px;
-    place-items: center;
+    width: 30px;
+    height: 30px;
 
-    margin-left: 9px;
     padding: 0;
 
     border: 1px solid transparent;
@@ -1989,11 +1690,10 @@ mark.hit.current {
     color: var(--muted);
 
     cursor: pointer;
-    opacity: 0.45;
-    vertical-align: middle;
+    opacity: 0;
 
     font:
-        700 17px Georgia,
+        700 18px Georgia,
         serif;
 
     line-height: 1;
@@ -2042,151 +1742,7 @@ mark.hit.current {
     }
 }
 
-
-/* RESULT SET NAVIGATION V2 */
-
-.result-set-navigation {
-    display: grid;
-
-    width: min(100%, 1180px);
-
-    grid-template-columns:
-        minmax(0, 1fr)
-        auto
-        minmax(0, 1fr);
-
-    gap: 12px;
-
-    margin:
-        26px auto 12px;
-}
-
-.result-set-link,
-.result-set-position {
-    min-width: 0;
-
-    border:
-        1px solid var(--line2);
-
-    background:
-        rgba(
-            255,
-            253,
-            247,
-            0.68
-        );
-}
-
-.result-set-link {
-    display: flex;
-
-    min-height: 82px;
-
-    flex-direction: column;
-    justify-content: center;
-
-    padding: 14px 17px;
-
-    text-decoration: none;
-}
-
-.result-set-link.next {
-    align-items: flex-end;
-    text-align: right;
-}
-
-.result-set-link:hover {
-    border-color: var(--ink);
-    background: var(--sheet);
-}
-
-.result-set-direction {
-    color: var(--rust);
-
-    font-size: 10px;
-    font-weight: 700;
-    letter-spacing: 0.12em;
-
-    text-transform: uppercase;
-}
-
-.result-set-title {
-    display: block;
-
-    max-width: 100%;
-
-    margin-top: 8px;
-
-    overflow: hidden;
-
-    font:
-        18px/1.25 Georgia,
-        "Times New Roman",
-        serif;
-
-    text-overflow: ellipsis;
-    white-space: nowrap;
-}
-
-.result-set-position {
-    display: grid;
-
-    min-width: 145px;
-
-    place-items: center;
-
-    padding: 12px 18px;
-
-    color: var(--muted);
-
-    font-size: 11px;
-    line-height: 1.4;
-
-    text-align: center;
-}
-
-.result-set-position strong {
-    display: block;
-
-    margin-bottom: 5px;
-
-    color: var(--ink);
-
-    font:
-        22px/1 Georgia,
-        "Times New Roman",
-        serif;
-}
-
-.result-set-placeholder {
-    min-height: 82px;
-}
-
-@media (max-width: 760px) {
-    .result-set-navigation {
-        grid-template-columns:
-            1fr 1fr;
-    }
-
-    .result-set-position {
-        grid-column:
-            1 / -1;
-
-        grid-row: 1;
-    }
-
-    .result-set-title {
-        font-size: 16px;
-        white-space: normal;
-    }
-}
-
 </style>
-<link rel="stylesheet" href="/prototype/reading-progress.css">
-<link rel="stylesheet" href="/prototype/saved-records.css">
-<link rel="stylesheet" href="/prototype/article-notes.css">
-<link rel="stylesheet" href="/prototype/archive-enhancements.css">
-<link rel="stylesheet" href="/prototype/earthlight-mode.css">
 </head>
 
 <body>
@@ -2214,32 +1770,13 @@ mark.hit.current {
     </span>
 </a>
 
-<div class="article-header-actions">
-    <div
-        class="display-mode-switcher"
-        role="group"
-        aria-label="Display mode"
-    >
-        <button
-            type="button"
-            data-display-mode-choice="archive"
-            aria-pressed="true"
-        >Archive</button>
-        <button
-            type="button"
-            data-display-mode-choice="earthlight"
-            aria-pressed="false"
-        >Earthlight</button>
-    </div>
-
-    <a
-        id="backLink"
-        class="back-link"
-        href="/prototype/"
-    >
-        Back to archive
-    </a>
-</div>
+<a
+    id="backLink"
+    class="back-link"
+    href="/prototype/"
+>
+    Back to archive
+</a>
 
 </div>
 </header>
@@ -2971,13 +2508,13 @@ window.ARTICLE_DATA = {
 
     const blocks = [
         ...article.querySelectorAll(
-            "p, li, h2, h3"
+            "p, blockquote"
         )
     ].filter(block => {
         return (
             block.textContent
                 .trim()
-                .length > 2
+                .length > 20
         );
     });
 
@@ -3167,238 +2704,5 @@ window.ARTICLE_DATA = {
 })();
 </script>
 
-
-<script>
-/* RESULT_SET_NAVIGATION_V2 */
-
-(() => {
-    const storageKey =
-        "aajonusArticleContextV1";
-
-    const articleHeader =
-        document.querySelector(
-            ".article-header"
-        );
-
-    if (!articleHeader) {
-        return;
-    }
-
-    let context = null;
-
-    try {
-        context =
-            JSON.parse(
-                sessionStorage.getItem(
-                    storageKey
-                ) || "null"
-            );
-    } catch {
-        context = null;
-    }
-
-    if (
-        !context ||
-        !Array.isArray(
-            context.items
-        ) ||
-        context.items.length < 2
-    ) {
-        return;
-    }
-
-    const normalizePath =
-        value =>
-            value
-                .replace(
-                    /\/+$/,
-                    ""
-                )
-                .toLowerCase();
-
-    const currentPath =
-        normalizePath(
-            window.location.pathname
-        );
-
-    const currentIndex =
-        context.items.findIndex(
-            item => {
-                if (
-                    !item ||
-                    typeof item.url !==
-                        "string"
-                ) {
-                    return false;
-                }
-
-                try {
-                    const url =
-                        new URL(
-                            item.url,
-                            window.location.href
-                        );
-
-                    return (
-                        normalizePath(
-                            url.pathname
-                        ) ===
-                        currentPath
-                    );
-                } catch {
-                    return false;
-                }
-            }
-        );
-
-    if (currentIndex < 0) {
-        return;
-    }
-
-    context.currentIndex =
-        currentIndex;
-
-    sessionStorage.setItem(
-        storageKey,
-        JSON.stringify(
-            context
-        )
-    );
-
-    const navigation =
-        document.createElement(
-            "nav"
-        );
-
-    navigation.className =
-        "result-set-navigation";
-
-    navigation.setAttribute(
-        "aria-label",
-        "Search result navigation"
-    );
-
-    function makeResultLink(
-        item,
-        direction,
-        extraClass
-    ) {
-        if (!item) {
-            const placeholder =
-                document.createElement(
-                    "div"
-                );
-
-            placeholder.className =
-                "result-set-placeholder";
-
-            return placeholder;
-        }
-
-        const link =
-            document.createElement(
-                "a"
-            );
-
-        link.className =
-            `result-set-link ${extraClass}`;
-
-        link.href =
-            item.url;
-
-        const directionLabel =
-            document.createElement(
-                "span"
-            );
-
-        directionLabel.className =
-            "result-set-direction";
-
-        directionLabel.textContent =
-            direction;
-
-        const title =
-            document.createElement(
-                "span"
-            );
-
-        title.className =
-            "result-set-title";
-
-        title.textContent =
-            item.title;
-
-        link.append(
-            directionLabel,
-            title
-        );
-
-        return link;
-    }
-
-    const previous =
-        makeResultLink(
-            context.items[
-                currentIndex - 1
-            ],
-            "← Previous result",
-            "previous"
-        );
-
-    const next =
-        makeResultLink(
-            context.items[
-                currentIndex + 1
-            ],
-            "Next result →",
-            "next"
-        );
-
-    const position =
-        document.createElement(
-            "div"
-        );
-
-    position.className =
-        "result-set-position";
-
-    const number =
-        document.createElement(
-            "strong"
-        );
-
-    number.textContent =
-        `${currentIndex + 1} of ${context.items.length}`;
-
-    const label =
-        document.createElement(
-            "span"
-        );
-
-    label.textContent =
-        "search results";
-
-    position.append(
-        number,
-        label
-    );
-
-    navigation.append(
-        previous,
-        position,
-        next
-    );
-
-    articleHeader.insertAdjacentElement(
-        "afterend",
-        navigation
-    );
-})();
-</script>
-
-<script src="/prototype/display-mode.js"></script>
-<script src="/prototype/reading-progress.js" defer></script>
-<script src="/prototype/article-save.js" defer></script>
-<script src="/prototype/article-notes.js" defer></script>
 </body>
 </html>

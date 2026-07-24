@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aajonus Archive Prototype</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <button
+        id="mobileMenuButton"
+        class="mobile-menu-button"
+        aria-label="Open navigation"
+    >
+        ☰
+    </button>
+
+    <div class="app-shell">
+        <aside id="sidebar" class="sidebar">
+            <a class="brand" href="#">
+                <span class="brand-mark">A</span>
+
+                <span>
+                    <strong>Aajonus.net</strong>
+                    <small>Digital archive</small>
+                </span>
+            </a>
+
+            <nav class="main-nav" aria-label="Main navigation">
+                <a class="nav-link active" href="#">
+                    <span>⌂</span>
+                    Home
+                </a>
+
+                <a class="nav-link" href="#library">
+                    <span>⌕</span>
+                    Search archive
+                </a>
+
+                <a class="nav-link" href="#collections">
+                    <span>▦</span>
+                    Collections
+                </a>
+
+                <a class="nav-link" href="#recent">
+                    <span>◷</span>
+                    Recently added
+                </a>
+            </nav>
+
+            <div class="sidebar-section">
+                <p class="sidebar-label">Collections</p>
+
+                <button class="sidebar-filter" data-category="Books">
+                    <span class="dot books-dot"></span>
+                    Books
+                    <small>24</small>
+                </button>
+
+                <button class="sidebar-filter" data-category="Interviews">
+                    <span class="dot interviews-dot"></span>
+                    Interviews
+                    <small>146</small>
+                </button>
+
+                <button class="sidebar-filter" data-category="Newsletters">
+                    <span class="dot newsletters-dot"></span>
+                    Newsletters
+                    <small>38</small>
+                </button>
+
+                <button class="sidebar-filter" data-category="Q&A">
+                    <span class="dot qa-dot"></span>
+                    Q&amp;A
+                    <small>192</small>
+                </button>
+
+                <button class="sidebar-filter" data-category="Videos">
+                    <span class="dot videos-dot"></span>
+                    Videos
+                    <small>61</small>
+                </button>
+
+                <button class="sidebar-filter" data-category="Misc">
+                    <span class="dot misc-dot"></span>
+                    Miscellaneous
+                    <small>74</small>
+                </button>
+            </div>
+
+            <div class="sidebar-footer">
+                <button id="themeToggle" class="theme-toggle">
+                    <span id="themeIcon">☀</span>
+                    Change theme
+                </button>
+
+                <p>Independent historical archive.</p>
+            </div>
+        </aside>
+
+        <main class="main-content">
+            <header class="topbar">
+                <div class="global-search">
+                    <span class="search-icon">⌕</span>
+
+                    <input
+                        id="searchInput"
+                        type="search"
+                        placeholder="Search titles, topics, interviews..."
+                        autocomplete="off"
+                    >
+
+                    <kbd>Ctrl K</kbd>
+                </div>
+
+                <a class="about-button" href="#">About archive</a>
+            </header>
+
+            <section class="archive-notice">
+                <span>Archive notice</span>
+
+                <p>
+                    This collection preserves historical material. Health claims
+                    presented in archived documents are not medical guidance.
+                </p>
+            </section>
+
+            <section class="hero">
+                <div class="hero-content">
+                    <p class="eyebrow">Explore the complete collection</p>
+
+                    <h1>
+                        Find material without scrolling through hundreds of files.
+                    </h1>
+
+                    <p class="hero-description">
+                        Browse books, workshops, interviews, newsletters, videos,
+                        and question-and-answer sessions from one organized library.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a class="primary-button" href="#collections">
+                            Browse collections
+                        </a>
+
+                        <a class="secondary-button" href="#library">
+                            View all documents
+                        </a>
+                    </div>
+                </div>
+
+                <div class="archive-stat-card">
+                    <div class="stat-main">
+                        <strong>535</strong>
+                        <span>documents indexed</span>
+                    </div>
+
+                    <div class="stat-grid">
+                        <div>
+                            <strong>6</strong>
+                            <span>collections</span>
+                        </div>
+
+                        <div>
+                            <strong>20+</strong>
+                            <span>years covered</span>
+                        </div>
+
+                        <div>
+                            <strong>100%</strong>
+                            <span>free access</span>
+                        </div>
+
+                        <div>
+                            <strong>0</strong>
+                            <span>accounts needed</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="collections" class="section">
+                <div class="section-header">
+                    <div>
+                        <p class="eyebrow">Library structure</p>
+                        <h2>Browse collections</h2>
+                    </div>
+
+                    <button id="showAllCollections" class="text-button">
+                        View all
+                    </button>
+                </div>
+
+                <div class="collection-grid">
+                    <button class="collection-card books" data-category="Books">
+                        <span class="folder-icon"></span>
+
+                        <span class="collection-copy">
+                            <strong>Books</strong>
+                            <small>24 documents</small>
+                        </span>
+
+                        <span class="arrow">→</span>
+                    </button>
+
+                    <button
+                        class="collection-card interviews"
+                        data-category="Interviews"
+                    >
+                        <span class="folder-icon"></span>
+
+                        <span class="collection-copy">
+                            <strong>Interviews</strong>
+                            <small>146 documents</small>
+                        </span>
+
+                        <span class="arrow">→</span>
+                    </button>
+
+                    <button
+                        class="collection-card newsletters"
+                        data-category="Newsletters"
+                    >
+                        <span class="folder-icon"></span>
+
+                        <span class="collection-copy">
+                            <strong>Newsletters</strong>
+                            <small>38 documents</small>
+                        </span>
+
+                        <span class="arrow">→</span>
+                    </button>
+
+                    <button class="collection-card qa" data-category="Q&A">
+                        <span class="folder-icon"></span>
+
+                        <span class="collection-copy">
+                            <strong>Q&amp;A sessions</strong>
+                            <small>192 documents</small>
+                        </span>
+
+                        <span class="arrow">→</span>
+                    </button>
+
+                    <button class="collection-card videos" data-category="Videos">
+                        <span class="folder-icon"></span>
+
+                        <span class="collection-copy">
+                            <strong>Videos</strong>
+                            <small>61 documents</small>
+                        </span>
+
+                        <span class="arrow">→</span>
+                    </button>
+
+                    <button class="collection-card misc" data-category="Misc">
+                        <span class="folder-icon"></span>
+
+                        <span class="collection-copy">
+                            <strong>Miscellaneous</strong>
+                            <small>74 documents</small>
+                        </span>
+
+                        <span class="arrow">→</span>
+                    </button>
+                </div>
+            </section>
+
+            <section id="library" class="section library-section">
+                <div class="section-header library-header">
+                    <div>
+                        <p class="eyebrow">Archive browser</p>
+                        <h2 id="libraryTitle">All documents</h2>
+                    </div>
+
+                    <div class="view-controls">
+                        <button
+                            id="gridViewButton"
+                            class="view-button active"
+                            aria-label="Grid view"
+                        >
+                            ▦
+                        </button>
+
+                        <button
+                            id="listViewButton"
+                            class="view-button"
+                            aria-label="List view"
+                        >
+                            ☷
+                        </button>
+                    </div>
+                </div>
+
+                <div class="filter-row">
+                    <button class="filter-chip active" data-category="All">
+                        All
+                    </button>
+
+                    <button class="filter-chip" data-category="Books">
+                        Books
+                    </button>
+
+                    <button class="filter-chip" data-category="Interviews">
+                        Interviews
+                    </button>
+
+                    <button class="filter-chip" data-category="Newsletters">
+                        Newsletters
+                    </button>
+
+                    <button class="filter-chip" data-category="Q&A">
+                        Q&amp;A
+                    </button>
+
+                    <button class="filter-chip" data-category="Videos">
+                        Videos
+                    </button>
+
+                    <button class="filter-chip" data-category="Misc">
+                        Misc
+                    </button>
+                </div>
+
+                <div id="documentGrid" class="document-grid">
+                    <article
+                        class="document-card"
+                        data-category="Q&A"
+                        data-search="primal diet workshop q&a june 22 2013"
+                    >
+                        <div class="document-top">
+                            <span class="document-type qa-tag">Q&amp;A</span>
+                            <button class="bookmark" aria-label="Bookmark">☆</button>
+                        </div>
+
+                        <h3>Primal Diet Workshop and Q&amp;A of June 22, 2013</h3>
+
+                        <p>
+                            Workshop discussion covering diet, digestion, food
+                            preparation, and audience questions.
+                        </p>
+
+                        <div class="document-meta">
+                            <span>June 22, 2013</span>
+                            <span>48 min read</span>
+                        </div>
+                    </article>
+
+                    <article
+                        class="document-card"
+                        data-category="Interviews"
+                        data-search="aajonus vonderplanitz radio interview health food"
+                    >
+                        <div class="document-top">
+                            <span class="document-type interviews-tag">
+                                Interview
+                            </span>
+
+                            <button class="bookmark" aria-label="Bookmark">☆</button>
+                        </div>
+
+                        <h3>Radio Interview on Food, Health, and Nutrition</h3>
+
+                        <p>
+                            A long-form discussion covering the archive's central
+                            themes and frequently discussed ideas.
+                        </p>
+
+                        <div class="document-meta">
+                            <span>August 2009</span>
+                            <span>Audio transcript</span>
+                        </div>
+                    </article>
+
+                    <article
+                        class="document-card"
+                        data-category="Books"
+                        data-search="we want to live book complete edition"
+                    >
+                        <div class="document-top">
+                            <span class="document-type books-tag">Book</span>
+                            <button class="bookmark" aria-label="Bookmark">☆</button>
+                        </div>
+
+                        <h3>We Want to Live, Complete Edition</h3>
+
+                        <p>
+                            A searchable digital version organized into chapters
+                            for easier reading and navigation.
+                        </p>
+
+                        <div class="document-meta">
+                            <span>Book</span>
+                            <span>24 chapters</span>
+                        </div>
+                    </article>
+
+                    <article
+                        class="document-card"
+                        data-category="Newsletters"
+                        data-search="newsletter volume 5 issue 2 archive"
+                    >
+                        <div class="document-top">
+                            <span class="document-type newsletters-tag">
+                                Newsletter
+                            </span>
+
+                            <button class="bookmark" aria-label="Bookmark">☆</button>
+                        </div>
+
+                        <h3>Newsletter, Volume 5, Issue 2</h3>
+
+                        <p>
+                            Archived newsletter material with improved headings,
+                            source information, and reading structure.
+                        </p>
+
+                        <div class="document-meta">
+                            <span>Volume 5</span>
+                            <span>12 min read</span>
+                        </div>
+                    </article>
+
+                    <article
+                        class="document-card"
+                        data-category="Videos"
+                        data-search="video workshop los angeles questions"
+                    >
+                        <div class="document-top">
+                            <span class="document-type videos-tag">Video</span>
+                            <button class="bookmark" aria-label="Bookmark">☆</button>
+                        </div>
+
+                        <h3>Los Angeles Workshop Recording</h3>
+
+                        <p>
+                            Video recording with chapter markers and a linked
+                            transcript for quicker navigation.
+                        </p>
+
+                        <div class="document-meta">
+                            <span>Video</span>
+                            <span>2 hr 16 min</span>
+                        </div>
+                    </article>
+
+                    <article
+                        class="document-card"
+                        data-category="Misc"
+                        data-search="raw milk pasteurization article"
+                    >
+                        <div class="document-top">
+                            <span class="document-type misc-tag">Article</span>
+                            <button class="bookmark" aria-label="Bookmark">☆</button>
+                        </div>
+
+                        <h3>What Started Pasteurization?</h3>
+
+                        <p>
+                            Historical article preserved with its original source
+                            link and archive information.
+                        </p>
+
+                        <div class="document-meta">
+                            <span>Article</span>
+                            <span>8 min read</span>
+                        </div>
+                    </article>
+
+                    <article
+                        class="document-card extra-document"
+                        data-category="Q&A"
+                        data-search="q&a may 26 2013 workshop"
+                    >
+                        <div class="document-top">
+                            <span class="document-type qa-tag">Q&amp;A</span>
+                            <button class="bookmark" aria-label="Bookmark">☆</button>
+                        </div>
+
+                        <h3>Q&amp;A of May 26, 2013</h3>
+
+                        <p>
+                            Audience questions presented in a readable transcript
+                            with topic labels.
+                        </p>
+
+                        <div class="document-meta">
+                            <span>May 26, 2013</span>
+                            <span>Transcript</span>
+                        </div>
+                    </article>
+
+                    <article
+                        class="document-card extra-document"
+                        data-category="Interviews"
+                        data-search="one radio network interview"
+                    >
+                        <div class="document-top">
+                            <span class="document-type interviews-tag">
+                                Interview
+                            </span>
+
+                            <button class="bookmark" aria-label="Bookmark">☆</button>
+                        </div>
+
+                        <h3>One Radio Network Interview</h3>
+
+                        <p>
+                            Interview transcript with sections, timestamps, and
+                            related archive links.
+                        </p>
+
+                        <div class="document-meta">
+                            <span>Interview</span>
+                            <span>Audio</span>
+                        </div>
+                    </article>
+                </div>
+
+                <div id="emptyState" class="empty-state" hidden>
+                    <strong>No matching documents</strong>
+                    <p>Try another search term or collection.</p>
+                </div>
+
+                <button id="loadMoreButton" class="load-more-button">
+                    Load more documents
+                </button>
+            </section>
+
+            <footer class="site-footer">
+                <div>
+                    <strong>Aajonus.net</strong>
+                    <p>Independent digital archive.</p>
+                </div>
+
+                <div>
+                    <a href="#">About</a>
+                    <a href="#">Sources</a>
+                    <a href="#">GitHub</a>
+                    <a href="#">Privacy</a>
+                </div>
+            </footer>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

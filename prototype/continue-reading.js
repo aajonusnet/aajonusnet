@@ -94,6 +94,23 @@
     }
 
     function insertCard(card) {
+        const searchSection =
+            document.querySelector(
+                ".search-section"
+            );
+
+        if (
+            searchSection &&
+            searchSection.parentElement
+        ) {
+            searchSection.insertAdjacentElement(
+                "afterend",
+                card
+            );
+
+            return;
+        }
+
         const archive =
             document.getElementById(
                 "archive"

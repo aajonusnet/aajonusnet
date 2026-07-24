@@ -79,6 +79,23 @@
     }
 
     function insertPanel(panel) {
+        const timeline =
+            document.getElementById(
+                "timeline"
+            );
+
+        if (
+            timeline &&
+            timeline.parentElement
+        ) {
+            timeline.insertAdjacentElement(
+                "beforebegin",
+                panel
+            );
+
+            return;
+        }
+
         const archive =
             document.getElementById(
                 "archive"
@@ -89,7 +106,7 @@
             archive.parentElement
         ) {
             archive.insertAdjacentElement(
-                "beforebegin",
+                "afterend",
                 panel
             );
 
@@ -102,7 +119,7 @@
             );
 
         if (main) {
-            main.prepend(panel);
+            main.append(panel);
         }
     }
 

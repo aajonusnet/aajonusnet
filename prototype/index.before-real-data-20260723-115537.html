@@ -3,45 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>The Aajonus Vonderplanitz Archive</title>
-<meta
-    name="description"
-    content="Search and read the preserved books, newsletters, interviews, workshops, Q&A transcripts, videos, and source material of Aajonus Vonderplanitz."
->
-<meta
-    name="keywords"
-    content="Aajonus Vonderplanitz, Primal Diet, archive, transcripts, books, newsletters, interviews, Q&A"
->
-<meta property="og:type" content="website">
-<meta property="og:title" content="The Aajonus Vonderplanitz Archive">
-<meta
-    property="og:description"
-    content="A searchable historical archive of transcripts, recordings, books, newsletters, and source material."
->
-<meta property="og:image" content="/logos/large-logo.jpg">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="The Aajonus Vonderplanitz Archive">
-<meta
-    name="twitter:description"
-    content="Search and read preserved Aajonus Vonderplanitz source material."
->
-<meta name="twitter:image" content="/logos/large-logo.jpg">
-<meta name="theme-color" content="#f5f0e5">
-<script>
-(() => {
-    try {
-        const saved = localStorage.getItem("aajonusDisplayModeV1");
-        document.documentElement.dataset.displayMode =
-            saved === "earthlight" ? "earthlight" : "archive";
-    } catch {
-        document.documentElement.dataset.displayMode = "archive";
-    }
-})();
-</script>
-<link rel="icon" href="/logos/favicon.ico" type="image/x-icon" sizes="any">
-<link rel="apple-touch-icon" href="/logos/apple-touch-icon.png">
-<link rel="manifest" href="/manifest.json">
-<link rel="sitemap" type="application/xml" href="/prototype/sitemap.php">
+<title>Aajonus Vonderplanitz Archive, Design Prototype</title>
 
 <style>
 :root {
@@ -758,6 +720,14 @@ h1 {
     line-height: 1.45;
 }
 
+.archive-note {
+    margin-top: 58px;
+    padding: 20px 22px;
+    border: 1px solid var(--line-dark);
+    background: rgba(189, 129, 41, 0.08);
+    font-size: 12px;
+    line-height: 1.6;
+}
 
 .site-footer {
     display: flex;
@@ -898,225 +868,10 @@ h1 {
         flex-direction: column;
     }
 }
-
-.search-status-row {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 16px;
-    margin-top: 12px;
-    color: var(--muted);
-    font-size: 12px;
-}
-
-.search-status-row p {
-    margin: 0;
-}
-
-.search-clear {
-    padding: 2px 0;
-    border: 0;
-    border-bottom: 1px solid var(--ink);
-    background: transparent;
-    color: var(--ink);
-    cursor: pointer;
-    font-size: 11px;
-}
-
-.record-main h3 a {
-    text-decoration: none;
-}
-
-.record-main h3 a:hover {
-    color: var(--rust);
-}
-
 </style>
-<link rel="stylesheet" href="continue-reading.css">
-<link rel="stylesheet" href="saved-records.css">
-<link rel="stylesheet" href="notes-library.css">
-<link rel="stylesheet" href="record-icons.css">
-<link rel="stylesheet" href="archive-enhancements.css">
-<link rel="stylesheet" href="earthlight-mode.css">
-<link rel="stylesheet" href="homepage-layout.css">
-<!-- INSTANT-INTRO-V7-HEAD:START -->
-<link
-    rel="stylesheet"
-    href="opening-animation.css"
->
-
-<script>
-(() => {
-    const readyKey =
-        "aajonusIntroAssetsReadyV2";
-
-    const seenKey =
-        "aajonusIntroLastSeenV7";
-
-    const oneDay =
-        24 * 60 * 60 * 1000;
-
-    const parameters =
-        new URLSearchParams(
-            window.location.search
-        );
-
-    const forced =
-        parameters.get("intro") === "1";
-
-    const reducedMotion =
-        window.matchMedia(
-            "(prefers-reduced-motion: reduce)"
-        ).matches;
-
-    const connection =
-        navigator.connection ||
-        navigator.mozConnection ||
-        navigator.webkitConnection;
-
-    const protectSpeed =
-        Boolean(
-            connection?.saveData
-        ) ||
-        [
-            "slow-2g",
-            "2g"
-        ].includes(
-            connection?.effectiveType
-        );
-
-    let assetsReady = false;
-    let lastSeen = 0;
-
-    try {
-        assetsReady =
-            localStorage.getItem(
-                readyKey
-            ) === "1";
-
-        lastSeen =
-            Number(
-                localStorage.getItem(
-                    seenKey
-                )
-            ) || 0;
-    } catch {
-        assetsReady = false;
-        lastSeen = 0;
-    }
-
-    const recentlySeen =
-        Date.now() - lastSeen < oneDay;
-
-    /*
-     * No cached assets means no intro.
-     * This prevents every late or incomplete appearance.
-     */
-
-    const play =
-        assetsReady &&
-        !reducedMotion &&
-        !protectSpeed &&
-        (
-            forced ||
-            !recentlySeen
-        );
-
-    document.documentElement
-        .dataset
-        .opening =
-            play
-                ? "play"
-                : "skip";
-
-    if (play) {
-        document.documentElement
-            .classList
-            .add("opening-active");
-    }
-})();
-</script>
-<!-- INSTANT-INTRO-V7-HEAD:END -->
-<link rel="stylesheet" href="timeline-interactions.css">
 </head>
 
 <body>
-<!-- INSTANT-INTRO-V7-BODY:START -->
-<div
-    id="archiveOpening"
-    class="archive-opening"
-    role="dialog"
-    aria-modal="true"
-    aria-label="Opening the Aajonus Vonderplanitz Archive"
->
-    <img
-        class="opening-landscape"
-        src="assets/earthlight/alpine-mist.webp"
-        alt=""
-        loading="eager"
-        decoding="async"
-        fetchpriority="high"
-        aria-hidden="true"
-    >
-
-    <div
-        class="opening-light"
-        aria-hidden="true"
-    ></div>
-
-    <div
-        class="opening-vignette"
-        aria-hidden="true"
-    ></div>
-
-    <div
-        class="opening-grain"
-        aria-hidden="true"
-    ></div>
-
-    <div
-        class="opening-sun-stage"
-        aria-hidden="true"
-    >
-        <div class="opening-sun-glow"></div>
-        <div class="opening-sun-corona"></div>
-        <div class="opening-sun-disc"></div>
-    </div>
-
-    <div
-        class="opening-flare"
-        aria-hidden="true"
-    ></div>
-
-    <div class="opening-copy">
-        <p class="opening-eyebrow">
-            The Aajonus Vonderplanitz Archive
-        </p>
-
-        <p class="opening-statement">
-            <span>WE WANT</span>
-            <span>TO LIVE.</span>
-        </p>
-
-        <div class="opening-attribution">
-            <p>
-                <span>A book by</span>
-                Aajonus Vonderplanitz
-            </p>
-        </div>
-    </div>
-
-    <button
-        class="opening-skip"
-        type="button"
-        aria-label="Skip the opening animation"
-    >
-        Skip
-    </button>
-</div>
-<!-- INSTANT-INTRO-V7-BODY:END -->
-<script src="opening-animation.js"></script>
-
 <header class="site-header">
     <div class="header-inner">
         <a class="brand" href="#">
@@ -1134,25 +889,7 @@ h1 {
             <a href="#collections">Collections</a>
             <a href="#archive">Search</a>
             <a href="#timeline">Timeline</a>
-
-            <div
-                class="display-mode-switcher"
-                role="group"
-                aria-label="Display mode"
-            >
-                <button
-                    type="button"
-                    data-display-mode-choice="archive"
-                    aria-pressed="true"
-                >Archive</button>
-                <button
-                    type="button"
-                    data-display-mode-choice="earthlight"
-                    aria-pressed="false"
-                >Earthlight</button>
-            </div>
-
-            <a class="about-link" href="/about">About the archive</a>
+            <a class="about-link" href="#about">About the archive</a>
         </nav>
     </div>
 </header>
@@ -1206,15 +943,10 @@ h1 {
                 placeholder="Search transcripts, books, topics, and dates"
             >
 
-           <button id="submitSearch" type="button">Search</button>
+           <button id="submitSearch" type="button">
+    Search
+</button>
         </div>
-        <div class="search-status-row">
-            <p id="searchFeedback">Loading the archive…</p>
-            <button id="clearSearch" class="search-clear" type="button" hidden>
-                Clear search
-            </button>
-        </div>
-
 
         <div class="topic-strip" aria-label="Popular topics">
             <button class="topic-chip" data-topic="raw milk">
@@ -1291,7 +1023,7 @@ h1 {
         </div>
     </section>
 
-    <section class="section" id="featuredArchive">
+    <section class="section">
         <div class="section-heading">
             <div>
                 <p class="kicker">Editor’s selection</p>
@@ -1589,58 +1321,505 @@ h1 {
         </div>
     </section>
 
-    <section
-        class="archive-features"
-        aria-labelledby="archiveFeaturesTitle"
-    >
-        <div class="archive-features-heading">
-            <p class="kicker">Website features</p>
-            <h2 id="archiveFeaturesTitle">Built for private, immediate access</h2>
-        </div>
+    <aside class="archive-note" id="about">
+        <strong>Archive note.</strong>
 
-        <ul class="archive-features-list">
-            <li>Live, Instant Search for all Aajonus knowledge</li>
-            <li>100% Free &amp; On-device search</li>
-            <li>No ads, No trackers, No third parties</li>
-            <li>Copyright Takedown Requests (DMCA) are ignored</li>
-        </ul>
-    </section>
+        The site preserves historical claims and source material for
+        research. Archived health statements do not replace medical
+        guidance. Records should identify their source, transcript
+        status, and correction history.
+    </aside>
 
     <footer class="site-footer">
-        <nav aria-label="Archive resources">
-            <a href="/about">About &amp; Contact</a>
-            <a
-                href="https://github.com/aajonusnet/aajonusnet"
-                target="_blank"
-                rel="noopener noreferrer"
-            >GitHub</a>
-            <a
-                href="https://archive.org/details/aajonusnet"
-                target="_blank"
-                rel="noopener noreferrer"
-            >Internet Archive</a>
-            <a
-                href="https://t.me/aajonus"
-                target="_blank"
-                rel="noopener noreferrer"
-            >Telegram</a>
-            <a
-                href="https://notebooklm.google.com/notebook/6971430c-737f-4620-9d51-3b9ede4bf216"
-                target="_blank"
-                rel="noopener noreferrer"
-            >NotebookLM</a>
+        <span>
+            The Aajonus Vonderplanitz Archive,
+            interface prototype
+        </span>
+
+        <nav>
+            <a href="#">Sources</a>
+            <a href="#">Contributors</a>
+            <a href="#">Corrections</a>
+            <a href="#">GitHub</a>
         </nav>
     </footer>
 </main>
 
-<script src="display-mode.js"></script>
-<script src="app.js"></script>
-<script src="continue-reading.js" defer></script>
-<script src="saved-records.js" defer></script>
-<script src="notes-library.js" defer></script>
-<script src="homepage-layout.js" defer></script>
-<script src="intro-cache.js" defer></script>
-<script src="timeline-interactions.js?v=2" defer></script>
-<script src="source-label-cleanup.js?v=1" defer></script>
+<script>
+let records = [];
+
+const state = {
+    query: "",
+    topic: "",
+    format: "All",
+    year: "All",
+    source: "All",
+    status: "All",
+    limit: 8
+};
+
+const elements = {
+    search: document.getElementById("searchInput"),
+    list: document.getElementById("recordList"),
+    count: document.getElementById("resultsCount"),
+    title: document.getElementById("resultsTitle"),
+    empty: document.getElementById("emptyState"),
+    load: document.getElementById("loadMore"),
+    year: document.getElementById("yearFilter"),
+    source: document.getElementById("sourceFilter"),
+    status: document.getElementById("statusFilter"),
+    filters: document.getElementById("filters")
+};
+
+function escapeHtml(value) {
+    const replacements = {
+        "&": "&amp;",
+        "<": "&lt;",
+        ">": "&gt;",
+        '"': "&quot;",
+        "'": "&#039;"
+    };
+
+    return value.replace(
+        /[&<>"']/g,
+        character => replacements[character]
+    );
+}
+
+function filteredRecords() {
+    const query = state.query.toLowerCase();
+
+    return records.filter(item => {
+        const searchable = [
+            item.title,
+            item.date,
+            item.year,
+            item.format,
+            item.source,
+            item.status,
+            item.note,
+            item.searchText || "",
+            ...item.topics
+        ].join(" ").toLowerCase();
+
+        return (
+            (!query || searchable.includes(query)) &&
+            (!state.topic ||
+                item.topics.includes(state.topic)) &&
+            (state.format === "All" ||
+                item.format === state.format) &&
+            (state.year === "All" ||
+                item.year === state.year) &&
+            (state.source === "All" ||
+                item.source === state.source) &&
+            (state.status === "All" ||
+                item.status === state.status)
+        );
+    });
+}
+
+function render() {
+    const matches = filteredRecords();
+    const visible = matches.slice(0, state.limit);
+
+    elements.list.innerHTML = visible.map(item => `
+        <li class="record">
+            <div class="record-date">
+                ${escapeHtml(item.date)}
+            </div>
+
+            <div class="record-main">
+                <h3>${escapeHtml(item.title)}</h3>
+
+                <p>${escapeHtml(item.note)}</p>
+
+                <div class="record-meta">
+                    ${item.topics.map(topic => `
+                        <span class="tag">
+                            ${escapeHtml(topic)}
+                        </span>
+                    `).join("")}
+                </div>
+            </div>
+
+            <div class="record-type">
+                <strong>
+                    ${escapeHtml(item.format)}
+                </strong>
+
+                <small>
+                    ${escapeHtml(item.source)}
+                    <br>
+                    ${escapeHtml(item.status)}
+                </small>
+            </div>
+        </li>
+    `).join("");
+
+    elements.count.textContent =
+        `${matches.length} ${
+            matches.length === 1 ? "record" : "records"
+        }`;
+
+    elements.title.textContent =
+        state.format === "All"
+            ? "All records"
+            : state.format;
+
+    elements.empty.style.display =
+        matches.length ? "none" : "block";
+
+    elements.load.style.display =
+        matches.length > state.limit
+            ? "block"
+            : "none";
+}
+
+function resetAll() {
+    Object.assign(state, {
+        query: "",
+        topic: "",
+        format: "All",
+        year: "All",
+        source: "All",
+        status: "All",
+        limit: 8
+    });
+
+    elements.search.value = "";
+    elements.year.value = "All";
+    elements.source.value = "All";
+    elements.status.value = "All";
+
+    document
+        .querySelectorAll(".format-option")
+        .forEach(button => {
+            button.classList.toggle(
+                "active",
+                button.dataset.format === "All"
+            );
+        });
+
+    document
+        .querySelectorAll(".topic-chip")
+        .forEach(button => {
+            button.classList.remove("active");
+        });
+
+    render();
+}
+
+elements.search.addEventListener(
+    "input",
+    event => {
+        state.query = event.target.value.trim();
+        state.limit = 8;
+        render();
+    }
+);
+
+function showSearchResults() {
+    state.query = elements.search.value.trim();
+    state.limit = 8;
+    render();
+
+    document
+        .getElementById("archive")
+        .scrollIntoView({
+            behavior: "smooth",
+            block: "start"
+        });
+}
+
+document
+    .getElementById("submitSearch")
+    .addEventListener("click", showSearchResults);
+
+elements.search.addEventListener("keydown", event => {
+    if (event.key === "Enter") {
+        event.preventDefault();
+        showSearchResults();
+    }
+});
+
+document
+    .getElementById("clearFilters")
+    .addEventListener("click", resetAll);
+
+elements.year.addEventListener(
+    "change",
+    event => {
+        state.year = event.target.value;
+        render();
+    }
+);
+
+elements.source.addEventListener(
+    "change",
+    event => {
+        state.source = event.target.value;
+        render();
+    }
+);
+
+elements.status.addEventListener(
+    "change",
+    event => {
+        state.status = event.target.value;
+        render();
+    }
+);
+
+elements.load.addEventListener(
+    "click",
+    () => {
+        state.limit += 8;
+        render();
+    }
+);
+
+document
+    .querySelectorAll(".format-option")
+    .forEach(button => {
+        button.addEventListener("click", () => {
+            state.format = button.dataset.format;
+            state.limit = 8;
+
+            document
+                .querySelectorAll(".format-option")
+                .forEach(item => {
+                    item.classList.toggle(
+                        "active",
+                        item === button
+                    );
+                });
+
+            render();
+        });
+    });
+
+document
+    .querySelectorAll(".collection")
+    .forEach(button => {
+        button.addEventListener("click", () => {
+            state.format = button.dataset.format;
+
+            document
+                .querySelectorAll(".format-option")
+                .forEach(item => {
+                    item.classList.toggle(
+                        "active",
+                        item.dataset.format ===
+                            state.format
+                    );
+                });
+
+            render();
+
+            document
+                .getElementById("archive")
+                .scrollIntoView({
+                    behavior: "smooth"
+                });
+        });
+    });
+
+document
+    .querySelectorAll(".topic-chip")
+    .forEach(button => {
+        button.addEventListener("click", () => {
+            const active =
+                button.classList.contains("active");
+
+            document
+                .querySelectorAll(".topic-chip")
+                .forEach(item => {
+                    item.classList.remove("active");
+                });
+
+            state.topic =
+                active ? "" : button.dataset.topic;
+
+            if (!active) {
+                button.classList.add("active");
+            }
+
+            render();
+        });
+    });
+
+document
+    .querySelectorAll("[data-topic-link]")
+    .forEach(link => {
+        link.addEventListener("click", () => {
+            state.topic = link.dataset.topicLink;
+
+            document
+                .querySelectorAll(".topic-chip")
+                .forEach(item => {
+                    item.classList.toggle(
+                        "active",
+                        item.dataset.topic ===
+                            state.topic
+                    );
+                });
+
+            render();
+        });
+    });
+
+document
+    .querySelectorAll("[data-status-link]")
+    .forEach(link => {
+        link.addEventListener("click", () => {
+            state.status =
+                link.dataset.statusLink;
+
+            elements.status.value =
+                state.status;
+
+            render();
+        });
+    });
+
+document
+    .querySelectorAll("[data-year-link]")
+    .forEach(link => {
+        link.addEventListener("click", () => {
+            state.year =
+                link.dataset.yearLink;
+
+            elements.year.value =
+                state.year;
+
+            render();
+        });
+    });
+
+document
+    .getElementById("mobileFilterButton")
+    .addEventListener("click", () => {
+        elements.filters.classList.toggle("open");
+    });
+
+
+async function loadRealArchive() {
+    elements.count.textContent =
+        "Loading archive records…";
+
+    const response = await fetch(
+        "archive-data.php",
+        {
+            cache: "no-store"
+        }
+    );
+
+    if (!response.ok) {
+        throw new Error(
+            "Archive data failed to load."
+        );
+    }
+
+    records = await response.json();
+
+    const formatCounts = {};
+
+    records.forEach(record => {
+        formatCounts[record.format] =
+            (formatCounts[record.format] || 0) + 1;
+    });
+
+    document
+        .querySelectorAll(".format-option")
+        .forEach(button => {
+            const format = button.dataset.format;
+
+            const count = format === "All"
+                ? records.length
+                : formatCounts[format] || 0;
+
+            const countElement =
+                button.querySelector(
+                    "span:last-child"
+                );
+
+            if (countElement) {
+                countElement.textContent = count;
+            }
+        });
+
+    document
+        .querySelectorAll(".collection")
+        .forEach(button => {
+            const format = button.dataset.format;
+            const count = formatCounts[format] || 0;
+            const small = button.querySelector("small");
+
+            if (small) {
+                small.textContent =
+                    `${count} archive records`;
+            }
+        });
+
+    const years = [
+        ...new Set(
+            records
+                .map(record => record.year)
+                .filter(year =>
+                    /^\d{4}$/.test(year)
+                )
+        )
+    ].sort((first, second) =>
+        Number(second) - Number(first)
+    );
+
+    elements.year.innerHTML =
+        '<option value="All">All years</option>' +
+        years
+            .map(year =>
+                `<option value="${year}">${year}</option>`
+            )
+            .join("");
+
+    const sources = [
+        ...new Set(
+            records
+                .map(record => record.source)
+                .filter(Boolean)
+        )
+    ].sort();
+
+    elements.source.innerHTML =
+        '<option value="All">All sources</option>' +
+        sources
+            .map(source =>
+                `<option value="${escapeHtml(source)}">` +
+                `${escapeHtml(source)}</option>`
+            )
+            .join("");
+
+    elements.status.innerHTML = `
+        <option value="All">All statuses</option>
+        <option value="Not catalogued">
+            Not catalogued
+        </option>
+    `;
+
+    state.limit = 20;
+    render();
+}
+
+loadRealArchive().catch(error => {
+    console.error(error);
+
+    elements.count.textContent =
+        "Archive records failed to load.";
+
+    elements.empty.style.display = "block";
+    elements.empty.querySelector("strong").textContent =
+        "Archive data failed to load";
+});
+
+</script>
 </body>
 </html>

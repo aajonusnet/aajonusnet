@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8aa090"/>
+      <stop offset="0.38" stop-color="#57715f"/>
+      <stop offset="0.66" stop-color="#3f4635"/>
+      <stop offset="1" stop-color="#131215"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#fffbd2"/>
+      <stop offset="0.18" stop-color="#e5f539"/>
+      <stop offset="0.44" stop-color="#d69a39" stop-opacity=".82"/>
+      <stop offset="1" stop-color="#864029" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="glass" x1="0" x2="1">
+      <stop offset="0" stop-color="#e9f0d0" stop-opacity=".12"/>
+      <stop offset=".35" stop-color="#fffde6" stop-opacity=".58"/>
+      <stop offset=".62" stop-color="#9db7a7" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#eaf4d8" stop-opacity=".1"/>
+    </linearGradient>
+    <linearGradient id="milk" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fffce8"/>
+      <stop offset="1" stop-color="#d9d6b3"/>
+    </linearGradient>
+    <radialGradient id="iris" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#0d1310"/>
+      <stop offset=".22" stop-color="#18261b"/>
+      <stop offset=".47" stop-color="#e5f539"/>
+      <stop offset=".7" stop-color="#57715f"/>
+      <stop offset="1" stop-color="#17251d"/>
+    </radialGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="9"/></filter>
+    <filter id="glow"><feGaussianBlur stdDeviation="18"/></filter>
+    <filter id="grain" x="-20%" y="-20%" width="140%" height="140%">
+      <feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" seed="8" result="n"/>
+      <feColorMatrix in="n" type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="table" tableValues="0 .12"/></feComponentTransfer>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="1000" fill="url(#sky)"/>
+  <circle cx="840" cy="95" r="250" fill="url(#sun)" filter="url(#glow)"/>
+
+  <!-- distant horizontal TV-studio geometry -->
+  <path d="M0 440 C250 350 390 420 610 365 C820 310 1040 390 1600 300 L1600 1000 L0 1000Z" fill="#2c281e" opacity=".42"/>
+  <path d="M0 520 C240 430 490 520 720 460 C960 400 1190 520 1600 420 L1600 1000 L0 1000Z" fill="#3f4635" opacity=".7"/>
+
+  <!-- left foreground foliage -->
+  <g opacity=".98">
+    <path d="M0 1000 C105 780 95 520 70 260" stroke="#111d17" stroke-width="24" fill="none"/>
+    <path d="M62 450 C140 355 185 310 250 265" stroke="#203225" stroke-width="15" fill="none"/>
+    <path d="M78 610 C150 535 250 500 326 480" stroke="#203225" stroke-width="16" fill="none"/>
+    <g fill="#263a2b">
+      <ellipse cx="115" cy="365" rx="86" ry="35" transform="rotate(-30 115 365)"/>
+      <ellipse cx="195" cy="300" rx="78" ry="31" transform="rotate(-19 195 300)"/>
+      <ellipse cx="165" cy="520" rx="95" ry="37" transform="rotate(-12 165 520)"/>
+      <ellipse cx="280" cy="467" rx="90" ry="35" transform="rotate(-20 280 467)"/>
+      <ellipse cx="90" cy="700" rx="95" ry="39" transform="rotate(23 90 700)"/>
+    </g>
+    <g transform="translate(185 655)">
+      <circle r="88" fill="#532f22" opacity=".9"/>
+      <g fill="#a7472f">
+        <ellipse rx="35" ry="98" transform="rotate(0)"/>
+        <ellipse rx="35" ry="98" transform="rotate(60)"/>
+        <ellipse rx="35" ry="98" transform="rotate(120)"/>
+      </g>
+      <circle r="31" fill="#aa6c3a"/>
+      <circle r="13" fill="#2c281e"/>
+    </g>
+  </g>
+
+  <!-- right stone ledge -->
+  <path d="M1240 700 L1600 650 L1600 1000 L1185 1000Z" fill="#2c281e" opacity=".96"/>
+  <path d="M1210 700 C1340 672 1450 680 1600 640" stroke="#8aa090" stroke-opacity=".28" stroke-width="12" fill="none"/>
+
+  <!-- milk bottle -->
+  <g transform="translate(1350 260)">
+    <ellipse cx="105" cy="570" rx="125" ry="36" fill="#111" opacity=".36" filter="url(#soft)"/>
+    <path d="M53 80 C53 58 70 42 91 42 H121 C142 42 159 58 159 80 V145 C159 169 184 193 194 229 L220 520 C223 556 196 580 160 580 H52 C16 580 -11 556 -8 520 L18 229 C28 193 53 169 53 145Z" fill="url(#glass)" stroke="#ebeab9" stroke-opacity=".55" stroke-width="5"/>
+    <path d="M10 305 H202 L220 520 C223 556 196 580 160 580 H52 C16 580 -11 556 -8 520Z" fill="url(#milk)" opacity=".9"/>
+    <path d="M67 25 H145 V76 H67Z" fill="#8aa090" stroke="#ebeab9" stroke-opacity=".5" stroke-width="4"/>
+    <path d="M36 210 C66 180 150 177 181 208" fill="none" stroke="#fff" stroke-opacity=".46" stroke-width="8"/>
+    <path d="M40 245 C58 220 70 200 72 120" fill="none" stroke="#fff" stroke-opacity=".35" stroke-width="9"/>
+  </g>
+
+  <!-- glass -->
+  <g transform="translate(1198 585)">
+    <ellipse cx="83" cy="214" rx="92" ry="26" fill="#111" opacity=".3" filter="url(#soft)"/>
+    <path d="M0 0 H166 L145 205 C142 230 126 242 103 242 H63 C40 242 24 230 21 205Z" fill="url(#glass)" stroke="#ebeab9" stroke-opacity=".56" stroke-width="4"/>
+    <path d="M17 90 H150 L139 205 C136 221 124 229 106 229 H60 C42 229 30 221 27 205Z" fill="url(#milk)" opacity=".92"/>
+    <ellipse cx="83" cy="89" rx="66" ry="14" fill="#fffbe4" opacity=".78"/>
+  </g>
+
+  <!-- iris / iridology lens medallion -->
+  <g transform="translate(83 118)">
+    <circle cx="0" cy="0" r="78" fill="#ebeab9" opacity=".25"/>
+    <circle cx="0" cy="0" r="66" fill="url(#iris)" stroke="#ebeab9" stroke-opacity=".58" stroke-width="5"/>
+    <circle cx="0" cy="0" r="20" fill="#080a09"/>
+    <path d="M-52 17 C-17 -6 18 -9 54 -31" stroke="#e5f539" stroke-opacity=".55" stroke-width="4" fill="none"/>
+    <path d="M-42 -40 C-15 -13 17 10 49 43" stroke="#8aa090" stroke-opacity=".55" stroke-width="3" fill="none"/>
+  </g>
+
+  <!-- tiny archive/VHS object -->
+  <g transform="translate(1070 780) rotate(-7)">
+    <rect width="180" height="105" rx="10" fill="#131215" stroke="#8aa090" stroke-opacity=".45" stroke-width="4"/>
+    <rect x="20" y="16" width="140" height="34" rx="4" fill="#ebeab9" opacity=".86"/>
+    <circle cx="52" cy="78" r="19" fill="#2c281e" stroke="#aa6c3a" stroke-width="5"/>
+    <circle cx="128" cy="78" r="19" fill="#2c281e" stroke="#aa6c3a" stroke-width="5"/>
+    <path d="M71 78 H109" stroke="#ebeab9" stroke-opacity=".4" stroke-width="6"/>
+  </g>
+
+  <!-- analogue wash and grain -->
+  <rect width="1600" height="1000" fill="#864029" opacity=".08"/>
+  <rect width="1600" height="1000" filter="url(#grain)" opacity=".6"/>
+  <rect x="0" width="16" height="1000" fill="#57715f" opacity=".18"/>
+  <rect x="1582" width="18" height="1000" fill="#864029" opacity=".18"/>
+</svg>

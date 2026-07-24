@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Video">
+  <rect x="6" y="11" width="52" height="42" rx="5" fill="#A54532"/>
+  <rect x="10" y="15" width="44" height="34" rx="2.5" fill="#8D3828"/>
+  <path d="M27 21.5 43 32 27 42.5Z" fill="#EFE4BD"/>
+  <g fill="#EFE4BD" opacity=".9">
+    <rect x="11" y="16.5" width="4" height="3" rx=".7"/>
+    <rect x="20" y="16.5" width="4" height="3" rx=".7"/>
+    <rect x="40" y="16.5" width="4" height="3" rx=".7"/>
+    <rect x="49" y="16.5" width="4" height="3" rx=".7"/>
+    <rect x="11" y="44.5" width="4" height="3" rx=".7"/>
+    <rect x="20" y="44.5" width="4" height="3" rx=".7"/>
+    <rect x="40" y="44.5" width="4" height="3" rx=".7"/>
+    <rect x="49" y="44.5" width="4" height="3" rx=".7"/>
+  </g>
+</svg>

@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 1100" role="img" aria-labelledby="title desc">
+  <title id="title">Sunlit garden archive landscape</title>
+  <desc id="desc">A nostalgic garden at golden hour with distant hills, dark foliage, red flowers, a milk bottle and glass on a stone ledge, and warm sunlight.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#86b9b2"/>
+      <stop offset="0.35" stop-color="#b5cfb4"/>
+      <stop offset="0.62" stop-color="#e9ca77"/>
+      <stop offset="1" stop-color="#bd6e3f"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#fffbd5"/>
+      <stop offset="0.25" stop-color="#ffe681"/>
+      <stop offset="0.57" stop-color="#ffb52f" stop-opacity="0.82"/>
+      <stop offset="1" stop-color="#ff7e2c" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="hillFar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#708b68"/>
+      <stop offset="1" stop-color="#46634e"/>
+    </linearGradient>
+    <linearGradient id="hillNear" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#55724e"/>
+      <stop offset="1" stop-color="#263f35"/>
+    </linearGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#53653d"/>
+      <stop offset="0.55" stop-color="#2f4936"/>
+      <stop offset="1" stop-color="#172e27"/>
+    </linearGradient>
+    <linearGradient id="stone" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cab48d"/>
+      <stop offset="1" stop-color="#7d6b55"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.66"/>
+      <stop offset="0.25" stop-color="#dff4eb" stop-opacity="0.20"/>
+      <stop offset="0.75" stop-color="#8cb3aa" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.48"/>
+    </linearGradient>
+    <linearGradient id="milk" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fffce8"/>
+      <stop offset="1" stop-color="#efe2bd"/>
+    </linearGradient>
+    <linearGradient id="petal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d45b3e"/>
+      <stop offset="1" stop-color="#7b2f2c"/>
+    </linearGradient>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="20"/>
+    </filter>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#11261f" flood-opacity="0.35"/>
+    </filter>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.78" numOctaves="2" seed="14"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="table" tableValues="0 0.14"/></feComponentTransfer>
+    </filter>
+  </defs>
+
+  <rect width="1800" height="1100" fill="url(#sky)"/>
+  <circle cx="965" cy="198" r="220" fill="url(#sun)" filter="url(#softGlow)"/>
+  <circle cx="965" cy="198" r="63" fill="#fff7bd" opacity="0.92"/>
+
+  <path d="M0 470 C230 330 420 385 610 450 C815 520 1030 335 1245 406 C1430 468 1580 386 1800 336 L1800 720 L0 720 Z" fill="url(#hillFar)" opacity="0.84"/>
+  <path d="M0 585 C250 435 485 528 690 566 C920 610 1122 454 1320 524 C1500 588 1625 515 1800 470 L1800 790 L0 790 Z" fill="url(#hillNear)" opacity="0.96"/>
+  <path d="M0 690 C250 615 470 644 720 704 C980 765 1220 635 1490 690 C1610 715 1700 700 1800 660 L1800 1100 L0 1100 Z" fill="url(#ground)"/>
+
+  <!-- warm field streaks -->
+  <g opacity="0.42" stroke="#dd9c4c" stroke-width="5" stroke-linecap="round">
+    <path d="M370 704 C590 662 820 690 1040 734"/>
+    <path d="M280 735 C560 700 760 731 980 778"/>
+    <path d="M920 700 C1120 657 1370 672 1575 738"/>
+  </g>
+
+  <!-- left shadow tree and botanical foreground -->
+  <g fill="#193329">
+    <path d="M0 0 H230 C205 115 187 216 198 328 C209 445 166 560 86 662 C59 696 30 721 0 738 Z" opacity="0.76"/>
+    <path d="M116 318 C82 440 89 610 134 816" fill="none" stroke="#173027" stroke-width="28"/>
+    <path d="M121 410 C36 382 4 340 -24 298" fill="none" stroke="#173027" stroke-width="17"/>
+    <path d="M129 466 C219 408 263 343 298 284" fill="none" stroke="#173027" stroke-width="15"/>
+  </g>
+  <g fill="#2f5a3d" opacity="0.96">
+    <ellipse cx="80" cy="565" rx="72" ry="24" transform="rotate(-36 80 565)"/>
+    <ellipse cx="145" cy="609" rx="84" ry="25" transform="rotate(23 145 609)"/>
+    <ellipse cx="40" cy="675" rx="92" ry="29" transform="rotate(-14 40 675)"/>
+    <ellipse cx="190" cy="730" rx="90" ry="28" transform="rotate(28 190 730)"/>
+    <ellipse cx="99" cy="805" rx="110" ry="32" transform="rotate(-22 99 805)"/>
+  </g>
+
+  <!-- red flowers -->
+  <g transform="translate(104 535)" filter="url(#shadow)">
+    <g fill="url(#petal)">
+      <ellipse cx="0" cy="-45" rx="17" ry="47"/>
+      <ellipse cx="39" cy="-18" rx="17" ry="47" transform="rotate(58 39 -18)"/>
+      <ellipse cx="28" cy="29" rx="17" ry="47" transform="rotate(123 28 29)"/>
+      <ellipse cx="-28" cy="29" rx="17" ry="47" transform="rotate(-123 -28 29)"/>
+      <ellipse cx="-39" cy="-18" rx="17" ry="47" transform="rotate(-58 -39 -18)"/>
+    </g>
+    <circle r="18" fill="#d79c3a"/>
+  </g>
+  <g transform="translate(226 700) scale(.72)" filter="url(#shadow)">
+    <g fill="url(#petal)">
+      <ellipse cx="0" cy="-45" rx="17" ry="47"/>
+      <ellipse cx="39" cy="-18" rx="17" ry="47" transform="rotate(58 39 -18)"/>
+      <ellipse cx="28" cy="29" rx="17" ry="47" transform="rotate(123 28 29)"/>
+      <ellipse cx="-28" cy="29" rx="17" ry="47" transform="rotate(-123 -28 29)"/>
+      <ellipse cx="-39" cy="-18" rx="17" ry="47" transform="rotate(-58 -39 -18)"/>
+    </g>
+    <circle r="18" fill="#d79c3a"/>
+  </g>
+
+  <!-- archive field objects on the left -->
+  <g transform="translate(120 816) rotate(-4)" filter="url(#shadow)">
+    <rect x="0" y="0" width="270" height="155" rx="14" fill="#7d5633"/>
+    <rect x="16" y="15" width="238" height="123" rx="9" fill="#be9560"/>
+    <rect x="37" y="36" width="198" height="78" rx="4" fill="#efdca9"/>
+    <path d="M55 64 H215 M55 80 H185 M55 96 H202" stroke="#7d5633" stroke-width="5" opacity="0.62"/>
+    <circle cx="30" cy="77" r="7" fill="#5f3d26"/>
+    <circle cx="240" cy="77" r="7" fill="#5f3d26"/>
+  </g>
+
+  <!-- right ledge -->
+  <path d="M1390 726 H1800 V1100 H1320 C1342 967 1364 847 1390 726 Z" fill="#273b31" opacity="0.94"/>
+  <path d="M1338 806 C1460 774 1634 760 1800 784 L1800 931 C1635 905 1464 918 1308 954 Z" fill="url(#stone)" filter="url(#shadow)"/>
+  <path d="M1338 806 C1500 780 1645 777 1800 795" fill="none" stroke="#e2cf9f" stroke-width="8" opacity="0.52"/>
+
+  <!-- bottle -->
+  <g transform="translate(1560 390)" filter="url(#shadow)">
+    <path d="M72 0 H143 L151 43 C152 58 160 71 173 84 C192 103 201 127 201 157 V367 C201 397 181 417 151 417 H63 C33 417 13 397 13 367 V157 C13 127 22 103 41 84 C54 71 62 58 63 43 Z" fill="url(#glass)" stroke="#f7f3d9" stroke-width="5"/>
+    <path d="M31 162 H184 V370 C184 390 171 401 151 401 H64 C44 401 31 390 31 370 Z" fill="url(#milk)" opacity="0.95"/>
+    <path d="M73 5 H142 V35 H73 Z" fill="#c7d0bb" opacity="0.55"/>
+    <path d="M70 1 H145" stroke="#fff7d8" stroke-width="8" stroke-linecap="round"/>
+    <path d="M51 114 C93 91 132 91 170 111" fill="none" stroke="#ffffff" stroke-width="8" opacity="0.44"/>
+    <path d="M58 170 C62 272 57 330 68 377" fill="none" stroke="#ffffff" stroke-width="9" opacity="0.40" stroke-linecap="round"/>
+  </g>
+
+  <!-- glass -->
+  <g transform="translate(1410 646)" filter="url(#shadow)">
+    <path d="M0 0 H132 L117 192 C114 219 98 232 70 232 H62 C34 232 18 219 15 192 Z" fill="url(#glass)" stroke="#f8f0cf" stroke-width="5"/>
+    <path d="M15 68 H117 L106 190 C104 207 94 215 76 215 H56 C38 215 28 207 26 190 Z" fill="url(#milk)" opacity="0.95"/>
+    <ellipse cx="66" cy="68" rx="51" ry="13" fill="#fffbe5" opacity="0.96"/>
+    <path d="M24 16 C34 79 29 142 39 192" fill="none" stroke="#fff" stroke-width="7" opacity="0.38" stroke-linecap="round"/>
+  </g>
+
+  <!-- right foliage framing bottle -->
+  <g fill="#204333" opacity="0.96">
+    <ellipse cx="1760" cy="468" rx="108" ry="34" transform="rotate(-58 1760 468)"/>
+    <ellipse cx="1708" cy="565" rx="116" ry="36" transform="rotate(28 1708 565)"/>
+    <ellipse cx="1770" cy="665" rx="122" ry="38" transform="rotate(-37 1770 665)"/>
+    <ellipse cx="1660" cy="725" rx="102" ry="34" transform="rotate(38 1660 725)"/>
+  </g>
+
+  <!-- light rays -->
+  <g opacity="0.13" fill="#fff6c6">
+    <path d="M940 250 L1180 1100 H1010 Z"/>
+    <path d="M970 250 L1420 1100 H1160 Z"/>
+    <path d="M915 250 L720 1100 H890 Z"/>
+  </g>
+
+  <rect width="1800" height="1100" filter="url(#grain)" opacity="0.32"/>
+</svg>

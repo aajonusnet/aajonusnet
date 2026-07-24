@@ -1,0 +1,35 @@
+Living Sun photo assets
+=======================
+
+ls-hero-field.webp
+Source photo: “A field of flowers with the sun in the background”
+Photographer: Alessandro Matonti
+Source: Unsplash, photo OtYmdbFOmrA
+License: Unsplash License
+
+ls-wildflowers.webp
+Source photo: “Sunrise shines through trees and wildflowers.”
+Photographer: Rafael Hoyos Weht
+Source: Unsplash, photo eOOTKScuFsI
+License: Unsplash License
+
+ls-garden-postcard.webp
+Source photo: “Rustic countryside house surrounded by lush red flowers and scenic landscape under sunset light.”
+Photographer: Roselène de Koning
+Source: Pexels, photo 19121166
+License: Pexels License
+
+ls-milk-glass.webp
+Source photo: “A clear glass of milk resting on a stone ledge with a blurred green background, outdoors.”
+Source creator: Pixabay contributor
+Source: Pexels, photo 236010
+License: CC0 / Pexels free-use listing
+
+ls-milk-books.webp
+Source photo: “Vintage books on old school desk with bottle of milk”
+Photographer: Robin Worrall
+Source: Unsplash, photo 5IWmyayJHcc
+License: Unsplash License
+
+ls-aajonus-garden.webp, ls-aajonus-hills.webp, ls-lily.webp
+Source: frames extracted from the reference video supplied by the project owner for this redesign.

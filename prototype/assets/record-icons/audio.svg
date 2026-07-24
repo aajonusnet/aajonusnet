@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Audio">
+  <path fill="#A54532" d="M7 31C7 16.6 18.2 5 32 5s25 11.6 25 26v20h-8V31c0-9.8-7.6-18-17-18s-17 8.2-17 18v20H7z"/>
+  <rect fill="#5A3828" x="4" y="31" width="16" height="25" rx="6"/>
+  <rect fill="#5A3828" x="44" y="31" width="16" height="25" rx="6"/>
+  <rect fill="#EFE4BD" x="10" y="37" width="4" height="13" rx="2"/>
+  <rect fill="#EFE4BD" x="50" y="37" width="4" height="13" rx="2"/>
+</svg>
