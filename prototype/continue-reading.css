@@ -1,0 +1,124 @@
+/* Homepage continue-reading card */
+
+.continue-reading-card {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: center;
+    gap: 24px;
+
+    margin: 0 0 28px;
+    padding: 20px;
+
+    border: 1px solid var(--line-dark, #9d9384);
+    background: var(--sheet, #fffdf7);
+}
+
+.continue-reading-content {
+    min-width: 0;
+}
+
+.continue-reading-label {
+    margin: 0;
+
+    color: var(--rust, #9f3d2e);
+
+    font-size: 9px;
+    font-weight: 800;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+}
+
+.continue-reading-title {
+    display: inline-block;
+
+    margin-top: 8px;
+
+    color: var(--ink, #27231f);
+
+    font:
+        24px/1.18 Georgia,
+        "Times New Roman",
+        serif;
+
+    text-decoration: none;
+}
+
+.continue-reading-title:hover {
+    color: var(--rust, #9f3d2e);
+}
+
+.continue-reading-meta {
+    margin: 9px 0 0;
+
+    color: var(--muted, #70685e);
+
+    font-size: 11px;
+    line-height: 1.5;
+}
+
+.continue-reading-progress {
+    width: min(100%, 520px);
+    height: 5px;
+
+    margin-top: 13px;
+
+    overflow: hidden;
+
+    background:
+        rgba(112, 104, 94, 0.18);
+}
+
+.continue-reading-progress-value {
+    height: 100%;
+
+    background: var(--rust, #9f3d2e);
+}
+
+.continue-reading-actions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.continue-reading-button {
+    padding: 11px 13px;
+
+    border: 1px solid var(--ink, #27231f);
+    background: transparent;
+    color: var(--ink, #27231f);
+
+    cursor: pointer;
+
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.continue-reading-button:hover {
+    background: var(--ink, #27231f);
+    color: var(--sheet, #fffdf7);
+}
+
+.continue-reading-button.secondary {
+    border-color: var(--line-dark, #9d9384);
+    color: var(--muted, #70685e);
+}
+
+@media (max-width: 720px) {
+    .continue-reading-card {
+        grid-template-columns: 1fr;
+        gap: 17px;
+    }
+
+    .continue-reading-actions {
+        align-items: stretch;
+    }
+
+    .continue-reading-button {
+        flex: 1;
+        text-align: center;
+    }
+}

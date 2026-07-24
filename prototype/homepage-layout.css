@@ -1,0 +1,418 @@
+/* ========================================================================== */
+/* Homepage hierarchy, collapsible filters, and notes shortcut                */
+/* Loaded after both Archive and Earthlight styles so the two modes share     */
+/* identical behavior without replacing their visual identity.                */
+/* ========================================================================== */
+
+#mobileFilterButton {
+    display: inline-flex !important;
+    width: max-content;
+    min-height: 38px;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin: 0 0 18px auto;
+    padding: 10px 14px;
+    border: 1px solid var(--ink, #27231f);
+    border-radius: 0;
+    background: transparent;
+    color: var(--ink, #27231f);
+    cursor: pointer;
+    font-size: 9px;
+    font-weight: 800;
+    letter-spacing: 0.11em;
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+#mobileFilterButton::before {
+    width: 13px;
+    height: 10px;
+    background:
+        linear-gradient(currentColor, currentColor) 0 0 / 13px 1px no-repeat,
+        linear-gradient(currentColor, currentColor) 2px 4px / 9px 1px no-repeat,
+        linear-gradient(currentColor, currentColor) 4px 8px / 5px 1px no-repeat;
+    content: "";
+}
+
+#mobileFilterButton:hover,
+#mobileFilterButton:focus-visible {
+    background: var(--ink, #27231f);
+    color: var(--sheet, #fffdf7);
+    outline: none;
+}
+
+#archive.filters-collapsed .filters {
+    display: none !important;
+}
+
+#archive.filters-collapsed .archive-layout {
+    grid-template-columns: minmax(0, 1fr) !important;
+}
+
+/* Continue Reading belongs immediately after search and before the catalogue. */
+#continueReadingCard {
+    scroll-margin-top: 110px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Saved records and notes remain lower in the page, after curated entry paths. */
+#savedRecordsPanel,
+#notesLibrary {
+    scroll-margin-top: 110px;
+    margin-top: 58px;
+    margin-bottom: 0;
+}
+
+/* Compact personal shortcut. It only appears when at least one note exists. */
+.notes-shortcut {
+    padding: 4px 0;
+    border: 0;
+    border-bottom: 1px solid transparent;
+    background: transparent;
+    color: var(--ink, #27231f);
+    cursor: pointer;
+    font: inherit;
+    font-size: 12px;
+}
+
+.notes-shortcut:hover,
+.notes-shortcut:focus-visible {
+    border-bottom-color: currentColor;
+    outline: none;
+}
+
+.notes-shortcut[hidden] {
+    display: none !important;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Archive mode                                                               */
+/* -------------------------------------------------------------------------- */
+
+html.page-home[data-display-mode="archive"] #archive {
+    scroll-margin-top: 100px;
+}
+
+html.page-home[data-display-mode="archive"] #archive.filters-collapsed .results {
+    width: 100%;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Earthlight desktop hierarchy                                               */
+/* -------------------------------------------------------------------------- */
+
+@media (min-width: 981px) {
+    html.page-home[data-display-mode="earthlight"] .intro {
+        order: 1 !important;
+    }
+
+    html.page-home[data-display-mode="earthlight"] .search-section {
+        order: 2 !important;
+    }
+
+    html.page-home[data-display-mode="earthlight"] #continueReadingCard {
+        order: 3 !important;
+        width: auto;
+        margin: 30px var(--earthlight-content-right) 14px var(--earthlight-content-left);
+        padding: 24px 26px;
+    }
+
+    html.page-home[data-display-mode="earthlight"] #archive {
+        order: 4 !important;
+    }
+
+    html.page-home[data-display-mode="earthlight"] #collections {
+        order: 5 !important;
+    }
+
+    html.page-home[data-display-mode="earthlight"] #featuredArchive {
+        order: 6 !important;
+    }
+
+    html.page-home[data-display-mode="earthlight"] #savedRecordsPanel {
+        order: 7 !important;
+    }
+
+    html.page-home[data-display-mode="earthlight"] #notesLibrary {
+        order: 8 !important;
+    }
+
+    html.page-home[data-display-mode="earthlight"] #timeline {
+        order: 9 !important;
+    }
+
+    html.page-home[data-display-mode="earthlight"] .archive-features {
+        order: 10 !important;
+    }
+
+    html.page-home[data-display-mode="earthlight"] .site-footer {
+        order: 11 !important;
+    }
+
+    html.page-home[data-display-mode="earthlight"] #mobileFilterButton {
+        margin: 0 var(--earthlight-content-right) 18px var(--earthlight-content-left);
+        border-color: rgba(53, 91, 64, 0.6);
+        border-radius: 999px;
+        color: #355b40;
+    }
+
+    html.page-home[data-display-mode="earthlight"] #mobileFilterButton:hover,
+    html.page-home[data-display-mode="earthlight"] #mobileFilterButton:focus-visible {
+        background: #355b40;
+        color: #fffaf0;
+    }
+
+    html.page-home[data-display-mode="earthlight"].filters-collapsed .page {
+        padding-left: 0 !important;
+    }
+
+    html.page-home[data-display-mode="earthlight"].filters-collapsed .filters {
+        display: none !important;
+    }
+
+    html.page-home[data-display-mode="earthlight"].filters-collapsed .results {
+        padding-right: var(--earthlight-content-right);
+        padding-left: var(--earthlight-content-left);
+    }
+
+    html.page-home[data-display-mode="earthlight"] #savedRecordsPanel,
+    html.page-home[data-display-mode="earthlight"] #notesLibrary {
+        width: auto;
+        margin: 42px var(--earthlight-content-right) 0 var(--earthlight-content-left);
+        padding: 24px 26px;
+    }
+
+    html.page-home[data-display-mode="earthlight"] .notes-shortcut {
+        padding: 8px 12px;
+        border: 1px solid rgba(53, 91, 64, 0.36);
+        border-radius: 999px;
+        color: #355b40;
+        font-size: 10px;
+        font-weight: 700;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+    }
+
+    html.page-home[data-display-mode="earthlight"] .notes-shortcut:hover,
+    html.page-home[data-display-mode="earthlight"] .notes-shortcut:focus-visible {
+        border-color: #355b40;
+        background: #355b40;
+        color: #fffaf0;
+    }
+}
+
+/* -------------------------------------------------------------------------- */
+/* Tablet and mobile                                                          */
+/* -------------------------------------------------------------------------- */
+
+@media (max-width: 980px) {
+    /* Trust the DOM hierarchy created by homepage-layout.js on small screens. */
+    html.page-home[data-display-mode="earthlight"] .page > * {
+        order: initial !important;
+    }
+
+    #mobileFilterButton,
+    html.page-home[data-display-mode="earthlight"] #mobileFilterButton {
+        display: inline-flex !important;
+        margin: 0 0 16px;
+    }
+
+    #archive .filters {
+        display: none !important;
+    }
+
+    #archive .filters.open {
+        display: block !important;
+    }
+
+    #continueReadingCard {
+        margin-top: 22px;
+        margin-bottom: 8px;
+    }
+
+    #savedRecordsPanel,
+    #notesLibrary {
+        margin-top: 46px;
+    }
+
+    .notes-shortcut {
+        font-size: 10px;
+        font-weight: 700;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+    }
+}
+
+@media (max-width: 760px) {
+    .notes-shortcut {
+        display: none;
+    }
+
+    #mobileFilterButton {
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    #continueReadingCard {
+        margin-top: 18px;
+    }
+
+    #savedRecordsPanel,
+    #notesLibrary {
+        margin-top: 38px;
+    }
+}
+
+/* ========================================================================== */
+/* Earthlight desktop filter-toggle visibility fix                            */
+/* Keep the control visible beside the fixed filter rail, and keep it visible */
+/* after the rail is collapsed so the visitor can reopen it.                  */
+/* ========================================================================== */
+
+@media (min-width: 981px) {
+    html.page-home[data-display-mode="earthlight"] #mobileFilterButton {
+        position: fixed !important;
+        z-index: 90 !important;
+        top: 112px;
+        left: 18px;
+
+        display: inline-flex !important;
+        width: calc(var(--earthlight-sidebar-width) - 36px);
+        min-height: 38px;
+        margin: 0 !important;
+        padding: 10px 14px;
+
+        border: 1px solid rgba(53, 91, 64, 0.42);
+        border-radius: 999px;
+
+        background: rgba(251, 248, 239, 0.97);
+        color: #355b40;
+
+        box-shadow: 0 8px 22px rgba(48, 67, 50, 0.08);
+        backdrop-filter: blur(8px);
+    }
+
+    html.page-home[data-display-mode="earthlight"] #mobileFilterButton:hover,
+    html.page-home[data-display-mode="earthlight"] #mobileFilterButton:focus-visible {
+        border-color: #355b40;
+        background: #355b40;
+        color: #fffaf0;
+    }
+
+    /* Reserve room at the top of the fixed rail for the visible toggle. */
+    html.page-home[data-display-mode="earthlight"] .filters {
+        padding-top: 82px !important;
+    }
+
+    /* Once collapsed, the same control becomes a compact reopen pill. */
+    html.page-home[data-display-mode="earthlight"].filters-collapsed #mobileFilterButton {
+        left: 18px;
+        width: auto;
+        padding-right: 18px;
+        padding-left: 18px;
+        border-color: #355b40;
+        background: #355b40;
+        color: #fffaf0;
+    }
+}
+
+/* FILTER-SCROLLER-V2:START */
+
+/*
+ * Scroll-only filter repair.
+ *
+ * Width, position, grid placement, padding, and visual styling remain
+ * controlled by the existing Archive and Earthlight styles.
+ */
+
+@media (min-width: 981px) {
+    html.page-home #archive .filters {
+        max-height: min(640px, calc(100vh - 180px)) !important;
+        max-height: min(640px, calc(100dvh - 180px)) !important;
+
+        overflow-x: hidden !important;
+        overflow-y: auto !important;
+
+        overscroll-behavior-y: contain;
+        scrollbar-gutter: stable;
+        scrollbar-width: thin;
+
+        touch-action: pan-y;
+    }
+
+    html.page-home #archive .results {
+        min-width: 0;
+    }
+}
+
+/*
+ * On mobile, the opened filter drawer gets its own vertical scroller.
+ */
+
+@media (max-width: 980px) {
+    html.page-home #archive .filters.open,
+    html.page-home #archive .filters.is-open,
+    html.page-home #archive .filters:not([hidden]) {
+        max-height: 70vh !important;
+        max-height: 70dvh !important;
+
+        overflow-x: hidden !important;
+        overflow-y: auto !important;
+
+        overscroll-behavior-y: contain;
+        scrollbar-gutter: stable;
+        touch-action: pan-y;
+    }
+}
+
+/*
+ * Archive scrollbar.
+ */
+
+html.page-home #archive .filters {
+    scrollbar-color:
+        #9f3d2e
+        rgba(92, 72, 51, 0.08);
+}
+
+html.page-home #archive .filters::-webkit-scrollbar {
+    width: 8px;
+}
+
+html.page-home #archive .filters::-webkit-scrollbar-track {
+    background: rgba(92, 72, 51, 0.08);
+}
+
+html.page-home #archive .filters::-webkit-scrollbar-thumb {
+    border: 2px solid transparent;
+    border-radius: 999px;
+
+    background: #9f3d2e;
+    background-clip: padding-box;
+}
+
+/*
+ * Earthlight scrollbar.
+ */
+
+html.page-home[data-display-mode="earthlight"] #archive .filters {
+    scrollbar-color:
+        #526f59
+        rgba(82, 111, 89, 0.09);
+}
+
+html.page-home[data-display-mode="earthlight"]
+#archive .filters::-webkit-scrollbar-track {
+    background: rgba(82, 111, 89, 0.09);
+}
+
+html.page-home[data-display-mode="earthlight"]
+#archive .filters::-webkit-scrollbar-thumb {
+    background: #526f59;
+    background-clip: padding-box;
+}
+
+/* FILTER-SCROLLER-V2:END */

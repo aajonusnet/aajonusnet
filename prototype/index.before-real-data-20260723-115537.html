@@ -1,0 +1,1825 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Aajonus Vonderplanitz Archive, Design Prototype</title>
+
+<style>
+:root {
+    --ink: #27231f;
+    --muted: #70685e;
+    --paper: #f5f0e5;
+    --sheet: #fffdf7;
+    --line: #cfc5b4;
+    --line-dark: #9d9384;
+    --rust: #9f3d2e;
+    --amber: #bd8129;
+    --olive: #68704b;
+    --blue: #496676;
+    --shadow: 0 18px 50px rgba(62, 50, 34, 0.10);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background:
+        linear-gradient(
+            rgba(255, 255, 255, 0.22),
+            rgba(255, 255, 255, 0.22)
+        ),
+        repeating-linear-gradient(
+            0deg,
+            transparent 0 3px,
+            rgba(66, 51, 33, 0.018) 3px 4px
+        ),
+        var(--paper);
+    color: var(--ink);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button,
+input,
+select {
+    font: inherit;
+}
+
+button,
+a {
+    color: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+.site-header {
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    border-bottom: 1px solid var(--line);
+    background: rgba(245, 240, 229, 0.94);
+    backdrop-filter: blur(12px);
+}
+
+.header-inner {
+    display: flex;
+    max-width: 1260px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    margin: auto;
+    padding: 17px 28px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+
+.brand-seal {
+    display: grid;
+    width: 42px;
+    height: 42px;
+    place-items: center;
+    border: 1px solid var(--ink);
+    border-radius: 50%;
+    font: 700 18px Georgia, serif;
+}
+
+.brand strong {
+    display: block;
+    font: 700 17px Georgia, serif;
+}
+
+.brand small {
+    display: block;
+    margin-top: 3px;
+    color: var(--muted);
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.top-nav {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    font-size: 13px;
+}
+
+.top-nav a {
+    padding: 5px 0;
+    border-bottom: 1px solid transparent;
+}
+
+.top-nav a:hover {
+    border-color: var(--ink);
+}
+
+.about-link {
+    padding: 9px 13px !important;
+    border: 1px solid var(--ink) !important;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.page {
+    max-width: 1260px;
+    margin: auto;
+    padding: 54px 28px 70px;
+}
+
+.intro {
+    display: grid;
+    grid-template-columns:
+        minmax(0, 1.35fr)
+        minmax(290px, 0.65fr);
+    align-items: end;
+    gap: 64px;
+    padding-bottom: 48px;
+    border-bottom: 1px solid var(--ink);
+}
+
+.kicker {
+    margin: 0 0 15px;
+    color: var(--rust);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+}
+
+h1,
+h2,
+h3 {
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+h1 {
+    max-width: 830px;
+    margin: 0;
+    font-size: clamp(48px, 7.4vw, 102px);
+    font-weight: 500;
+    line-height: 0.92;
+    letter-spacing: -0.055em;
+}
+
+.intro-copy {
+    max-width: 570px;
+    margin: 26px 0 0;
+    color: var(--muted);
+    font: 20px/1.55 Georgia, serif;
+}
+
+.catalog-card {
+    position: relative;
+    padding: 24px 24px 22px;
+    border: 1px solid var(--line-dark);
+    background: var(--sheet);
+    box-shadow: var(--shadow);
+}
+
+.catalog-card::before {
+    position: absolute;
+    top: -11px;
+    left: 20px;
+    padding: 5px 9px;
+    background: var(--rust);
+    color: #fff;
+    content: "ARCHIVE CARD";
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+}
+
+.catalog-row {
+    display: grid;
+    grid-template-columns: 92px 1fr;
+    gap: 16px;
+    padding: 11px 0;
+    border-bottom: 1px dotted var(--line);
+}
+
+.catalog-row:last-child {
+    border: 0;
+}
+
+.catalog-row dt {
+    color: var(--muted);
+    font-size: 10px;
+    letter-spacing: 0.11em;
+    text-transform: uppercase;
+}
+
+.catalog-row dd {
+    margin: 0;
+    font: 15px/1.35 Georgia, serif;
+}
+
+.search-section {
+    padding: 34px 0 14px;
+}
+
+.search-label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+}
+
+.search-wrap {
+    position: relative;
+}
+
+.search-wrap input {
+    width: 100%;
+    padding: 20px 122px 20px 20px;
+    border: 1px solid var(--ink);
+    border-radius: 0;
+    outline: none;
+    background: var(--sheet);
+    color: var(--ink);
+    font: 22px Georgia, serif;
+    box-shadow: 7px 7px 0 rgba(159, 61, 46, 0.10);
+}
+
+.search-wrap input:focus {
+    box-shadow: 7px 7px 0 rgba(159, 61, 46, 0.24);
+}
+
+.search-wrap button {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    bottom: 8px;
+    padding: 0 18px;
+    border: 0;
+    background: var(--ink);
+    color: #fff;
+    cursor: pointer;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.topic-strip {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 14px;
+}
+
+.topic-chip {
+    padding: 7px 10px;
+    border: 1px solid var(--line-dark);
+    background: transparent;
+    cursor: pointer;
+    font-size: 11px;
+}
+
+.topic-chip:hover,
+.topic-chip.active {
+    border-color: var(--ink);
+    background: var(--ink);
+    color: #fff;
+}
+
+.section {
+    padding-top: 58px;
+}
+
+.section-heading {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 22px;
+}
+
+.section-heading h2 {
+    margin: 5px 0 0;
+    font-size: 38px;
+    font-weight: 500;
+    letter-spacing: -0.03em;
+}
+
+.section-heading p {
+    max-width: 520px;
+    margin: 0;
+    color: var(--muted);
+    font-size: 13px;
+    line-height: 1.55;
+}
+
+.collection-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    border-top: 1px solid var(--ink);
+    border-left: 1px solid var(--ink);
+}
+
+.collection {
+    position: relative;
+    min-height: 170px;
+    padding: 23px;
+    border: 0;
+    border-right: 1px solid var(--ink);
+    border-bottom: 1px solid var(--ink);
+    background: rgba(255, 253, 247, 0.58);
+    cursor: pointer;
+    text-align: left;
+}
+
+.collection::before {
+    position: absolute;
+    inset: 0 auto 0 0;
+    width: 5px;
+    background: var(--accent);
+    content: "";
+}
+
+.collection:hover {
+    background: var(--sheet);
+}
+
+.collection span {
+    display: block;
+    color: var(--muted);
+    font-size: 10px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+}
+
+.collection strong {
+    display: block;
+    margin-top: 28px;
+    font: 500 25px/1.05 Georgia, serif;
+}
+
+.collection small {
+    display: block;
+    margin-top: 12px;
+    color: var(--muted);
+    font-size: 12px;
+}
+
+.collection[data-format="Q&A"] {
+    --accent: var(--rust);
+}
+
+.collection[data-format="Interview"] {
+    --accent: var(--blue);
+}
+
+.collection[data-format="Book"] {
+    --accent: var(--amber);
+}
+
+.collection[data-format="Newsletter"] {
+    --accent: var(--olive);
+}
+
+.featured-grid {
+    display: grid;
+    grid-template-columns: 1.45fr 0.75fr;
+    gap: 24px;
+}
+
+.featured-record {
+    display: flex;
+    min-height: 340px;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 34px;
+    border: 1px solid var(--ink);
+    background: var(--sheet);
+}
+
+.featured-record h3 {
+    max-width: 700px;
+    margin: 14px 0 0;
+    font-size: 43px;
+    font-weight: 500;
+    line-height: 1.04;
+    letter-spacing: -0.035em;
+}
+
+.featured-record p {
+    max-width: 650px;
+    color: var(--muted);
+    font: 18px/1.55 Georgia, serif;
+}
+
+.featured-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.finding-aids {
+    border-top: 1px solid var(--ink);
+}
+
+.finding-aid {
+    display: block;
+    padding: 18px 4px;
+    border-bottom: 1px solid var(--line);
+}
+
+.finding-aid small {
+    color: var(--rust);
+    font-size: 9px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+}
+
+.finding-aid strong {
+    display: block;
+    margin-top: 8px;
+    font: 21px Georgia, serif;
+}
+
+.finding-aid:hover strong {
+    color: var(--rust);
+}
+
+.archive-layout {
+    display: grid;
+    grid-template-columns: 260px minmax(0, 1fr);
+    align-items: start;
+    gap: 44px;
+}
+
+.filters {
+    position: sticky;
+    top: 94px;
+    padding: 20px;
+    border: 1px solid var(--line-dark);
+    background: rgba(255, 253, 247, 0.58);
+}
+
+.filters h3 {
+    margin: 0 0 18px;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.filter-group {
+    padding: 16px 0;
+    border-top: 1px solid var(--line);
+}
+
+.filter-group:first-of-type {
+    padding-top: 0;
+    border-top: 0;
+}
+
+.filter-group label {
+    display: block;
+    margin-bottom: 7px;
+    color: var(--muted);
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.11em;
+    text-transform: uppercase;
+}
+
+.filter-group select {
+    width: 100%;
+    padding: 10px 9px;
+    border: 1px solid var(--line-dark);
+    border-radius: 0;
+    background: var(--sheet);
+    color: var(--ink);
+}
+
+.format-options {
+    display: grid;
+    gap: 7px;
+}
+
+.format-option {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 0;
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+    text-align: left;
+    font-size: 13px;
+}
+
+.format-option span:last-child {
+    color: var(--muted);
+    font-size: 11px;
+}
+
+.format-option.active {
+    color: var(--rust);
+    font-weight: 700;
+}
+
+.clear-filters {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--ink);
+    background: transparent;
+    cursor: pointer;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.clear-filters:hover {
+    background: var(--ink);
+    color: #fff;
+}
+
+.results-head {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    gap: 20px;
+    padding-bottom: 14px;
+    border-bottom: 2px solid var(--ink);
+}
+
+.results-head h2 {
+    margin: 4px 0 0;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.results-count {
+    color: var(--muted);
+    font-size: 12px;
+}
+
+.record-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.record {
+    display: grid;
+    grid-template-columns: 105px minmax(0, 1fr) 118px;
+    gap: 20px;
+    padding: 23px 4px;
+    border-bottom: 1px solid var(--line);
+    cursor: pointer;
+}
+
+.record:hover {
+    background: rgba(255, 253, 247, 0.58);
+}
+
+.record-date {
+    font: 15px Georgia, serif;
+}
+
+.record-main h3 {
+    margin: 0;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 1.16;
+}
+
+.record-main p {
+    margin: 8px 0 0;
+    color: var(--muted);
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.record-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 12px;
+}
+
+.tag {
+    padding: 4px 6px;
+    border: 1px solid var(--line-dark);
+    color: var(--muted);
+    font-size: 9px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+}
+
+.record-type {
+    text-align: right;
+}
+
+.record-type strong {
+    display: block;
+    color: var(--rust);
+    font-size: 10px;
+    letter-spacing: 0.11em;
+    text-transform: uppercase;
+}
+
+.record-type small {
+    display: block;
+    margin-top: 8px;
+    color: var(--muted);
+    font-size: 10px;
+    line-height: 1.4;
+}
+
+.empty {
+    display: none;
+    padding: 50px 20px;
+    border-bottom: 1px solid var(--line);
+    text-align: center;
+}
+
+.empty strong {
+    font: 26px Georgia, serif;
+}
+
+.empty p {
+    color: var(--muted);
+}
+
+.load-more {
+    display: block;
+    margin: 24px auto 0;
+    padding: 11px 17px;
+    border: 1px solid var(--ink);
+    background: transparent;
+    cursor: pointer;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.load-more:hover {
+    background: var(--ink);
+    color: #fff;
+}
+
+.timeline {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    border-top: 1px solid var(--ink);
+}
+
+.year {
+    position: relative;
+    min-height: 130px;
+    padding: 24px 14px 0;
+    border-left: 1px solid var(--line);
+}
+
+.year::before {
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: var(--rust);
+    content: "";
+}
+
+.year:first-child {
+    border-left: 0;
+}
+
+.year strong {
+    font: 28px Georgia, serif;
+}
+
+.year span {
+    display: block;
+    margin-top: 9px;
+    color: var(--muted);
+    font-size: 11px;
+    line-height: 1.45;
+}
+
+.archive-note {
+    margin-top: 58px;
+    padding: 20px 22px;
+    border: 1px solid var(--line-dark);
+    background: rgba(189, 129, 41, 0.08);
+    font-size: 12px;
+    line-height: 1.6;
+}
+
+.site-footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin-top: 64px;
+    padding-top: 24px;
+    border-top: 1px solid var(--ink);
+    color: var(--muted);
+    font-size: 11px;
+}
+
+.site-footer nav {
+    display: flex;
+    gap: 18px;
+}
+
+.mobile-filter-button {
+    display: none;
+}
+
+@media (max-width: 980px) {
+    .top-nav a:not(.about-link) {
+        display: none;
+    }
+
+    .intro {
+        grid-template-columns: 1fr;
+        gap: 38px;
+    }
+
+    .catalog-card {
+        max-width: 620px;
+    }
+
+    .collection-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .featured-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .archive-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .filters {
+        position: static;
+        display: none;
+    }
+
+    .filters.open {
+        display: block;
+    }
+
+    .mobile-filter-button {
+        display: block;
+        margin-bottom: 16px;
+        padding: 10px 13px;
+        border: 1px solid var(--ink);
+        background: transparent;
+        cursor: pointer;
+        font-size: 10px;
+        font-weight: 700;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+    }
+}
+
+@media (max-width: 680px) {
+    .header-inner,
+    .page {
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+
+    .brand small {
+        display: none;
+    }
+
+    .top-nav {
+        gap: 10px;
+    }
+
+    .about-link {
+        padding: 8px 9px !important;
+    }
+
+    .page {
+        padding-top: 34px;
+    }
+
+    h1 {
+        font-size: 52px;
+    }
+
+    .intro-copy {
+        font-size: 17px;
+    }
+
+    .search-wrap input {
+        padding-right: 18px;
+        font-size: 18px;
+    }
+
+    .search-wrap button {
+        position: static;
+        width: 100%;
+        height: 43px;
+        margin-top: 8px;
+    }
+
+    .collection-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .record {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .record-type {
+        text-align: left;
+    }
+
+    .timeline {
+        grid-template-columns: 1fr;
+    }
+
+    .year {
+        min-height: auto;
+        padding-bottom: 24px;
+        border-left: 1px solid var(--line);
+    }
+
+    .site-footer {
+        flex-direction: column;
+    }
+}
+</style>
+</head>
+
+<body>
+<header class="site-header">
+    <div class="header-inner">
+        <a class="brand" href="#">
+            <span class="brand-seal">AV</span>
+
+            <span>
+                <strong>The Aajonus Vonderplanitz Archive</strong>
+                <small>
+                    Transcripts, recordings, books, and source material
+                </small>
+            </span>
+        </a>
+
+        <nav class="top-nav" aria-label="Primary">
+            <a href="#collections">Collections</a>
+            <a href="#archive">Search</a>
+            <a href="#timeline">Timeline</a>
+            <a class="about-link" href="#about">About the archive</a>
+        </nav>
+    </div>
+</header>
+
+<main class="page">
+    <section class="intro">
+        <div>
+            <p class="kicker">Independent historical archive</p>
+
+            <h1>Research the record.</h1>
+
+            <p class="intro-copy">
+                A structured library of transcripts, workshops,
+                interviews, books, newsletters, videos, and surviving
+                source documents.
+            </p>
+        </div>
+
+        <dl class="catalog-card">
+            <div class="catalog-row">
+                <dt>Coverage</dt>
+                <dd>Recorded material through 2013</dd>
+            </div>
+
+            <div class="catalog-row">
+                <dt>Access</dt>
+                <dd>Open reading and source links</dd>
+            </div>
+
+            <div class="catalog-row">
+                <dt>Record types</dt>
+                <dd>Audio, video, text, scans, and transcripts</dd>
+            </div>
+
+            <div class="catalog-row">
+                <dt>Purpose</dt>
+                <dd>Historical preservation and research</dd>
+            </div>
+        </dl>
+    </section>
+
+    <section class="search-section">
+        <label class="search-label" for="searchInput">
+            Search the archive
+        </label>
+
+        <div class="search-wrap">
+            <input
+                id="searchInput"
+                type="search"
+                placeholder="Search transcripts, books, topics, and dates"
+            >
+
+           <button id="submitSearch" type="button">
+    Search
+</button>
+        </div>
+
+        <div class="topic-strip" aria-label="Popular topics">
+            <button class="topic-chip" data-topic="raw milk">
+                Raw milk
+            </button>
+
+            <button class="topic-chip" data-topic="meat">
+                Meat
+            </button>
+
+            <button class="topic-chip" data-topic="digestion">
+                Digestion
+            </button>
+
+            <button class="topic-chip" data-topic="fasting">
+                Fasting
+            </button>
+
+            <button class="topic-chip" data-topic="farming">
+                Farming
+            </button>
+
+            <button class="topic-chip" data-topic="detoxification">
+                Detoxification
+            </button>
+        </div>
+    </section>
+
+    <section class="section" id="collections">
+        <div class="section-heading">
+            <div>
+                <p class="kicker">Finding aid 01</p>
+                <h2>Browse by format</h2>
+            </div>
+
+            <p>
+                Start with the kind of source you need. Each collection
+                keeps its original files linked to the readable record.
+            </p>
+        </div>
+
+        <div class="collection-grid">
+            <button class="collection" data-format="Q&A">
+                <span>Collection 01</span>
+                <strong>Q&amp;A and workshops</strong>
+                <small>
+                    Live questions, lectures, and audience discussion
+                </small>
+            </button>
+
+            <button class="collection" data-format="Interview">
+                <span>Collection 02</span>
+                <strong>Interviews</strong>
+                <small>
+                    Radio, print, and recorded conversations
+                </small>
+            </button>
+
+            <button class="collection" data-format="Book">
+                <span>Collection 03</span>
+                <strong>Books</strong>
+                <small>
+                    Long-form texts and chapter-level records
+                </small>
+            </button>
+
+            <button class="collection" data-format="Newsletter">
+                <span>Collection 04</span>
+                <strong>Newsletters</strong>
+                <small>
+                    Issues, notices, and shorter published material
+                </small>
+            </button>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="section-heading">
+            <div>
+                <p class="kicker">Editor’s selection</p>
+                <h2>Ways into the archive</h2>
+            </div>
+
+            <p>
+                Curated entry points reduce the need to scroll through
+                a flat list of hundreds of files.
+            </p>
+        </div>
+
+        <div class="featured-grid">
+            <article class="featured-record">
+                <div>
+                    <p class="kicker">Featured transcript</p>
+
+                    <h3>
+                        Primal Diet Workshop and Q&amp;A,
+                        June 22, 2013
+                    </h3>
+
+                    <p>
+                        A transcript-led record with source information,
+                        clear speaker labels, topic markers, and links
+                        into individual questions.
+                    </p>
+                </div>
+
+                <div class="featured-meta">
+                    <span>Q&amp;A</span>
+                    <span>June 22, 2013</span>
+                    <span>Complete transcript</span>
+                </div>
+            </article>
+
+            <nav
+                class="finding-aids"
+                aria-label="Curated archive paths"
+            >
+                <a
+                    class="finding-aid"
+                    href="#archive"
+                    data-topic-link="raw milk"
+                >
+                    <small>Subject guide</small>
+                    <strong>Raw milk and dairy</strong>
+                </a>
+
+                <a
+                    class="finding-aid"
+                    href="#archive"
+                    data-topic-link="digestion"
+                >
+                    <small>Subject guide</small>
+                    <strong>Digestion and food preparation</strong>
+                </a>
+
+                <a class="finding-aid" href="#timeline">
+                    <small>Chronology</small>
+                    <strong>Browse the archive by year</strong>
+                </a>
+
+                <a
+                    class="finding-aid"
+                    href="#archive"
+                    data-status-link="Unverified"
+                >
+                    <small>Editorial work</small>
+                    <strong>Records awaiting verification</strong>
+                </a>
+            </nav>
+        </div>
+    </section>
+
+    <section class="section" id="archive">
+        <button
+            id="mobileFilterButton"
+            class="mobile-filter-button"
+            type="button"
+        >
+            Show filters
+        </button>
+
+        <div class="archive-layout">
+            <aside id="filters" class="filters">
+                <h3>Refine results</h3>
+
+                <div class="filter-group">
+                    <label>Format</label>
+
+                    <div class="format-options">
+                        <button
+                            class="format-option active"
+                            data-format="All"
+                        >
+                            <span>All records</span>
+                            <span>12</span>
+                        </button>
+
+                        <button
+                            class="format-option"
+                            data-format="Q&A"
+                        >
+                            <span>Q&amp;A</span>
+                            <span>4</span>
+                        </button>
+
+                        <button
+                            class="format-option"
+                            data-format="Interview"
+                        >
+                            <span>Interviews</span>
+                            <span>2</span>
+                        </button>
+
+                        <button
+                            class="format-option"
+                            data-format="Book"
+                        >
+                            <span>Books</span>
+                            <span>2</span>
+                        </button>
+
+                        <button
+                            class="format-option"
+                            data-format="Newsletter"
+                        >
+                            <span>Newsletters</span>
+                            <span>2</span>
+                        </button>
+
+                        <button
+                            class="format-option"
+                            data-format="Article"
+                        >
+                            <span>Articles</span>
+                            <span>2</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="filter-group">
+                    <label for="yearFilter">Year</label>
+
+                    <select id="yearFilter">
+                        <option value="All">All years</option>
+                        <option>2013</option>
+                        <option>2012</option>
+                        <option>2011</option>
+                        <option>2009</option>
+                        <option>2006</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label for="sourceFilter">Original source</label>
+
+                    <select id="sourceFilter">
+                        <option value="All">All sources</option>
+                        <option>Workshop</option>
+                        <option>Radio</option>
+                        <option>Book</option>
+                        <option>Newsletter</option>
+                        <option>RawMilk.org</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label for="statusFilter">
+                        Transcript status
+                    </label>
+
+                    <select id="statusFilter">
+                        <option value="All">All statuses</option>
+                        <option>Complete</option>
+                        <option>Partial</option>
+                        <option>Unverified</option>
+                        <option>Source only</option>
+                    </select>
+                </div>
+
+                <button
+                    id="clearFilters"
+                    class="clear-filters"
+                    type="button"
+                >
+                    Clear all filters
+                </button>
+            </aside>
+
+            <div class="results">
+                <div class="results-head">
+                    <div>
+                        <p class="kicker">Search catalogue</p>
+                        <h2 id="resultsTitle">All records</h2>
+                    </div>
+
+                    <span
+                        id="resultsCount"
+                        class="results-count"
+                    ></span>
+                </div>
+
+                <ol id="recordList" class="record-list"></ol>
+
+                <div id="emptyState" class="empty">
+                    <strong>No matching records</strong>
+
+                    <p>
+                        Remove a filter or search for a broader term.
+                    </p>
+                </div>
+
+                <button
+                    id="loadMore"
+                    class="load-more"
+                    type="button"
+                >
+                    Show more records
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="timeline">
+        <div class="section-heading">
+            <div>
+                <p class="kicker">Finding aid 02</p>
+                <h2>Timeline</h2>
+            </div>
+
+            <p>
+                A chronological route through workshops, interviews,
+                publications, and later recordings.
+            </p>
+        </div>
+
+        <div class="timeline">
+            <a
+                class="year"
+                href="#archive"
+                data-year-link="2006"
+            >
+                <strong>2006</strong>
+                <span>
+                    Early recorded interviews and published material
+                </span>
+            </a>
+
+            <a
+                class="year"
+                href="#archive"
+                data-year-link="2009"
+            >
+                <strong>2009</strong>
+                <span>
+                    Radio appearances and longer conversations
+                </span>
+            </a>
+
+            <a
+                class="year"
+                href="#archive"
+                data-year-link="2011"
+            >
+                <strong>2011</strong>
+                <span>
+                    Workshops, newsletters, and public Q&amp;A records
+                </span>
+            </a>
+
+            <a
+                class="year"
+                href="#archive"
+                data-year-link="2012"
+            >
+                <strong>2012</strong>
+                <span>
+                    Expanded workshop and interview archive
+                </span>
+            </a>
+
+            <a
+                class="year"
+                href="#archive"
+                data-year-link="2013"
+            >
+                <strong>2013</strong>
+                <span>
+                    Late workshops, Q&amp;A sessions,
+                    and final recordings
+                </span>
+            </a>
+        </div>
+    </section>
+
+    <aside class="archive-note" id="about">
+        <strong>Archive note.</strong>
+
+        The site preserves historical claims and source material for
+        research. Archived health statements do not replace medical
+        guidance. Records should identify their source, transcript
+        status, and correction history.
+    </aside>
+
+    <footer class="site-footer">
+        <span>
+            The Aajonus Vonderplanitz Archive,
+            interface prototype
+        </span>
+
+        <nav>
+            <a href="#">Sources</a>
+            <a href="#">Contributors</a>
+            <a href="#">Corrections</a>
+            <a href="#">GitHub</a>
+        </nav>
+    </footer>
+</main>
+
+<script>
+let records = [];
+
+const state = {
+    query: "",
+    topic: "",
+    format: "All",
+    year: "All",
+    source: "All",
+    status: "All",
+    limit: 8
+};
+
+const elements = {
+    search: document.getElementById("searchInput"),
+    list: document.getElementById("recordList"),
+    count: document.getElementById("resultsCount"),
+    title: document.getElementById("resultsTitle"),
+    empty: document.getElementById("emptyState"),
+    load: document.getElementById("loadMore"),
+    year: document.getElementById("yearFilter"),
+    source: document.getElementById("sourceFilter"),
+    status: document.getElementById("statusFilter"),
+    filters: document.getElementById("filters")
+};
+
+function escapeHtml(value) {
+    const replacements = {
+        "&": "&amp;",
+        "<": "&lt;",
+        ">": "&gt;",
+        '"': "&quot;",
+        "'": "&#039;"
+    };
+
+    return value.replace(
+        /[&<>"']/g,
+        character => replacements[character]
+    );
+}
+
+function filteredRecords() {
+    const query = state.query.toLowerCase();
+
+    return records.filter(item => {
+        const searchable = [
+            item.title,
+            item.date,
+            item.year,
+            item.format,
+            item.source,
+            item.status,
+            item.note,
+            item.searchText || "",
+            ...item.topics
+        ].join(" ").toLowerCase();
+
+        return (
+            (!query || searchable.includes(query)) &&
+            (!state.topic ||
+                item.topics.includes(state.topic)) &&
+            (state.format === "All" ||
+                item.format === state.format) &&
+            (state.year === "All" ||
+                item.year === state.year) &&
+            (state.source === "All" ||
+                item.source === state.source) &&
+            (state.status === "All" ||
+                item.status === state.status)
+        );
+    });
+}
+
+function render() {
+    const matches = filteredRecords();
+    const visible = matches.slice(0, state.limit);
+
+    elements.list.innerHTML = visible.map(item => `
+        <li class="record">
+            <div class="record-date">
+                ${escapeHtml(item.date)}
+            </div>
+
+            <div class="record-main">
+                <h3>${escapeHtml(item.title)}</h3>
+
+                <p>${escapeHtml(item.note)}</p>
+
+                <div class="record-meta">
+                    ${item.topics.map(topic => `
+                        <span class="tag">
+                            ${escapeHtml(topic)}
+                        </span>
+                    `).join("")}
+                </div>
+            </div>
+
+            <div class="record-type">
+                <strong>
+                    ${escapeHtml(item.format)}
+                </strong>
+
+                <small>
+                    ${escapeHtml(item.source)}
+                    <br>
+                    ${escapeHtml(item.status)}
+                </small>
+            </div>
+        </li>
+    `).join("");
+
+    elements.count.textContent =
+        `${matches.length} ${
+            matches.length === 1 ? "record" : "records"
+        }`;
+
+    elements.title.textContent =
+        state.format === "All"
+            ? "All records"
+            : state.format;
+
+    elements.empty.style.display =
+        matches.length ? "none" : "block";
+
+    elements.load.style.display =
+        matches.length > state.limit
+            ? "block"
+            : "none";
+}
+
+function resetAll() {
+    Object.assign(state, {
+        query: "",
+        topic: "",
+        format: "All",
+        year: "All",
+        source: "All",
+        status: "All",
+        limit: 8
+    });
+
+    elements.search.value = "";
+    elements.year.value = "All";
+    elements.source.value = "All";
+    elements.status.value = "All";
+
+    document
+        .querySelectorAll(".format-option")
+        .forEach(button => {
+            button.classList.toggle(
+                "active",
+                button.dataset.format === "All"
+            );
+        });
+
+    document
+        .querySelectorAll(".topic-chip")
+        .forEach(button => {
+            button.classList.remove("active");
+        });
+
+    render();
+}
+
+elements.search.addEventListener(
+    "input",
+    event => {
+        state.query = event.target.value.trim();
+        state.limit = 8;
+        render();
+    }
+);
+
+function showSearchResults() {
+    state.query = elements.search.value.trim();
+    state.limit = 8;
+    render();
+
+    document
+        .getElementById("archive")
+        .scrollIntoView({
+            behavior: "smooth",
+            block: "start"
+        });
+}
+
+document
+    .getElementById("submitSearch")
+    .addEventListener("click", showSearchResults);
+
+elements.search.addEventListener("keydown", event => {
+    if (event.key === "Enter") {
+        event.preventDefault();
+        showSearchResults();
+    }
+});
+
+document
+    .getElementById("clearFilters")
+    .addEventListener("click", resetAll);
+
+elements.year.addEventListener(
+    "change",
+    event => {
+        state.year = event.target.value;
+        render();
+    }
+);
+
+elements.source.addEventListener(
+    "change",
+    event => {
+        state.source = event.target.value;
+        render();
+    }
+);
+
+elements.status.addEventListener(
+    "change",
+    event => {
+        state.status = event.target.value;
+        render();
+    }
+);
+
+elements.load.addEventListener(
+    "click",
+    () => {
+        state.limit += 8;
+        render();
+    }
+);
+
+document
+    .querySelectorAll(".format-option")
+    .forEach(button => {
+        button.addEventListener("click", () => {
+            state.format = button.dataset.format;
+            state.limit = 8;
+
+            document
+                .querySelectorAll(".format-option")
+                .forEach(item => {
+                    item.classList.toggle(
+                        "active",
+                        item === button
+                    );
+                });
+
+            render();
+        });
+    });
+
+document
+    .querySelectorAll(".collection")
+    .forEach(button => {
+        button.addEventListener("click", () => {
+            state.format = button.dataset.format;
+
+            document
+                .querySelectorAll(".format-option")
+                .forEach(item => {
+                    item.classList.toggle(
+                        "active",
+                        item.dataset.format ===
+                            state.format
+                    );
+                });
+
+            render();
+
+            document
+                .getElementById("archive")
+                .scrollIntoView({
+                    behavior: "smooth"
+                });
+        });
+    });
+
+document
+    .querySelectorAll(".topic-chip")
+    .forEach(button => {
+        button.addEventListener("click", () => {
+            const active =
+                button.classList.contains("active");
+
+            document
+                .querySelectorAll(".topic-chip")
+                .forEach(item => {
+                    item.classList.remove("active");
+                });
+
+            state.topic =
+                active ? "" : button.dataset.topic;
+
+            if (!active) {
+                button.classList.add("active");
+            }
+
+            render();
+        });
+    });
+
+document
+    .querySelectorAll("[data-topic-link]")
+    .forEach(link => {
+        link.addEventListener("click", () => {
+            state.topic = link.dataset.topicLink;
+
+            document
+                .querySelectorAll(".topic-chip")
+                .forEach(item => {
+                    item.classList.toggle(
+                        "active",
+                        item.dataset.topic ===
+                            state.topic
+                    );
+                });
+
+            render();
+        });
+    });
+
+document
+    .querySelectorAll("[data-status-link]")
+    .forEach(link => {
+        link.addEventListener("click", () => {
+            state.status =
+                link.dataset.statusLink;
+
+            elements.status.value =
+                state.status;
+
+            render();
+        });
+    });
+
+document
+    .querySelectorAll("[data-year-link]")
+    .forEach(link => {
+        link.addEventListener("click", () => {
+            state.year =
+                link.dataset.yearLink;
+
+            elements.year.value =
+                state.year;
+
+            render();
+        });
+    });
+
+document
+    .getElementById("mobileFilterButton")
+    .addEventListener("click", () => {
+        elements.filters.classList.toggle("open");
+    });
+
+
+async function loadRealArchive() {
+    elements.count.textContent =
+        "Loading archive records…";
+
+    const response = await fetch(
+        "archive-data.php",
+        {
+            cache: "no-store"
+        }
+    );
+
+    if (!response.ok) {
+        throw new Error(
+            "Archive data failed to load."
+        );
+    }
+
+    records = await response.json();
+
+    const formatCounts = {};
+
+    records.forEach(record => {
+        formatCounts[record.format] =
+            (formatCounts[record.format] || 0) + 1;
+    });
+
+    document
+        .querySelectorAll(".format-option")
+        .forEach(button => {
+            const format = button.dataset.format;
+
+            const count = format === "All"
+                ? records.length
+                : formatCounts[format] || 0;
+
+            const countElement =
+                button.querySelector(
+                    "span:last-child"
+                );
+
+            if (countElement) {
+                countElement.textContent = count;
+            }
+        });
+
+    document
+        .querySelectorAll(".collection")
+        .forEach(button => {
+            const format = button.dataset.format;
+            const count = formatCounts[format] || 0;
+            const small = button.querySelector("small");
+
+            if (small) {
+                small.textContent =
+                    `${count} archive records`;
+            }
+        });
+
+    const years = [
+        ...new Set(
+            records
+                .map(record => record.year)
+                .filter(year =>
+                    /^\d{4}$/.test(year)
+                )
+        )
+    ].sort((first, second) =>
+        Number(second) - Number(first)
+    );
+
+    elements.year.innerHTML =
+        '<option value="All">All years</option>' +
+        years
+            .map(year =>
+                `<option value="${year}">${year}</option>`
+            )
+            .join("");
+
+    const sources = [
+        ...new Set(
+            records
+                .map(record => record.source)
+                .filter(Boolean)
+        )
+    ].sort();
+
+    elements.source.innerHTML =
+        '<option value="All">All sources</option>' +
+        sources
+            .map(source =>
+                `<option value="${escapeHtml(source)}">` +
+                `${escapeHtml(source)}</option>`
+            )
+            .join("");
+
+    elements.status.innerHTML = `
+        <option value="All">All statuses</option>
+        <option value="Not catalogued">
+            Not catalogued
+        </option>
+    `;
+
+    state.limit = 20;
+    render();
+}
+
+loadRealArchive().catch(error => {
+    console.error(error);
+
+    elements.count.textContent =
+        "Archive records failed to load.";
+
+    elements.empty.style.display = "block";
+    elements.empty.querySelector("strong").textContent =
+        "Archive data failed to load";
+});
+
+</script>
+</body>
+</html>

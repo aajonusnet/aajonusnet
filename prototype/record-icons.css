@@ -1,0 +1,118 @@
+/* Aajonus Archive record pictograms: standalone, editorial, and consistent. */
+.record-stamp {
+    position: relative;
+    display: flex;
+    min-width: 78px;
+    min-height: 76px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 7px;
+    padding-top: 1px;
+    text-align: center;
+}
+
+/* Remove the earlier emoji / badge treatment. */
+.record-stamp-mark,
+.record-stamp-icon {
+    display: none !important;
+}
+
+.record-stamp::before {
+    content: "";
+    display: block;
+    width: 52px;
+    height: 52px;
+    flex: 0 0 52px;
+    background: url("assets/record-icons/article.svg") center / contain no-repeat;
+    filter: drop-shadow(0 2px 1px rgba(57, 35, 23, 0.16));
+}
+
+
+.record[data-format="Book" i] .record-stamp::before {
+    width: 58px;
+    height: 58px;
+    flex-basis: 58px;
+    margin-top: -2px;
+    background-image: url("assets/record-icons/book.svg");
+}
+
+.record[data-format="Article" i] .record-stamp::before {
+    background-image: url("assets/record-icons/article.svg");
+}
+
+.record[data-format="Newsletter" i] .record-stamp::before {
+    background-image: url("assets/record-icons/newsletter.svg");
+}
+
+.record[data-format="Interview" i] .record-stamp::before {
+    background-image: url("assets/record-icons/interview.svg");
+}
+
+.record[data-format="Q&A" i] .record-stamp::before {
+    background-image: url("assets/record-icons/qa-v2.svg");
+}
+
+.record[data-format="Video" i] .record-stamp::before {
+    background-image: url("assets/record-icons/video-v2.svg");
+}
+
+
+.record[data-format="Q&A" i] .record-stamp::before,
+.record[data-format="Video" i] .record-stamp::before {
+    width: 50px;
+    height: 50px;
+    flex-basis: 50px;
+}
+
+.record[data-format="Audio" i] .record-stamp::before {
+    background-image: url("assets/record-icons/audio.svg");
+}
+
+.record[data-format="Other" i] .record-stamp::before {
+    background-image: url("assets/record-icons/other.svg");
+}
+
+.record-stamp-year {
+    margin: 0;
+    color: var(--ink, #2f2923);
+    font: 600 13px/1 Georgia, "Times New Roman", serif;
+    letter-spacing: 0.035em;
+}
+
+/* Newer build: year is already under the pictogram. */
+.record:has(.record-stamp-year) .record-overline {
+    display: none !important;
+}
+
+/* Older build: preserve date and format beside the title. */
+.record:not(:has(.record-stamp-year)) .record-overline {
+    display: flex !important;
+    align-items: center;
+    gap: 9px;
+    margin-bottom: 7px;
+}
+
+/* Keep the list calm. The icons orient; they do not dominate. */
+.record-open {
+    display: none;
+}
+
+@media (max-width: 760px) {
+    .record-stamp {
+        min-width: 62px;
+        min-height: 68px;
+    }
+
+    .record-stamp::before {
+        width: 44px;
+        height: 44px;
+        flex-basis: 44px;
+    }
+
+    .record[data-format="Book" i] .record-stamp::before {
+        width: 48px;
+        height: 48px;
+        flex-basis: 48px;
+    }
+}

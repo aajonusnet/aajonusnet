@@ -5,3 +5,10 @@
 .Trashes
 __MACOSX
 *.m4a
+
+# Generated archive search cache
+code/.cache/
+/prototype-backup-before-*/
+/prototype/*-before-*
+/aajonus-*.zip
+/INSTALL*.txt

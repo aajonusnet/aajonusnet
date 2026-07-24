@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="430" viewBox="0 0 620 430">
+  <defs>
+    <linearGradient id="g1" x1="0" x2="1"><stop stop-color="#70452f"/><stop offset=".5" stop-color="#9c6744"/><stop offset="1" stop-color="#4c2f25"/></linearGradient>
+    <linearGradient id="g2" x1="0" x2="1"><stop stop-color="#4d5e42"/><stop offset=".5" stop-color="#7b865b"/><stop offset="1" stop-color="#303c2e"/></linearGradient>
+    <linearGradient id="pages" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#fff4d6"/><stop offset="1" stop-color="#d8c99f"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-50%" width="160%" height="200%"><feGaussianBlur stdDeviation="15"/></filter>
+  </defs>
+  <ellipse cx="315" cy="380" rx="260" ry="32" fill="#183128" opacity=".35" filter="url(#shadow)"/>
+  <g transform="rotate(3 310 230)">
+    <rect x="90" y="285" width="460" height="75" rx="12" fill="url(#g1)" stroke="#2d241e" stroke-width="4"/>
+    <rect x="115" y="295" width="410" height="52" rx="8" fill="url(#pages)"/>
+    <rect x="76" y="210" width="470" height="82" rx="13" fill="url(#g2)" stroke="#283126" stroke-width="4"/>
+    <rect x="102" y="221" width="414" height="56" rx="8" fill="url(#pages)"/>
+    <rect x="117" y="121" width="410" height="98" rx="14" fill="url(#g1)" stroke="#2d241e" stroke-width="4"/>
+    <rect x="141" y="135" width="360" height="68" rx="8" fill="url(#pages)"/>
+    <path d="M160 154h280M160 168h242M160 182h268" stroke="#b2a47d" stroke-width="3" opacity=".55"/>
+    <rect x="185" y="70" width="260" height="58" rx="12" fill="#3d4937" stroke="#293027" stroke-width="4"/>
+    <text x="315" y="106" text-anchor="middle" fill="#e8d79b" font-family="Georgia,serif" font-size="22" letter-spacing="3">ARCHIVE</text>
+  </g>
+</svg>

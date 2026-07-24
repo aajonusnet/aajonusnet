@@ -1,0 +1,197 @@
+/* Small parity and usability refinements for the editorial archive. */
+
+:focus-visible {
+    outline: 2px solid var(--rust, #9f3d2e);
+    outline-offset: 3px;
+}
+
+.record-stamp {
+    align-self: start;
+}
+
+.record-snippets {
+    display: grid;
+    gap: 7px;
+    margin-top: 9px;
+}
+
+.record-main .record-snippet,
+.record-main .record-summary {
+    margin: 0;
+}
+
+.record-main .record-snippet {
+    padding-left: 11px;
+    border-left: 2px solid rgba(159, 61, 46, 0.42);
+    color: var(--muted, #70685e);
+}
+
+.search-hit {
+    padding: 0 0.08em;
+    background: #ead79a;
+    color: #2b241d;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+}
+
+.tag.match-count {
+    border-color: rgba(159, 61, 46, 0.55);
+    color: var(--rust, #9f3d2e);
+}
+
+.site-footer {
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 28px;
+}
+
+.site-footer nav {
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0;
+}
+
+.site-footer nav a {
+    text-decoration: underline;
+    text-decoration-color: transparent;
+    text-underline-offset: 4px;
+    transition: color 120ms ease, text-decoration-color 120ms ease;
+}
+
+.site-footer nav a:hover {
+    color: var(--rust, #9f3d2e);
+    text-decoration-color: currentColor;
+}
+
+.site-footer nav a + a::before {
+    margin: 0 10px;
+    color: var(--line-dark, #9d9384);
+    content: "|";
+}
+
+/* Article media syntax inherited from the original archive. */
+.body img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 24px auto;
+}
+
+.body audio,
+.body video {
+    display: block;
+    width: min(100%, 860px);
+    margin: 24px auto;
+}
+
+.body video {
+    max-height: 72vh;
+    background: #171411;
+}
+
+.body a[target="_blank"]::after {
+    margin-left: 0.2em;
+    color: var(--muted, #70685e);
+    font-size: 0.72em;
+    content: "↗";
+    vertical-align: 0.15em;
+}
+
+@media (max-width: 760px) {
+    .site-footer {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .site-footer nav {
+        justify-content: flex-start;
+        row-gap: 10px;
+    }
+
+    .record-main .record-snippet:nth-child(n + 3) {
+        display: none;
+    }
+}
+
+@media (max-width: 760px) {
+    .site-footer nav {
+        gap: 10px 16px;
+    }
+
+    .site-footer nav a + a::before {
+        content: none;
+    }
+}
+
+/* Original aajonus.net feature statement, restyled for the editorial prototype. */
+.archive-features {
+    display: grid;
+    grid-template-columns: minmax(220px, 0.72fr) minmax(0, 1.28fr);
+    gap: 42px;
+    margin: 0 0 34px;
+    padding: 32px 20px;
+    border-top: 1px solid var(--line-dark, #9d9384);
+    border-bottom: 1px solid var(--line, #cfc5b5);
+}
+
+.archive-features-heading h2 {
+    max-width: 520px;
+    margin: 6px 0 0;
+    font-size: clamp(1.65rem, 2.5vw, 2.35rem);
+    line-height: 1.04;
+}
+
+.archive-features-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border-top: 1px solid var(--line, #cfc5b5);
+}
+
+.archive-features-list li {
+    position: relative;
+    min-height: 82px;
+    padding: 18px 18px 18px 34px;
+    border-right: 1px solid var(--line, #cfc5b5);
+    border-bottom: 1px solid var(--line, #cfc5b5);
+    color: var(--ink, #2b241d);
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.05rem;
+    line-height: 1.35;
+}
+
+.archive-features-list li:nth-child(even) {
+    border-right: 0;
+}
+
+.archive-features-list li::before {
+    position: absolute;
+    top: 20px;
+    left: 14px;
+    color: var(--rust, #9f3d2e);
+    content: "✦";
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 0.82rem;
+}
+
+@media (max-width: 760px) {
+    .archive-features {
+        grid-template-columns: 1fr;
+        gap: 22px;
+        padding: 28px 0;
+    }
+
+    .archive-features-list {
+        grid-template-columns: 1fr;
+    }
+
+    .archive-features-list li,
+    .archive-features-list li:nth-child(even) {
+        border-right: 0;
+    }
+}

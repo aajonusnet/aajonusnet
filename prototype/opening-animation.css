@@ -1,0 +1,861 @@
+/* ========================================================================== */
+/* We Want to Live: instant photographic sunrise                              */
+/* ========================================================================== */
+
+html.opening-active,
+html.opening-active body {
+    overflow: hidden !important;
+}
+
+.archive-opening {
+    position: fixed;
+    z-index: 2147483000;
+    inset: 0;
+
+    display: none;
+    overflow: hidden;
+
+    /*
+     * This fallback exists for no more than 260ms.
+     * It resembles dawn rather than an empty green loading screen.
+     */
+
+    background:
+        radial-gradient(
+            circle at 74% 21%,
+            rgba(255, 217, 128, 0.48) 0,
+            rgba(237, 171, 67, 0.16) 18rem,
+            transparent 34rem
+        ),
+        linear-gradient(
+            145deg,
+            #8c9b88 0%,
+            #4a6753 43%,
+            #172b20 100%
+        );
+
+    color: #fff8e8;
+
+    opacity: 1;
+
+    transition:
+        opacity 280ms ease,
+        visibility 280ms ease;
+}
+
+html[data-opening="prepare"] .archive-opening,
+html[data-opening="play"] .archive-opening {
+    display: block;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Real Earthlight landscape                                                  */
+/* -------------------------------------------------------------------------- */
+
+.opening-landscape {
+    position: absolute;
+    inset: -1%;
+
+    width: 102%;
+    height: 102%;
+
+    object-fit: cover;
+    object-position: 54% center;
+
+    filter:
+        saturate(1.13)
+        contrast(1.04)
+        brightness(0.83);
+
+    opacity: 0;
+
+    transform: scale(1.018);
+
+    transition:
+        opacity 180ms ease,
+        transform 1800ms
+            cubic-bezier(0.18, 0.72, 0.2, 1);
+
+    will-change:
+        opacity,
+        transform;
+}
+
+.archive-opening.is-photo-ready .opening-landscape {
+    opacity: 1;
+}
+
+.archive-opening.is-ready .opening-landscape {
+    transform: scale(1.045);
+}
+
+/* -------------------------------------------------------------------------- */
+/* Natural environmental grading                                              */
+/* -------------------------------------------------------------------------- */
+
+.opening-light {
+    position: absolute;
+    inset: 0;
+
+    background:
+        radial-gradient(
+            circle at 74% 21%,
+            rgba(255, 233, 164, 0.31) 0,
+            rgba(248, 194, 91, 0.14) 14rem,
+            transparent 29rem
+        ),
+        linear-gradient(
+            90deg,
+            rgba(7, 21, 13, 0.76) 0%,
+            rgba(8, 25, 15, 0.51) 35%,
+            rgba(13, 30, 19, 0.14) 68%,
+            rgba(8, 20, 13, 0.16) 100%
+        ),
+        linear-gradient(
+            180deg,
+            rgba(255, 241, 200, 0.04),
+            transparent 48%,
+            rgba(4, 15, 8, 0.49)
+        );
+
+    pointer-events: none;
+}
+
+.opening-vignette {
+    position: absolute;
+    inset: 0;
+
+    background:
+        radial-gradient(
+            ellipse at 56% 43%,
+            transparent 38%,
+            rgba(3, 12, 7, 0.29) 100%
+        );
+
+    pointer-events: none;
+}
+
+.opening-grain {
+    position: absolute;
+    inset: 0;
+
+    background:
+        repeating-linear-gradient(
+            0deg,
+            transparent 0 3px,
+            rgba(255, 249, 224, 0.015) 3px 4px
+        ),
+        repeating-linear-gradient(
+            90deg,
+            transparent 0 7px,
+            rgba(5, 17, 9, 0.014) 7px 8px
+        );
+
+    opacity: 0.58;
+    mix-blend-mode: soft-light;
+
+    pointer-events: none;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Integrated atmospheric sun                                                 */
+/* -------------------------------------------------------------------------- */
+
+.opening-sun-stage {
+    position: absolute;
+    z-index: 5;
+
+    left: 74%;
+    top: 21%;
+
+    width: clamp(112px, 12vw, 174px);
+    aspect-ratio: 1;
+
+    opacity: 0;
+
+    transform:
+        translate(-50%, -50%)
+        translateY(14px)
+        scale(0.82);
+
+    transition:
+        opacity 260ms ease 60ms,
+        transform 560ms
+            cubic-bezier(0.16, 0.78, 0.18, 1)
+            60ms;
+
+    will-change:
+        opacity,
+        transform;
+}
+
+.archive-opening.is-ready .opening-sun-stage {
+    opacity: 1;
+
+    transform:
+        translate(-50%, -50%)
+        translateY(0)
+        scale(1);
+}
+
+/*
+ * Broad atmospheric bloom.
+ */
+
+.opening-sun-glow {
+    position: absolute;
+    inset: -115%;
+
+    border-radius: 50%;
+
+    background:
+        radial-gradient(
+            circle,
+            rgba(255, 240, 183, 0.5) 0,
+            rgba(255, 210, 112, 0.25) 21%,
+            rgba(240, 166, 57, 0.08) 45%,
+            transparent 69%
+        );
+
+    animation:
+        sunrise-glow-breathe
+        3s
+        ease-in-out
+        infinite;
+}
+
+/*
+ * Subtle corona. Only this ring spins visibly.
+ */
+
+.opening-sun-corona {
+    position: absolute;
+    inset: -27%;
+
+    border-radius: 50%;
+
+    background:
+        repeating-conic-gradient(
+            from 0deg,
+            rgba(255, 226, 148, 0.55) 0deg 1deg,
+            rgba(244, 180, 70, 0.16) 1deg 2deg,
+            transparent 2deg 11deg
+        );
+
+    -webkit-mask:
+        radial-gradient(
+            circle,
+            transparent 0 57%,
+            #000 59% 100%
+        );
+
+    mask:
+        radial-gradient(
+            circle,
+            transparent 0 57%,
+            #000 59% 100%
+        );
+
+    opacity: 0.46;
+
+    filter:
+        blur(0.3px)
+        drop-shadow(
+            0 0 8px
+            rgba(255, 205, 105, 0.35)
+        );
+
+    animation:
+        sunrise-corona-turn
+        9s
+        linear
+        infinite;
+}
+
+/*
+ * Photographic-style sun disc.
+ */
+
+.opening-sun-disc {
+    position: absolute;
+    inset: 4%;
+
+    border:
+        1px solid
+        rgba(255, 246, 203, 0.66);
+
+    border-radius: 50%;
+
+    background:
+        radial-gradient(
+            circle at 36% 30%,
+            #fffde4 0 7%,
+            #fff1b2 17%,
+            #ffd47a 38%,
+            #f3aa43 63%,
+            #da762b 82%,
+            #a94d22 100%
+        );
+
+    box-shadow:
+        0 0 0 7px
+            rgba(255, 210, 105, 0.065),
+        0 0 27px
+            rgba(255, 207, 100, 0.54),
+        0 0 65px
+            rgba(233, 147, 43, 0.25),
+        inset 0 1px 0
+            rgba(255, 255, 255, 0.75);
+
+    overflow: hidden;
+}
+
+/*
+ * Rotating surface texture gives the requested movement
+ * without making the whole sun spin like a logo.
+ */
+
+.opening-sun-disc::before {
+    position: absolute;
+    inset: -18%;
+
+    border-radius: 50%;
+
+    background:
+        radial-gradient(
+            circle at 29% 33%,
+            rgba(255, 255, 220, 0.46) 0 4%,
+            transparent 5%
+        ),
+        radial-gradient(
+            circle at 63% 28%,
+            rgba(179, 78, 25, 0.17) 0 4%,
+            transparent 6%
+        ),
+        radial-gradient(
+            circle at 71% 64%,
+            rgba(168, 70, 23, 0.14) 0 7%,
+            transparent 9%
+        ),
+        radial-gradient(
+            circle at 34% 73%,
+            rgba(255, 231, 145, 0.22) 0 7%,
+            transparent 9%
+        ),
+        repeating-conic-gradient(
+            from 20deg,
+            rgba(255, 247, 193, 0.14) 0deg 7deg,
+            rgba(176, 78, 26, 0.08) 8deg 12deg,
+            transparent 13deg 24deg
+        );
+
+    content: "";
+
+    mix-blend-mode: soft-light;
+
+    animation:
+        sunrise-surface-turn
+        12s
+        linear
+        infinite;
+}
+
+.opening-sun-disc::after {
+    position: absolute;
+
+    left: -9%;
+    top: -7%;
+
+    width: 120%;
+    height: 54%;
+
+    border-radius: 50%;
+
+    background:
+        linear-gradient(
+            180deg,
+            rgba(255, 255, 255, 0.46),
+            transparent
+        );
+
+    content: "";
+
+    transform: rotate(-10deg);
+}
+
+/* -------------------------------------------------------------------------- */
+/* Small natural lens flare                                                   */
+/* -------------------------------------------------------------------------- */
+
+.opening-flare {
+    position: absolute;
+    z-index: 4;
+
+    left: 58%;
+    top: 40%;
+
+    width: 35px;
+    height: 35px;
+
+    border:
+        1px solid
+        rgba(255, 226, 150, 0.12);
+
+    border-radius: 50%;
+
+    background:
+        radial-gradient(
+            circle,
+            rgba(255, 232, 167, 0.09),
+            transparent 68%
+        );
+
+    opacity: 0;
+
+    transform: scale(0.75);
+
+    transition:
+        opacity 350ms ease 350ms,
+        transform 450ms ease 350ms;
+}
+
+.archive-opening.is-ready .opening-flare {
+    opacity: 1;
+    transform: scale(1);
+}
+
+/* -------------------------------------------------------------------------- */
+/* Text                                                                       */
+/* -------------------------------------------------------------------------- */
+
+.opening-copy {
+    position: absolute;
+    z-index: 8;
+
+    left: clamp(27px, 7vw, 112px);
+    bottom: clamp(51px, 9vh, 98px);
+
+    width:
+        min(
+            650px,
+            calc(100vw - 54px)
+        );
+
+    text-shadow:
+        0 3px 22px
+        rgba(2, 13, 7, 0.55);
+}
+
+.opening-eyebrow {
+    margin: 0 0 14px;
+
+    color: #f2d18c;
+
+    font-family:
+        Arial,
+        Helvetica,
+        sans-serif;
+
+    font-size: 9px;
+    font-weight: 800;
+
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+
+    opacity: 0;
+    transform: translateY(8px);
+
+    transition:
+        opacity 220ms ease 90ms,
+        transform 340ms ease 90ms;
+}
+
+.opening-statement {
+    margin: 0;
+
+    font:
+        500
+        clamp(49px, 7.6vw, 108px)
+        / 0.85
+        Georgia,
+        "Times New Roman",
+        serif;
+
+    letter-spacing: -0.067em;
+}
+
+.opening-statement span {
+    display: block;
+
+    opacity: 0;
+    transform: translateY(17px);
+
+    transition:
+        opacity 280ms ease,
+        transform 430ms
+            cubic-bezier(0.17, 0.76, 0.2, 1);
+}
+
+.opening-statement span:first-child {
+    transition-delay: 150ms;
+}
+
+.opening-statement span:last-child {
+    color: #ffe1a2;
+
+    transition-delay: 225ms;
+}
+
+.opening-attribution {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+
+    margin-top: 19px;
+
+    opacity: 0;
+    transform: translateY(7px);
+
+    transition:
+        opacity 240ms ease 355ms,
+        transform 320ms ease 355ms;
+}
+
+.opening-attribution::before {
+    width: 39px;
+    height: 1px;
+
+    flex: 0 0 auto;
+
+    background:
+        rgba(255, 239, 199, 0.68);
+
+    content: "";
+}
+
+.opening-attribution p {
+    margin: 0;
+
+    color:
+        rgba(255, 250, 233, 0.86);
+
+    font-family:
+        Arial,
+        Helvetica,
+        sans-serif;
+
+    font-size: 9px;
+    font-weight: 800;
+
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+}
+
+.opening-attribution span {
+    color:
+        rgba(255, 244, 217, 0.58);
+
+    font-weight: 700;
+}
+
+.archive-opening.is-ready .opening-eyebrow,
+.archive-opening.is-ready .opening-statement span,
+.archive-opening.is-ready .opening-attribution {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* -------------------------------------------------------------------------- */
+/* Skip button                                                                */
+/* -------------------------------------------------------------------------- */
+
+.opening-skip {
+    position: absolute;
+    z-index: 20;
+
+    top: 18px;
+    right: 20px;
+
+    min-height: 35px;
+    padding: 0 14px;
+
+    border:
+        1px solid
+        rgba(255, 248, 224, 0.48);
+
+    border-radius: 999px;
+
+    background:
+        rgba(8, 23, 14, 0.32);
+
+    color: #fff7df;
+
+    backdrop-filter: blur(9px);
+
+    cursor: pointer;
+
+    font-family:
+        Arial,
+        Helvetica,
+        sans-serif;
+
+    font-size: 8px;
+    font-weight: 800;
+
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+
+    opacity: 0;
+
+    transition:
+        opacity 180ms ease 210ms,
+        background-color 150ms ease,
+        color 150ms ease;
+}
+
+.archive-opening.is-ready .opening-skip {
+    opacity: 1;
+}
+
+.opening-skip:hover,
+.opening-skip:focus-visible {
+    background: #fff2d2;
+    color: #29412f;
+
+    outline: none;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Exit                                                                       */
+/* -------------------------------------------------------------------------- */
+
+.archive-opening.is-leaving {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.archive-opening.is-leaving .opening-sun-stage {
+    opacity: 0;
+
+    transform:
+        translate(-50%, -50%)
+        scale(1.12);
+
+    transition:
+        opacity 210ms ease,
+        transform 280ms ease;
+}
+
+.archive-opening.is-leaving .opening-copy,
+.archive-opening.is-leaving .opening-skip {
+    opacity: 0;
+    transform: translateY(-5px);
+
+    transition:
+        opacity 170ms ease,
+        transform 230ms ease;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Mobile                                                                     */
+/* -------------------------------------------------------------------------- */
+
+@media (max-width: 700px) {
+    .opening-landscape {
+        object-position: 61% center;
+    }
+
+    .opening-light {
+        background:
+            radial-gradient(
+                circle at 50% 19%,
+                rgba(255, 212, 117, 0.29),
+                transparent 18rem
+            ),
+            linear-gradient(
+                180deg,
+                rgba(7, 21, 13, 0.07) 0%,
+                rgba(7, 22, 13, 0.2) 42%,
+                rgba(4, 17, 9, 0.82) 100%
+            );
+    }
+
+    .opening-sun-stage {
+        left: 50%;
+        top: 20%;
+
+        width:
+            clamp(
+                112px,
+                34vw,
+                160px
+            );
+    }
+
+    .opening-copy {
+        left: 22px;
+        right: 22px;
+        bottom: 54px;
+
+        width: auto;
+    }
+
+    .opening-eyebrow {
+        font-size: 8px;
+    }
+
+    .opening-statement {
+        font-size:
+            clamp(
+                44px,
+                16vw,
+                70px
+            );
+    }
+
+    .opening-flare {
+        display: none;
+    }
+}
+
+/* -------------------------------------------------------------------------- */
+/* Reduced motion                                                             */
+/* -------------------------------------------------------------------------- */
+
+@media (prefers-reduced-motion: reduce) {
+    .opening-landscape,
+    .opening-sun-stage,
+    .opening-eyebrow,
+    .opening-statement span,
+    .opening-attribution,
+    .opening-skip {
+        transition-duration:
+            1ms !important;
+
+        transition-delay:
+            0ms !important;
+    }
+
+    .opening-sun-glow,
+    .opening-sun-corona,
+    .opening-sun-disc::before {
+        animation: none !important;
+    }
+}
+
+/* -------------------------------------------------------------------------- */
+/* Keyframes                                                                  */
+/* -------------------------------------------------------------------------- */
+
+@keyframes sunrise-corona-turn {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes sunrise-surface-turn {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(-360deg);
+    }
+}
+
+@keyframes sunrise-glow-breathe {
+    0%,
+    100% {
+        opacity: 0.72;
+        transform: scale(0.96);
+    }
+
+    50% {
+        opacity: 1;
+        transform: scale(1.04);
+    }
+}
+
+/* NO-GREEN-FLASH-V1:START */
+
+/*
+ * Never expose the fallback background.
+ *
+ * While the mountain is loading, the actual archive remains visible.
+ * The overlay becomes visible only after the photograph has decoded.
+ */
+
+html[data-opening="prepare"] .archive-opening {
+    display: block !important;
+
+    visibility: hidden !important;
+    opacity: 0 !important;
+
+    background: transparent !important;
+
+    pointer-events: none !important;
+}
+
+html[data-opening="play"]
+.archive-opening.is-photo-ready {
+    display: block !important;
+
+    visibility: visible !important;
+    opacity: 1 !important;
+
+    pointer-events: auto !important;
+}
+
+/*
+ * Prevent the photograph from briefly appearing at partial opacity.
+ */
+
+html[data-opening="play"]
+.archive-opening.is-photo-ready
+.opening-landscape {
+    opacity: 1 !important;
+}
+
+/* NO-GREEN-FLASH-V1:END */
+
+/* INSTANT-CACHED-INTRO-V7:START */
+
+/*
+ * The overlay is rendered only when the photograph,
+ * CSS, and animation script were cached beforehand.
+ */
+
+html[data-opening="skip"]
+.archive-opening {
+    display: none !important;
+}
+
+html[data-opening="play"]
+.archive-opening {
+    display: block !important;
+
+    visibility: visible !important;
+    opacity: 1 !important;
+
+    background:
+        url("assets/earthlight/alpine-mist.webp")
+        54% center / cover no-repeat
+        #172b20 !important;
+}
+
+/*
+ * The same photograph is already painted as the
+ * overlay background, so a separate image element
+ * cannot appear late or flash.
+ */
+
+html[data-opening="play"]
+.opening-landscape {
+    display: none !important;
+}
+
+/* INSTANT-CACHED-INTRO-V7:END */

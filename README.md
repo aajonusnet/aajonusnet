@@ -414,3 +414,5 @@ MIT License. Free to use, modify, and distribute.
 ## Credits
 
 * Parsedown / ParsedownExtra for Markdown rendering (included locally)
+
+- UI redesign, search improvements, archive navigation, and additional features by [zSlqq](https://github.com/zSlqq)

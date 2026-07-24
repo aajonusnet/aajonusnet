@@ -3,7 +3,7 @@ body {
   color: #e8e8e8;
   font-family: system-ui, Arial, sans-serif;
   margin: 0 auto;
-  max-width: 786px;
+  max-width: 900px;
   padding: 0 20px;
   word-wrap: break-word;
   -webkit-text-size-adjust: 100%;
@@ -83,16 +83,16 @@ video {
   text-align: center;
 }
 #search-container {
-  max-width: 400px;
+  max-width: 520px;
   margin: -8px auto 0;
   position: relative;
 }
 #search {
   width: 100%;
   margin: 8px auto 16px;
-  padding: 8px 40px;
+  padding: 12px 44px;
   border: 1px solid #444;
-  border-radius: 5px;
+  border-radius: 10px;
   background-color: #121212;
   color: inherit;
   font-size: 20px;

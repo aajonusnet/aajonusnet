@@ -1,0 +1,73 @@
+/* Article reading progress */
+
+.reading-progress-track {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 300;
+    height: 4px;
+    background: rgba(112, 104, 94, 0.18);
+    pointer-events: none;
+}
+
+.reading-progress-value {
+    width: 0;
+    height: 100%;
+    background: var(--rust);
+    transition: width 100ms linear;
+}
+
+.reading-resume-panel {
+    position: fixed;
+    right: 22px;
+    bottom: 22px;
+    z-index: 290;
+    width: min(390px, calc(100vw - 32px));
+    padding: 18px;
+    border: 1px solid var(--ink);
+    background: var(--sheet);
+    box-shadow: 0 16px 44px rgba(39, 35, 31, 0.18);
+}
+
+.reading-resume-panel h2 {
+    margin: 7px 0 9px;
+    font-size: 24px;
+    line-height: 1.15;
+}
+
+.reading-resume-description {
+    margin: 0;
+    color: var(--muted);
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.reading-resume-label {
+    margin: 0;
+    color: var(--rust);
+    font-size: 9px;
+    font-weight: 800;
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+}
+
+.reading-resume-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 15px;
+}
+
+.reading-resume-actions .button {
+    flex: 1 1 140px;
+}
+
+@media (max-width: 600px) {
+    .reading-resume-panel {
+        right: 12px;
+        bottom: 12px;
+        left: 12px;
+        width: auto;
+    }
+}
